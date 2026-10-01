@@ -1,0 +1,23 @@
+services:
+  # CPU only: no GPU devices are passed through to this container.
+  ollama:
+    image: ollama/ollama
+    volumes:
+      - ollama-models:/root/.ollama
+
+  triage:
+    build: .
+    depends_on:
+      - ollama
+    ports:
+      - "8000:8000"
+    environment:
+      MODEL: ${MODEL:-qwen2.5:0.5b}
+      OLLAMA_URL: http://ollama:11434
+    volumes:
+      - triage-data:/data
+      - ./logs:/app/logs
+
+volumes:
+  ollama-models:
+  triage-data:
