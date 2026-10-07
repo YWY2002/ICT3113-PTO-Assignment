@@ -126,3 +126,32 @@ Every JMeter sample sends a unique `X-Request-ID` (`t-...` for tickets, `s-...`
 for searches), saved as `req_id` in the `.jtl` and as `request_id` in the
 service log, so samples and log lines match one-to-one even though they are
 recorded on different machines. The warm-up request is logged as `warmup`.
+
+## Accuracy tests (golden set)
+
+Sends all 150 golden tickets through `POST /tickets`, one at a time, and scores
+the service log against the golden labels (requirement R4). Run everything on
+the SUT; no JMeter needed. Needs `pandas` and `openpyxl`.
+
+```powershell
+.\loadtest\sut_prepare.ps1 -Model tev1:4b -Api systemone -Test accuracy -Run 1   # wait for READY
+python accuracy\send_golden.py --model tev1:4b --run 1
+.\loadtest\sut_collect.ps1 -Model tev1:4b -Test accuracy -Run 1
+python accuracy\score_accuracy.py --model tev1:4b --run 1
+```
+
+Each ticket is sent with `X-Request-ID: golden-<row>`. Because tickets are sent
+sequentially there is no queueing, so the latency in these runs is each model's
+single-request service time.
+
+`score_accuracy.py` writes into `results/<model>/accuracy/run<N>/`:
+
+| File | Contents |
+|---|---|
+| `report.md` | R4 verdict, overall accuracy with 95% Wilson interval, per-category recall and precision, confusion matrix, most frequent confusions, single-request latency (nearest-rank p50/p95/p99) and output tokens |
+| `predictions.csv` | per golden row: golden label, predicted category, latency, tokens, raw model output |
+| `confusion_matrix.csv`, `per_category.csv` | the tables behind the report |
+
+Run `python accuracy\score_accuracy.py` with no arguments to rescore every
+accuracy run and write `results/accuracy_summary.csv` (one line per model and
+run, for the slides).

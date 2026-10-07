@@ -79,6 +79,8 @@ Write-Host "== Collected: $outDir"
 Write-Host "   service log requests (incl. warm-up): $requests"
 if ($null -ne $samples) {
     Write-Host "   JMeter samples: $samples"
+} elseif ($Test -eq 'accuracy') {
+    Write-Host "   Accuracy run: score with  python accuracy\score_accuracy.py --model $Model --run $Run"
 } else {
     Write-Warning "results.jtl not in $outDir yet. Copy the load generator's run folder here, or rerun with -LoadgenDir."
 }
