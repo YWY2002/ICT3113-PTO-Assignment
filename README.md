@@ -84,26 +84,45 @@ The response carries an `X-Request-ID` header. If the caller sends its own
 `X-Request-ID`, that value is used, which lets JMeter samples be matched to log
 lines.
 
-## Load tests (JMeter, open loop)
+## Load tests (JMeter, open loop, two machines)
 
-Requires the JMeter **binary** release (5.6.3) on `PATH` as `jmeter.bat`, or
-pass `-JMeter <path to jmeter.bat>`.
+The load generator and the system under test (SUT) run on separate machines.
+The SUT runs Docker and Ollama; the load generator needs only the `loadtest/`
+folder and the JMeter **binary** release (5.6.3) on `PATH` as `jmeter.bat`
+(or pass `-JMeter <path to jmeter.bat>`).
 
-1. Build the input files once (rows 5000 to 5999):
-   `python loadtest/prepare_data.py`
-2. Run one configuration per command. Each run restarts the service with an
-   empty database, sends a warm-up ticket, then runs `loadtest/triage.jmx`:
+**One-time setup**
 
-   ```powershell
-   # R2 + R3: 198 tickets/h with 800 searches/h, 60 min
-   .\loadtest\run_test.ps1 -Model tev1:4b -Api systemone -Test mixed -Run 1 -PostPerHour 198 -SearchPerHour 800
-   # R1: 334 tickets/h, 60 min
-   .\loadtest\run_test.ps1 -Model tev1:4b -Api systemone -Test surge -Run 1 -PostPerHour 334
-   ```
+- SUT: build the input files (rows 5000 to 5999), then copy `loadtest/` to the
+  load generator: `python loadtest/prepare_data.py`
+- SUT: allow port 8000 in (administrator PowerShell; remove after testing):
+  `New-NetFirewallRule -DisplayName "Triage service 8000" -Direction Inbound -Protocol TCP -LocalPort 8000 -Action Allow -Profile Private`
+- Load generator: check the SUT answers: `curl http://<SUT IP>:8000/stats`
 
-Results go to `results/<model>/<test>/run<N>/`: `results.jtl`, the matching
-`service.jsonl`, `metadata.json` (model digest, schedules, git commit, Ollama
-version) and `ollama_ps.txt` (confirms the model ran 100% on CPU). Every JMeter
-sample sends a unique `X-Request-ID` (`t-…` for tickets, `s-…` for searches),
-saved as `req_id` in the `.jtl` and as `request_id` in the service log; the
-warm-up request is logged as `warmup`.
+**Each run (three per configuration)**
+
+| Step | Machine | Command |
+|---|---|---|
+| 1 | SUT | `.\loadtest\sut_prepare.ps1 -Model tev1:4b -Api systemone -Test mixed -Run 1` (wait for `READY`) |
+| 2 | Load generator | `.\loadtest\loadgen_run.ps1 -SutHost <SUT IP> -Model tev1:4b -Test mixed -Run 1 -PostPerHour 198 -SearchPerHour 800` |
+| 3 | SUT | copy the load generator's `results/<model>/<test>/run<N>/` folder over, then `.\loadtest\sut_collect.ps1 -Model tev1:4b -Test mixed -Run 1 -LoadgenDir <copied folder>` |
+
+Configurations: `-Test mixed -PostPerHour 198 -SearchPerHour 800` (R2 and R3)
+and `-Test surge -PostPerHour 334` (R1). The stress test passes a stepped
+`-PostSchedule`; see the examples in `loadgen_run.ps1`.
+
+**What each run folder holds** (`results/<model>/<test>/run<N>/` on the SUT)
+
+| File | From | Contents |
+|---|---|---|
+| `results.jtl` | load generator | every JMeter sample, with `req_id`, `row`, `term` |
+| `loadgen.json`, `run.properties`, `jmeter.log` | load generator | schedules, start/end times, load generator hardware, ping round-trip time |
+| `service.jsonl` | SUT | the service log for this run |
+| `cpu.csv` | SUT | CPU utilisation every 5 s: total, Ollama processes, Docker's WSL VM |
+| `ollama_ps.txt` | SUT | confirms the model is loaded 100% on CPU |
+| `sut_start.json`, `metadata.json` | SUT | model digest, git commit, Ollama version, sample and log line counts |
+
+Every JMeter sample sends a unique `X-Request-ID` (`t-...` for tickets, `s-...`
+for searches), saved as `req_id` in the `.jtl` and as `request_id` in the
+service log, so samples and log lines match one-to-one even though they are
+recorded on different machines. The warm-up request is logged as `warmup`.

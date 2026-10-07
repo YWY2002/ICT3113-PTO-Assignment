@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   Open-loop load test for the ticket triage service.
-  Arrival schedules come from JMeter properties (set by run_test.ps1):
+  Arrival schedules come from JMeter properties (set by loadgen_run.ps1):
     post_schedule    Open Model schedule for POST /tickets
     search_schedule  Open Model schedule for GET /search
   Each sample carries a unique X-Request-ID (saved as req_id in the .jtl via
