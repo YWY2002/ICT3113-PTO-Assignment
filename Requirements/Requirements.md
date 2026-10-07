@@ -18,8 +18,6 @@ The three models span three size classes and make the speed-accuracy trade-off v
 
 The set asks whether a small specialised model can match a large general one under the client's CPU-only constraint.
 
-**Integration note.** The Ollama library pages state that `tev1` and `clef-flash` are served through `/v1/systemone`, not `/api/chat`; in plain chat, Tev1 replies in prose. The baseline calls `/api/chat`, so the team must settle how these two models are called before the first benchmark run.
-
 ## 2. System model used for the derivations
 
 - **Transaction types.** There are two. `POST /tickets` visits the model backend once (V = 1). `GET /search` is a SQLite `LIKE` scan and never visits Ollama.

@@ -31,6 +31,12 @@ CATEGORIES = [
 UNCLASSIFIED = "unclassified"
 
 MODEL = os.environ["MODEL"]
+# Which Ollama endpoint classifies tickets: "chat" (/api/chat, generative
+# models) or "systemone" (/v1/systemone, decision models such as tev1 and
+# clef-flash that do not answer reliably in plain chat).
+OLLAMA_API = os.environ.get("OLLAMA_API", "chat")
+if OLLAMA_API not in ("chat", "systemone"):
+    raise RuntimeError(f"OLLAMA_API must be 'chat' or 'systemone', not {OLLAMA_API!r}")
 OLLAMA_URL = os.environ.get("OLLAMA_URL", "http://ollama:11434")
 OLLAMA_TIMEOUT = float(os.environ.get("OLLAMA_TIMEOUT", "600"))
 DB_PATH = os.environ.get("DB_PATH", "/data/tickets.db")
@@ -41,6 +47,17 @@ SYSTEM_PROMPT = (
     "Reply with exactly one of the following categories and nothing else:\n"
     + "\n".join(f"- {c}" for c in CATEGORIES)
 )
+
+# The same information as SYSTEM_PROMPT, in /v1/systemone form: one choice
+# question whose options are the category names.
+SYSTEMONE_QUESTION = {
+    "type": "choice",
+    "instructions": (
+        "Which category does this customer complaint ticket for a "
+        "financial services company belong to?"
+    ),
+    "criteria": {c: c for c in CATEGORIES},
+}
 
 # Filled in at startup.
 model_digest = None
@@ -103,6 +120,70 @@ def parse_category(reply):
     return min(found)[1] if found else UNCLASSIFIED
 
 
+def ollama_timings(result):
+    """Ollama's own timings (nanoseconds) and token counts, where present."""
+    return {
+        "ollama_total_duration_ns": result.get("total_duration"),
+        "ollama_load_duration_ns": result.get("load_duration"),
+        "ollama_prompt_eval_count": result.get("prompt_eval_count"),
+        "ollama_prompt_eval_duration_ns": result.get("prompt_eval_duration"),
+        "ollama_eval_count": result.get("eval_count"),
+        "ollama_eval_duration_ns": result.get("eval_duration"),
+    }
+
+
+def classify_chat(narrative):
+    """Classify via /api/chat. Returns (raw model output, category, log fields)."""
+    r = httpx.post(
+        f"{OLLAMA_URL}/api/chat",
+        json={
+            "model": MODEL,
+            "stream": False,
+            "options": {"temperature": 0},
+            "messages": [
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": narrative},
+            ],
+        },
+        timeout=OLLAMA_TIMEOUT,
+    )
+    r.raise_for_status()
+    result = r.json()
+    raw = result["message"]["content"]
+    return raw, parse_category(raw), ollama_timings(result)
+
+
+def classify_systemone(narrative):
+    """Classify via /v1/systemone. Returns (raw model output, category, log fields)."""
+    r = httpx.post(
+        f"{OLLAMA_URL}/v1/systemone",
+        json={
+            "model": MODEL,
+            "state": narrative,
+            "questions": {"category": SYSTEMONE_QUESTION},
+        },
+        timeout=OLLAMA_TIMEOUT,
+    )
+    r.raise_for_status()
+    result = r.json()
+    answer = result["answers"]["category"]
+    choice = answer.get("choice")
+    category = choice if choice in CATEGORIES else UNCLASSIFIED
+    fields = ollama_timings(result)
+    # /v1/systemone reports token counts under "usage" rather than the
+    # /api/chat fields; keep the same log field names for both endpoints.
+    usage = result.get("usage") or {}
+    if fields["ollama_prompt_eval_count"] is None:
+        fields["ollama_prompt_eval_count"] = usage.get("input_tokens")
+    if fields["ollama_eval_count"] is None:
+        fields["ollama_eval_count"] = usage.get("output_tokens")
+    fields["choice_confidence"] = answer.get("confidence")
+    return json.dumps(answer), category, fields
+
+
+classify = classify_systemone if OLLAMA_API == "systemone" else classify_chat
+
+
 @asynccontextmanager
 async def lifespan(app):
     global model_digest, log_path
@@ -119,6 +200,7 @@ async def lifespan(app):
             "ts": datetime.now(timezone.utc).isoformat(),
             "model": MODEL,
             "model_digest": model_digest,
+            "ollama_api": OLLAMA_API,
         }
     )
     yield
@@ -167,42 +249,17 @@ def create_ticket(ticket: TicketIn, request: Request):
     log.update(
         model=MODEL,
         model_digest=model_digest,
+        ollama_api=OLLAMA_API,
         narrative_chars=len(ticket.narrative),
     )
 
     try:
-        r = httpx.post(
-            f"{OLLAMA_URL}/api/chat",
-            json={
-                "model": MODEL,
-                "stream": False,
-                "options": {"temperature": 0},
-                "messages": [
-                    {"role": "system", "content": SYSTEM_PROMPT},
-                    {"role": "user", "content": ticket.narrative},
-                ],
-            },
-            timeout=OLLAMA_TIMEOUT,
-        )
-        r.raise_for_status()
-        result = r.json()
+        raw, category, fields = classify(ticket.narrative)
     except httpx.HTTPError as e:
         log["error"] = f"{type(e).__name__}: {e}"
         return JSONResponse(status_code=502, content={"detail": "model backend error"})
 
-    raw = result["message"]["content"]
-    category = parse_category(raw)
-    log.update(
-        model_output=raw,
-        category=category,
-        # Ollama's own timings, in nanoseconds.
-        ollama_total_duration_ns=result.get("total_duration"),
-        ollama_load_duration_ns=result.get("load_duration"),
-        ollama_prompt_eval_count=result.get("prompt_eval_count"),
-        ollama_prompt_eval_duration_ns=result.get("prompt_eval_duration"),
-        ollama_eval_count=result.get("eval_count"),
-        ollama_eval_duration_ns=result.get("eval_duration"),
-    )
+    log.update(model_output=raw, category=category, **fields)
 
     with db() as conn:
         cur = conn.execute(

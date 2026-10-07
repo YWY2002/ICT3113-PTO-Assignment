@@ -6,6 +6,10 @@ services:
       - "8000:8000"
     environment:
       MODEL: ${MODEL:-qwen2.5:0.5b}
+      # chat for /api/chat (e.g. qwen3.8:27b), systemone for /v1/systemone
+      # (tev1:4b, clef-flash:9b).
+      OLLAMA_API: ${OLLAMA_API:-chat}
+      # Ollama runs natively on the Windows host, not in a container.
       OLLAMA_URL: http://host.docker.internal:11434
     extra_hosts:
       - "host.docker.internal:host-gateway"

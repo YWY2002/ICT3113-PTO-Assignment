@@ -41,10 +41,10 @@ S ≈ prompt tokens / prefill rate + output tokens / decode rate + fixed overhea
 **B2. Queueing happens in front of Ollama, not in FastAPI.** Ollama processes one request at a time. Waiting time, measured as `latency_ms` − Ollama time, stays near zero below ρ = 0.5, then grows sharply. At ρ ≥ 0.7 it exceeds S.
 
 **B3. Overload cascades through the 40-thread pool and the 600 s timeout.** When arrivals exceed 1/S, the queue grows by (λ − 1/S) tickets per hour. By Little's Law (n = λR):
-- **Timeouts.** Once a request's response time would pass 600 s (`OLLAMA_TIMEOUT`), `POST /tickets` starts returning **502**. This is lost work (Lec 05).
+- **Timeouts.** Once a request's response time would pass 600 s (`OLLAMA_TIMEOUT`), `POST /tickets` starts returning **502**. This is lost work.
 - **Thread starvation.** Once more than 40 requests are in flight, FastAPI's thread pool is exhausted. **`GET /search` and `GET /stats` then queue behind classification**, even though they never touch Ollama.
 
-**Why.** Inference demand (seconds) exceeds every other demand by about three orders of magnitude, so by bottleneck analysis Ollama saturates first (Lec 04).
+**Why.** Inference demand (seconds) exceeds every other demand by about three orders of magnitude, so by bottleneck analysis Ollama saturates first.
 
 ## 3. Per-model predictions
 
