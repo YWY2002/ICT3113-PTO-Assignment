@@ -6,9 +6,9 @@ Every requirement below is derived from the [workload model](../WorkloadModel/wo
 
 | Model | Ollama tag | Size class | Download | Digest |
 |---|---|---|---:|---|
-| Tev1 4B | `tev1:4b` | Small (≤ 5B) | 4.5 GB | `TODO: from /api/tags or the service startup log` |
-| Clef Flash 9B | `clef-flash:9b` | Medium (5B to 15B) | 11 to 12 GB | `TODO` |
-| Qwen3.8 27B | `qwen3.8:27b` | Large (> 15B) | 18 GB | `TODO` |
+| Tev1 4B | `tev1:4b` | Small (≤ 5B) | 4.5 GB | `9b5bb969e46c` |
+| Clef Flash 9B | `clef-flash:9b` | Medium (5B to 15B) | 11 to 12 GB | `9f4115499b98` |
+| Qwen3.8 27B | `qwen3.8:27b` | Large (> 15B) | 18 GB | `aaee06c39dcf` |
 
 The three models span three size classes and make the speed-accuracy trade-off visible. The two smaller models are fine-tuned for classification and routing, while Qwen3.8 27B is a general-purpose model with thinking turned on by default:
 

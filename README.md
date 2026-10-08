@@ -8,7 +8,7 @@ with one blocking model call per ticket and no caching, queuing or retries.
 
 ## Run
 
-Ollama runs natively on the host (Ollama 0.40.0 on Windows), not in Docker;
+Ollama runs natively on the host (Ollama 0.40.1 on Windows), not in Docker;
 the service reaches it at `host.docker.internal:11434`. Start Ollama first.
 
 ```sh

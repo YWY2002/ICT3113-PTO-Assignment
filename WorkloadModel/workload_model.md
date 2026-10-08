@@ -1,6 +1,6 @@
 # Workload Model
 
-This model contains quantitative estimates of the client's workload. All figures are produced by `src/workload_model.ipynb`, which fetches data live from the CFPB and logs the fetch time of each run in `data/fetch_log.csv`.
+This model contains quantitative estimates of the client's workload. All figures are produced by `WorkloadModel/workload_model.ipynb`, which fetches data live from the CFPB and logs the fetch time of each run in `data/fetch_log.csv`.
 
 **Reference client.** Since the client's size is not given, the client is modelled on the median of 10 US regional banks (TD Bank US, U.S. Bancorp, Truist, PNC, Citizens, Fifth Third, Huntington, M&T, Regions, KeyCorp), which received **1,857** CFPB complaints in 2025 [1].
 
@@ -71,8 +71,8 @@ Expected is the model's estimate of the client's ticket volume. Minimum and Maxi
 
 The factors below are measured from the timestamps of 27,522 CFPB complaints about the 10 banks in 2025 [1]. Each timestamp records the time a complaint was received to the second (e.g. 16:39:43), not just the date. The CFPB does not state the time zone, so the timestamps are treated as UTC and converted to the local time of each consumer's state; this places the weekday peak at midday. Each factor compares the arrival rate in a period with the annual average rate.
 
-![Hourly arrival profile](figures/hourly_profile.png)
-![Daily complaints](figures/daily_volume.png)
+![Hourly arrival profile](../figures/hourly_profile.png)
+![Daily complaints](../figures/daily_volume.png)
 
 | Variable | Meaning | Value | Source |
 |---|---|---:|---|
@@ -188,7 +188,7 @@ searches_per_hour_peak_month = tickets_handled_per_business_hour * busiest_month
 
 Ticket length was measured on the team's 1,000 rows (5000 to 5999) of the course dataset. Token counts are estimated using OpenAI's guideline that English text averages about four characters per token [8]. Every request also sends the classification instructions to the model, so their characters are added to each ticket's.
 
-![Ticket length](figures/ticket_length.png)
+![Ticket length](../figures/ticket_length.png)
 
 | Variable | Meaning | Value | Source |
 |---|---|---:|---|
