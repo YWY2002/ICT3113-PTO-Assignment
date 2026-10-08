@@ -1,0 +1,8 @@
+category,n,correct,recall,predicted_as,precision,r4_min_correct,r4_pass
+Credit reporting,38,30,0.7894736842105263,32,0.9375,27,True
+Debt collection,8,7,0.875,17,0.4117647058823529,6,True
+Mortgage,19,18,0.9473684210526315,19,0.9473684210526315,14,True
+Credit card,16,13,0.8125,15,0.8666666666666667,12,True
+Bank account or service,39,27,0.6923076923076923,32,0.84375,28,False
+Consumer loan,14,11,0.7857142857142857,12,0.9166666666666666,10,True
+Money transfer or service,16,13,0.8125,23,0.5652173913043478,12,True

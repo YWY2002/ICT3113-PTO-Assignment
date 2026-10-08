@@ -3,7 +3,7 @@
 - Run folder: `results\tev1-4b\accuracy\run1`
 - Model digest: `9b5bb969e46c4b776826d6f2d401e22893205693f172653af6254897255025b8`
 - Endpoint: `systemone`
-- Golden tickets: 150; found in service log: 150; HTTP errors or missing: 1
+- Golden tickets: 150; found in service log: 150; HTTP errors or missing: 0
 - Sender vs log category mismatches: 0
 
 ## R4 verdict
@@ -19,9 +19,9 @@
 
 | Category | n | Correct | Recall | Needed | Pass | Predicted as | Precision |
 |---|---:|---:|---:|---:|---|---:|---:|
-| Credit reporting | 38 | 37 | 97% | 27 | yes | 41 | 90% |
-| Debt collection | 8 | 5 | 62% | 6 | no | 12 | 42% |
-| Mortgage | 19 | 17 | 89% | 14 | yes | 18 | 94% |
+| Credit reporting | 38 | 36 | 95% | 27 | yes | 40 | 90% |
+| Debt collection | 8 | 5 | 62% | 6 | no | 13 | 38% |
+| Mortgage | 19 | 18 | 95% | 14 | yes | 19 | 95% |
 | Credit card | 16 | 14 | 88% | 12 | yes | 18 | 78% |
 | Bank account or service | 39 | 26 | 67% | 28 | no | 30 | 87% |
 | Consumer loan | 14 | 6 | 43% | 10 | no | 6 | 100% |
@@ -31,9 +31,9 @@
 
 | golden \ predicted | Credit reporting | Debt collection | Mortgage | Credit card | Bank account or service | Consumer loan | Money transfer or service | unclassified | (error) |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Credit reporting | 37 | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
+| Credit reporting | 36 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
 | Debt collection | 3 | 5 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Mortgage | 0 | 1 | 17 | 0 | 0 | 0 | 0 | 0 | 1 |
+| Mortgage | 0 | 1 | 18 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Credit card | 1 | 0 | 0 | 14 | 1 | 0 | 0 | 0 | 0 |
 | Bank account or service | 0 | 0 | 0 | 3 | 26 | 0 | 10 | 0 | 0 |
 | Consumer loan | 0 | 6 | 1 | 0 | 1 | 6 | 0 | 0 | 0 |
@@ -50,7 +50,7 @@
 | Money transfer or service | Bank account or service | 2 |
 | Consumer loan | Bank account or service | 1 |
 | Consumer loan | Mortgage | 1 |
-| Credit card | Credit reporting | 1 |
+| Credit card | Bank account or service | 1 |
 
 ## Single-request latency (no queueing; tickets sent one at a time)
 
@@ -58,5 +58,5 @@ Percentiles use the nearest-rank method.
 
 | | p50 | p95 | p99 | mean | max |
 |---|---:|---:|---:|---:|---:|
-| Service `latency_ms` (s) | 6.38 | 17.74 | 31.13 | 8.31 | 32.55 |
+| Service `latency_ms` (s) | 5.32 | 7.63 | 8.30 | 5.41 | 9.57 |
 | Output tokens | 1 | 1 | 1 | 1.0 | 1 |

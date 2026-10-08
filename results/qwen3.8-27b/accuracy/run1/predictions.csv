@@ -1,0 +1,151 @@
+row,golden,predicted,http_status,latency_ms,ollama_total_duration_ms,prompt_tokens,output_tokens,choice_confidence,model_output,correct
+5521,Debt collection,Debt collection,200,67471.724,67447.4679,455,319,,Debt collection,True
+5737,Bank account or service,Bank account or service,200,75078.042,75049.4278,339,408,,Bank account or service,True
+5740,Bank account or service,Bank account or service,200,52271.294,52245.0741,376,238,,Bank account or service,True
+5660,Bank account or service,Bank account or service,200,73650.552,73623.6146,384,383,,Bank account or service,True
+5411,Money transfer or service,Money transfer or service,200,102199.168,102168.5995,262,601,,Money transfer or service,True
+5678,Mortgage,Mortgage,200,27181.339,27155.4412,236,108,,Mortgage,True
+5626,Mortgage,Consumer loan,200,74423.841,74397.4256,443,376,,Consumer loan,False
+5513,Mortgage,Mortgage,200,37856.788,37829.8482,433,130,,Mortgage,True
+5859,Bank account or service,Bank account or service,200,41655.225,41631.1363,422,148,,Bank account or service,True
+5136,Mortgage,Mortgage,200,29063.989,29037.5608,167,141,,Mortgage,True
+5811,Bank account or service,Bank account or service,200,24960.249,24934.7622,191,102,,Bank account or service,True
+5076,Mortgage,Mortgage,200,21471.013,21449.0016,210,86,,Mortgage,True
+5636,Consumer loan,Debt collection,200,49591.234,49565.2405,208,285,,Debt collection,False
+5973,Credit reporting,Mortgage,200,46077.002,46047.9268,211,227,,Mortgage,False
+5938,Credit card,Credit card,200,37714.506,37694.0557,248,188,,Credit card,True
+5899,Money transfer or service,Money transfer or service,200,28268.528,28245.5291,134,150,,Money transfer or service,True
+5280,Money transfer or service,Money transfer or service,200,34371.441,34349.0436,188,180,,Money transfer or service,True
+5883,Credit reporting,Credit reporting,200,28907.286,28882.0275,181,148,,Credit reporting,True
+5761,Bank account or service,Money transfer or service,200,56508.825,56482.7982,185,328,,Money transfer or service,False
+5319,Consumer loan,Consumer loan,200,47786.763,47760.4369,204,296,,Consumer loan,True
+5549,Credit reporting,Debt collection,200,98607.489,98579.4867,220,532,,Debt collection,False
+5174,Bank account or service,Debt collection,200,61498.389,61471.1198,164,329,,Debt collection,False
+5371,Money transfer or service,Money transfer or service,200,38179.498,38156.8536,246,169,,Money transfer or service,True
+5527,Bank account or service,Money transfer or service,200,64622.253,64593.4643,335,343,,Money transfer or service,False
+5210,Consumer loan,Consumer loan,200,56847.908,56823.1214,379,247,,Consumer loan,True
+5235,Bank account or service,Money transfer or service,200,27748.792,27720.0888,124,147,,Money transfer or service,False
+5101,Money transfer or service,Bank account or service,200,94467.061,94438.7451,231,474,,Bank account or service,False
+5986,Bank account or service,Money transfer or service,200,75013.196,74984.1521,183,451,,Money transfer or service,False
+5902,Debt collection,Debt collection,200,71279.482,71250.6073,243,400,,Debt collection,True
+5947,Consumer loan,Consumer loan,200,70383.543,70356.562,318,406,,Consumer loan,True
+5346,Money transfer or service,Money transfer or service,200,35733.737,35708.8258,151,183,,Money transfer or service,True
+5139,Consumer loan,Debt collection,200,57091.43,57064.8911,221,292,,Debt collection,False
+5621,Credit reporting,Credit reporting,200,26526.78,26500.7077,252,97,,Credit reporting,True
+5499,Consumer loan,Consumer loan,200,64296.067,64268.3429,150,344,,Consumer loan,True
+5370,Credit reporting,Credit reporting,200,14328.223,14306.7953,117,57,,Credit reporting,True
+5198,Credit reporting,Credit reporting,200,20957.898,20938.0344,213,78,,Credit reporting,True
+5687,Bank account or service,Bank account or service,200,29131.783,29108.0985,201,142,,Bank account or service,True
+5584,Mortgage,Mortgage,200,14550.425,14529.057,181,40,,Mortgage,True
+5901,Mortgage,Mortgage,200,39949.61,39923.6307,321,170,,Mortgage,True
+5059,Credit reporting,Credit reporting,200,56625.862,56600.6358,257,292,,Credit reporting,True
+5328,Money transfer or service,Money transfer or service,200,50927.494,50904.2057,375,203,,Money transfer or service,True
+5096,Credit card,Credit card,200,35737.098,35709.2292,553,98,,Credit card,True
+5312,Credit reporting,Credit reporting,200,46547.378,46521.1619,332,233,,Credit reporting,True
+5974,Mortgage,Mortgage,200,28363.707,28338.904,250,160,,Mortgage,True
+5299,Debt collection,Debt collection,200,37227.308,37204.3579,374,203,,Debt collection,True
+5277,Bank account or service,Bank account or service,200,46860.26,46834.8193,220,249,,Bank account or service,True
+5924,Credit reporting,Credit reporting,200,48884.592,48858.8048,171,267,,Credit reporting,True
+5601,Bank account or service,Bank account or service,200,14124.597,14101.6723,151,67,,Bank account or service,True
+5439,Bank account or service,Bank account or service,200,37466.642,37440.3864,376,151,,Bank account or service,True
+5837,Credit reporting,Credit reporting,200,29503.297,29478.6591,288,138,,Credit reporting,True
+5570,Credit reporting,Credit reporting,200,29189.254,29165.7442,189,148,,Credit reporting,True
+5879,Mortgage,Mortgage,200,48816.288,48789.8797,462,187,,Mortgage,True
+5261,Mortgage,Mortgage,200,57416.084,57392.0095,353,292,,Mortgage,True
+5578,Bank account or service,Bank account or service,200,60564.943,60540.3987,199,321,,Bank account or service,True
+5023,Credit reporting,Debt collection,200,74040.017,74016.5202,264,397,,Debt collection,False
+5030,Credit reporting,Credit reporting,200,34245.12,34222.6937,316,152,,Credit reporting,True
+5617,Credit reporting,Credit reporting,200,61377.496,61354.6855,152,388,,Credit reporting,True
+5010,Credit reporting,Debt collection,200,116931.556,116899.2819,420,628,,Debt collection,False
+5221,Money transfer or service,Money transfer or service,200,102149.94,102120.6106,322,541,,Money transfer or service,True
+5820,Consumer loan,Consumer loan,200,43267.362,43244.5309,145,236,,Consumer loan,True
+5296,Credit card,Bank account or service,200,33876.918,33851.934,118,202,,Bank account or service,False
+5054,Credit card,Credit card,200,42143.166,42117.591,185,225,,Credit card,True
+5542,Credit card,Credit card,200,81504.271,81475.478,501,395,,Credit card,True
+5209,Bank account or service,Bank account or service,200,27708.167,27683.819,300,109,,Bank account or service,True
+5604,Consumer loan,Consumer loan,200,41741.172,41717.6328,146,257,,Consumer loan,True
+5692,Credit reporting,Credit reporting,200,54659.515,54617.1635,308,285,,Credit reporting,True
+5662,Bank account or service,Credit card,200,43076.127,43051.4906,252,238,,Credit card,False
+5866,Credit reporting,Credit reporting,200,30434.657,30411.7989,210,157,,Credit reporting,True
+5070,Consumer loan,Debt collection,200,52628.008,52601.6251,309,298,,Debt collection,False
+5543,Bank account or service,Bank account or service,200,31643.01,31618.1338,218,132,,Bank account or service,True
+5107,Credit reporting,Debt collection,200,78934.022,78909.912,168,452,,Debt collection,False
+5493,Credit card,Credit card,200,42327.229,42303.6176,363,178,,Credit card,True
+5590,Credit card,Credit card,200,30879.054,30855.3618,307,142,,Credit card,True
+5741,Credit reporting,Credit card,200,35018.962,34996.9394,151,201,,Credit card,False
+5292,Mortgage,Mortgage,200,51763.161,51738.4129,301,260,,Mortgage,True
+5289,Money transfer or service,Money transfer or service,200,28393.186,28369.4565,240,149,,Money transfer or service,True
+5652,Bank account or service,Money transfer or service,200,41544.625,41512.2591,281,208,,Money transfer or service,False
+5039,Bank account or service,Bank account or service,200,41946.633,41919.5819,326,204,,Bank account or service,True
+5589,Bank account or service,Money transfer or service,200,45846.495,45824.3503,185,281,,Money transfer or service,False
+5307,Debt collection,Debt collection,200,36461.526,36439.5265,346,175,,Debt collection,True
+5679,Debt collection,Credit reporting,200,101592.539,101560.944,413,515,,Credit reporting,False
+5066,Credit reporting,Debt collection,200,87504.267,87475.3572,170,512,,Debt collection,False
+5275,Money transfer or service,Money transfer or service,200,49136.363,49112.2577,215,275,,Money transfer or service,True
+5067,Bank account or service,Bank account or service,200,27704.696,27679.8671,195,135,,Bank account or service,True
+5318,Bank account or service,Bank account or service,200,67822.639,67795.3352,439,319,,Bank account or service,True
+5548,Mortgage,Mortgage,200,33421.633,33399.2194,401,118,,Mortgage,True
+5998,Credit reporting,Credit reporting,200,30093.225,30070.0743,129,170,,Credit reporting,True
+5714,Consumer loan,Consumer loan,200,37400.427,37377.6314,124,235,,Consumer loan,True
+5753,Credit reporting,Credit reporting,200,16022.635,15997.3608,119,90,,Credit reporting,True
+5327,Credit card,Credit card,200,67241.232,67214.5304,272,374,,Credit card,True
+5382,Bank account or service,Bank account or service,200,50456.7,50430.8286,251,270,,Bank account or service,True
+5451,Money transfer or service,Bank account or service,200,83312.948,83286.5024,341,472,,Bank account or service,False
+5522,Bank account or service,Bank account or service,200,44722.659,44692.0935,355,239,,Bank account or service,True
+5218,Credit reporting,Credit reporting,200,38225.314,38202.6122,223,181,,Credit reporting,True
+5787,Mortgage,Mortgage,200,23224.699,23204.0359,134,108,,Mortgage,True
+5436,Credit reporting,Credit reporting,200,64642.116,64617.9465,291,349,,Credit reporting,True
+5764,Credit reporting,Credit reporting,200,58176.235,58146.2104,355,278,,Credit reporting,True
+5088,Mortgage,Mortgage,200,20754.745,20734.3435,177,102,,Mortgage,True
+5063,Bank account or service,Money transfer or service,200,72745.944,72721.9365,150,416,,Money transfer or service,False
+5826,Bank account or service,Bank account or service,200,36932.985,36910.229,157,200,,Bank account or service,True
+5716,Credit reporting,Credit reporting,200,35069.346,35039.5381,446,128,,Credit reporting,True
+5351,Mortgage,Mortgage,200,18844.199,18822.8563,280,64,,Mortgage,True
+5936,Credit card,Credit card,200,36101.159,36078.3844,307,172,,Credit card,True
+5256,Mortgage,Mortgage,200,32805.258,32781.7516,377,127,,Mortgage,True
+5635,Credit reporting,Credit reporting,200,28740.784,28717.4394,266,122,,Credit reporting,True
+5644,Money transfer or service,Bank account or service,200,68717.574,68692.9641,338,354,,Bank account or service,False
+5554,Credit reporting,Credit reporting,200,24151.384,24128.2476,151,140,,Credit reporting,True
+5959,Debt collection,Debt collection,200,22662.433,22637.1864,145,108,,Debt collection,True
+5168,Mortgage,Mortgage,200,37557.023,37531.25,301,195,,Mortgage,True
+5917,Credit card,Credit card,200,75811.88,75785.6192,136,446,,Credit card,True
+5528,Consumer loan,Consumer loan,200,41542.0,41520.8539,388,179,,Consumer loan,True
+5823,Bank account or service,Bank account or service,200,39467.219,39442.5472,351,196,,Bank account or service,True
+5985,Credit reporting,Credit reporting,200,39225.552,39199.7479,331,173,,Credit reporting,True
+5816,Credit card,Bank account or service,200,103766.245,103733.6698,296,615,,Bank account or service,False
+5086,Credit card,Credit card,200,24988.416,24961.3951,189,133,,Credit card,True
+5432,Credit reporting,Credit reporting,200,27984.344,27956.2637,314,127,,Credit reporting,True
+5184,Credit reporting,Credit reporting,200,25339.735,25309.4064,226,107,,Credit reporting,True
+5978,Mortgage,Mortgage,200,31742.783,31717.7742,356,133,,Mortgage,True
+5534,Bank account or service,Bank account or service,200,26794.537,26767.6459,151,124,,Bank account or service,True
+5294,Bank account or service,Bank account or service,200,20225.223,20197.2491,201,78,,Bank account or service,True
+5892,Bank account or service,Bank account or service,200,55217.107,55181.9736,234,297,,Bank account or service,True
+5425,Debt collection,Debt collection,200,129127.995,129082.9299,349,715,,Debt collection,True
+5713,Credit reporting,Credit reporting,200,25422.123,25397.6968,284,123,,Credit reporting,True
+5260,Bank account or service,Bank account or service,200,27728.257,27699.6547,120,172,,Bank account or service,True
+5237,Credit card,Credit card,200,26809.983,26781.2918,321,108,,Credit card,True
+5559,Money transfer or service,Money transfer or service,200,51512.341,51482.8961,204,300,,Money transfer or service,True
+5583,Bank account or service,Bank account or service,200,51242.354,51210.2045,145,311,,Bank account or service,True
+5445,Mortgage,Mortgage,200,33911.638,33885.1484,378,161,,Mortgage,True
+5867,Credit card,Credit reporting,200,96516.87,96472.1807,351,556,,Credit reporting,False
+5800,Money transfer or service,Money transfer or service,200,22536.656,22510.6507,176,129,,Money transfer or service,True
+5599,Consumer loan,Consumer loan,200,49589.568,49559.6064,297,263,,Consumer loan,True
+5849,Bank account or service,Bank account or service,200,73934.616,73899.8868,243,458,,Bank account or service,True
+5265,Bank account or service,Money transfer or service,200,66942.339,66904.598,409,327,,Money transfer or service,False
+5995,Bank account or service,Money transfer or service,200,53480.395,53447.1629,183,316,,Money transfer or service,False
+5529,Bank account or service,Bank account or service,200,21427.395,21400.6164,176,106,,Bank account or service,True
+5055,Bank account or service,Money transfer or service,200,49885.317,49853.8289,290,291,,Money transfer or service,False
+5120,Consumer loan,Consumer loan,200,37707.683,37678.3073,191,197,,Consumer loan,True
+5215,Credit card,Credit card,200,39288.787,39260.9745,188,215,,Credit card,True
+5025,Credit reporting,Credit reporting,200,24652.978,24628.641,177,141,,Credit reporting,True
+5072,Credit reporting,Debt collection,200,103171.604,103136.6915,168,616,,Debt collection,False
+5044,Credit reporting,Credit reporting,200,15325.738,15301.3976,141,74,,Credit reporting,True
+5247,Credit card,Credit card,200,64203.363,64171.4683,363,343,,Credit card,True
+5721,Money transfer or service,Money transfer or service,200,16588.313,16566.4347,133,73,,Money transfer or service,True
+5281,Credit reporting,Credit reporting,200,45015.418,44987.0037,128,262,,Credit reporting,True
+5893,Credit reporting,Credit reporting,200,27270.949,27244.1741,235,115,,Credit reporting,True
+5914,Bank account or service,Bank account or service,200,18878.502,18853.9864,137,110,,Bank account or service,True
+5810,Money transfer or service,Money transfer or service,200,33111.467,33081.9563,296,147,,Money transfer or service,True
+5244,Consumer loan,Consumer loan,200,75117.379,75083.0584,357,410,,Consumer loan,True
+5822,Debt collection,Debt collection,200,54515.79,54486.3434,124,339,,Debt collection,True
+5321,Credit reporting,Credit reporting,200,25118.907,25096.4344,249,111,,Credit reporting,True
