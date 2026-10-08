@@ -1,0 +1,17 @@
+﻿{
+    "model":  "tev1:4b",
+    "model_digest":  "9b5bb969e46c4b776826d6f2d401e22893205693f172653af6254897255025b8",
+    "ollama_api":  "systemone",
+    "test":  "accuracy",
+    "run":  1,
+    "service_started":  "2026-10-08T07:20:50.5096612Z",
+    "sut_ready":  "2026-10-08T07:21:23.8830784Z",
+    "collected":  "2026-10-08T08:03:33.5140504Z",
+    "sut_hostname":  "YWYVIVOBOOK15",
+    "git_commit":  "9e29d882ea7e8774e731dabf08e541c45db0168f",
+    "git_dirty":  false,
+    "ollama_version":  "ollama version is 0.40.0",
+    "service_log":  "20261008T072052Z_tev1-4b.jsonl",
+    "service_log_requests":  152,
+    "jtl_samples":  null
+}

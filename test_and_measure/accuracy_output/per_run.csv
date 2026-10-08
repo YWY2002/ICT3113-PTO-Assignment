@@ -1,0 +1,2 @@
+model,run,n,correct,accuracy,ci95_low,ci95_high,unclassified,errors,categories_passing,overall_ok,recall_ok,unclassified_ok,r4_pass,borderline
+tev1:4b,run1,150,119,0.7933333333333333,0.7216049669151186,0.8504119647860597,0,1,4,False,False,True,False,True

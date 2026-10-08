@@ -1,0 +1,8 @@
+,golden tickets,needed (per run),tev1:4b,qwen3.8:27b,clef-flash:9b
+Credit reporting,38,27,37/38 = 97%,pending,pending
+Debt collection,8,6,5/8 = 62%  below 70%,pending,pending
+Mortgage,19,14,17/19 = 89%,pending,pending
+Credit card,16,12,14/16 = 88%,pending,pending
+Bank account or service,39,28,26/39 = 67%  below 70%,pending,pending
+Consumer loan,14,10,6/14 = 43%  below 70%,pending,pending
+Money transfer or service,16,12,14/16 = 88%,pending,pending

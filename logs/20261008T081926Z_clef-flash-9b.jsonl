@@ -1,0 +1,2 @@
+{"event": "startup", "ts": "2026-10-08T08:19:26.571063+00:00", "model": "clef-flash:9b", "model_digest": "9f4115499b98bc31edb0337148ffa7fdf001b776f4f4795c9a22708c3396137a", "ollama_api": "systemone"}
+{"event": "request", "ts": "2026-10-08T08:19:28.791000+00:00", "start_epoch_ms": 1791447568791, "request_id": "0b82bcd7f5e342b5b29ffd4f904f94a8", "method": "GET", "path": "/stats", "status": 200, "latency_ms": 3.031}
