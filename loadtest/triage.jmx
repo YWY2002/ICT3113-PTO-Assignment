@@ -24,7 +24,7 @@
         </elementProp>
         <stringProp name="HTTPSampler.domain">${__P(host,localhost)}</stringProp>
         <stringProp name="HTTPSampler.port">${__P(port,8000)}</stringProp>
-        <stringProp name="HTTPSampler.protocol">http</stringProp>
+        <stringProp name="HTTPSampler.protocol">${__P(protocol,http)}</stringProp>
         <stringProp name="HTTPSampler.connect_timeout">5000</stringProp>
         <!-- Above the service's 600 s Ollama timeout, so slow requests fail as service 502s, not client timeouts. -->
         <stringProp name="HTTPSampler.response_timeout">650000</stringProp>

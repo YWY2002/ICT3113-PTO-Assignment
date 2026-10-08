@@ -86,25 +86,39 @@ lines.
 
 ## Load tests (JMeter, open loop, two machines)
 
-The load generator and the system under test (SUT) run on separate machines.
-The SUT runs Docker and Ollama; the load generator needs only the `loadtest/`
+The load generator and the system under test (SUT) run on separate machines,
+on **different networks**: JMeter reaches the service over the internet. The
+SUT runs Docker and Ollama; the load generator needs only the `loadtest/`
 folder and the JMeter **binary** release (5.6.3) on `PATH` as `jmeter.bat`
 (or pass `-JMeter <path to jmeter.bat>`).
 
+**Connecting across networks.** Pick one and use it for every run:
+
+| Option | `-SutUrl` | Notes |
+|---|---|---|
+| Tailscale (recommended) | `http://<SUT Tailscale IP, 100.x.y.z>:8000` | Install Tailscale on both machines and join the same tailnet (or share the SUT with the friend's account). Encrypted, no router changes, no request time limit |
+| Router port forwarding | `http://<SUT public IP>:8000` | Forward TCP 8000 on the SUT's router to the SUT. Exposes the service to the internet, so restrict the firewall rule to the load generator's public IP and remove both afterwards |
+| Other tunnels | `https://<tunnel host>` | Only if it allows requests of at least 650 s. Cloudflare Tunnel cuts off at about 100 s, which turns slow requests in overload and stress runs into false errors |
+
+The test traffic is public CFPB complaint text, but the service has no
+authentication, so close the port when testing is finished.
+
 **One-time setup**
 
-- SUT: build the input files (rows 5000 to 5999), then copy `loadtest/` to the
+- SUT: build the input files (rows 5000 to 5999), then send `loadtest/` to the
   load generator: `python loadtest/prepare_data.py`
-- SUT: allow port 8000 in (administrator PowerShell; remove after testing):
-  `New-NetFirewallRule -DisplayName "Triage service 8000" -Direction Inbound -Protocol TCP -LocalPort 8000 -Action Allow -Profile Private`
-- Load generator: check the SUT answers: `curl http://<SUT IP>:8000/stats`
+- SUT: allow port 8000 in, only from the load generator (administrator
+  PowerShell; remove after testing with `Remove-NetFirewallRule -DisplayName "Triage service 8000"`):
+  - Tailscale: `New-NetFirewallRule -DisplayName "Triage service 8000" -Direction Inbound -Protocol TCP -LocalPort 8000 -Action Allow -RemoteAddress 100.64.0.0/10`
+  - Port forwarding: `New-NetFirewallRule -DisplayName "Triage service 8000" -Direction Inbound -Protocol TCP -LocalPort 8000 -Action Allow -RemoteAddress <load generator public IP>`
+- Load generator: check the SUT answers: `curl <SutUrl>/stats`
 
 **Each run (three per configuration)**
 
 | Step | Machine | Command |
 |---|---|---|
 | 1 | SUT | `.\loadtest\sut_prepare.ps1 -Model tev1:4b -Api systemone -Test mixed -Run 1` (wait for `READY`) |
-| 2 | Load generator | `.\loadtest\loadgen_run.ps1 -SutHost <SUT IP> -Model tev1:4b -Test mixed -Run 1 -PostPerHour 198 -SearchPerHour 800` |
+| 2 | Load generator | `.\loadtest\loadgen_run.ps1 -SutUrl <SutUrl> -Model tev1:4b -Test mixed -Run 1 -PostPerHour 198 -SearchPerHour 800` |
 | 3 | SUT | copy the load generator's `results/<model>/<test>/run<N>/` folder over, then `.\loadtest\sut_collect.ps1 -Model tev1:4b -Test mixed -Run 1 -LoadgenDir <copied folder>` |
 
 Configurations: `-Test mixed -PostPerHour 198 -SearchPerHour 800` (R2 and R3)
@@ -116,7 +130,7 @@ and `-Test surge -PostPerHour 334` (R1). The stress test passes a stepped
 | File | From | Contents |
 |---|---|---|
 | `results.jtl` | load generator | every JMeter sample, with `req_id`, `row`, `term` |
-| `loadgen.json`, `run.properties`, `jmeter.log` | load generator | schedules, start/end times, load generator hardware, ping round-trip time |
+| `loadgen.json`, `run.properties`, `jmeter.log` | load generator | schedules, start/end times, load generator hardware, network round-trip time (HTTP and, where allowed, ICMP) |
 | `service.jsonl` | SUT | the service log for this run |
 | `cpu.csv` | SUT | CPU utilisation every 5 s: total, Ollama processes, Docker's WSL VM |
 | `ollama_ps.txt` | SUT | confirms the model is loaded 100% on CPU |
@@ -126,6 +140,15 @@ Every JMeter sample sends a unique `X-Request-ID` (`t-...` for tickets, `s-...`
 for searches), saved as `req_id` in the `.jtl` and as `request_id` in the
 service log, so samples and log lines match one-to-one even though they are
 recorded on different machines. The warm-up request is logged as `warmup`.
+
+**Network measurement.** Before JMeter starts, `loadgen_run.ps1` times 20
+`GET /stats` requests (logged with request IDs `rtt-0` to `rtt-19`) and tries
+an ICMP ping, which is often blocked across the internet. The HTTP figure
+includes about 20 ms of PowerShell client overhead (measured against
+localhost), so subtract that when reporting network delay on slide 7. Per
+request, JMeter's `elapsed` minus the service's `latency_ms` (matched by
+request ID) gives the network and client time directly; prediction B4 is
+checked against that.
 
 ## Accuracy tests (golden set)
 
