@@ -1,0 +1,24 @@
+﻿{
+    "model":  "tev1:4b",
+    "test":  "mixed",
+    "run":  3,
+    "sut_url":  "http://100.93.97.65:8000",
+    "post_schedule":  "rate(198/hour) random_arrivals(60 min) rate(198/hour)",
+    "search_schedule":  "rate(800/hour) random_arrivals(60 min) rate(800/hour)",
+    "test_started":  "2026-10-08T18:00:45.2094680Z",
+    "test_ended":  "2026-10-08T19:01:46.3461254Z",
+    "jmeter_exit_code":  0,
+    "loadgen_hostname":  "LAPTOP-JVTGMMI4",
+    "loadgen_cpu":  "AMD Ryzen AI 7 350 w/ Radeon 860M",
+    "loadgen_cores":  8,
+    "loadgen_ram_gb":  31.3,
+    "network_http_rtt":  {
+                             "count":  20,
+                             "min_ms":  34.7,
+                             "p50_ms":  146.3,
+                             "p95_ms":  160.3,
+                             "max_ms":  165.5,
+                             "mean_ms":  130.1
+                         },
+    "network_icmp_rtt":  null
+}

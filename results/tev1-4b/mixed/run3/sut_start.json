@@ -2,12 +2,12 @@
     "model":  "tev1:4b",
     "ollama_api":  "systemone",
     "test":  "mixed",
-    "run":  1,
-    "service_started":  "2026-10-08T15:32:09.9776651Z",
-    "sut_ready":  "2026-10-08T15:32:20.9312140Z",
+    "run":  3,
+    "service_started":  "2026-10-08T17:59:41.4219592Z",
+    "sut_ready":  "2026-10-08T17:59:52.4543639Z",
     "sut_hostname":  "DESKTOP-PGFAHG3",
     "git_commit":  "3dc09737d5f4b3d5691afff187a8422a021b11e0",
     "git_dirty":  true,
     "ollama_version":  "ollama version is 0.40.1",
-    "cpu_sampler_pid":  15140
+    "cpu_sampler_pid":  20192
 }

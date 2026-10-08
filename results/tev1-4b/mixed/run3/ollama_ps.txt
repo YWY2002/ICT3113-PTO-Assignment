@@ -1,0 +1,2 @@
+﻿NAME       ID              SIZE      PROCESSOR    CONTEXT    RUNNER      UNTIL              
+tev1:4b    9b5bb969e46c    4.7 GB    100% CPU     2050       llamacpp    4 minutes from now    
