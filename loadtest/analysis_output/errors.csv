@@ -1,0 +1,32 @@
+model,test,run,endpoint,cause,samples
+tev1:4b,surge,1,POST /tickets,connection reset,2
+tev1:4b,surge,3,POST /tickets,connection reset,1
+tev1:4b,stress,1,POST /tickets,connection reset,132
+clef-flash:9b,mixed,1,POST /tickets,connection reset,1
+clef-flash:9b,mixed,2,GET /search,connection reset,1
+clef-flash:9b,mixed,2,POST /tickets,connection reset,1
+clef-flash:9b,mixed,3,GET /search,connect timeout,5
+clef-flash:9b,mixed,3,POST /tickets,connect timeout,2
+clef-flash:9b,surge,1,POST /tickets,connection reset,12
+clef-flash:9b,surge,2,POST /tickets,JMeter timeout (650 s),9
+clef-flash:9b,surge,2,POST /tickets,connect timeout,34
+clef-flash:9b,surge,2,POST /tickets,connection reset,1
+clef-flash:9b,surge,3,POST /tickets,connection reset,9
+qwen3.8:27b,mixed,1,POST /tickets,502: Ollama timeout (600 s),119
+qwen3.8:27b,mixed,1,POST /tickets,connection reset,34
+qwen3.8:27b,mixed,2,POST /tickets,502: Ollama timeout (600 s),118
+qwen3.8:27b,mixed,2,POST /tickets,connection reset,34
+qwen3.8:27b,mixed,3,POST /tickets,502: Ollama timeout (600 s),127
+qwen3.8:27b,mixed,3,POST /tickets,JMeter timeout (650 s),3
+qwen3.8:27b,mixed,3,POST /tickets,connection reset,29
+qwen3.8:27b,surge,1,POST /tickets,502: Ollama timeout (600 s),34
+qwen3.8:27b,surge,1,POST /tickets,JMeter timeout (650 s),216
+qwen3.8:27b,surge,1,POST /tickets,connect timeout,2
+qwen3.8:27b,surge,1,POST /tickets,connection reset,64
+qwen3.8:27b,surge,2,POST /tickets,502: Ollama timeout (600 s),34
+qwen3.8:27b,surge,2,POST /tickets,JMeter timeout (650 s),230
+qwen3.8:27b,surge,2,POST /tickets,connection reset,57
+qwen3.8:27b,surge,3,POST /tickets,502: Ollama timeout (600 s),35
+qwen3.8:27b,surge,3,POST /tickets,JMeter timeout (650 s),222
+qwen3.8:27b,surge,3,POST /tickets,connect timeout,4
+qwen3.8:27b,surge,3,POST /tickets,connection reset,60

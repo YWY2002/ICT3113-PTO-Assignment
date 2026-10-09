@@ -1,7 +1,7 @@
 ,Credit reporting,Debt collection,Mortgage,Credit card,Bank account or service,Consumer loan,Money transfer or service,unclassified,(error)
-Credit reporting,37,0,0,1,0,0,0,0,0
+Credit reporting,36,1,0,1,0,0,0,0,0
 Debt collection,3,5,0,0,0,0,0,0,0
-Mortgage,0,1,17,0,0,0,0,0,1
+Mortgage,0,1,18,0,0,0,0,0,0
 Credit card,1,0,0,14,1,0,0,0,0
 Bank account or service,0,0,0,3,26,0,10,0,0
 Consumer loan,0,6,1,0,1,6,0,0,0

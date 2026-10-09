@@ -148,6 +148,9 @@ $props = Join-Path $outDir 'run.properties'
     "sample_variables=req_id,row,term"
     "jmeter.save.saveservice.output_format=csv"
     "jmeter.save.saveservice.print_field_names=true"
+    # Write each sample to the .jtl as it completes. JMeter buffers by default,
+    # and at a few samples per minute the file can look empty for many minutes.
+    "jmeter.save.saveservice.autoflush=true"
 ) | Set-Content -Encoding ASCII $props
 
 $jtl = Join-Path $outDir 'results.jtl'

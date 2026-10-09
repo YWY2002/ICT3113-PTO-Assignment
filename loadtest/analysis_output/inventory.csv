@@ -1,0 +1,20 @@
+model,test,run,JMeter samples,matched,JMeter only,log only,digest,SUT,git dirty,HTTP RTT p50 (ms)
+tev1:4b,mixed,1,998,998,0,0,9b5bb969e46c,DESKTOP-PGFAHG3,True,144.7
+tev1:4b,mixed,2,998,998,0,0,9b5bb969e46c,DESKTOP-PGFAHG3,True,146.7
+tev1:4b,mixed,3,998,998,0,0,9b5bb969e46c,DESKTOP-PGFAHG3,True,146.3
+tev1:4b,surge,1,334,334,0,0,9b5bb969e46c,DESKTOP-PGFAHG3,False,141.3
+tev1:4b,surge,2,334,334,0,0,9b5bb969e46c,DESKTOP-PGFAHG3,False,144.1
+tev1:4b,surge,3,334,334,0,0,9b5bb969e46c,DESKTOP-PGFAHG3,False,144.5
+tev1:4b,stress,1,700,580,120,0,9b5bb969e46c,DESKTOP-PGFAHG3,False,151.7
+clef-flash:9b,mixed,1,998,998,0,0,9f4115499b98,DESKTOP-PGFAHG3,False,152.4
+clef-flash:9b,mixed,2,998,997,1,0,9f4115499b98,DESKTOP-PGFAHG3,False,66.5
+clef-flash:9b,mixed,3,998,991,7,0,9f4115499b98,DESKTOP-PGFAHG3,False,67.8
+clef-flash:9b,surge,1,334,329,5,0,9f4115499b98,DESKTOP-PGFAHG3,False,66.3
+clef-flash:9b,surge,2,334,300,34,0,9f4115499b98,DESKTOP-PGFAHG3,False,17.4
+clef-flash:9b,surge,3,334,332,2,0,9f4115499b98,DESKTOP-PGFAHG3,False,19.4
+qwen3.8:27b,mixed,1,998,968,30,0,aaee06c39dcf,DESKTOP-PGFAHG3,False,18.1
+qwen3.8:27b,mixed,2,998,968,30,0,aaee06c39dcf,DESKTOP-PGFAHG3,False,18.3
+qwen3.8:27b,mixed,3,998,974,24,0,aaee06c39dcf,DESKTOP-PGFAHG3,False,18.3
+qwen3.8:27b,surge,1,334,211,123,0,aaee06c39dcf,DESKTOP-PGFAHG3,False,18.0
+qwen3.8:27b,surge,2,334,214,120,0,aaee06c39dcf,DESKTOP-PGFAHG3,False,17.6
+qwen3.8:27b,surge,3,334,212,122,0,aaee06c39dcf,DESKTOP-PGFAHG3,False,135.9
