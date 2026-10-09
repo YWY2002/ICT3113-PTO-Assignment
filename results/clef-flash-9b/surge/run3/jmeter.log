@@ -1,0 +1,1224 @@
+2026-10-09 12:39:41,862 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-10-09 12:39:41,873 INFO o.a.j.JMeter: Loading user properties from: C:\apache-jmeter-5.6.3\bin\user.properties
+2026-10-09 12:39:41,874 INFO o.a.j.JMeter: Loading system properties from: C:\apache-jmeter-5.6.3\bin\system.properties
+2026-10-09 12:39:41,874 INFO o.a.j.JMeter: Loading additional properties from: C:\Users\josep\Downloads\results\clef-flash-9b\surge\run3\run.properties
+2026-10-09 12:39:41,878 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-10-09 12:39:41,878 INFO o.a.j.JMeter: Version 5.6.3
+2026-10-09 12:39:41,878 INFO o.a.j.JMeter: java.version=25.0.1
+2026-10-09 12:39:41,878 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2026-10-09 12:39:41,879 INFO o.a.j.JMeter: os.name=Windows 11
+2026-10-09 12:39:41,879 INFO o.a.j.JMeter: os.arch=amd64
+2026-10-09 12:39:41,879 INFO o.a.j.JMeter: os.version=10.0
+2026-10-09 12:39:41,879 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-10-09 12:39:41,879 INFO o.a.j.JMeter: java.awt.headless=true
+2026-10-09 12:39:41,879 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-10-09 12:39:41,879 INFO o.a.j.JMeter: Available Processors =16
+2026-10-09 12:39:41,887 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-10-09 12:39:41,888 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-10-09 12:39:41,888 INFO o.a.j.JMeter: JMeterHome=C:\apache-jmeter-5.6.3
+2026-10-09 12:39:41,888 INFO o.a.j.JMeter: user.dir  =C:\Users\josep\Downloads
+2026-10-09 12:39:41,888 INFO o.a.j.JMeter: PWD       =C:\Users\josep\Downloads
+2026-10-09 12:39:41,893 INFO o.a.j.JMeter: IP: 172.20.10.7 Name: LAPTOP-JVTGMMI4 FullName: LAPTOP-JVTGMMI4
+2026-10-09 12:39:41,899 INFO o.a.j.s.FileServer: Default base='C:\Users\josep\Downloads'
+2026-10-09 12:39:41,899 INFO o.a.j.s.FileServer: Set new base='C:\Users\josep\Downloads\loadtest'
+2026-10-09 12:39:42,025 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-10-09 12:39:42,037 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-10-09 12:39:42,039 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-10-09 12:39:42,040 INFO o.a.j.s.SaveService: Loading file: C:\Users\josep\Downloads\loadtest\triage.jmx
+2026-10-09 12:39:42,069 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-09 12:39:42,069 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-09 12:39:42,069 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-09 12:39:42,069 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-10-09 12:39:42,069 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-10-09 12:39:42,069 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-10-09 12:39:42,076 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-10-09 12:39:42,087 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-10-09 12:39:42,088 INFO o.a.j.s.SampleEvent: List of sample_variables: [req_id, row, term]
+2026-10-09 12:39:42,088 INFO o.a.j.s.SampleEvent: List of sample_variables: [req_id, row, term]
+2026-10-09 12:39:42,090 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-10-09 12:39:42,090 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-10-09 12:39:42,126 INFO o.a.j.JMeter: Running test (1791520782126)
+2026-10-09 12:39:42,138 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Ticket intake
+2026-10-09 12:39:42,138 INFO o.a.j.e.StandardJMeterEngine: Starting 0 threads for group Ticket intake.
+2026-10-09 12:39:42,138 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-10-09 12:39:42,138 INFO o.a.j.t.o.OpenModelThreadGroup: Starting OpenModelThreadGroup#1 with schedule rate(334/hour) random_arrivals(60 min) rate(334/hour)
+2026-10-09 12:39:42,154 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : Agent search
+2026-10-09 12:39:42,155 INFO o.a.j.e.StandardJMeterEngine: Starting 0 threads for group Agent search.
+2026-10-09 12:39:42,155 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-10-09 12:39:42,155 INFO o.a.j.t.o.OpenModelThreadGroup: Starting OpenModelThreadGroup#2 with schedule rate(0/hour) random_arrivals(1 min)
+2026-10-09 12:39:42,155 INFO o.a.j.t.o.OpenModelThreadGroup: Thread starting init
+2026-10-09 12:39:42,155 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-10-09 12:39:42,155 INFO o.a.j.t.o.OpenModelThreadGroup: Thread starting init
+2026-10-09 12:39:42,159 INFO o.a.j.t.o.PoissonArrivalsRamp: Generating 334 events, beginRate = 0.09277777777777778 / sec, endRate = 0.09277777777777778 / sec, duration = 3600.0 sec
+2026-10-09 12:39:42,159 INFO o.a.j.t.o.PoissonArrivalsRamp: Generating 0 events, beginRate = 0.0 / sec, endRate = 0.0 / sec, duration = 60.0 sec
+2026-10-09 12:39:42,160 INFO o.a.j.t.o.OpenModelThreadGroup: There will be no more events, so will wait for 59 sec till the end of the schedule
+2026-10-09 12:39:46,083 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-1
+2026-10-09 12:39:46,084 INFO o.a.j.s.FileServer: Stored: tickets.tsv
+2026-10-09 12:39:46,097 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = LAPTOP-JVTGMMI4
+2026-10-09 12:39:46,099 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-10-09 12:39:46,100 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-10-09 12:39:46,100 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-10-09 12:39:46,100 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-10-09 12:39:46,100 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-10-09 12:39:59,555 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-1
+2026-10-09 12:39:59,555 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-1
+2026-10-09 12:40:16,139 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-2
+2026-10-09 12:40:16,968 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-3
+2026-10-09 12:40:17,405 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-4
+2026-10-09 12:40:25,906 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-2
+2026-10-09 12:40:25,906 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-2
+2026-10-09 12:40:37,885 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-3
+2026-10-09 12:40:37,885 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-3
+2026-10-09 12:40:42,088 INFO o.a.j.t.o.OpenModelThreadGroup: There will be no more events, will shutdown the thread pool
+2026-10-09 12:40:42,088 INFO o.a.j.t.o.OpenModelThreadGroup: Thread starting done
+2026-10-09 12:40:50,071 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-4
+2026-10-09 12:40:50,071 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-4
+2026-10-09 12:40:51,422 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-5
+2026-10-09 12:40:58,906 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-6
+2026-10-09 12:41:03,999 INFO o.a.j.r.Summariser: summary +      5 in 00:01:22 =    0.1/s Avg: 17867 Min:  9766 Max: 32665 Err:     0 (0.00%) Active: 2 Started: 6 Finished: 4
+2026-10-09 12:41:03,999 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-5
+2026-10-09 12:41:03,999 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-5
+2026-10-09 12:41:11,371 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-6
+2026-10-09 12:41:11,371 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-6
+2026-10-09 12:41:19,460 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-7
+2026-10-09 12:41:30,217 INFO o.a.j.r.Summariser: summary +      2 in 00:00:26 =    0.1/s Avg: 11609 Min: 10755 Max: 12463 Err:     0 (0.00%) Active: 1 Started: 7 Finished: 6
+2026-10-09 12:41:30,217 INFO o.a.j.r.Summariser: summary =      7 in 00:01:48 =    0.1/s Avg: 16079 Min:  9766 Max: 32665 Err:     0 (0.00%)
+2026-10-09 12:41:30,218 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-7
+2026-10-09 12:41:30,218 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-7
+2026-10-09 12:41:34,583 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-8
+2026-10-09 12:41:42,398 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-8
+2026-10-09 12:41:42,398 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-8
+2026-10-09 12:41:50,474 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-9
+2026-10-09 12:41:52,009 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-10
+2026-10-09 12:41:59,907 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-9
+2026-10-09 12:41:59,907 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-9
+2026-10-09 12:42:03,734 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-11
+2026-10-09 12:42:09,534 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-10
+2026-10-09 12:42:09,534 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-10
+2026-10-09 12:42:09,692 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-12
+2026-10-09 12:42:17,005 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-13
+2026-10-09 12:42:22,954 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-11
+2026-10-09 12:42:22,954 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-11
+2026-10-09 12:42:34,620 INFO o.a.j.r.Summariser: summary +      5 in 00:01:04 =    0.1/s Avg: 15782 Min:  7814 Max: 24928 Err:     0 (0.00%) Active: 2 Started: 13 Finished: 11
+2026-10-09 12:42:34,621 INFO o.a.j.r.Summariser: summary =     12 in 00:02:52 =    0.1/s Avg: 15955 Min:  7814 Max: 32665 Err:     0 (0.00%)
+2026-10-09 12:42:34,621 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-12
+2026-10-09 12:42:34,621 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-12
+2026-10-09 12:42:45,782 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-13
+2026-10-09 12:42:45,782 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-13
+2026-10-09 12:42:55,512 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-14
+2026-10-09 12:42:56,355 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-15
+2026-10-09 12:42:59,300 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-16
+2026-10-09 12:43:02,994 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-17
+2026-10-09 12:43:07,389 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-14
+2026-10-09 12:43:07,390 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-14
+2026-10-09 12:43:15,478 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-15
+2026-10-09 12:43:15,479 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-15
+2026-10-09 12:43:25,104 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-16
+2026-10-09 12:43:25,104 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-16
+2026-10-09 12:43:38,416 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-17
+2026-10-09 12:43:38,416 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-17
+2026-10-09 12:43:44,976 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-18
+2026-10-09 12:43:45,935 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-19
+2026-10-09 12:43:51,723 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-20
+2026-10-09 12:43:58,077 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-18
+2026-10-09 12:43:58,078 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-18
+2026-10-09 12:44:10,570 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-19
+2026-10-09 12:44:10,570 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-19
+2026-10-09 12:44:24,250 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-20
+2026-10-09 12:44:24,251 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-20
+2026-10-09 12:44:25,366 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-21
+2026-10-09 12:44:27,348 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-22
+2026-10-09 12:44:29,800 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-23
+2026-10-09 12:44:39,447 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-21
+2026-10-09 12:44:39,447 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-21
+2026-10-09 12:44:49,789 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-22
+2026-10-09 12:44:49,789 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-22
+2026-10-09 12:45:01,053 INFO o.a.j.r.Summariser: summary +     11 in 00:02:26 =    0.1/s Avg: 23548 Min: 11877 Max: 35421 Err:     0 (0.00%) Active: 1 Started: 23 Finished: 22
+2026-10-09 12:45:01,053 INFO o.a.j.r.Summariser: summary =     23 in 00:05:19 =    0.1/s Avg: 19587 Min:  7814 Max: 35421 Err:     0 (0.00%)
+2026-10-09 12:45:01,053 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-23
+2026-10-09 12:45:01,053 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-23
+2026-10-09 12:45:08,606 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-24
+2026-10-09 12:45:11,718 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-25
+2026-10-09 12:45:12,891 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-26
+2026-10-09 12:45:18,973 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-24
+2026-10-09 12:45:18,973 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-24
+2026-10-09 12:45:29,111 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-25
+2026-10-09 12:45:29,111 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-25
+2026-10-09 12:45:30,583 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-27
+2026-10-09 12:45:36,361 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-28
+2026-10-09 12:45:37,405 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-26
+2026-10-09 12:45:37,406 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-26
+2026-10-09 12:45:44,223 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-29
+2026-10-09 12:45:47,132 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-27
+2026-10-09 12:45:47,132 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-27
+2026-10-09 12:46:00,240 INFO o.a.j.r.Summariser: summary +      5 in 00:00:59 =    0.1/s Avg: 18539 Min: 10366 Max: 24513 Err:     0 (0.00%) Active: 2 Started: 29 Finished: 27
+2026-10-09 12:46:00,241 INFO o.a.j.r.Summariser: summary =     28 in 00:06:18 =    0.1/s Avg: 19400 Min:  7814 Max: 35421 Err:     0 (0.00%)
+2026-10-09 12:46:00,241 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-28
+2026-10-09 12:46:00,241 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-28
+2026-10-09 12:46:04,715 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-30
+2026-10-09 12:46:12,447 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-29
+2026-10-09 12:46:12,447 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-29
+2026-10-09 12:46:18,769 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-31
+2026-10-09 12:46:19,381 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-32
+2026-10-09 12:46:23,228 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-30
+2026-10-09 12:46:23,228 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-30
+2026-10-09 12:46:24,845 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-33
+2026-10-09 12:46:31,165 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-34
+2026-10-09 12:46:33,746 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-35
+2026-10-09 12:46:34,953 INFO o.a.j.r.Summariser: summary +      3 in 00:00:35 =    0.1/s Avg: 20973 Min: 16184 Max: 28223 Err:     0 (0.00%) Active: 5 Started: 35 Finished: 30
+2026-10-09 12:46:34,954 INFO o.a.j.r.Summariser: summary =     31 in 00:06:53 =    0.1/s Avg: 19552 Min:  7814 Max: 35421 Err:     0 (0.00%)
+2026-10-09 12:46:34,954 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-31
+2026-10-09 12:46:34,954 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-31
+2026-10-09 12:46:35,990 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-36
+2026-10-09 12:46:43,350 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-32
+2026-10-09 12:46:43,350 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-32
+2026-10-09 12:46:45,126 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-37
+2026-10-09 12:46:46,513 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-38
+2026-10-09 12:46:47,950 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-39
+2026-10-09 12:46:52,157 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-33
+2026-10-09 12:46:52,158 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-33
+2026-10-09 12:46:53,350 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-40
+2026-10-09 12:46:59,837 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-34
+2026-10-09 12:46:59,837 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-34
+2026-10-09 12:47:06,902 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-35
+2026-10-09 12:47:06,902 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-35
+2026-10-09 12:47:14,276 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-36
+2026-10-09 12:47:14,277 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-36
+2026-10-09 12:47:22,876 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-37
+2026-10-09 12:47:22,877 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-37
+2026-10-09 12:47:24,112 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-41
+2026-10-09 12:47:33,425 INFO o.a.j.r.Summariser: summary +      7 in 00:00:58 =    0.1/s Avg: 33721 Min: 23968 Max: 46911 Err:     0 (0.00%) Active: 4 Started: 41 Finished: 37
+2026-10-09 12:47:33,425 INFO o.a.j.r.Summariser: summary =     38 in 00:07:51 =    0.1/s Avg: 22162 Min:  7814 Max: 46911 Err:     0 (0.00%)
+2026-10-09 12:47:33,425 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-38
+2026-10-09 12:47:33,425 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-38
+2026-10-09 12:47:41,798 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-42
+2026-10-09 12:47:46,942 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-39
+2026-10-09 12:47:46,943 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-39
+2026-10-09 12:47:58,818 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-40
+2026-10-09 12:47:58,818 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-40
+2026-10-09 12:48:09,686 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-43
+2026-10-09 12:48:10,599 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-41
+2026-10-09 12:48:10,599 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-41
+2026-10-09 12:48:23,147 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-44
+2026-10-09 12:48:23,599 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-42
+2026-10-09 12:48:23,599 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-42
+2026-10-09 12:48:24,841 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-45
+2026-10-09 12:48:25,855 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-46
+2026-10-09 12:48:26,756 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-47
+2026-10-09 12:48:32,493 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-48
+2026-10-09 12:48:37,833 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-43
+2026-10-09 12:48:37,833 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-43
+2026-10-09 12:48:40,827 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-49
+2026-10-09 12:48:52,152 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-50
+2026-10-09 12:48:52,784 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-44
+2026-10-09 12:48:52,784 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-44
+2026-10-09 12:49:00,361 INFO o.a.j.r.Summariser: summary +      7 in 00:01:27 =    0.1/s Avg: 43721 Min: 28147 Max: 65469 Err:     0 (0.00%) Active: 6 Started: 50 Finished: 44
+2026-10-09 12:49:00,362 INFO o.a.j.r.Summariser: summary =     45 in 00:09:18 =    0.1/s Avg: 25516 Min:  7814 Max: 65469 Err:     0 (0.00%)
+2026-10-09 12:49:00,362 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-45
+2026-10-09 12:49:00,362 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-45
+2026-10-09 12:49:04,082 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-51
+2026-10-09 12:49:06,753 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-52
+2026-10-09 12:49:08,841 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-53
+2026-10-09 12:49:10,982 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-46
+2026-10-09 12:49:10,982 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-46
+2026-10-09 12:49:12,328 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-54
+2026-10-09 12:49:24,528 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-47
+2026-10-09 12:49:24,528 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-47
+2026-10-09 12:49:31,901 INFO o.a.j.r.Summariser: summary +      3 in 00:00:32 =    0.1/s Avg: 54101 Min: 45126 Max: 59408 Err:     0 (0.00%) Active: 7 Started: 54 Finished: 47
+2026-10-09 12:49:31,901 INFO o.a.j.r.Summariser: summary =     48 in 00:09:50 =    0.1/s Avg: 27302 Min:  7814 Max: 65469 Err:     0 (0.00%)
+2026-10-09 12:49:31,901 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-48
+2026-10-09 12:49:31,901 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-48
+2026-10-09 12:49:35,054 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-55
+2026-10-09 12:49:39,989 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-49
+2026-10-09 12:49:39,989 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-49
+2026-10-09 12:49:47,978 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-50
+2026-10-09 12:49:47,978 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-50
+2026-10-09 12:50:00,163 INFO o.a.j.r.Summariser: summary +      3 in 00:00:28 =    0.1/s Avg: 57023 Min: 55826 Max: 59163 Err:     0 (0.00%) Active: 5 Started: 55 Finished: 50
+2026-10-09 12:50:00,164 INFO o.a.j.r.Summariser: summary =     51 in 00:10:18 =    0.1/s Avg: 29050 Min:  7814 Max: 65469 Err:     0 (0.00%)
+2026-10-09 12:50:00,164 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-51
+2026-10-09 12:50:00,164 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-51
+2026-10-09 12:50:10,607 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-52
+2026-10-09 12:50:10,607 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-52
+2026-10-09 12:50:18,201 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-56
+2026-10-09 12:50:18,595 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-53
+2026-10-09 12:50:18,595 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-53
+2026-10-09 12:50:31,497 INFO o.a.j.r.Summariser: summary +      3 in 00:00:31 =    0.1/s Avg: 70925 Min: 63853 Max: 79169 Err:     0 (0.00%) Active: 3 Started: 56 Finished: 53
+2026-10-09 12:50:31,498 INFO o.a.j.r.Summariser: summary =     54 in 00:10:49 =    0.1/s Avg: 31377 Min:  7814 Max: 79169 Err:     0 (0.00%)
+2026-10-09 12:50:31,498 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-54
+2026-10-09 12:50:31,498 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-54
+2026-10-09 12:50:33,069 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-57
+2026-10-09 12:50:36,945 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-58
+2026-10-09 12:50:40,099 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-55
+2026-10-09 12:50:40,099 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-55
+2026-10-09 12:50:51,260 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-56
+2026-10-09 12:50:51,260 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-56
+2026-10-09 12:51:00,041 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-59
+2026-10-09 12:51:00,051 INFO o.a.j.r.Summariser: summary +      3 in 00:00:29 =    0.1/s Avg: 41694 Min: 26981 Max: 65045 Err:     0 (0.00%) Active: 3 Started: 59 Finished: 56
+2026-10-09 12:51:00,052 INFO o.a.j.r.Summariser: summary =     57 in 00:11:18 =    0.1/s Avg: 31920 Min:  7814 Max: 79169 Err:     0 (0.00%)
+2026-10-09 12:51:00,052 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-57
+2026-10-09 12:51:00,052 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-57
+2026-10-09 12:51:02,833 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-60
+2026-10-09 12:51:07,131 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-58
+2026-10-09 12:51:07,132 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-58
+2026-10-09 12:51:08,165 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-61
+2026-10-09 12:51:19,328 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-62
+2026-10-09 12:51:20,240 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-59
+2026-10-09 12:51:20,240 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-59
+2026-10-09 12:51:30,684 INFO o.a.j.r.Summariser: summary +      3 in 00:00:31 =    0.1/s Avg: 26077 Min: 20197 Max: 30186 Err:     0 (0.00%) Active: 3 Started: 62 Finished: 59
+2026-10-09 12:51:30,684 INFO o.a.j.r.Summariser: summary =     60 in 00:11:49 =    0.1/s Avg: 31628 Min:  7814 Max: 79169 Err:     0 (0.00%)
+2026-10-09 12:51:30,684 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-60
+2026-10-09 12:51:30,684 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-60
+2026-10-09 12:51:30,859 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-63
+2026-10-09 12:51:38,774 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-61
+2026-10-09 12:51:38,774 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-61
+2026-10-09 12:51:51,370 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-62
+2026-10-09 12:51:51,370 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-62
+2026-10-09 12:51:56,199 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-64
+2026-10-09 12:51:57,825 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-65
+2026-10-09 12:51:59,764 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-63
+2026-10-09 12:51:59,764 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-63
+2026-10-09 12:52:06,512 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-66
+2026-10-09 12:52:07,548 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-64
+2026-10-09 12:52:07,548 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-64
+2026-10-09 12:52:18,839 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-67
+2026-10-09 12:52:19,426 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-65
+2026-10-09 12:52:19,426 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-65
+2026-10-09 12:52:19,471 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-68
+2026-10-09 12:52:21,467 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-69
+2026-10-09 12:52:28,130 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-66
+2026-10-09 12:52:28,130 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-66
+2026-10-09 12:52:36,425 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-67
+2026-10-09 12:52:36,425 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-67
+2026-10-09 12:52:45,232 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-68
+2026-10-09 12:52:45,233 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-68
+2026-10-09 12:52:49,558 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-70
+2026-10-09 12:52:52,808 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-69
+2026-10-09 12:52:52,808 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-69
+2026-10-09 12:52:54,143 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-71
+2026-10-09 12:53:03,591 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-72
+2026-10-09 12:53:05,425 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-73
+2026-10-09 12:53:05,917 INFO o.a.j.r.Summariser: summary +     10 in 00:01:35 =    0.1/s Avg: 23716 Min: 11348 Max: 32041 Err:     0 (0.00%) Active: 4 Started: 73 Finished: 69
+2026-10-09 12:53:05,917 INFO o.a.j.r.Summariser: summary =     70 in 00:13:24 =    0.1/s Avg: 30497 Min:  7814 Max: 79169 Err:     0 (0.00%)
+2026-10-09 12:53:05,917 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-70
+2026-10-09 12:53:05,917 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-70
+2026-10-09 12:53:09,612 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-74
+2026-10-09 12:53:17,589 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-71
+2026-10-09 12:53:17,590 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-71
+2026-10-09 12:53:24,780 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-72
+2026-10-09 12:53:24,780 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-72
+2026-10-09 12:53:28,938 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-75
+2026-10-09 12:53:29,176 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-76
+2026-10-09 12:53:33,052 INFO o.a.j.r.Summariser: summary +      3 in 00:00:27 =    0.1/s Avg: 24087 Min: 21189 Max: 27627 Err:     0 (0.00%) Active: 4 Started: 76 Finished: 72
+2026-10-09 12:53:33,052 INFO o.a.j.r.Summariser: summary =     73 in 00:13:51 =    0.1/s Avg: 30234 Min:  7814 Max: 79169 Err:     0 (0.00%)
+2026-10-09 12:53:33,052 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-73
+2026-10-09 12:53:33,052 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-73
+2026-10-09 12:53:43,292 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-74
+2026-10-09 12:53:43,292 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-74
+2026-10-09 12:53:53,532 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-75
+2026-10-09 12:53:53,532 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-75
+2026-10-09 12:54:01,519 INFO o.a.j.r.Summariser: summary +      3 in 00:00:28 =    0.1/s Avg: 30204 Min: 24593 Max: 33679 Err:     0 (0.00%) Active: 1 Started: 76 Finished: 75
+2026-10-09 12:54:01,519 INFO o.a.j.r.Summariser: summary =     76 in 00:14:19 =    0.1/s Avg: 30233 Min:  7814 Max: 79169 Err:     0 (0.00%)
+2026-10-09 12:54:01,520 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-76
+2026-10-09 12:54:01,520 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-76
+2026-10-09 12:54:16,797 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-77
+2026-10-09 12:54:26,095 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-77
+2026-10-09 12:54:26,095 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-77
+2026-10-09 12:54:41,455 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-78
+2026-10-09 12:54:47,093 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-79
+2026-10-09 12:54:48,365 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-80
+2026-10-09 12:54:50,052 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-81
+2026-10-09 12:54:54,461 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-78
+2026-10-09 12:54:54,461 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-78
+2026-10-09 12:54:58,689 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-82
+2026-10-09 12:55:06,850 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-79
+2026-10-09 12:55:06,850 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-79
+2026-10-09 12:55:15,555 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-80
+2026-10-09 12:55:15,555 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-80
+2026-10-09 12:55:25,794 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-81
+2026-10-09 12:55:25,794 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-81
+2026-10-09 12:55:36,956 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-82
+2026-10-09 12:55:36,956 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-82
+2026-10-09 12:55:56,999 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-83
+2026-10-09 12:56:06,038 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-83
+2026-10-09 12:56:06,038 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-83
+2026-10-09 12:56:18,607 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-84
+2026-10-09 12:56:22,402 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-85
+2026-10-09 12:56:28,668 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-84
+2026-10-09 12:56:28,668 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-84
+2026-10-09 12:56:33,649 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-86
+2026-10-09 12:56:36,963 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-85
+2026-10-09 12:56:36,963 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-85
+2026-10-09 12:56:45,520 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-87
+2026-10-09 12:56:48,461 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-88
+2026-10-09 12:56:50,275 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-86
+2026-10-09 12:56:50,275 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-86
+2026-10-09 12:56:57,174 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-89
+2026-10-09 12:56:57,568 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-90
+2026-10-09 12:56:58,855 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-91
+2026-10-09 12:56:58,864 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-87
+2026-10-09 12:56:58,864 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-87
+2026-10-09 12:57:07,991 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-88
+2026-10-09 12:57:07,991 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-88
+2026-10-09 12:57:10,150 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-92
+2026-10-09 12:57:16,194 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-89
+2026-10-09 12:57:16,194 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-89
+2026-10-09 12:57:25,295 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-90
+2026-10-09 12:57:25,295 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-90
+2026-10-09 12:57:27,282 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-93
+2026-10-09 12:57:35,661 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-94
+2026-10-09 12:57:36,763 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-91
+2026-10-09 12:57:36,763 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-91
+2026-10-09 12:57:37,825 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-95
+2026-10-09 12:57:39,986 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-96
+2026-10-09 12:57:44,444 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-92
+2026-10-09 12:57:44,444 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-92
+2026-10-09 12:57:50,726 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-97
+2026-10-09 12:57:53,661 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-93
+2026-10-09 12:57:53,661 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-93
+2026-10-09 12:58:04,337 INFO o.a.j.r.Summariser: summary +     18 in 00:04:03 =    0.1/s Avg: 22244 Min:  9037 Max: 38265 Err:     0 (0.00%) Active: 4 Started: 97 Finished: 93
+2026-10-09 12:58:04,337 INFO o.a.j.r.Summariser: summary =     94 in 00:18:22 =    0.1/s Avg: 28703 Min:  7814 Max: 79169 Err:     0 (0.00%)
+2026-10-09 12:58:04,337 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-94
+2026-10-09 12:58:04,337 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-94
+2026-10-09 12:58:13,526 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-95
+2026-10-09 12:58:13,526 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-95
+2026-10-09 12:58:14,857 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-98
+2026-10-09 12:58:16,841 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-99
+2026-10-09 12:58:23,869 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-96
+2026-10-09 12:58:23,869 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-96
+2026-10-09 12:58:40,149 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-97
+2026-10-09 12:58:40,149 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-97
+2026-10-09 12:58:42,501 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-100
+2026-10-09 12:58:47,656 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-101
+2026-10-09 12:58:50,288 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-98
+2026-10-09 12:58:50,288 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-98
+2026-10-09 12:58:52,738 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-102
+2026-10-09 12:58:54,996 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-103
+2026-10-09 12:59:01,962 INFO o.a.j.r.Summariser: summary +      5 in 00:00:58 =    0.1/s Avg: 41911 Min: 35430 Max: 49422 Err:     0 (0.00%) Active: 5 Started: 103 Finished: 98
+2026-10-09 12:59:01,963 INFO o.a.j.r.Summariser: summary =     99 in 00:19:20 =    0.1/s Avg: 29370 Min:  7814 Max: 79169 Err:     0 (0.00%)
+2026-10-09 12:59:01,963 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-99
+2026-10-09 12:59:01,963 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-99
+2026-10-09 12:59:04,988 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-104
+2026-10-09 12:59:05,309 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-105
+2026-10-09 12:59:12,755 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-100
+2026-10-09 12:59:12,755 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-100
+2026-10-09 12:59:22,748 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-101
+2026-10-09 12:59:22,748 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-101
+2026-10-09 12:59:32,477 INFO o.a.j.r.Summariser: summary +      3 in 00:00:31 =    0.1/s Avg: 35027 Min: 30253 Max: 39739 Err:     0 (0.00%) Active: 4 Started: 105 Finished: 101
+2026-10-09 12:59:32,477 INFO o.a.j.r.Summariser: summary =    102 in 00:19:50 =    0.1/s Avg: 29536 Min:  7814 Max: 79169 Err:     0 (0.00%)
+2026-10-09 12:59:32,477 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-102
+2026-10-09 12:59:32,477 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-102
+2026-10-09 12:59:43,228 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-103
+2026-10-09 12:59:43,228 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-103
+2026-10-09 12:59:47,505 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-106
+2026-10-09 12:59:51,756 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-104
+2026-10-09 12:59:51,756 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-104
+2026-10-09 13:00:01,150 INFO o.a.j.r.Summariser: summary +      3 in 00:00:29 =    0.1/s Avg: 50280 Min: 46767 Max: 55841 Err:     0 (0.00%) Active: 2 Started: 106 Finished: 104
+2026-10-09 13:00:01,150 INFO o.a.j.r.Summariser: summary =    105 in 00:20:19 =    0.1/s Avg: 30129 Min:  7814 Max: 79169 Err:     0 (0.00%)
+2026-10-09 13:00:01,150 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-105
+2026-10-09 13:00:01,150 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-105
+2026-10-09 13:00:12,820 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-107
+2026-10-09 13:00:14,051 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-106
+2026-10-09 13:00:14,051 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-106
+2026-10-09 13:00:20,879 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-108
+2026-10-09 13:00:22,550 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-107
+2026-10-09 13:00:22,550 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-107
+2026-10-09 13:00:30,846 INFO o.a.j.r.Summariser: summary +      3 in 00:00:30 =    0.1/s Avg: 15413 Min:  9729 Max: 26546 Err:     0 (0.00%) Active: 1 Started: 108 Finished: 107
+2026-10-09 13:00:30,846 INFO o.a.j.r.Summariser: summary =    108 in 00:20:49 =    0.1/s Avg: 29720 Min:  7814 Max: 79169 Err:     0 (0.00%)
+2026-10-09 13:00:30,846 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-108
+2026-10-09 13:00:30,846 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-108
+2026-10-09 13:00:45,215 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-109
+2026-10-09 13:00:55,216 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-109
+2026-10-09 13:00:55,216 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-109
+2026-10-09 13:01:18,742 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-110
+2026-10-09 13:01:23,769 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-111
+2026-10-09 13:01:24,906 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-112
+2026-10-09 13:01:25,516 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-113
+2026-10-09 13:01:31,864 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-114
+2026-10-09 13:01:36,176 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-110
+2026-10-09 13:01:36,176 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-110
+2026-10-09 13:01:39,909 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-115
+2026-10-09 13:01:46,314 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-111
+2026-10-09 13:01:46,314 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-111
+2026-10-09 13:01:51,445 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-116
+2026-10-09 13:01:55,427 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-112
+2026-10-09 13:01:55,427 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-112
+2026-10-09 13:01:57,975 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-117
+2026-10-09 13:02:06,163 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-118
+2026-10-09 13:02:09,047 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-113
+2026-10-09 13:02:09,047 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-113
+2026-10-09 13:02:22,177 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-119
+2026-10-09 13:02:22,534 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-120
+2026-10-09 13:02:23,690 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-114
+2026-10-09 13:02:23,690 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-114
+2026-10-09 13:02:24,393 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-121
+2026-10-09 13:02:31,882 INFO o.a.j.r.Summariser: summary +      7 in 00:02:01 =    0.1/s Avg: 32546 Min: 10000 Max: 51972 Err:     0 (0.00%) Active: 7 Started: 121 Finished: 114
+2026-10-09 13:02:31,883 INFO o.a.j.r.Summariser: summary =    115 in 00:22:50 =    0.1/s Avg: 29892 Min:  7814 Max: 79169 Err:     0 (0.00%)
+2026-10-09 13:02:31,883 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-115
+2026-10-09 13:02:31,883 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-115
+2026-10-09 13:02:34,533 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-122
+2026-10-09 13:02:35,082 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-123
+2026-10-09 13:02:38,641 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-116
+2026-10-09 13:02:38,641 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-116
+2026-10-09 13:02:39,234 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-124
+2026-10-09 13:02:47,447 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-117
+2026-10-09 13:02:47,447 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-117
+2026-10-09 13:02:54,720 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-125
+2026-10-09 13:03:03,423 INFO o.a.j.r.Summariser: summary +      3 in 00:00:32 =    0.1/s Avg: 51308 Min: 47195 Max: 57259 Err:     0 (0.00%) Active: 8 Started: 125 Finished: 117
+2026-10-09 13:03:03,423 INFO o.a.j.r.Summariser: summary =    118 in 00:23:21 =    0.1/s Avg: 30437 Min:  7814 Max: 79169 Err:     0 (0.00%)
+2026-10-09 13:03:03,423 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-118
+2026-10-09 13:03:03,423 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-118
+2026-10-09 13:03:04,765 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-126
+2026-10-09 13:03:07,095 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-127
+2026-10-09 13:03:12,986 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-128
+2026-10-09 13:03:13,865 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-119
+2026-10-09 13:03:13,865 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-119
+2026-10-09 13:03:15,728 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-129
+2026-10-09 13:03:23,184 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-120
+2026-10-09 13:03:23,184 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-120
+2026-10-09 13:03:31,787 INFO o.a.j.r.Summariser: summary +      3 in 00:00:28 =    0.1/s Avg: 59910 Min: 51689 Max: 67393 Err:     0 (0.00%) Active: 9 Started: 129 Finished: 120
+2026-10-09 13:03:31,787 INFO o.a.j.r.Summariser: summary =    121 in 00:23:50 =    0.1/s Avg: 31168 Min:  7814 Max: 79169 Err:     0 (0.00%)
+2026-10-09 13:03:31,787 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-121
+2026-10-09 13:03:31,787 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-121
+2026-10-09 13:03:47,658 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-122
+2026-10-09 13:03:47,658 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-122
+2026-10-09 13:03:58,923 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-123
+2026-10-09 13:03:58,923 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-123
+2026-10-09 13:04:06,193 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-124
+2026-10-09 13:04:06,193 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-124
+2026-10-09 13:04:13,156 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-125
+2026-10-09 13:04:13,156 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-125
+2026-10-09 13:04:21,743 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-126
+2026-10-09 13:04:21,743 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-126
+2026-10-09 13:04:28,659 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-130
+2026-10-09 13:04:29,769 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-131
+2026-10-09 13:04:31,428 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-132
+2026-10-09 13:04:33,603 INFO o.a.j.r.Summariser: summary +      6 in 00:01:02 =    0.1/s Avg: 80974 Min: 73125 Max: 86960 Err:     0 (0.00%) Active: 6 Started: 132 Finished: 126
+2026-10-09 13:04:33,603 INFO o.a.j.r.Summariser: summary =    127 in 00:24:51 =    0.1/s Avg: 33521 Min:  7814 Max: 86960 Err:     0 (0.00%)
+2026-10-09 13:04:33,603 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-127
+2026-10-09 13:04:33,603 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-127
+2026-10-09 13:04:42,137 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-128
+2026-10-09 13:04:42,137 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-128
+2026-10-09 13:04:52,784 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-129
+2026-10-09 13:04:52,785 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-129
+2026-10-09 13:05:04,254 INFO o.a.j.r.Summariser: summary +      3 in 00:00:31 =    0.1/s Avg: 73933 Min: 35594 Max: 97056 Err:     0 (0.00%) Active: 3 Started: 132 Finished: 129
+2026-10-09 13:05:04,254 INFO o.a.j.r.Summariser: summary =    130 in 00:25:22 =    0.1/s Avg: 34453 Min:  7814 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:05:04,254 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-130
+2026-10-09 13:05:04,254 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-130
+2026-10-09 13:05:10,933 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-133
+2026-10-09 13:05:13,675 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-131
+2026-10-09 13:05:13,675 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-131
+2026-10-09 13:05:13,750 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-134
+2026-10-09 13:05:23,274 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-132
+2026-10-09 13:05:23,274 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-132
+2026-10-09 13:05:28,935 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-135
+2026-10-09 13:05:29,804 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-136
+2026-10-09 13:05:33,520 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-137
+2026-10-09 13:05:38,245 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-133
+2026-10-09 13:05:38,245 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-133
+2026-10-09 13:05:42,001 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-138
+2026-10-09 13:05:45,084 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-139
+2026-10-09 13:05:45,202 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-140
+2026-10-09 13:05:49,309 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-134
+2026-10-09 13:05:49,309 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-134
+2026-10-09 13:05:57,296 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-135
+2026-10-09 13:05:57,296 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-135
+2026-10-09 13:06:06,104 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-136
+2026-10-09 13:06:06,104 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-136
+2026-10-09 13:06:14,153 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-137
+2026-10-09 13:06:14,153 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-137
+2026-10-09 13:06:21,156 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-138
+2026-10-09 13:06:21,156 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-138
+2026-10-09 13:06:28,938 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-139
+2026-10-09 13:06:28,938 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-139
+2026-10-09 13:06:29,400 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-141
+2026-10-09 13:06:30,110 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-142
+2026-10-09 13:06:38,155 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-140
+2026-10-09 13:06:38,155 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-140
+2026-10-09 13:06:51,979 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-141
+2026-10-09 13:06:51,979 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-141
+2026-10-09 13:06:57,700 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-143
+2026-10-09 13:07:02,978 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-144
+2026-10-09 13:07:04,983 INFO o.a.j.r.Summariser: summary +     12 in 00:02:01 =    0.1/s Avg: 38110 Min: 22578 Max: 52953 Err:     0 (0.00%) Active: 3 Started: 144 Finished: 141
+2026-10-09 13:07:04,983 INFO o.a.j.r.Summariser: summary =    142 in 00:27:23 =    0.1/s Avg: 34762 Min:  7814 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:07:04,983 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-142
+2026-10-09 13:07:04,983 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-142
+2026-10-09 13:07:11,947 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-143
+2026-10-09 13:07:11,947 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-143
+2026-10-09 13:07:20,343 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-144
+2026-10-09 13:07:20,343 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-144
+2026-10-09 13:07:31,438 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-145
+2026-10-09 13:07:36,294 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-146
+2026-10-09 13:07:39,644 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-145
+2026-10-09 13:07:39,644 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-145
+2026-10-09 13:07:41,365 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-147
+2026-10-09 13:07:42,333 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-148
+2026-10-09 13:07:46,455 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-146
+2026-10-09 13:07:46,455 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-146
+2026-10-09 13:07:51,876 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-149
+2026-10-09 13:07:56,491 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-147
+2026-10-09 13:07:56,491 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-147
+2026-10-09 13:08:03,608 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-150
+2026-10-09 13:08:04,068 INFO o.a.j.r.Summariser: summary +      6 in 00:00:59 =    0.1/s Avg: 14472 Min:  8205 Max: 21734 Err:     0 (0.00%) Active: 3 Started: 150 Finished: 147
+2026-10-09 13:08:04,070 INFO o.a.j.r.Summariser: summary =    148 in 00:28:22 =    0.1/s Avg: 33940 Min:  7814 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:08:04,070 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-148
+2026-10-09 13:08:04,070 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-148
+2026-10-09 13:08:12,875 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-149
+2026-10-09 13:08:12,875 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-149
+2026-10-09 13:08:26,065 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-151
+2026-10-09 13:08:26,829 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-152
+2026-10-09 13:08:27,373 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-153
+2026-10-09 13:08:28,746 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-150
+2026-10-09 13:08:28,746 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-150
+2026-10-09 13:08:35,335 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-154
+2026-10-09 13:08:38,592 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-155
+2026-10-09 13:08:41,240 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-151
+2026-10-09 13:08:41,240 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-151
+2026-10-09 13:08:42,613 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-156
+2026-10-09 13:08:48,511 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-152
+2026-10-09 13:08:48,511 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-152
+2026-10-09 13:08:50,571 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-157
+2026-10-09 13:08:54,374 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-158
+2026-10-09 13:08:56,907 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-153
+2026-10-09 13:08:56,907 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-153
+2026-10-09 13:09:02,653 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-159
+2026-10-09 13:09:07,604 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-154
+2026-10-09 13:09:07,604 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-154
+2026-10-09 13:09:20,664 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-155
+2026-10-09 13:09:20,664 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-155
+2026-10-09 13:09:34,590 INFO o.a.j.r.Summariser: summary +      8 in 00:01:31 =    0.1/s Avg: 29855 Min: 15173 Max: 51977 Err:     0 (0.00%) Active: 4 Started: 159 Finished: 155
+2026-10-09 13:09:34,591 INFO o.a.j.r.Summariser: summary =    156 in 00:29:52 =    0.1/s Avg: 33730 Min:  7814 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:09:34,591 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-156
+2026-10-09 13:09:34,591 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-156
+2026-10-09 13:09:45,445 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-157
+2026-10-09 13:09:45,445 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-157
+2026-10-09 13:09:46,560 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-160
+2026-10-09 13:09:54,148 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-158
+2026-10-09 13:09:54,148 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-158
+2026-10-09 13:10:01,625 INFO o.a.j.r.Summariser: summary +      3 in 00:00:27 =    0.1/s Avg: 57873 Min: 54873 Max: 59775 Err:     0 (0.00%) Active: 2 Started: 160 Finished: 158
+2026-10-09 13:10:01,625 INFO o.a.j.r.Summariser: summary =    159 in 00:30:19 =    0.1/s Avg: 34186 Min:  7814 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:10:01,625 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-159
+2026-10-09 13:10:01,625 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-159
+2026-10-09 13:10:08,587 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-160
+2026-10-09 13:10:08,587 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-160
+2026-10-09 13:10:22,731 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-161
+2026-10-09 13:10:32,038 INFO o.a.j.r.Summariser: summary +      2 in 00:00:30 =    0.1/s Avg: 15665 Min:  9305 Max: 22026 Err:     0 (0.00%) Active: 1 Started: 161 Finished: 160
+2026-10-09 13:10:32,038 INFO o.a.j.r.Summariser: summary =    161 in 00:30:50 =    0.1/s Avg: 33956 Min:  7814 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:10:32,038 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-161
+2026-10-09 13:10:32,038 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-161
+2026-10-09 13:10:32,965 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-162
+2026-10-09 13:10:36,698 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-163
+2026-10-09 13:10:40,945 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-162
+2026-10-09 13:10:40,945 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-162
+2026-10-09 13:10:44,505 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-164
+2026-10-09 13:10:48,244 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-165
+2026-10-09 13:10:51,494 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-163
+2026-10-09 13:10:51,494 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-163
+2026-10-09 13:10:58,353 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-164
+2026-10-09 13:10:58,353 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-164
+2026-10-09 13:11:05,521 INFO o.a.j.r.Summariser: summary +      4 in 00:00:33 =    0.1/s Avg: 13474 Min:  7978 Max: 17276 Err:     0 (0.00%) Active: 1 Started: 165 Finished: 164
+2026-10-09 13:11:05,521 INFO o.a.j.r.Summariser: summary =    165 in 00:31:23 =    0.1/s Avg: 33459 Min:  7814 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:11:05,522 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-165
+2026-10-09 13:11:05,522 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-165
+2026-10-09 13:11:09,103 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-166
+2026-10-09 13:11:13,291 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-167
+2026-10-09 13:11:19,425 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-168
+2026-10-09 13:11:23,544 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-166
+2026-10-09 13:11:23,544 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-166
+2026-10-09 13:11:32,043 INFO o.a.j.r.Summariser: summary +      2 in 00:00:27 =    0.1/s Avg: 16595 Min: 14439 Max: 18751 Err:     0 (0.00%) Active: 2 Started: 168 Finished: 166
+2026-10-09 13:11:32,044 INFO o.a.j.r.Summariser: summary =    167 in 00:31:50 =    0.1/s Avg: 33257 Min:  7814 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:11:32,044 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-167
+2026-10-09 13:11:32,044 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-167
+2026-10-09 13:11:42,507 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-169
+2026-10-09 13:11:44,320 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-168
+2026-10-09 13:11:44,320 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-168
+2026-10-09 13:11:52,293 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-170
+2026-10-09 13:11:55,289 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-169
+2026-10-09 13:11:55,289 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-169
+2026-10-09 13:11:56,900 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-171
+2026-10-09 13:12:06,246 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-170
+2026-10-09 13:12:06,246 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-170
+2026-10-09 13:12:18,430 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-171
+2026-10-09 13:12:18,430 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-171
+2026-10-09 13:12:29,714 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-172
+2026-10-09 13:12:30,697 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-173
+2026-10-09 13:12:35,936 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-174
+2026-10-09 13:12:36,212 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-175
+2026-10-09 13:12:40,345 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-172
+2026-10-09 13:12:40,345 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-172
+2026-10-09 13:12:43,167 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-176
+2026-10-09 13:12:44,389 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-177
+2026-10-09 13:12:48,643 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-173
+2026-10-09 13:12:48,643 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-173
+2026-10-09 13:12:54,862 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-178
+2026-10-09 13:12:55,397 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-174
+2026-10-09 13:12:55,397 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-174
+2026-10-09 13:13:03,209 INFO o.a.j.r.Summariser: summary +      8 in 00:01:31 =    0.1/s Avg: 18522 Min: 10629 Max: 26996 Err:     0 (0.00%) Active: 4 Started: 178 Finished: 174
+2026-10-09 13:13:03,210 INFO o.a.j.r.Summariser: summary =    175 in 00:33:21 =    0.1/s Avg: 32583 Min:  7814 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:13:03,210 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-175
+2026-10-09 13:13:03,210 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-175
+2026-10-09 13:13:07,219 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-179
+2026-10-09 13:13:08,210 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-180
+2026-10-09 13:13:08,342 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-181
+2026-10-09 13:13:10,536 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-182
+2026-10-09 13:13:14,337 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-176
+2026-10-09 13:13:14,337 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-176
+2026-10-09 13:13:22,943 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-177
+2026-10-09 13:13:22,943 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-177
+2026-10-09 13:13:29,072 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-183
+2026-10-09 13:13:29,906 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-178
+2026-10-09 13:13:29,906 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-178
+2026-10-09 13:13:30,964 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-184
+2026-10-09 13:13:39,390 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-179
+2026-10-09 13:13:39,390 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-179
+2026-10-09 13:13:43,621 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-185
+2026-10-09 13:13:46,806 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-186
+2026-10-09 13:13:49,158 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-180
+2026-10-09 13:13:49,158 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-180
+2026-10-09 13:13:56,940 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-181
+2026-10-09 13:13:56,940 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-181
+2026-10-09 13:13:58,611 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-187
+2026-10-09 13:14:00,562 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-188
+2026-10-09 13:14:07,631 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-182
+2026-10-09 13:14:07,631 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-182
+2026-10-09 13:14:16,089 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-183
+2026-10-09 13:14:16,089 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-183
+2026-10-09 13:14:23,564 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-184
+2026-10-09 13:14:23,564 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-184
+2026-10-09 13:14:24,374 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-189
+2026-10-09 13:14:32,985 INFO o.a.j.r.Summariser: summary +     10 in 00:01:30 =    0.1/s Avg: 43255 Min: 31168 Max: 57094 Err:     0 (0.00%) Active: 5 Started: 189 Finished: 184
+2026-10-09 13:14:32,985 INFO o.a.j.r.Summariser: summary =    185 in 00:34:51 =    0.1/s Avg: 33160 Min:  7814 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:14:32,985 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-185
+2026-10-09 13:14:32,985 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-185
+2026-10-09 13:14:41,446 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-186
+2026-10-09 13:14:41,446 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-186
+2026-10-09 13:14:44,489 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-190
+2026-10-09 13:14:52,221 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-187
+2026-10-09 13:14:52,221 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-187
+2026-10-09 13:14:52,526 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-191
+2026-10-09 13:15:00,891 INFO o.a.j.r.Summariser: summary +      3 in 00:00:28 =    0.1/s Avg: 56193 Min: 53610 Max: 60329 Err:     0 (0.00%) Active: 4 Started: 191 Finished: 187
+2026-10-09 13:15:00,892 INFO o.a.j.r.Summariser: summary =    188 in 00:35:19 =    0.1/s Avg: 33528 Min:  7814 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:15:00,893 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-188
+2026-10-09 13:15:00,893 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-188
+2026-10-09 13:15:08,227 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-192
+2026-10-09 13:15:09,234 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-189
+2026-10-09 13:15:09,234 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-189
+2026-10-09 13:15:17,535 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-193
+2026-10-09 13:15:18,042 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-190
+2026-10-09 13:15:18,042 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-190
+2026-10-09 13:15:21,482 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-194
+2026-10-09 13:15:23,022 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-195
+2026-10-09 13:15:25,414 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-191
+2026-10-09 13:15:25,414 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-191
+2026-10-09 13:15:32,991 INFO o.a.j.r.Summariser: summary +      4 in 00:00:32 =    0.1/s Avg: 34015 Min: 24762 Max: 44860 Err:     0 (0.00%) Active: 4 Started: 195 Finished: 191
+2026-10-09 13:15:32,991 INFO o.a.j.r.Summariser: summary =    192 in 00:35:51 =    0.1/s Avg: 33538 Min:  7814 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:15:32,992 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-192
+2026-10-09 13:15:32,992 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-192
+2026-10-09 13:15:49,171 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-193
+2026-10-09 13:15:49,171 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-193
+2026-10-09 13:16:02,273 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-196
+2026-10-09 13:16:02,687 INFO o.a.j.r.Summariser: summary +      2 in 00:00:30 =    0.1/s Avg: 36419 Min: 31634 Max: 41205 Err:     0 (0.00%) Active: 3 Started: 196 Finished: 193
+2026-10-09 13:16:02,688 INFO o.a.j.r.Summariser: summary =    194 in 00:36:21 =    0.1/s Avg: 33568 Min:  7814 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:16:02,688 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-194
+2026-10-09 13:16:02,688 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-194
+2026-10-09 13:16:08,772 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-197
+2026-10-09 13:16:13,454 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-198
+2026-10-09 13:16:13,646 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-195
+2026-10-09 13:16:13,646 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-195
+2026-10-09 13:16:26,855 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-196
+2026-10-09 13:16:26,855 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-196
+2026-10-09 13:16:28,193 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-199
+2026-10-09 13:16:31,745 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-200
+2026-10-09 13:16:33,182 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-201
+2026-10-09 13:16:38,624 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-202
+2026-10-09 13:16:39,758 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-197
+2026-10-09 13:16:39,758 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-197
+2026-10-09 13:16:46,985 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-203
+2026-10-09 13:16:48,359 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-198
+2026-10-09 13:16:48,359 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-198
+2026-10-09 13:16:57,473 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-199
+2026-10-09 13:16:57,473 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-199
+2026-10-09 13:17:09,965 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-200
+2026-10-09 13:17:09,965 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-200
+2026-10-09 13:17:18,815 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-204
+2026-10-09 13:17:19,927 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-201
+2026-10-09 13:17:19,927 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-201
+2026-10-09 13:17:22,199 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-205
+2026-10-09 13:17:29,288 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-206
+2026-10-09 13:17:30,035 INFO o.a.j.r.Summariser: summary +      8 in 00:01:27 =    0.1/s Avg: 38343 Min: 24581 Max: 51411 Err:     0 (0.00%) Active: 5 Started: 206 Finished: 201
+2026-10-09 13:17:30,036 INFO o.a.j.r.Summariser: summary =    202 in 00:37:48 =    0.1/s Avg: 33757 Min:  7814 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:17:30,036 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-202
+2026-10-09 13:17:30,036 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-202
+2026-10-09 13:17:38,330 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-203
+2026-10-09 13:17:38,330 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-203
+2026-10-09 13:17:41,829 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-207
+2026-10-09 13:17:50,722 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-204
+2026-10-09 13:17:50,722 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-204
+2026-10-09 13:17:59,631 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-205
+2026-10-09 13:17:59,631 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-205
+2026-10-09 13:18:00,311 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-208
+2026-10-09 13:18:01,994 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-209
+2026-10-09 13:18:07,719 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-206
+2026-10-09 13:18:07,719 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-206
+2026-10-09 13:18:08,964 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-210
+2026-10-09 13:18:10,497 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-211
+2026-10-09 13:18:12,979 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-212
+2026-10-09 13:18:21,339 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-207
+2026-10-09 13:18:21,339 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-207
+2026-10-09 13:18:28,318 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-213
+2026-10-09 13:18:29,019 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-208
+2026-10-09 13:18:29,019 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-208
+2026-10-09 13:18:31,103 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-214
+2026-10-09 13:18:36,596 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-209
+2026-10-09 13:18:36,596 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-209
+2026-10-09 13:18:43,326 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-215
+2026-10-09 13:18:46,059 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-216
+2026-10-09 13:18:47,758 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-210
+2026-10-09 13:18:47,758 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-210
+2026-10-09 13:18:56,243 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-217
+2026-10-09 13:19:00,558 INFO o.a.j.r.Summariser: summary +      9 in 00:01:31 =    0.1/s Avg: 38975 Min: 28707 Max: 51345 Err:     0 (0.00%) Active: 7 Started: 217 Finished: 210
+2026-10-09 13:19:00,558 INFO o.a.j.r.Summariser: summary =    211 in 00:39:18 =    0.1/s Avg: 33979 Min:  7814 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:19:00,559 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-211
+2026-10-09 13:19:00,559 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-211
+2026-10-09 13:19:03,673 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-218
+2026-10-09 13:19:05,748 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-219
+2026-10-09 13:19:14,383 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-212
+2026-10-09 13:19:14,383 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-212
+2026-10-09 13:19:17,175 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-220
+2026-10-09 13:19:22,779 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-213
+2026-10-09 13:19:22,779 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-213
+2026-10-09 13:19:24,232 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-221
+2026-10-09 13:19:32,199 INFO o.a.j.r.Summariser: summary +      3 in 00:00:32 =    0.1/s Avg: 58986 Min: 54460 Max: 61403 Err:     0 (0.00%) Active: 8 Started: 221 Finished: 213
+2026-10-09 13:19:32,200 INFO o.a.j.r.Summariser: summary =    214 in 00:39:50 =    0.1/s Avg: 34330 Min:  7814 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:19:32,200 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-214
+2026-10-09 13:19:32,200 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-214
+2026-10-09 13:19:33,096 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-222
+2026-10-09 13:19:38,957 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-215
+2026-10-09 13:19:38,957 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-215
+2026-10-09 13:19:47,560 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-216
+2026-10-09 13:19:47,560 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-216
+2026-10-09 13:19:56,329 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-217
+2026-10-09 13:19:56,329 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-217
+2026-10-09 13:19:57,846 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-223
+2026-10-09 13:20:05,377 INFO o.a.j.r.Summariser: summary +      4 in 00:00:33 =    0.1/s Avg: 59730 Min: 55631 Max: 61704 Err:     0 (0.00%) Active: 6 Started: 223 Finished: 217
+2026-10-09 13:20:05,378 INFO o.a.j.r.Summariser: summary =    218 in 00:40:23 =    0.1/s Avg: 34796 Min:  7814 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:20:05,378 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-218
+2026-10-09 13:20:05,378 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-218
+2026-10-09 13:20:11,944 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-224
+2026-10-09 13:20:14,121 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-225
+2026-10-09 13:20:14,594 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-219
+2026-10-09 13:20:14,594 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-219
+2026-10-09 13:20:22,977 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-226
+2026-10-09 13:20:23,418 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-220
+2026-10-09 13:20:23,418 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-220
+2026-10-09 13:20:31,182 INFO o.a.j.r.Summariser: summary +      3 in 00:00:26 =    0.1/s Avg: 67345 Min: 66242 Max: 68846 Err:     0 (0.00%) Active: 6 Started: 226 Finished: 220
+2026-10-09 13:20:31,182 INFO o.a.j.r.Summariser: summary =    221 in 00:40:49 =    0.1/s Avg: 35238 Min:  7814 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:20:31,182 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-221
+2026-10-09 13:20:31,182 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-221
+2026-10-09 13:20:42,753 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-222
+2026-10-09 13:20:42,753 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-222
+2026-10-09 13:20:45,940 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-227
+2026-10-09 13:20:48,363 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-228
+2026-10-09 13:20:58,625 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-223
+2026-10-09 13:20:58,625 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-223
+2026-10-09 13:21:09,378 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-224
+2026-10-09 13:21:09,378 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-224
+2026-10-09 13:21:17,607 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-229
+2026-10-09 13:21:18,323 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-230
+2026-10-09 13:21:20,444 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-225
+2026-10-09 13:21:20,444 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-225
+2026-10-09 13:21:27,018 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-231
+2026-10-09 13:21:30,269 INFO o.a.j.r.Summariser: summary +      5 in 00:00:59 =    0.1/s Avg: 64296 Min: 57433 Max: 69657 Err:     0 (0.00%) Active: 6 Started: 231 Finished: 225
+2026-10-09 13:21:30,269 INFO o.a.j.r.Summariser: summary =    226 in 00:41:48 =    0.1/s Avg: 35881 Min:  7814 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:21:30,270 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-226
+2026-10-09 13:21:30,270 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-226
+2026-10-09 13:21:30,459 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-232
+2026-10-09 13:21:37,665 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-227
+2026-10-09 13:21:37,666 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-227
+2026-10-09 13:21:45,526 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-228
+2026-10-09 13:21:45,526 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-228
+2026-10-09 13:21:47,142 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-233
+2026-10-09 13:21:57,222 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-229
+2026-10-09 13:21:57,222 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-229
+2026-10-09 13:22:11,126 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-230
+2026-10-09 13:22:11,126 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-230
+2026-10-09 13:22:20,751 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-231
+2026-10-09 13:22:20,751 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-231
+2026-10-09 13:22:27,919 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-232
+2026-10-09 13:22:27,919 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-232
+2026-10-09 13:22:29,652 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-234
+2026-10-09 13:22:38,451 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-233
+2026-10-09 13:22:38,451 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-233
+2026-10-09 13:22:41,153 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-235
+2026-10-09 13:22:43,941 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-236
+2026-10-09 13:22:47,130 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-237
+2026-10-09 13:22:47,376 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-234
+2026-10-09 13:22:47,376 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-234
+2026-10-09 13:22:54,953 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-235
+2026-10-09 13:22:54,953 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-235
+2026-10-09 13:23:01,507 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-238
+2026-10-09 13:23:02,121 INFO o.a.j.r.Summariser: summary +     10 in 00:01:32 =    0.1/s Avg: 41350 Min: 13798 Max: 57460 Err:     0 (0.00%) Active: 3 Started: 238 Finished: 235
+2026-10-09 13:23:02,121 INFO o.a.j.r.Summariser: summary =    236 in 00:43:20 =    0.1/s Avg: 36112 Min:  7814 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:23:02,121 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-236
+2026-10-09 13:23:02,121 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-236
+2026-10-09 13:23:15,945 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-237
+2026-10-09 13:23:15,945 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-237
+2026-10-09 13:23:22,367 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-239
+2026-10-09 13:23:27,312 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-238
+2026-10-09 13:23:27,312 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-238
+2026-10-09 13:23:36,221 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-239
+2026-10-09 13:23:36,221 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-239
+2026-10-09 13:24:01,512 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-240
+2026-10-09 13:24:08,681 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-240
+2026-10-09 13:24:08,681 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-240
+2026-10-09 13:24:09,435 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-241
+2026-10-09 13:24:09,547 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-242
+2026-10-09 13:24:10,273 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-243
+2026-10-09 13:24:22,710 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-241
+2026-10-09 13:24:22,710 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-241
+2026-10-09 13:24:26,844 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-244
+2026-10-09 13:24:27,450 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-245
+2026-10-09 13:24:31,254 INFO o.a.j.r.Summariser: summary +      6 in 00:01:29 =    0.1/s Avg: 18436 Min:  7168 Max: 28814 Err:     0 (0.00%) Active: 4 Started: 245 Finished: 241
+2026-10-09 13:24:31,254 INFO o.a.j.r.Summariser: summary =    242 in 00:44:49 =    0.1/s Avg: 35674 Min:  7168 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:24:31,254 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-242
+2026-10-09 13:24:31,254 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-242
+2026-10-09 13:24:37,476 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-246
+2026-10-09 13:24:38,173 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-243
+2026-10-09 13:24:38,173 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-243
+2026-10-09 13:24:47,478 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-244
+2026-10-09 13:24:47,478 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-244
+2026-10-09 13:24:59,778 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-245
+2026-10-09 13:24:59,779 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-245
+2026-10-09 13:25:05,472 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-247
+2026-10-09 13:25:09,307 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-248
+2026-10-09 13:25:10,810 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-249
+2026-10-09 13:25:11,350 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-246
+2026-10-09 13:25:11,350 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-246
+2026-10-09 13:25:11,497 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-250
+2026-10-09 13:25:12,668 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-251
+2026-10-09 13:25:21,181 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-247
+2026-10-09 13:25:21,181 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-247
+2026-10-09 13:25:33,880 INFO o.a.j.r.Summariser: summary +      6 in 00:01:03 =    0.1/s Avg: 25835 Min: 15708 Max: 33873 Err:     0 (0.00%) Active: 4 Started: 251 Finished: 247
+2026-10-09 13:25:33,880 INFO o.a.j.r.Summariser: summary =    248 in 00:45:52 =    0.1/s Avg: 35436 Min:  7168 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:25:33,880 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-248
+2026-10-09 13:25:33,880 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-248
+2026-10-09 13:25:42,582 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-249
+2026-10-09 13:25:42,582 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-249
+2026-10-09 13:25:43,178 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-252
+2026-10-09 13:25:44,892 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-253
+2026-10-09 13:25:54,768 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-250
+2026-10-09 13:25:54,768 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-250
+2026-10-09 13:26:06,852 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-251
+2026-10-09 13:26:06,852 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-251
+2026-10-09 13:26:16,273 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-252
+2026-10-09 13:26:16,273 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-252
+2026-10-09 13:26:28,970 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-253
+2026-10-09 13:26:28,970 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-253
+2026-10-09 13:26:30,269 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-254
+2026-10-09 13:26:35,259 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-255
+2026-10-09 13:26:39,207 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-256
+2026-10-09 13:26:40,132 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-254
+2026-10-09 13:26:40,132 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-254
+2026-10-09 13:26:49,245 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-255
+2026-10-09 13:26:49,245 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-255
+2026-10-09 13:26:51,437 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-257
+2026-10-09 13:26:54,288 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-258
+2026-10-09 13:27:03,481 INFO o.a.j.r.Summariser: summary +      8 in 00:01:30 =    0.1/s Avg: 31814 Min:  9861 Max: 54185 Err:     0 (0.00%) Active: 3 Started: 258 Finished: 255
+2026-10-09 13:27:03,481 INFO o.a.j.r.Summariser: summary =    256 in 00:47:21 =    0.1/s Avg: 35323 Min:  7168 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:27:03,482 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-256
+2026-10-09 13:27:03,482 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-256
+2026-10-09 13:27:16,178 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-257
+2026-10-09 13:27:16,178 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-257
+2026-10-09 13:27:27,135 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-258
+2026-10-09 13:27:27,135 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-258
+2026-10-09 13:27:33,984 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-259
+2026-10-09 13:27:36,478 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-260
+2026-10-09 13:27:45,362 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-259
+2026-10-09 13:27:45,362 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-259
+2026-10-09 13:27:54,270 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-260
+2026-10-09 13:27:54,270 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-260
+2026-10-09 13:27:58,426 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-261
+2026-10-09 13:28:05,432 INFO o.a.j.r.Summariser: summary +      5 in 00:01:02 =    0.1/s Avg: 18751 Min:  7005 Max: 32847 Err:     0 (0.00%) Active: 1 Started: 261 Finished: 260
+2026-10-09 13:28:05,432 INFO o.a.j.r.Summariser: summary =    261 in 00:48:23 =    0.1/s Avg: 35005 Min:  7005 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:28:05,432 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-261
+2026-10-09 13:28:05,432 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-261
+2026-10-09 13:28:08,725 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-262
+2026-10-09 13:28:08,907 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-263
+2026-10-09 13:28:20,899 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-262
+2026-10-09 13:28:20,899 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-262
+2026-10-09 13:28:26,940 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-264
+2026-10-09 13:28:27,312 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-265
+2026-10-09 13:28:29,496 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-263
+2026-10-09 13:28:29,496 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-263
+2026-10-09 13:28:44,482 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-266
+2026-10-09 13:28:45,162 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-264
+2026-10-09 13:28:45,163 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-264
+2026-10-09 13:28:47,180 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-267
+2026-10-09 13:28:56,251 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-268
+2026-10-09 13:28:58,993 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-265
+2026-10-09 13:28:58,993 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-265
+2026-10-09 13:29:05,309 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-269
+2026-10-09 13:29:12,300 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-266
+2026-10-09 13:29:12,300 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-266
+2026-10-09 13:29:12,938 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-270
+2026-10-09 13:29:23,973 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-267
+2026-10-09 13:29:23,973 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-267
+2026-10-09 13:29:29,579 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-271
+2026-10-09 13:29:30,254 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-272
+2026-10-09 13:29:37,850 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-268
+2026-10-09 13:29:37,850 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-268
+2026-10-09 13:29:48,858 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-269
+2026-10-09 13:29:48,858 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-269
+2026-10-09 13:29:49,434 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-273
+2026-10-09 13:29:56,763 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-274
+2026-10-09 13:30:00,678 INFO o.a.j.r.Summariser: summary +      9 in 00:01:55 =    0.1/s Avg: 31128 Min: 12173 Max: 47739 Err:     0 (0.00%) Active: 5 Started: 274 Finished: 269
+2026-10-09 13:30:00,679 INFO o.a.j.r.Summariser: summary =    270 in 00:50:19 =    0.1/s Avg: 34876 Min:  7005 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:30:00,679 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-270
+2026-10-09 13:30:00,679 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-270
+2026-10-09 13:30:09,439 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-271
+2026-10-09 13:30:09,439 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-271
+2026-10-09 13:30:10,038 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-275
+2026-10-09 13:30:19,270 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-272
+2026-10-09 13:30:19,270 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-272
+2026-10-09 13:30:19,615 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-276
+2026-10-09 13:30:34,937 INFO o.a.j.r.Summariser: summary +      3 in 00:00:34 =    0.1/s Avg: 44792 Min: 39860 Max: 49015 Err:     0 (0.00%) Active: 4 Started: 276 Finished: 272
+2026-10-09 13:30:34,938 INFO o.a.j.r.Summariser: summary =    273 in 00:50:53 =    0.1/s Avg: 34985 Min:  7005 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:30:34,938 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-273
+2026-10-09 13:30:34,938 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-273
+2026-10-09 13:30:40,942 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-277
+2026-10-09 13:30:42,092 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-278
+2026-10-09 13:30:43,586 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-274
+2026-10-09 13:30:43,586 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-274
+2026-10-09 13:30:44,224 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-279
+2026-10-09 13:30:52,140 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-275
+2026-10-09 13:30:52,140 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-275
+2026-10-09 13:30:54,660 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-280
+2026-10-09 13:30:56,862 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-281
+2026-10-09 13:31:01,253 INFO o.a.j.r.Summariser: summary +      3 in 00:00:26 =    0.1/s Avg: 43520 Min: 41637 Max: 46824 Err:     0 (0.00%) Active: 6 Started: 281 Finished: 275
+2026-10-09 13:31:01,254 INFO o.a.j.r.Summariser: summary =    276 in 00:51:19 =    0.1/s Avg: 35078 Min:  7005 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:31:01,254 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-276
+2026-10-09 13:31:01,254 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-276
+2026-10-09 13:31:07,647 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-282
+2026-10-09 13:31:08,440 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-277
+2026-10-09 13:31:08,440 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-277
+2026-10-09 13:31:17,741 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-278
+2026-10-09 13:31:17,741 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-278
+2026-10-09 13:31:25,204 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-279
+2026-10-09 13:31:25,204 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-279
+2026-10-09 13:31:29,103 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-283
+2026-10-09 13:31:36,378 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-280
+2026-10-09 13:31:36,378 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-280
+2026-10-09 13:31:44,979 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-281
+2026-10-09 13:31:44,979 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-281
+2026-10-09 13:31:51,942 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-284
+2026-10-09 13:31:52,148 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-282
+2026-10-09 13:31:52,149 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-282
+2026-10-09 13:31:56,882 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-285
+2026-10-09 13:32:00,442 INFO o.a.j.r.Summariser: summary +      7 in 00:00:59 =    0.1/s Avg: 38542 Min: 27496 Max: 48116 Err:     0 (0.00%) Active: 3 Started: 285 Finished: 282
+2026-10-09 13:32:00,442 INFO o.a.j.r.Summariser: summary =    283 in 00:52:18 =    0.1/s Avg: 35164 Min:  7005 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:32:00,442 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-283
+2026-10-09 13:32:00,442 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-283
+2026-10-09 13:32:09,146 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-284
+2026-10-09 13:32:09,146 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-284
+2026-10-09 13:32:17,235 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-285
+2026-10-09 13:32:17,235 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-285
+2026-10-09 13:32:19,955 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-286
+2026-10-09 13:32:24,790 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-287
+2026-10-09 13:32:30,351 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-288
+2026-10-09 13:32:33,926 INFO o.a.j.r.Summariser: summary +      3 in 00:00:33 =    0.1/s Avg: 17175 Min: 13971 Max: 20351 Err:     0 (0.00%) Active: 3 Started: 288 Finished: 285
+2026-10-09 13:32:33,927 INFO o.a.j.r.Summariser: summary =    286 in 00:52:52 =    0.1/s Avg: 34975 Min:  7005 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:32:33,927 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-286
+2026-10-09 13:32:33,927 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-286
+2026-10-09 13:32:38,754 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-289
+2026-10-09 13:32:39,456 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-290
+2026-10-09 13:32:43,756 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-287
+2026-10-09 13:32:43,756 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-287
+2026-10-09 13:32:45,002 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-291
+2026-10-09 13:32:52,872 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-288
+2026-10-09 13:32:52,872 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-288
+2026-10-09 13:33:05,569 INFO o.a.j.r.Summariser: summary +      3 in 00:00:32 =    0.1/s Avg: 22766 Min: 18966 Max: 26814 Err:     0 (0.00%) Active: 3 Started: 291 Finished: 288
+2026-10-09 13:33:05,569 INFO o.a.j.r.Summariser: summary =    289 in 00:53:23 =    0.1/s Avg: 34848 Min:  7005 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:33:05,570 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-289
+2026-10-09 13:33:05,570 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-289
+2026-10-09 13:33:15,399 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-290
+2026-10-09 13:33:15,399 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-290
+2026-10-09 13:33:24,916 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-292
+2026-10-09 13:33:26,589 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-291
+2026-10-09 13:33:26,589 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-291
+2026-10-09 13:33:29,692 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-293
+2026-10-09 13:33:37,349 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-292
+2026-10-09 13:33:37,349 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-292
+2026-10-09 13:33:48,413 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-293
+2026-10-09 13:33:48,413 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-293
+2026-10-09 13:33:52,993 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-294
+2026-10-09 13:33:58,822 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-295
+2026-10-09 13:34:01,686 INFO o.a.j.r.Summariser: summary +      5 in 00:00:56 =    0.1/s Avg: 23474 Min:  8693 Max: 41586 Err:     0 (0.00%) Active: 2 Started: 295 Finished: 293
+2026-10-09 13:34:01,687 INFO o.a.j.r.Summariser: summary =    294 in 00:54:20 =    0.1/s Avg: 34655 Min:  7005 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:34:01,687 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-294
+2026-10-09 13:34:01,687 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-294
+2026-10-09 13:34:04,056 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-296
+2026-10-09 13:34:10,594 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-295
+2026-10-09 13:34:10,595 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-295
+2026-10-09 13:34:12,103 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-297
+2026-10-09 13:34:13,830 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-298
+2026-10-09 13:34:21,606 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-296
+2026-10-09 13:34:21,606 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-296
+2026-10-09 13:34:27,959 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-299
+2026-10-09 13:34:28,720 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-297
+2026-10-09 13:34:28,720 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-297
+2026-10-09 13:34:35,821 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-300
+2026-10-09 13:34:41,518 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-298
+2026-10-09 13:34:41,518 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-298
+2026-10-09 13:34:49,347 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-301
+2026-10-09 13:34:50,121 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-299
+2026-10-09 13:34:50,122 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-299
+2026-10-09 13:34:51,712 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-302
+2026-10-09 13:34:52,117 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-303
+2026-10-09 13:34:58,205 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-304
+2026-10-09 13:35:03,023 INFO o.a.j.r.Summariser: summary +      6 in 00:01:01 =    0.1/s Avg: 20497 Min: 11772 Max: 27686 Err:     0 (0.00%) Active: 5 Started: 304 Finished: 299
+2026-10-09 13:35:03,024 INFO o.a.j.r.Summariser: summary =    300 in 00:55:21 =    0.1/s Avg: 34372 Min:  7005 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:35:03,024 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-300
+2026-10-09 13:35:03,024 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-300
+2026-10-09 13:35:17,385 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-301
+2026-10-09 13:35:17,385 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-301
+2026-10-09 13:35:21,951 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-305
+2026-10-09 13:35:27,110 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-306
+2026-10-09 13:35:32,115 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-307
+2026-10-09 13:35:33,693 INFO o.a.j.r.Summariser: summary +      2 in 00:00:31 =    0.1/s Avg: 35009 Min: 28037 Max: 41981 Err:     0 (0.00%) Active: 6 Started: 307 Finished: 301
+2026-10-09 13:35:33,693 INFO o.a.j.r.Summariser: summary =    302 in 00:55:52 =    0.1/s Avg: 34376 Min:  7005 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:35:33,693 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-302
+2026-10-09 13:35:33,693 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-302
+2026-10-09 13:35:33,912 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-308
+2026-10-09 13:35:45,224 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-309
+2026-10-09 13:35:48,052 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-303
+2026-10-09 13:35:48,052 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-303
+2026-10-09 13:35:49,241 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-310
+2026-10-09 13:35:59,939 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-304
+2026-10-09 13:35:59,939 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-304
+2026-10-09 13:36:07,541 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-305
+2026-10-09 13:36:07,542 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-305
+2026-10-09 13:36:16,007 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-306
+2026-10-09 13:36:16,007 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-306
+2026-10-09 13:36:25,202 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-307
+2026-10-09 13:36:25,202 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-307
+2026-10-09 13:36:28,041 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-311
+2026-10-09 13:36:29,497 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-312
+2026-10-09 13:36:37,163 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-308
+2026-10-09 13:36:37,163 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-308
+2026-10-09 13:36:38,072 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-313
+2026-10-09 13:36:39,705 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-314
+2026-10-09 13:36:41,391 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-315
+2026-10-09 13:36:45,252 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-316
+2026-10-09 13:36:45,376 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-309
+2026-10-09 13:36:45,376 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-309
+2026-10-09 13:36:49,319 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-317
+2026-10-09 13:36:52,520 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-310
+2026-10-09 13:36:52,520 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-310
+2026-10-09 13:37:04,674 INFO o.a.j.r.Summariser: summary +      9 in 00:01:31 =    0.1/s Avg: 54283 Min: 36632 Max: 63279 Err:     0 (0.00%) Active: 7 Started: 317 Finished: 310
+2026-10-09 13:37:04,674 INFO o.a.j.r.Summariser: summary =    311 in 00:57:23 =    0.1/s Avg: 34952 Min:  7005 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:37:04,675 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-311
+2026-10-09 13:37:04,675 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-311
+2026-10-09 13:37:07,227 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-318
+2026-10-09 13:37:12,187 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-319
+2026-10-09 13:37:13,181 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-312
+2026-10-09 13:37:13,181 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-312
+2026-10-09 13:37:24,316 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-320
+2026-10-09 13:37:24,470 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-321
+2026-10-09 13:37:24,914 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-313
+2026-10-09 13:37:24,914 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-313
+2026-10-09 13:37:25,215 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-322
+2026-10-09 13:37:32,588 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-323
+2026-10-09 13:37:35,177 INFO o.a.j.r.Summariser: summary +      3 in 00:00:31 =    0.1/s Avg: 48665 Min: 43683 Max: 55471 Err:     0 (0.00%) Active: 10 Started: 323 Finished: 313
+2026-10-09 13:37:35,177 INFO o.a.j.r.Summariser: summary =    314 in 00:57:53 =    0.1/s Avg: 35083 Min:  7005 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:37:35,177 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-314
+2026-10-09 13:37:35,177 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-314
+2026-10-09 13:37:43,663 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-324
+2026-10-09 13:37:44,407 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-315
+2026-10-09 13:37:44,407 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-315
+2026-10-09 13:37:54,330 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-325
+2026-10-09 13:37:57,005 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-316
+2026-10-09 13:37:57,005 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-316
+2026-10-09 13:37:58,505 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-326
+2026-10-09 13:37:59,236 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-327
+2026-10-09 13:38:05,703 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-328
+2026-10-09 13:38:10,140 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-317
+2026-10-09 13:38:10,140 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-317
+2026-10-09 13:38:11,585 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-329
+2026-10-09 13:38:12,708 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-330
+2026-10-09 13:38:16,707 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-331
+2026-10-09 13:38:17,483 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-318
+2026-10-09 13:38:17,483 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-318
+2026-10-09 13:38:31,514 INFO o.a.j.r.Summariser: summary +      5 in 00:00:56 =    0.1/s Avg: 73034 Min: 63015 Max: 80820 Err:     0 (0.00%) Active: 13 Started: 331 Finished: 318
+2026-10-09 13:38:31,514 INFO o.a.j.r.Summariser: summary =    319 in 00:58:49 =    0.1/s Avg: 35678 Min:  7005 Max: 97056 Err:     0 (0.00%)
+2026-10-09 13:38:31,514 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-319
+2026-10-09 13:38:31,514 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-319
+2026-10-09 13:38:31,714 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-332
+2026-10-09 13:38:40,523 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-320
+2026-10-09 13:38:40,523 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-320
+2026-10-09 13:38:42,020 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-333
+2026-10-09 13:38:53,015 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-321
+2026-10-09 13:38:53,015 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-321
+2026-10-09 13:39:03,052 INFO o.a.j.r.Summariser: summary +      3 in 00:00:32 =    0.1/s Avg: 87530 Min: 76208 Max: 97838 Err:     0 (0.00%) Active: 12 Started: 333 Finished: 321
+2026-10-09 13:39:03,052 INFO o.a.j.r.Summariser: summary =    322 in 00:59:21 =    0.1/s Avg: 36161 Min:  7005 Max: 97838 Err:     0 (0.00%)
+2026-10-09 13:39:03,053 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-322
+2026-10-09 13:39:03,053 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-322
+2026-10-09 13:39:06,459 INFO o.a.j.t.o.OpenModelThreadGroup: There will be no more events, so will wait for 35 sec till the end of the schedule
+2026-10-09 13:39:06,459 INFO o.a.j.t.JMeterThread: Thread started: Ticket intake 1-334
+2026-10-09 13:39:10,218 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-323
+2026-10-09 13:39:10,219 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-323
+2026-10-09 13:39:20,579 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-324
+2026-10-09 13:39:20,579 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-324
+2026-10-09 13:39:33,157 INFO o.a.j.r.Summariser: summary +      3 in 00:00:30 =    0.1/s Avg: 97791 Min: 96915 Max: 98827 Err:     0 (0.00%) Active: 10 Started: 334 Finished: 324
+2026-10-09 13:39:33,157 INFO o.a.j.r.Summariser: summary =    325 in 00:59:51 =    0.1/s Avg: 36730 Min:  7005 Max: 98827 Err:     0 (0.00%)
+2026-10-09 13:39:33,157 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-325
+2026-10-09 13:39:33,157 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-325
+2026-10-09 13:39:42,090 INFO o.a.j.t.o.OpenModelThreadGroup: Test schedule finished, however, there are 9 thread(s) still running. Will interrupt the threads. If you want to keep some time for the threads to complete, consider adding pause(10 min) at the end of the schedule.
+2026-10-09 13:39:42,091 INFO o.a.j.t.o.OpenModelThreadGroup: Terminating thread org.apache.jmeter.threads.JMeterThread@2fd17f97
+2026-10-09 13:39:42,091 INFO o.a.j.t.JMeterThread: Stopping: Ticket intake 1-330
+2026-10-09 13:39:42,091 WARN o.a.j.t.JMeterThread: Interrupting: Ticket intake 1-330 sampler: POST /tickets
+2026-10-09 13:39:42,092 INFO o.a.j.t.o.OpenModelThreadGroup: Terminating thread org.apache.jmeter.threads.JMeterThread@4a586031
+2026-10-09 13:39:42,092 INFO o.a.j.t.JMeterThread: Stopping: Ticket intake 1-327
+2026-10-09 13:39:42,092 WARN o.a.j.t.JMeterThread: Interrupting: Ticket intake 1-327 sampler: POST /tickets
+2026-10-09 13:39:42,092 INFO o.a.j.t.o.OpenModelThreadGroup: Terminating thread org.apache.jmeter.threads.JMeterThread@107d0456
+2026-10-09 13:39:42,092 INFO o.a.j.t.JMeterThread: Stopping: Ticket intake 1-331
+2026-10-09 13:39:42,092 WARN o.a.j.t.JMeterThread: Interrupting: Ticket intake 1-331 sampler: POST /tickets
+2026-10-09 13:39:42,092 INFO o.a.j.t.o.OpenModelThreadGroup: Terminating thread org.apache.jmeter.threads.JMeterThread@733e7230
+2026-10-09 13:39:42,092 INFO o.a.j.t.JMeterThread: Stopping: Ticket intake 1-328
+2026-10-09 13:39:42,092 WARN o.a.j.t.JMeterThread: Interrupting: Ticket intake 1-328 sampler: POST /tickets
+2026-10-09 13:39:42,092 INFO o.a.j.t.o.OpenModelThreadGroup: Terminating thread org.apache.jmeter.threads.JMeterThread@5029533
+2026-10-09 13:39:42,092 INFO o.a.j.t.JMeterThread: Stopping: Ticket intake 1-333
+2026-10-09 13:39:42,092 WARN o.a.j.t.JMeterThread: Interrupting: Ticket intake 1-333 sampler: POST /tickets
+2026-10-09 13:39:42,093 INFO o.a.j.t.o.OpenModelThreadGroup: Terminating thread org.apache.jmeter.threads.JMeterThread@396a6b1c
+2026-10-09 13:39:42,093 INFO o.a.j.t.JMeterThread: Stopping: Ticket intake 1-334
+2026-10-09 13:39:42,093 WARN o.a.j.t.JMeterThread: Interrupting: Ticket intake 1-334 sampler: POST /tickets
+2026-10-09 13:39:42,093 INFO o.a.j.t.o.OpenModelThreadGroup: Terminating thread org.apache.jmeter.threads.JMeterThread@69869b51
+2026-10-09 13:39:42,093 INFO o.a.j.t.JMeterThread: Stopping: Ticket intake 1-326
+2026-10-09 13:39:42,093 WARN o.a.j.t.JMeterThread: Interrupting: Ticket intake 1-326 sampler: POST /tickets
+2026-10-09 13:39:42,093 INFO o.a.j.t.o.OpenModelThreadGroup: Terminating thread org.apache.jmeter.threads.JMeterThread@5225841e
+2026-10-09 13:39:42,093 INFO o.a.j.t.JMeterThread: Stopping: Ticket intake 1-329
+2026-10-09 13:39:42,093 WARN o.a.j.t.JMeterThread: Interrupting: Ticket intake 1-329 sampler: POST /tickets
+2026-10-09 13:39:42,093 INFO o.a.j.t.o.OpenModelThreadGroup: Terminating thread org.apache.jmeter.threads.JMeterThread@47e0cc5d
+2026-10-09 13:39:42,093 INFO o.a.j.t.JMeterThread: Stopping: Ticket intake 1-332
+2026-10-09 13:39:42,093 WARN o.a.j.t.JMeterThread: Interrupting: Ticket intake 1-332 sampler: POST /tickets
+2026-10-09 13:39:42,093 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-333
+2026-10-09 13:39:42,093 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-333
+2026-10-09 13:39:42,093 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-330
+2026-10-09 13:39:42,093 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-330
+2026-10-09 13:39:42,093 INFO o.a.j.t.o.OpenModelThreadGroup: Thread starting done
+2026-10-09 13:39:42,093 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-327
+2026-10-09 13:39:42,093 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-327
+2026-10-09 13:39:42,093 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-334
+2026-10-09 13:39:42,093 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-334
+2026-10-09 13:39:42,093 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-329
+2026-10-09 13:39:42,093 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-329
+2026-10-09 13:39:42,093 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-331
+2026-10-09 13:39:42,093 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-331
+2026-10-09 13:39:42,093 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-332
+2026-10-09 13:39:42,093 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-332
+2026-10-09 13:39:42,093 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-328
+2026-10-09 13:39:42,093 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-328
+2026-10-09 13:39:42,093 INFO o.a.j.t.JMeterThread: Thread is done: Ticket intake 1-326
+2026-10-09 13:39:42,093 INFO o.a.j.t.JMeterThread: Thread finished: Ticket intake 1-326
+2026-10-09 13:39:42,094 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-10-09 13:39:42,094 INFO o.a.j.s.FileServer: Close: tickets.tsv
+2026-10-09 13:39:42,095 INFO o.a.j.r.Summariser: summary +      9 in 00:00:09 =    1.0/s Avg: 81577 Min: 35633 Max: 103589 Err:     9 (100.00%) Active: 0 Started: 334 Finished: 334
+2026-10-09 13:39:42,095 INFO o.a.j.r.Summariser: summary =    334 in 01:00:00 =    0.1/s Avg: 37938 Min:  7005 Max: 103589 Err:     9 (2.69%)

@@ -1,0 +1,13 @@
+﻿{
+    "model":  "qwen3.8:27b",
+    "ollama_api":  "chat",
+    "test":  "surge",
+    "run":  1,
+    "service_started":  "2026-10-09T08:47:14.1717340Z",
+    "sut_ready":  "2026-10-09T08:47:37.8876202Z",
+    "sut_hostname":  "DESKTOP-PGFAHG3",
+    "git_commit":  "3622143b589af7af1d07b56b7d7eec2c4e685da4",
+    "git_dirty":  false,
+    "ollama_version":  "ollama version is 0.40.1",
+    "cpu_sampler_pid":  17928
+}

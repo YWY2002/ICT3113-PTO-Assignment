@@ -1,0 +1,24 @@
+﻿{
+    "model":  "clef-flash:9b",
+    "test":  "surge",
+    "run":  3,
+    "sut_url":  "http://100.93.97.65:8000",
+    "post_schedule":  "rate(334/hour) random_arrivals(60 min) rate(334/hour)",
+    "search_schedule":  "rate(0/hour) random_arrivals(1 min)",
+    "test_started":  "2026-10-09T04:39:41.2861718Z",
+    "test_ended":  "2026-10-09T05:40:42.4147857Z",
+    "jmeter_exit_code":  0,
+    "loadgen_hostname":  "LAPTOP-JVTGMMI4",
+    "loadgen_cpu":  "AMD Ryzen AI 7 350 w/ Radeon 860M",
+    "loadgen_cores":  8,
+    "loadgen_ram_gb":  31.3,
+    "network_http_rtt":  {
+                             "count":  20,
+                             "min_ms":  17,
+                             "p50_ms":  19.4,
+                             "p95_ms":  22.5,
+                             "max_ms":  29.5,
+                             "mean_ms":  20
+                         },
+    "network_icmp_rtt":  null
+}

@@ -1,0 +1,24 @@
+﻿{
+    "model":  "tev1:4b",
+    "test":  "stress",
+    "run":  1,
+    "sut_url":  "http://100.93.97.65:8000",
+    "post_schedule":  "rate(400/hour) random_arrivals(15 min) rate(400/hour) rate(600/hour) random_arrivals(15 min) rate(600/hour) rate(800/hour) random_arrivals(15 min) rate(800/hour) rate(1000/hour) random_arrivals(15 min) rate(1000/hour)",
+    "search_schedule":  "rate(0/hour) random_arrivals(1 min)",
+    "test_started":  "2026-10-08T22:28:32.4641236Z",
+    "test_ended":  "2026-10-08T23:29:33.6113793Z",
+    "jmeter_exit_code":  0,
+    "loadgen_hostname":  "LAPTOP-JVTGMMI4",
+    "loadgen_cpu":  "AMD Ryzen AI 7 350 w/ Radeon 860M",
+    "loadgen_cores":  8,
+    "loadgen_ram_gb":  31.3,
+    "network_http_rtt":  {
+                             "count":  20,
+                             "min_ms":  57.2,
+                             "p50_ms":  151.7,
+                             "p95_ms":  162.5,
+                             "max_ms":  248.9,
+                             "mean_ms":  143
+                         },
+    "network_icmp_rtt":  null
+}

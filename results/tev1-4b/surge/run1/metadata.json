@@ -1,0 +1,17 @@
+﻿{
+    "model":  "tev1:4b",
+    "model_digest":  "9b5bb969e46c4b776826d6f2d401e22893205693f172653af6254897255025b8",
+    "ollama_api":  "systemone",
+    "test":  "surge",
+    "run":  1,
+    "service_started":  "2026-10-08T19:22:45.4483808Z",
+    "sut_ready":  "2026-10-08T19:22:56.3825819Z",
+    "collected":  "2026-10-08T20:24:37.3756635Z",
+    "sut_hostname":  "DESKTOP-PGFAHG3",
+    "git_commit":  "3622143b589af7af1d07b56b7d7eec2c4e685da4",
+    "git_dirty":  false,
+    "ollama_version":  "ollama version is 0.40.1",
+    "service_log":  "20261008T192248Z_tev1-4b.jsonl",
+    "service_log_requests":  357,
+    "jtl_samples":  334
+}

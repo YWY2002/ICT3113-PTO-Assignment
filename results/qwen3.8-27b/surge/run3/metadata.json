@@ -1,0 +1,17 @@
+﻿{
+    "model":  "qwen3.8:27b",
+    "model_digest":  "aaee06c39dcf2437cde036998d960e1fc1494b8191be7cc9657d01e509097813",
+    "ollama_api":  "chat",
+    "test":  "surge",
+    "run":  3,
+    "service_started":  "2026-10-09T10:51:41.0514306Z",
+    "sut_ready":  "2026-10-09T10:52:04.6223187Z",
+    "collected":  "2026-10-09T11:53:46.4208459Z",
+    "sut_hostname":  "DESKTOP-PGFAHG3",
+    "git_commit":  "3622143b589af7af1d07b56b7d7eec2c4e685da4",
+    "git_dirty":  false,
+    "ollama_version":  "ollama version is 0.40.1",
+    "service_log":  "20261009T105143Z_qwen3.8-27b.jsonl",
+    "service_log_requests":  235,
+    "jtl_samples":  334
+}

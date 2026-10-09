@@ -1,0 +1,17 @@
+﻿{
+    "model":  "clef-flash:9b",
+    "model_digest":  "9f4115499b98bc31edb0337148ffa7fdf001b776f4f4795c9a22708c3396137a",
+    "ollama_api":  "systemone",
+    "test":  "mixed",
+    "run":  1,
+    "service_started":  "2026-10-08T23:29:48.9588815Z",
+    "sut_ready":  "2026-10-08T23:30:10.4010437Z",
+    "collected":  "2026-10-09T00:31:51.7167991Z",
+    "sut_hostname":  "DESKTOP-PGFAHG3",
+    "git_commit":  "3622143b589af7af1d07b56b7d7eec2c4e685da4",
+    "git_dirty":  false,
+    "ollama_version":  "ollama version is 0.40.1",
+    "service_log":  "20261008T232950Z_clef-flash-9b.jsonl",
+    "service_log_requests":  1021,
+    "jtl_samples":  998
+}

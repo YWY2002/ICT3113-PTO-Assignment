@@ -1,0 +1,999 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect,"req_id","row","term"
+1791505947008,151,GET /search,200,OK,Agent search 2-1,text,true,,416,223,1,2,http://100.93.97.65:8000/search?q=overdraft,151,0,69,s-9393707b-07ee-4bfc-95b5-497538802bb3,,overdraft
+1791505947961,115,GET /search,200,OK,Agent search 2-2,text,true,,222,222,1,2,http://100.93.97.65:8000/search?q=late+fee,115,0,52,s-11c212cc-4f3b-4b47-a15c-bc03552c6807,,late fee
+1791505949706,144,GET /search,200,OK,Agent search 2-3,text,true,,221,221,1,2,http://100.93.97.65:8000/search?q=dispute,144,0,78,s-27971914-a69b-477e-a2c4-1a930afe80b4,,dispute
+1791505953211,117,GET /search,200,OK,Agent search 2-4,text,true,,225,225,1,2,http://100.93.97.65:8000/search?q=foreclosure,117,0,77,s-62c447fe-c011-4f07-81c8-7d473f06db74,,foreclosure
+1791505957584,114,GET /search,200,OK,Agent search 2-5,text,true,,220,220,1,2,http://100.93.97.65:8000/search?q=escrow,114,0,74,s-fc229590-bdb6-4d50-be52-f2b091530d46,,escrow
+1791505946609,13302,POST /tickets,200,OK,Ticket intake 1-1,text,true,,217,2118,1,1,http://100.93.97.65:8000/tickets,13302,0,79,t-3979c7ac-ac1f-4170-9989-12940c702a66,5000,
+1791505960882,114,GET /search,200,OK,Agent search 2-6,text,true,,223,223,1,1,http://100.93.97.65:8000/search?q=collector,114,0,73,s-91574086-f22a-4c44-a639-58d6a2d286ba,,collector
+1791505968011,113,GET /search,200,OK,Agent search 2-7,text,true,,2197,228,1,1,http://100.93.97.65:8000/search?q=identity+theft,113,0,74,s-165735a6-6fb7-4fce-a5a1-2a187b827e98,,identity theft
+1791505977756,86,GET /search,200,OK,Agent search 2-8,text,true,,2196,227,1,1,http://100.93.97.65:8000/search?q=credit+report,85,0,39,s-8e51e342-3ce2-424b-894a-013c7874b60a,,credit report
+1791505980011,153,GET /search,200,OK,Agent search 2-9,text,true,,227,227,1,1,http://100.93.97.65:8000/search?q=wire+transfer,153,0,47,s-23b70d01-ecf9-4b49-94e7-51c06b9aa700,,wire transfer
+1791505985933,148,GET /search,200,OK,Agent search 2-10,text,true,,219,219,1,1,http://100.93.97.65:8000/search?q=Zelle,147,0,90,s-14ffbbe6-33a8-4d16-8738-ea22195ad590,,Zelle
+1791505989260,127,GET /search,200,OK,Agent search 2-11,text,true,,220,220,1,1,http://100.93.97.65:8000/search?q=refund,127,0,62,s-99490a0d-9d4f-4128-bcf6-93060d7a44af,,refund
+1791505990091,207,GET /search,200,OK,Agent search 2-12,text,true,,227,227,1,1,http://100.93.97.65:8000/search?q=interest+rate,207,0,78,s-baa7f789-b2fa-40aa-9677-3d0d7ad77de7,,interest rate
+1791505994280,121,GET /search,200,OK,Agent search 2-13,text,true,,231,231,1,2,http://100.93.97.65:8000/search?q=closed+my+account,121,0,68,s-5c1e9f2c-2365-4e6c-9d2b-4a320dab78a6,,closed my account
+1791505991997,9539,POST /tickets,200,OK,Ticket intake 1-2,text,true,,226,971,1,1,http://100.93.97.65:8000/tickets,9539,0,53,t-ccccfef3-730c-4ef8-8b98-e5e4e133dfa3,5001,
+1791506006572,122,GET /search,200,OK,Agent search 2-14,text,true,,219,219,1,1,http://100.93.97.65:8000/search?q=fraud,122,0,79,s-b8fa629f-f57e-46b5-8f1d-2fdb80445005,,fraud
+1791506008111,133,GET /search,200,OK,Agent search 2-15,text,true,,231,231,1,1,http://100.93.97.65:8000/search?q=loan+modification,133,0,76,s-9756ecb2-f053-4cc7-92b3-4a080a87285c,,loan modification
+1791506009012,83,GET /search,200,OK,Agent search 2-16,text,true,,224,224,1,1,http://100.93.97.65:8000/search?q=charge+off,83,0,40,s-777b8964-01c8-465b-ac0e-063bd671588a,,charge off
+1791506010316,83,GET /search,200,OK,Agent search 2-17,text,true,,229,229,1,1,http://100.93.97.65:8000/search?q=minimum+payment,83,0,36,s-2a91410c-d31b-48ab-b981-93713bcf761a,,minimum payment
+1791506012276,95,GET /search,200,OK,Agent search 2-18,text,true,,221,221,1,1,http://100.93.97.65:8000/search?q=inquiry,95,0,45,s-d5daec26-8526-490e-859f-29635c39ad50,,inquiry
+1791506012579,160,GET /search,200,OK,Agent search 2-19,text,true,,224,224,1,1,http://100.93.97.65:8000/search?q=debit+card,160,0,77,s-087f7e12-0655-47fc-97df-d50c30e97600,,debit card
+1791506015602,138,GET /search,200,OK,Agent search 2-20,text,true,,220,220,1,1,http://100.93.97.65:8000/search?q=PayPal,138,0,93,s-66989def-e8b2-4610-856c-96ae46a63e3b,,PayPal
+1791506016328,130,GET /search,200,OK,Agent search 2-21,text,true,,221,221,1,1,http://100.93.97.65:8000/search?q=Equifax,130,0,74,s-a708c0dc-ba90-4fcf-b52a-f3d56097ffa6,,Equifax
+1791506021720,89,GET /search,200,OK,Agent search 2-22,text,true,,222,222,1,1,http://100.93.97.65:8000/search?q=Experian,89,0,44,s-e3e311a7-7370-4887-9536-3a8e55a96ecf,,Experian
+1791506024995,134,GET /search,200,OK,Agent search 2-23,text,true,,224,224,1,1,http://100.93.97.65:8000/search?q=TransUnion,134,0,50,s-9031752d-2a2c-4e31-a2f9-fcb1f00468df,,TransUnion
+1791506027377,117,GET /search,200,OK,Agent search 2-24,text,true,,230,230,1,1,http://100.93.97.65:8000/search?q=mortgage+payment,117,0,73,s-fb77630f-5010-46f0-b19f-5e2b30ba336d,,mortgage payment
+1791506029005,110,GET /search,200,OK,Agent search 2-25,text,true,,226,226,1,1,http://100.93.97.65:8000/search?q=student+loan,110,0,58,s-9e994783-9f0c-4209-b55d-900cccf5d3f3,,student loan
+1791506029654,117,GET /search,200,OK,Agent search 2-26,text,true,,222,222,1,1,http://100.93.97.65:8000/search?q=car+loan,117,0,28,s-c7b584ad-a9e2-49dc-a869-74015ea302a2,,car loan
+1791506034485,119,GET /search,200,OK,Agent search 2-27,text,true,,226,226,1,1,http://100.93.97.65:8000/search?q=credit+limit,119,0,55,s-81e78241-636a-44f5-aec7-d68e38fa4974,,credit limit
+1791506038302,76,GET /search,200,OK,Agent search 2-28,text,true,,226,226,1,1,http://100.93.97.65:8000/search?q=unauthorized,76,0,34,s-8e334bea-0917-434a-b09d-337421948c89,,unauthorized
+1791506044702,242,GET /search,200,OK,Agent search 2-29,text,true,,224,224,2,2,http://100.93.97.65:8000/search?q=harassment,242,0,111,s-e8c193c2-56fc-461f-b42e-ade396625034,,harassment
+1791506044730,214,GET /search,200,OK,Agent search 2-30,text,true,,224,224,2,2,http://100.93.97.65:8000/search?q=bankruptcy,214,0,83,s-e2a96530-944e-4dec-ad44-ca59d2eb4a5f,,bankruptcy
+1791506048162,263,GET /search,200,OK,Agent search 2-31,text,true,,416,223,1,1,http://100.93.97.65:8000/search?q=overdraft,263,0,161,s-37af7488-3a57-445d-a2bf-9e03b06473ff,,overdraft
+1791506050119,355,GET /search,200,OK,Agent search 2-32,text,true,,222,222,1,1,http://100.93.97.65:8000/search?q=late+fee,355,0,156,s-a1214d6a-b208-4dcf-8b3c-09d18db0c4ba,,late fee
+1791506052367,154,GET /search,200,OK,Agent search 2-33,text,true,,221,221,1,1,http://100.93.97.65:8000/search?q=dispute,154,0,35,s-44b7c549-9506-4441-af35-4502ec0c5327,,dispute
+1791506059541,251,GET /search,200,OK,Agent search 2-34,text,true,,225,225,1,1,http://100.93.97.65:8000/search?q=foreclosure,251,0,148,s-1f90bdf0-f664-4408-96ce-4f326b596632,,foreclosure
+1791506059949,254,GET /search,200,OK,Agent search 2-35,text,true,,220,220,1,1,http://100.93.97.65:8000/search?q=escrow,254,0,151,s-85582b8e-0dda-4df1-b833-457aaccf350f,,escrow
+1791506065965,278,GET /search,200,OK,Agent search 2-36,text,true,,223,223,1,1,http://100.93.97.65:8000/search?q=collector,278,0,184,s-3e4a1a75-04ff-41ce-929a-a1cc6a2666a6,,collector
+1791506070258,184,GET /search,200,OK,Agent search 2-37,text,true,,2197,228,1,1,http://100.93.97.65:8000/search?q=identity+theft,184,0,45,s-d483753d-5ead-46f0-b0bc-bc82bce6fca5,,identity theft
+1791506074980,279,GET /search,200,OK,Agent search 2-38,text,true,,2196,227,2,3,http://100.93.97.65:8000/search?q=credit+report,279,0,181,s-11a0f2f1-8338-4c1f-ba38-1bf337602e52,,credit report
+1791506075144,213,GET /search,200,OK,Agent search 2-39,text,true,,227,227,1,2,http://100.93.97.65:8000/search?q=wire+transfer,212,0,111,s-74799246-3741-4fd5-8490-93fa11bbad46,,wire transfer
+1791506071780,11870,POST /tickets,200,OK,Ticket intake 1-3,text,true,,217,1598,2,2,http://100.93.97.65:8000/tickets,11870,0,100,t-748c10fe-382d-4278-bd13-9e8eaae75e91,5002,
+1791506085765,242,GET /search,200,OK,Agent search 2-40,text,true,,219,219,1,2,http://100.93.97.65:8000/search?q=Zelle,242,0,137,s-fabd2be9-96fc-47a3-9a4f-36030993d598,,Zelle
+1791506089340,251,GET /search,200,OK,Agent search 2-41,text,true,,220,220,1,2,http://100.93.97.65:8000/search?q=refund,250,0,149,s-0d7090c4-1adc-4aea-905b-1ed71274b02b,,refund
+1791506091030,199,GET /search,200,OK,Agent search 2-42,text,true,,227,227,1,2,http://100.93.97.65:8000/search?q=interest+rate,199,0,97,s-93164d74-54d8-4351-9e07-64ef7146c9fc,,interest rate
+1791506094825,200,GET /search,200,OK,Agent search 2-43,text,true,,231,231,1,2,http://100.93.97.65:8000/search?q=closed+my+account,200,0,54,s-67c9d9ab-9d8d-493d-8329-65886800ae63,,closed my account
+1791506082005,13626,POST /tickets,200,OK,Ticket intake 1-4,text,true,,224,1494,1,2,http://100.93.97.65:8000/tickets,13626,0,75,t-3166a12e-f669-43bd-b28e-745b4e66f35e,5003,
+1791506095339,292,GET /search,200,OK,Agent search 2-44,text,true,,219,219,1,2,http://100.93.97.65:8000/search?q=fraud,292,0,89,s-2e68a004-6a23-4a14-889d-d2ecef6a7107,,fraud
+1791506096695,268,GET /search,200,OK,Agent search 2-45,text,true,,231,231,1,1,http://100.93.97.65:8000/search?q=loan+modification,268,0,165,s-10339a41-5d1b-4f76-a0b3-c2fe5426b760,,loan modification
+1791506112312,112,GET /search,200,OK,Agent search 2-46,text,true,,224,224,2,3,http://100.93.97.65:8000/search?q=charge+off,112,0,37,s-367f6f0b-3e7e-4ec6-9de6-bdf393cb63ee,,charge off
+1791506112357,169,GET /search,200,OK,Agent search 2-47,text,true,,229,229,2,3,http://100.93.97.65:8000/search?q=minimum+payment,169,0,67,s-8a3135a8-98d1-4b82-846f-b629190effdd,,minimum payment
+1791506112426,140,GET /search,200,OK,Agent search 2-48,text,true,,221,221,1,2,http://100.93.97.65:8000/search?q=inquiry,140,0,99,s-5fa15744-4e13-4797-9e0f-ba2e91f09e35,,inquiry
+1791506120803,95,GET /search,200,OK,Agent search 2-49,text,true,,224,224,1,2,http://100.93.97.65:8000/search?q=debit+card,95,0,59,s-0148183f-5ed1-487d-bb86-0b3326bdb1f9,,debit card
+1791506110062,12482,POST /tickets,200,OK,Ticket intake 1-5,text,true,,212,1615,1,1,http://100.93.97.65:8000/tickets,12482,0,73,t-74852148-8576-40db-8f5b-83f33be8ea06,5004,
+1791506124491,164,GET /search,200,OK,Agent search 2-50,text,true,,220,220,1,1,http://100.93.97.65:8000/search?q=PayPal,164,0,85,s-dc4b54d9-4f20-4d97-9eb7-310997a17594,,PayPal
+1791506125629,105,GET /search,200,OK,Agent search 2-51,text,true,,1670,221,1,1,http://100.93.97.65:8000/search?q=Equifax,105,0,64,s-9199822c-5818-4d6f-ac7b-7daf2d3f80e5,,Equifax
+1791506126230,110,GET /search,200,OK,Agent search 2-52,text,true,,1671,222,1,1,http://100.93.97.65:8000/search?q=Experian,110,0,65,s-f80ba5fe-f1ec-4ca2-9e00-4ddad0f914e1,,Experian
+1791506127806,97,GET /search,200,OK,Agent search 2-53,text,true,,1673,224,1,1,http://100.93.97.65:8000/search?q=TransUnion,97,0,60,s-8f3ff7c2-0872-4288-a5d0-0698aa7dbee9,,TransUnion
+1791506135553,147,GET /search,200,OK,Agent search 2-54,text,true,,230,230,1,1,http://100.93.97.65:8000/search?q=mortgage+payment,147,0,101,s-dcd3f280-b9e0-4249-a6ef-78c10c8a8fd7,,mortgage payment
+1791506139831,125,GET /search,200,OK,Agent search 2-55,text,true,,226,226,1,1,http://100.93.97.65:8000/search?q=student+loan,125,0,72,s-3858350d-f12f-480d-902f-f10cac46d0a9,,student loan
+1791506145362,125,GET /search,200,OK,Agent search 2-56,text,true,,222,222,1,1,http://100.93.97.65:8000/search?q=car+loan,125,0,68,s-ac27b490-a761-43b9-bdfe-de327c8afa1d,,car loan
+1791506150324,141,GET /search,200,OK,Agent search 2-57,text,true,,226,226,1,1,http://100.93.97.65:8000/search?q=credit+limit,141,0,64,s-6298e1aa-10f3-4de7-8c92-ff04b75507c5,,credit limit
+1791506154028,75,GET /search,200,OK,Agent search 2-58,text,true,,226,226,1,1,http://100.93.97.65:8000/search?q=unauthorized,75,0,40,s-0b903b73-2ad6-4f47-b122-1cba25bc376c,,unauthorized
+1791506155122,143,GET /search,200,OK,Agent search 2-59,text,true,,224,224,1,1,http://100.93.97.65:8000/search?q=harassment,143,0,66,s-0e7f4ff8-2f7d-4811-866d-4af9ce10b62b,,harassment
+1791506157349,176,GET /search,200,OK,Agent search 2-60,text,true,,224,224,1,1,http://100.93.97.65:8000/search?q=bankruptcy,176,0,132,s-36210e14-9fa9-43be-8457-64b5170b05f6,,bankruptcy
+1791506160203,82,GET /search,200,OK,Agent search 2-61,text,true,,416,223,1,1,http://100.93.97.65:8000/search?q=overdraft,82,0,41,s-4835cada-6be0-4f3d-9807-ef8ac5ff89f9,,overdraft
+1791506161258,126,GET /search,200,OK,Agent search 2-62,text,true,,222,222,1,1,http://100.93.97.65:8000/search?q=late+fee,126,0,70,s-84710c6c-3796-4804-a879-f7936f6bfdfa,,late fee
+1791506168010,117,GET /search,200,OK,Agent search 2-63,text,true,,1670,221,1,2,http://100.93.97.65:8000/search?q=dispute,117,0,61,s-6e707ebd-171b-4bff-a822-db357d26650a,,dispute
+1791506164695,7315,POST /tickets,200,OK,Ticket intake 1-6,text,true,,217,577,1,1,http://100.93.97.65:8000/tickets,7315,0,73,t-4cda8570-e65c-4929-9ffd-89805dbf8628,5005,
+1791506172129,120,GET /search,200,OK,Agent search 2-64,text,true,,225,225,1,1,http://100.93.97.65:8000/search?q=foreclosure,119,0,63,s-92db44aa-2a0c-4c35-9aa9-9dd52a9b94d7,,foreclosure
+1791506175149,108,GET /search,200,OK,Agent search 2-65,text,true,,220,220,1,1,http://100.93.97.65:8000/search?q=escrow,108,0,54,s-d229be24-5561-46d6-83b5-a5953436ad50,,escrow
+1791506175264,80,GET /search,200,OK,Agent search 2-66,text,true,,223,223,1,1,http://100.93.97.65:8000/search?q=collector,80,0,30,s-c2ee71b8-35a9-40d8-8c9d-2a0e9bb2d759,,collector
+1791506185344,127,GET /search,200,OK,Agent search 2-67,text,true,,2197,228,1,1,http://100.93.97.65:8000/search?q=identity+theft,121,0,78,s-93a834e2-14ad-489c-834e-a278e29a5a14,,identity theft
+1791506187505,148,GET /search,200,OK,Agent search 2-68,text,true,,4072,227,1,1,http://100.93.97.65:8000/search?q=credit+report,148,0,59,s-7a9aa026-15c4-4a88-93c0-fbdb7fb02830,,credit report
+1791506195924,159,GET /search,200,OK,Agent search 2-69,text,true,,227,227,1,1,http://100.93.97.65:8000/search?q=wire+transfer,159,0,85,s-4794ac18-30ad-48f7-a136-87ff7dbd355d,,wire transfer
+1791506202621,151,GET /search,200,OK,Agent search 2-70,text,true,,219,219,1,1,http://100.93.97.65:8000/search?q=Zelle,151,0,60,s-dcd33d5c-2279-4f31-94c3-3ba8ae257896,,Zelle
+1791506215216,96,GET /search,200,OK,Agent search 2-71,text,true,,1681,220,1,1,http://100.93.97.65:8000/search?q=refund,96,0,62,s-7b853e8f-3e91-422f-b021-8a79ae866f48,,refund
+1791506221223,157,GET /search,200,OK,Agent search 2-72,text,true,,227,227,1,3,http://100.93.97.65:8000/search?q=interest+rate,157,0,110,s-151e6935-351f-40b6-af45-a0aeecef1f5a,,interest rate
+1791506215959,10506,POST /tickets,200,OK,Ticket intake 1-7,text,true,,217,1290,2,2,http://100.93.97.65:8000/tickets,10505,0,53,t-fd22cb57-1b51-4909-88a5-f3ae2952c13d,5006,
+1791506229039,67,GET /search,200,OK,Agent search 2-73,text,true,,231,231,1,2,http://100.93.97.65:8000/search?q=closed+my+account,67,0,26,s-11457054-5e0f-424c-bda9-0f3e4180973c,,closed my account
+1791506220518,13632,POST /tickets,200,OK,Ticket intake 1-8,text,true,,217,628,1,1,http://100.93.97.65:8000/tickets,13632,0,44,t-0c303468-4e7a-488b-aada-1af860b60561,5007,
+1791506234477,154,GET /search,200,OK,Agent search 2-74,text,true,,219,219,1,1,http://100.93.97.65:8000/search?q=fraud,154,0,92,s-bbabda24-b43c-4e94-8049-05c3228c8c1f,,fraud
+1791506236455,126,GET /search,200,OK,Agent search 2-75,text,true,,231,231,1,1,http://100.93.97.65:8000/search?q=loan+modification,126,0,71,s-3022ee66-2050-4a0f-bd13-3df239028344,,loan modification
+1791506236851,86,GET /search,200,OK,Agent search 2-76,text,true,,652,224,1,1,http://100.93.97.65:8000/search?q=charge+off,86,0,32,s-90231696-517d-4e9a-8e61-23c8136011b2,,charge off
+1791506239901,215,GET /search,200,OK,Agent search 2-77,text,true,,229,229,1,1,http://100.93.97.65:8000/search?q=minimum+payment,215,0,88,s-ad341bf2-e1ee-4e16-a898-869613745024,,minimum payment
+1791506241192,258,GET /search,200,OK,Agent search 2-78,text,true,,221,221,2,2,http://100.93.97.65:8000/search?q=inquiry,258,0,104,s-14b25711-6d46-4244-b1c2-68fc0e812e4a,,inquiry
+1791506241289,161,GET /search,200,OK,Agent search 2-79,text,true,,224,224,2,2,http://100.93.97.65:8000/search?q=debit+card,161,0,58,s-3d952305-bca0-40f7-b8aa-91037c19a888,,debit card
+1791506242540,196,GET /search,200,OK,Agent search 2-80,text,true,,220,220,1,1,http://100.93.97.65:8000/search?q=PayPal,196,0,139,s-c98d3964-60ae-40ec-b89a-074fafeedc44,,PayPal
+1791506248775,150,GET /search,200,OK,Agent search 2-81,text,true,,1670,221,1,1,http://100.93.97.65:8000/search?q=Equifax,150,0,38,s-ffebe672-ca4b-49d7-bd02-472046e4da70,,Equifax
+1791506249637,210,GET /search,200,OK,Agent search 2-82,text,true,,1671,222,1,1,http://100.93.97.65:8000/search?q=Experian,210,0,106,s-9343566a-3e12-4232-a3de-e5bc25080fba,,Experian
+1791506258918,247,GET /search,200,OK,Agent search 2-83,text,true,,1673,224,1,2,http://100.93.97.65:8000/search?q=TransUnion,247,0,154,s-04645adc-a4b0-433b-8692-24b2a92f3b2d,,TransUnion
+1791506261529,195,GET /search,200,OK,Agent search 2-84,text,true,,230,230,1,2,http://100.93.97.65:8000/search?q=mortgage+payment,195,0,76,s-a29dc93f-23c0-4ca6-8836-6b4b91170716,,mortgage payment
+1791506252455,9269,POST /tickets,200,OK,Ticket intake 1-9,text,true,,213,892,1,2,http://100.93.97.65:8000/tickets,9269,0,38,t-abb8394e-6169-4425-a725-0a0b32741e6f,5008,
+1791506262114,226,GET /search,200,OK,Agent search 2-85,text,true,,226,226,1,1,http://100.93.97.65:8000/search?q=student+loan,226,0,123,s-b5b21c5b-9fde-4fe7-aa30-a8bacf7f2cee,,student loan
+1791506263575,9419,POST /tickets,200,OK,Ticket intake 1-10,text,true,,210,1068,1,1,http://100.93.97.65:8000/tickets,9419,0,95,t-57f5cf16-7388-4094-9d67-fbebc9baabae,5009,
+1791506274640,192,GET /search,200,OK,Agent search 2-86,text,true,,222,222,1,1,http://100.93.97.65:8000/search?q=car+loan,192,0,89,s-46e5eef9-b4a6-49b6-8555-ee547a26e4e8,,car loan
+1791506275715,242,GET /search,200,OK,Agent search 2-87,text,true,,226,226,1,1,http://100.93.97.65:8000/search?q=credit+limit,242,0,140,s-86320c25-48f5-4eed-80d6-1c9c28474d1f,,credit limit
+1791506291739,194,GET /search,200,OK,Agent search 2-88,text,true,,965,226,1,2,http://100.93.97.65:8000/search?q=unauthorized,194,0,91,s-54108a2a-db77-4461-b62a-2ef0274a815a,,unauthorized
+1791506280222,13247,POST /tickets,200,OK,Ticket intake 1-11,text,true,,218,1565,1,1,http://100.93.97.65:8000/tickets,13246,0,51,t-1506451e-6fc5-4229-b10a-458033dc580d,5010,
+1791506295069,243,GET /search,200,OK,Agent search 2-89,text,true,,224,224,1,1,http://100.93.97.65:8000/search?q=harassment,243,0,84,s-6be599a2-836f-417e-8bdc-d14faff4e11f,,harassment
+1791506297014,243,GET /search,200,OK,Agent search 2-90,text,true,,1136,224,1,2,http://100.93.97.65:8000/search?q=bankruptcy,243,0,142,s-20aae0d1-b5ec-4595-8f0c-dd4cbdc4e05c,,bankruptcy
+1791506305829,133,GET /search,200,OK,Agent search 2-91,text,true,,416,223,1,2,http://100.93.97.65:8000/search?q=overdraft,133,0,33,s-b63481d0-b647-4183-a075-61231140d5ac,,overdraft
+1791506296634,11581,POST /tickets,200,OK,Ticket intake 1-12,text,true,,217,1233,2,2,http://100.93.97.65:8000/tickets,11581,0,122,t-6ab8c112-5e74-4021-ac93-283265755791,5011,
+1791506317053,274,GET /search,200,OK,Agent search 2-92,text,true,,222,222,1,3,http://100.93.97.65:8000/search?q=late+fee,274,0,149,s-c1650c9a-00f0-48b0-842a-c2f7952f8f54,,late fee
+1791506306028,13041,POST /tickets,200,OK,Ticket intake 1-13,text,true,,218,1389,2,2,http://100.93.97.65:8000/tickets,13041,0,36,t-11cefaee-2673-47f9-8b30-9646904afa64,5012,
+1791506316003,14637,POST /tickets,200,OK,Ticket intake 1-14,text,true,,218,1560,1,1,http://100.93.97.65:8000/tickets,14637,0,106,t-03fc18c5-ee63-48cb-b53a-6ea62b8d8d61,5013,
+1791506331946,83,GET /search,200,OK,Agent search 2-93,text,true,,4050,221,1,1,http://100.93.97.65:8000/search?q=dispute,80,0,35,s-f0702598-81af-4e40-b6e5-af2a9ba0db28,,dispute
+1791506334066,156,GET /search,200,OK,Agent search 2-94,text,true,,225,225,1,1,http://100.93.97.65:8000/search?q=foreclosure,156,0,54,s-63ab45c0-6c5e-4143-be7c-4c496bd14e06,,foreclosure
+1791506336931,262,GET /search,200,OK,Agent search 2-95,text,true,,220,220,1,2,http://100.93.97.65:8000/search?q=escrow,262,0,159,s-b8ef1a8b-32b5-454b-95fd-6d388784d0af,,escrow
+1791506337591,216,GET /search,200,OK,Agent search 2-96,text,true,,223,223,1,2,http://100.93.97.65:8000/search?q=collector,216,0,113,s-87e4cd59-f9bd-44fe-a984-8aec79ea4ef5,,collector
+1791506341317,189,GET /search,200,OK,Agent search 2-97,text,true,,3608,228,1,3,http://100.93.97.65:8000/search?q=identity+theft,189,0,28,s-e2b17d78-ae39-49f6-926f-a84dd3edceb1,,identity theft
+1791506334827,7998,POST /tickets,200,OK,Ticket intake 1-15,text,true,,217,640,2,2,http://100.93.97.65:8000/tickets,7998,0,112,t-2fa128b9-e276-4dfe-9310-6451dd31c4d9,5014,
+1791506347459,283,GET /search,200,OK,Agent search 2-98,text,true,,10843,227,1,2,http://100.93.97.65:8000/search?q=credit+report,282,0,77,s-ec8dc5ba-7bf2-42e8-b5cc-9050ddc19cbc,,credit report
+1791506338755,13491,POST /tickets,200,OK,Ticket intake 1-16,text,true,,213,829,1,1,http://100.93.97.65:8000/tickets,13490,0,75,t-adef0518-0d78-43c6-a9c5-246525d73750,5015,
+1791506354205,192,GET /search,200,OK,Agent search 2-99,text,true,,227,227,1,1,http://100.93.97.65:8000/search?q=wire+transfer,192,0,76,s-78483e40-3351-4ed2-bd11-461cda0030c5,,wire transfer
+1791506355187,232,GET /search,200,OK,Agent search 2-100,text,true,,219,219,1,1,http://100.93.97.65:8000/search?q=Zelle,232,0,133,s-85baae13-b3a5-485b-bb01-5c2a003efbe2,,Zelle
+1791506357276,191,GET /search,200,OK,Agent search 2-101,text,true,,1681,220,1,1,http://100.93.97.65:8000/search?q=refund,191,0,89,s-622ea87c-4cc9-4ef3-946b-9f516b53f1bd,,refund
+1791506360992,162,GET /search,200,OK,Agent search 2-102,text,true,,227,227,2,2,http://100.93.97.65:8000/search?q=interest+rate,162,0,64,s-1848f140-466a-4f1e-9616-db2077eb7150,,interest rate
+1791506361000,154,GET /search,200,OK,Agent search 2-103,text,true,,1316,231,2,2,http://100.93.97.65:8000/search?q=closed+my+account,154,0,56,s-a450c57a-ff80-4e5d-bf6b-5b2a8be34e89,,closed my account
+1791506363886,199,GET /search,200,OK,Agent search 2-104,text,true,,219,219,1,2,http://100.93.97.65:8000/search?q=fraud,199,0,136,s-35dabe16-e84c-488a-a3bf-39a9074bfa4b,,fraud
+1791506371777,233,GET /search,200,OK,Agent search 2-105,text,true,,231,231,1,2,http://100.93.97.65:8000/search?q=loan+modification,233,0,130,s-a1bd7d88-1ebe-4722-b930-3c8288648afd,,loan modification
+1791506375855,254,GET /search,200,OK,Agent search 2-106,text,true,,652,224,1,2,http://100.93.97.65:8000/search?q=charge+off,254,0,151,s-ce7a5a8c-7bec-4458-82dc-92909d394fee,,charge off
+1791506363440,13280,POST /tickets,200,OK,Ticket intake 1-17,text,true,,227,1729,1,1,http://100.93.97.65:8000/tickets,13280,0,70,t-b75d1328-fcfc-44ed-9df9-8e6b2eee9ba4,5016,
+1791506381178,252,GET /search,200,OK,Agent search 2-107,text,true,,229,229,1,1,http://100.93.97.65:8000/search?q=minimum+payment,252,0,151,s-2252acbe-ed95-44fc-9e46-806d65f146d5,,minimum payment
+1791506383701,187,GET /search,200,OK,Agent search 2-108,text,true,,221,221,1,2,http://100.93.97.65:8000/search?q=inquiry,187,0,62,s-6634e981-d909-4601-928f-2fd35b31650c,,inquiry
+1791506386476,176,GET /search,200,OK,Agent search 2-109,text,true,,224,224,1,3,http://100.93.97.65:8000/search?q=debit+card,176,0,73,s-f4552d42-200a-439e-90bf-583b029cac39,,debit card
+1791506389113,202,GET /search,200,OK,Agent search 2-110,text,true,,220,220,1,3,http://100.93.97.65:8000/search?q=PayPal,202,0,99,s-c9571f7d-59c0-4e59-a87e-d9b7f6f7f22b,,PayPal
+1791506393657,267,GET /search,200,OK,Agent search 2-111,text,true,,3081,221,1,3,http://100.93.97.65:8000/search?q=Equifax,266,0,164,s-129d068c-9708-43fe-a17c-f5d688041448,,Equifax
+1791506394987,164,GET /search,200,OK,Agent search 2-112,text,true,,1671,222,1,3,http://100.93.97.65:8000/search?q=Experian,164,0,66,s-ee497d36-c234-41a8-a2df-67bc8c42f4de,,Experian
+1791506382275,12979,POST /tickets,200,OK,Ticket intake 1-18,text,true,,217,1584,2,2,http://100.93.97.65:8000/tickets,12979,0,77,t-aa6ebd83-3267-4c0c-ab03-2027078c2c58,5017,
+1791506395360,202,GET /search,200,OK,Agent search 2-113,text,true,,4329,224,1,2,http://100.93.97.65:8000/search?q=TransUnion,201,0,99,s-dba47a8d-09fe-47c8-9d0a-9e29f34c04be,,TransUnion
+1791506400301,176,GET /search,200,OK,Agent search 2-114,text,true,,230,230,1,2,http://100.93.97.65:8000/search?q=mortgage+payment,175,0,42,s-d53af09a-4de5-4567-9de5-0ca23905c136,,mortgage payment
+1791506401214,184,GET /search,200,OK,Agent search 2-115,text,true,,226,226,1,2,http://100.93.97.65:8000/search?q=student+loan,184,0,81,s-9862ff05-d648-43ae-bfcf-a5b2275d9eab,,student loan
+1791506403555,198,GET /search,200,OK,Agent search 2-116,text,true,,222,222,1,2,http://100.93.97.65:8000/search?q=car+loan,198,0,74,s-e29dcaae-d87c-41f1-ba71-aabaf773de69,,car loan
+1791506404384,388,GET /search,200,OK,Agent search 2-117,text,true,,226,226,1,2,http://100.93.97.65:8000/search?q=credit+limit,388,0,188,s-bb2000ad-3e84-4845-ade6-a7152f062beb,,credit limit
+1791506385897,21543,POST /tickets,200,OK,Ticket intake 1-19,text,true,,227,1517,1,1,http://100.93.97.65:8000/tickets,21543,0,89,t-903b9692-a245-496f-9899-0bb66dcdfd26,5018,
+1791506413175,205,GET /search,200,OK,Agent search 2-118,text,true,,965,226,1,1,http://100.93.97.65:8000/search?q=unauthorized,205,0,102,s-e40cd2e4-a5ec-4dc8-9123-09223c16d873,,unauthorized
+1791506414121,180,GET /search,200,OK,Agent search 2-119,text,true,,224,224,1,1,http://100.93.97.65:8000/search?q=harassment,180,0,78,s-449aed0b-d467-4be9-9f74-2754bcbc9a93,,harassment
+1791506415494,240,GET /search,200,OK,Agent search 2-120,text,true,,1136,224,1,1,http://100.93.97.65:8000/search?q=bankruptcy,240,0,137,s-bd1014e6-f797-4838-abee-0b0aeae99123,,bankruptcy
+1791506421034,230,GET /search,200,OK,Agent search 2-121,text,true,,416,223,1,1,http://100.93.97.65:8000/search?q=overdraft,230,0,129,s-68793730-37ce-4950-a4f3-35057d531707,,overdraft
+1791506426201,290,GET /search,200,OK,Agent search 2-122,text,true,,222,222,1,1,http://100.93.97.65:8000/search?q=late+fee,290,0,84,s-7a02ad6a-b048-4300-9974-88fde4056c0f,,late fee
+1791506428708,235,GET /search,200,OK,Agent search 2-123,text,true,,4050,221,1,1,http://100.93.97.65:8000/search?q=dispute,235,0,69,s-0f85179f-d9bc-49e2-8766-04f8caea10c7,,dispute
+1791506436279,88,GET /search,200,OK,Agent search 2-124,text,true,,225,225,1,2,http://100.93.97.65:8000/search?q=foreclosure,88,0,29,s-92ad0e33-514f-4113-8422-0ca247017ca2,,foreclosure
+1791506437551,301,GET /search,200,OK,Agent search 2-125,text,true,,220,220,1,2,http://100.93.97.65:8000/search?q=escrow,301,0,200,s-33f7a38c-550e-4e93-bec1-49979e77525c,,escrow
+1791506430203,13578,POST /tickets,200,OK,Ticket intake 1-20,text,true,,213,1819,1,1,http://100.93.97.65:8000/tickets,13578,0,50,t-4f71a088-2c70-4830-b726-f9cb5a3fadd8,5019,
+1791506443982,219,GET /search,200,OK,Agent search 2-126,text,true,,2149,223,1,1,http://100.93.97.65:8000/search?q=collector,219,0,117,s-20cb7500-26c3-4cd6-b15e-d93c9269b11b,,collector
+1791506444996,229,GET /search,200,OK,Agent search 2-127,text,true,,3608,228,1,1,http://100.93.97.65:8000/search?q=identity+theft,229,0,130,s-847a0f3e-a65c-458e-8a67-75285670fcf4,,identity theft
+1791506448366,239,GET /search,200,OK,Agent search 2-128,text,true,,10843,227,1,1,http://100.93.97.65:8000/search?q=credit+report,239,0,136,s-68bb9afe-2a0c-4c8f-acc8-d4b9d7f457f9,,credit report
+1791506450499,255,GET /search,200,OK,Agent search 2-129,text,true,,227,227,1,1,http://100.93.97.65:8000/search?q=wire+transfer,255,0,153,s-d5e8ec4f-ac7b-4a96-aff1-e0d05e7595a6,,wire transfer
+1791506452724,181,GET /search,200,OK,Agent search 2-130,text,true,,219,219,1,1,http://100.93.97.65:8000/search?q=Zelle,181,0,69,s-5b813dad-a836-4633-9499-409e9b275602,,Zelle
+1791506461153,252,GET /search,200,OK,Agent search 2-131,text,true,,4935,220,1,2,http://100.93.97.65:8000/search?q=refund,252,0,149,s-224b4dee-5cff-4c73-9de8-6679b5c40fad,,refund
+1791506463942,228,GET /search,200,OK,Agent search 2-132,text,true,,227,227,1,2,http://100.93.97.65:8000/search?q=interest+rate,228,0,125,s-fdf9e393-727d-4812-8e93-4788b2a54c35,,interest rate
+1791506453771,13983,POST /tickets,200,OK,Ticket intake 1-21,text,true,,218,1972,2,2,http://100.93.97.65:8000/tickets,13983,0,159,t-45c6abd4-3b5d-40b3-8d81-643c47197109,5020,
+1791506469559,345,GET /search,200,OK,Agent search 2-133,text,true,,1316,231,1,2,http://100.93.97.65:8000/search?q=closed+my+account,345,0,141,s-179053e8-c69a-4298-b085-96206c006f93,,closed my account
+1791506464975,12814,POST /tickets,200,OK,Ticket intake 1-22,text,true,,210,1139,1,1,http://100.93.97.65:8000/tickets,12814,0,116,t-46a07242-4cc4-460a-bcc4-a5b6372f7701,5021,
+1791506489258,204,GET /search,200,OK,Agent search 2-134,text,true,,3243,219,1,2,http://100.93.97.65:8000/search?q=fraud,204,0,101,s-008124be-f61a-40b0-bc4b-418c73308a33,,fraud
+1791506484308,11317,POST /tickets,200,OK,Ticket intake 1-23,text,true,,210,1201,1,1,http://100.93.97.65:8000/tickets,11317,0,137,t-dbc759d1-43ff-4897-82cc-f1572bd7ec28,5022,
+1791506499487,10251,POST /tickets,200,OK,Ticket intake 1-24,text,true,,218,1156,1,2,http://100.93.97.65:8000/tickets,10251,0,112,t-3046cc01-476d-434d-a7d6-52ed4234fe25,5023,
+1791506509543,270,GET /search,200,OK,Agent search 2-135,text,true,,1215,231,1,1,http://100.93.97.65:8000/search?q=loan+modification,270,0,195,s-103ff62b-79ac-43cd-be63-45b151348b09,,loan modification
+1791506514425,228,GET /search,200,OK,Agent search 2-136,text,true,,652,224,1,1,http://100.93.97.65:8000/search?q=charge+off,228,0,126,s-7e87dd26-b3bd-4d86-8486-5a47d52ac933,,charge off
+1791506517684,246,GET /search,200,OK,Agent search 2-137,text,true,,229,229,1,2,http://100.93.97.65:8000/search?q=minimum+payment,246,0,143,s-140b4650-db4f-48f9-9124-13f9b2758f39,,minimum payment
+1791506515419,10396,POST /tickets,200,OK,Ticket intake 1-25,text,true,,217,1131,1,1,http://100.93.97.65:8000/tickets,10396,0,257,t-abc8e03b-7143-4109-9de2-0952c31a1a72,5024,
+1791506528764,225,GET /search,200,OK,Agent search 2-138,text,true,,221,221,1,1,http://100.93.97.65:8000/search?q=inquiry,225,0,123,s-f5165d5f-1312-4558-b1cf-0f71abed0e9b,,inquiry
+1791506532452,168,GET /search,200,OK,Agent search 2-139,text,true,,224,224,1,1,http://100.93.97.65:8000/search?q=debit+card,168,0,121,s-56619bd8-a5f3-41f9-b4aa-011f61cbab5f,,debit card
+1791506533860,8237,POST /tickets,200,OK,Ticket intake 1-26,text,true,,218,644,3,3,http://100.93.97.65:8000/tickets,8237,0,34,t-7020c399-6207-4a3b-9d82-2ae0623ce405,5025,
+1791506547917,323,GET /search,200,OK,Agent search 2-140,text,true,,220,220,1,4,http://100.93.97.65:8000/search?q=PayPal,322,0,220,s-21f5c738-89f6-46ec-a5cf-d67d12782b63,,PayPal
+1791506535492,16230,POST /tickets,200,OK,Ticket intake 1-27,text,true,,225,1068,4,4,http://100.93.97.65:8000/tickets,16230,0,153,t-cf230169-dacf-4761-bcfe-4342aa1e8932,5026,
+1791506556760,184,GET /search,200,OK,Agent search 2-141,text,true,,3577,221,1,4,http://100.93.97.65:8000/search?q=Equifax,184,0,86,s-94021589-0523-446b-8bc0-83d94c7e7436,,Equifax
+1791506561288,238,GET /search,200,OK,Agent search 2-142,text,true,,1671,222,1,4,http://100.93.97.65:8000/search?q=Experian,238,0,161,s-7f6fd323-2b77-4db7-9f28-bd44e01c1518,,Experian
+1791506538188,25982,POST /tickets,200,OK,Ticket intake 1-28,text,true,,213,1641,3,3,http://100.93.97.65:8000/tickets,25982,0,119,t-fd553bcc-d23a-43f8-bc67-d8829e7008fc,5027,
+1791506565001,101,GET /search,200,OK,Agent search 2-143,text,true,,4329,224,1,3,http://100.93.97.65:8000/search?q=TransUnion,96,0,45,s-fe365128-fa88-4c79-b1ec-4ca2a0f823cc,,TransUnion
+1791506565644,95,GET /search,200,OK,Agent search 2-144,text,true,,230,230,1,3,http://100.93.97.65:8000/search?q=mortgage+payment,95,0,55,s-5d0ae5d7-e747-420b-8478-ecb57108d86c,,mortgage payment
+1791506570953,126,GET /search,200,OK,Agent search 2-145,text,true,,226,226,1,4,http://100.93.97.65:8000/search?q=student+loan,126,0,72,s-7811d8bd-0e21-428a-870f-3f067b41e548,,student loan
+1791506574137,91,GET /search,200,OK,Agent search 2-146,text,true,,222,222,1,4,http://100.93.97.65:8000/search?q=car+loan,91,0,53,s-a97618ec-75ea-4b54-8f4e-54bf79e4c087,,car loan
+1791506542106,34283,POST /tickets,200,OK,Ticket intake 1-29,text,true,,215,1628,3,3,http://100.93.97.65:8000/tickets,34282,0,49,t-879be4a7-6b03-4fd5-8539-30602c0fd616,5028,
+1791506579854,103,GET /search,200,OK,Agent search 2-147,text,true,,226,226,1,3,http://100.93.97.65:8000/search?q=credit+limit,103,0,57,s-514ada0e-5351-4f39-8639-7ae1fa7cd4ab,,credit limit
+1791506583026,147,GET /search,200,OK,Agent search 2-148,text,true,,1893,226,1,3,http://100.93.97.65:8000/search?q=unauthorized,147,0,100,s-367fc9a3-9310-4d3f-a550-664396de6583,,unauthorized
+1791506583714,110,GET /search,200,OK,Agent search 2-149,text,true,,224,224,1,3,http://100.93.97.65:8000/search?q=harassment,110,0,68,s-0c0da23b-84fb-4781-a077-140740e81f9b,,harassment
+1791506583933,113,GET /search,200,OK,Agent search 2-150,text,true,,1136,224,1,3,http://100.93.97.65:8000/search?q=bankruptcy,113,0,52,s-53e34c29-92c2-4080-9a40-80fc14dd0eeb,,bankruptcy
+1791506548444,38573,POST /tickets,200,OK,Ticket intake 1-30,text,true,,225,986,2,2,http://100.93.97.65:8000/tickets,38573,0,103,t-420c1ff1-bc36-4df1-8987-409b95100cd8,5029,
+1791506587680,90,GET /search,200,OK,Agent search 2-151,text,true,,416,223,1,2,http://100.93.97.65:8000/search?q=overdraft,90,0,51,s-117cc991-37f6-4bba-b73d-76dd5b5243f6,,overdraft
+1791506592194,94,GET /search,200,OK,Agent search 2-152,text,true,,222,222,1,2,http://100.93.97.65:8000/search?q=late+fee,94,0,53,s-c55d7fdb-db17-403a-b458-37ec7c7630ea,,late fee
+1791506592929,124,GET /search,200,OK,Agent search 2-153,text,true,,7700,221,1,2,http://100.93.97.65:8000/search?q=dispute,120,0,67,s-a4ddadd4-e4f7-4650-9c8d-d3c447bdb0e1,,dispute
+1791506568311,30014,POST /tickets,200,OK,Ticket intake 1-31,text,true,,218,1462,1,1,http://100.93.97.65:8000/tickets,30014,0,77,t-2745b830-08b1-439e-80bf-ae70b91af60e,5030,
+1791506610446,108,GET /search,200,OK,Agent search 2-154,text,true,,1271,225,1,1,http://100.93.97.65:8000/search?q=foreclosure,104,0,61,s-2c8c2da8-e6b7-453d-8a1f-0dc0032c27de,,foreclosure
+1791506618035,93,GET /search,200,OK,Agent search 2-155,text,true,,1266,220,1,1,http://100.93.97.65:8000/search?q=escrow,93,0,34,s-96d477ee-b11a-4a36-9df8-f05ae019c4f5,,escrow
+1791506619202,96,GET /search,200,OK,Agent search 2-156,text,true,,3131,223,1,1,http://100.93.97.65:8000/search?q=collector,96,0,53,s-c81bd7b2-3aa8-46a3-a9c3-63452a53d18d,,collector
+1791506619450,90,GET /search,200,OK,Agent search 2-157,text,true,,3608,228,1,1,http://100.93.97.65:8000/search?q=identity+theft,86,0,38,s-0c006880-35f8-4d19-90b4-6f4135474e96,,identity theft
+1791506625018,134,GET /search,200,OK,Agent search 2-158,text,true,,13980,227,2,2,http://100.93.97.65:8000/search?q=credit+report,100,0,36,s-285b1451-8ae3-4fcb-b56e-3ba7335cb3ec,,credit report
+1791506625086,96,GET /search,200,OK,Agent search 2-159,text,true,,227,227,1,1,http://100.93.97.65:8000/search?q=wire+transfer,96,0,49,s-ed0402ef-8aaf-43a9-932a-34d42d0c4eb1,,wire transfer
+1791506628798,93,GET /search,200,OK,Agent search 2-160,text,true,,219,219,1,1,http://100.93.97.65:8000/search?q=Zelle,93,0,35,s-0bccfd4a-d606-4cc9-9fb4-48356e435ec9,,Zelle
+1791506632630,106,GET /search,200,OK,Agent search 2-161,text,true,,4935,220,2,3,http://100.93.97.65:8000/search?q=refund,103,0,55,s-8b18a297-873e-4155-9bd4-fc0fa54086b4,,refund
+1791506632702,100,GET /search,200,OK,Agent search 2-162,text,true,,227,227,1,2,http://100.93.97.65:8000/search?q=interest+rate,100,0,34,s-18237583-d64f-4099-83fc-a90ec087b5cf,,interest rate
+1791506637084,117,GET /search,200,OK,Agent search 2-163,text,true,,1316,231,1,3,http://100.93.97.65:8000/search?q=closed+my+account,117,0,63,s-11118495-7321-4b69-bbfd-4c8c7dde45ae,,closed my account
+1791506637663,87,GET /search,200,OK,Agent search 2-164,text,true,,3243,219,1,3,http://100.93.97.65:8000/search?q=fraud,87,0,31,s-d0b970ba-7135-4967-9df3-d080e1a2084f,,fraud
+1791506637855,109,GET /search,200,OK,Agent search 2-165,text,true,,1215,231,1,3,http://100.93.97.65:8000/search?q=loan+modification,109,0,65,s-ad366773-8de7-4d32-867c-555b87202e32,,loan modification
+1791506630910,8187,POST /tickets,200,OK,Ticket intake 1-32,text,true,,213,717,2,2,http://100.93.97.65:8000/tickets,8187,0,56,t-e463d336-52e1-4127-b87d-6d69e82b68bf,5031,
+1791506634753,12994,POST /tickets,200,OK,Ticket intake 1-33,text,true,,225,837,3,3,http://100.93.97.65:8000/tickets,12994,0,64,t-dddb16d5-ec36-4464-b673-38566ac0d141,5032,
+1791506649477,104,GET /search,200,OK,Agent search 2-166,text,true,,652,224,1,3,http://100.93.97.65:8000/search?q=charge+off,104,0,28,s-fdfe7d36-929e-4cf6-93e1-fdc611fb3e79,,charge off
+1791506650370,113,GET /search,200,OK,Agent search 2-167,text,true,,229,229,1,3,http://100.93.97.65:8000/search?q=minimum+payment,113,0,66,s-d4010c6b-9af5-427e-b9af-3e9ef6173cba,,minimum payment
+1791506651758,109,GET /search,200,OK,Agent search 2-168,text,true,,221,221,1,3,http://100.93.97.65:8000/search?q=inquiry,109,0,55,s-dbc1c03f-753f-4b24-a84a-a07f4171aa69,,inquiry
+1791506654710,116,GET /search,200,OK,Agent search 2-169,text,true,,224,224,1,3,http://100.93.97.65:8000/search?q=debit+card,116,0,71,s-d1d3bafd-2ff2-45e7-8171-77370e7d9e93,,debit card
+1791506640760,14477,POST /tickets,200,OK,Ticket intake 1-34,text,true,,217,606,2,2,http://100.93.97.65:8000/tickets,14477,0,44,t-1e11959c-aaca-4e4a-9bff-7e75b4da178f,5033,
+1791506660379,179,GET /search,200,OK,Agent search 2-170,text,true,,220,220,1,2,http://100.93.97.65:8000/search?q=PayPal,179,0,82,s-45ae17b0-521a-488f-b49d-8b6c62d7ce3b,,PayPal
+1791506647003,15074,POST /tickets,200,OK,Ticket intake 1-35,text,true,,227,476,1,1,http://100.93.97.65:8000/tickets,15074,0,35,t-ec2d5476-84a9-4963-8265-04de09401987,5034,
+1791506663929,109,GET /search,200,OK,Agent search 2-171,text,true,,3577,221,1,1,http://100.93.97.65:8000/search?q=Equifax,106,0,68,s-719cc64b-b33b-4ecb-a920-f2d25cc75c0f,,Equifax
+1791506671760,109,GET /search,200,OK,Agent search 2-172,text,true,,1671,222,1,2,http://100.93.97.65:8000/search?q=Experian,109,0,54,s-00dac53c-2599-489b-b7ca-ecf72b8e1b54,,Experian
+1791506665013,7347,POST /tickets,200,OK,Ticket intake 1-36,text,true,,218,631,1,2,http://100.93.97.65:8000/tickets,7347,0,76,t-754fcf5c-9874-4b22-b5c1-d16dfe203585,5035,
+1791506672253,124,GET /search,200,OK,Agent search 2-173,text,true,,4329,224,1,1,http://100.93.97.65:8000/search?q=TransUnion,117,0,74,s-1f4be3ea-bbf3-48f7-91f7-9761cbe3d013,,TransUnion
+1791506672436,78,GET /search,200,OK,Agent search 2-174,text,true,,230,230,1,1,http://100.93.97.65:8000/search?q=mortgage+payment,78,0,32,s-07f2f4c2-eb2c-4db4-89c5-c0eb50e26427,,mortgage payment
+1791506674444,119,GET /search,200,OK,Agent search 2-175,text,true,,1703,226,1,1,http://100.93.97.65:8000/search?q=student+loan,114,0,77,s-c1894d7f-2baa-454a-985d-b1001a0c0cb3,,student loan
+1791506675357,95,GET /search,200,OK,Agent search 2-176,text,true,,222,222,1,1,http://100.93.97.65:8000/search?q=car+loan,95,0,58,s-b46317ac-6b92-4ac0-8a09-b893f3c5504b,,car loan
+1791506691257,343,GET /search,200,OK,Agent search 2-177,text,true,,226,226,1,1,http://100.93.97.65:8000/search?q=credit+limit,343,0,138,s-b67da05f-36fd-4a9d-9bc4-da7b36e54697,,credit limit
+1791506695842,99,GET /search,200,OK,Agent search 2-178,text,true,,1893,226,1,1,http://100.93.97.65:8000/search?q=unauthorized,99,0,50,s-01887f65-d11b-4e1f-a35d-7673ab375008,,unauthorized
+1791506706906,259,GET /search,200,OK,Agent search 2-179,text,true,,224,224,1,2,http://100.93.97.65:8000/search?q=harassment,259,0,157,s-9ed0342d-f263-4002-be3f-3ed3a0b882cb,,harassment
+1791506712184,204,GET /search,200,OK,Agent search 2-180,text,true,,1136,224,1,2,http://100.93.97.65:8000/search?q=bankruptcy,204,0,103,s-72f6701d-f8fa-4289-945d-af296c68e19d,,bankruptcy
+1791506713889,138,GET /search,200,OK,Agent search 2-181,text,true,,416,223,1,2,http://100.93.97.65:8000/search?q=overdraft,137,0,36,s-2ff10dce-cfd0-4506-aef1-b3994b55ab61,,overdraft
+1791506706429,8622,POST /tickets,200,OK,Ticket intake 1-37,text,true,,217,867,2,2,http://100.93.97.65:8000/tickets,8622,0,123,t-2e9f4b18-10e3-411f-be53-2306b0501bf2,5036,
+1791506719494,126,GET /search,200,OK,Agent search 2-182,text,true,,222,222,2,3,http://100.93.97.65:8000/search?q=late+fee,126,0,59,s-8d64f6e4-7ce5-4544-a754-6ee2124f729c,,late fee
+1791506719537,119,GET /search,200,OK,Agent search 2-183,text,true,,8183,221,1,2,http://100.93.97.65:8000/search?q=dispute,112,0,54,s-af4f7ae1-f392-4d2b-8e5e-ec9ccc075330,,dispute
+1791506714511,10677,POST /tickets,200,OK,Ticket intake 1-38,text,true,,213,1237,1,1,http://100.93.97.65:8000/tickets,10677,0,50,t-7fefe085-4079-4e33-bdcf-250193d6493a,5037,
+1791506731994,158,GET /search,200,OK,Agent search 2-184,text,true,,1271,225,1,1,http://100.93.97.65:8000/search?q=foreclosure,158,0,55,s-926d2c5f-3d19-49b4-a43a-f8f339ba9614,,foreclosure
+1791506737820,270,GET /search,200,OK,Agent search 2-185,text,true,,1266,220,1,1,http://100.93.97.65:8000/search?q=escrow,270,0,168,s-ef782a45-c2ea-4694-9c19-5b6090dd441d,,escrow
+1791506738302,199,GET /search,200,OK,Agent search 2-186,text,true,,3849,223,1,1,http://100.93.97.65:8000/search?q=collector,199,0,96,s-aac4cb92-78e3-4426-affa-8093a0d2a29a,,collector
+1791506749015,340,GET /search,200,OK,Agent search 2-187,text,true,,3608,228,1,3,http://100.93.97.65:8000/search?q=identity+theft,340,0,207,s-59e3110e-883d-4702-b9d8-c49a6dab04b4,,identity theft
+1791506742137,13362,POST /tickets,200,OK,Ticket intake 1-39,text,true,,225,1855,2,2,http://100.93.97.65:8000/tickets,13362,0,152,t-37ef6921-a629-4446-8f1c-f084d648c4b9,5038,
+1791506748581,18489,POST /tickets,200,OK,Ticket intake 1-40,text,true,,225,1359,3,4,http://100.93.97.65:8000/tickets,18489,0,35,t-cb2a5276-b946-456e-9872-cdc2a9471f72,5039,
+1791506766904,320,GET /search,200,OK,Agent search 2-188,text,true,,14698,227,1,3,http://100.93.97.65:8000/search?q=credit+report,269,0,166,s-23f06c3b-f905-4a8c-8c80-716af1922bbb,,credit report
+1791506767807,288,GET /search,200,OK,Agent search 2-189,text,true,,227,227,1,3,http://100.93.97.65:8000/search?q=wire+transfer,288,0,186,s-dd644f8b-f31f-4a41-b29a-d0a8997576d3,,wire transfer
+1791506769727,211,GET /search,200,OK,Agent search 2-190,text,true,,219,219,1,4,http://100.93.97.65:8000/search?q=Zelle,211,0,109,s-bb250887-6065-46c5-b6ae-6a61897040da,,Zelle
+1791506756187,22353,POST /tickets,200,OK,Ticket intake 1-41,text,true,,210,1302,3,3,http://100.93.97.65:8000/tickets,22353,0,140,t-eff7809c-b2e2-413a-94bd-099bd3ee3c10,5040,
+1791506780154,228,GET /search,200,OK,Agent search 2-191,text,true,,6648,220,1,3,http://100.93.97.65:8000/search?q=refund,228,0,124,s-30182841-19f8-4035-8d77-70431b0ddfba,,refund
+1791506781133,170,GET /search,200,OK,Agent search 2-192,text,true,,227,227,1,3,http://100.93.97.65:8000/search?q=interest+rate,170,0,79,s-48158f5d-599e-4190-ba78-978adfcf4dbb,,interest rate
+1791506782214,318,GET /search,200,OK,Agent search 2-193,text,true,,1316,231,1,3,http://100.93.97.65:8000/search?q=closed+my+account,318,0,216,s-5e7706a3-9261-441e-8201-ab9dcbb19524,,closed my account
+1791506784330,251,GET /search,200,OK,Agent search 2-194,text,true,,6869,219,1,3,http://100.93.97.65:8000/search?q=fraud,251,0,149,s-bbd8fb0b-4cfa-402f-8663-4f31f8749800,,fraud
+1791506784808,181,GET /search,200,OK,Agent search 2-195,text,true,,1215,231,1,3,http://100.93.97.65:8000/search?q=loan+modification,181,0,80,s-876fc52c-a547-4e40-8227-3c02dfbd76d7,,loan modification
+1791506785839,277,GET /search,200,OK,Agent search 2-196,text,true,,652,224,1,3,http://100.93.97.65:8000/search?q=charge+off,277,0,175,s-cfb4d64f-5573-48a6-b006-19c564202fa7,,charge off
+1791506789100,201,GET /search,200,OK,Agent search 2-197,text,true,,229,229,1,3,http://100.93.97.65:8000/search?q=minimum+payment,201,0,88,s-3095ae8c-1873-464e-9e64-320bed0a529a,,minimum payment
+1791506758199,32731,POST /tickets,200,OK,Ticket intake 1-42,text,true,,227,1700,2,2,http://100.93.97.65:8000/tickets,32731,0,48,t-6f1e810b-d152-4d1f-8fb1-47c1a5331498,5041,
+1791506793835,166,GET /search,200,OK,Agent search 2-198,text,true,,221,221,1,2,http://100.93.97.65:8000/search?q=inquiry,166,0,64,s-59fc74d6-b040-44be-ba9a-121f5dd9b88e,,inquiry
+1791506798833,186,GET /search,200,OK,Agent search 2-199,text,true,,224,224,1,2,http://100.93.97.65:8000/search?q=debit+card,186,0,84,s-38020eaa-e9fb-4539-802e-eb8bc1b82be0,,debit card
+1791506768142,36817,POST /tickets,200,OK,Ticket intake 1-43,text,true,,225,2009,1,1,http://100.93.97.65:8000/tickets,36817,0,35,t-53e0fc4f-3c23-4729-b649-962d77207988,5042,
+1791506809750,328,GET /search,200,OK,Agent search 2-200,text,true,,220,220,1,1,http://100.93.97.65:8000/search?q=PayPal,328,0,107,s-6a83ac9d-89e9-4503-be51-6c57211170e2,,PayPal
+1791506817367,169,GET /search,200,OK,Agent search 2-201,text,true,,3577,221,2,2,http://100.93.97.65:8000/search?q=Equifax,168,0,84,s-d5c219df-803c-4946-84ad-f06bb837e843,,Equifax
+1791506817528,76,GET /search,200,OK,Agent search 2-202,text,true,,1671,222,1,1,http://100.93.97.65:8000/search?q=Experian,75,0,37,s-83b0d3cb-3e98-4b97-8230-8c46fa2ca2d8,,Experian
+1791506819317,183,GET /search,200,OK,Agent search 2-203,text,true,,4329,224,1,1,http://100.93.97.65:8000/search?q=TransUnion,183,0,63,s-2f905799-f98e-4cc0-a7c2-09b6055cdb5c,,TransUnion
+1791506827546,247,GET /search,200,OK,Agent search 2-204,text,true,,230,230,1,1,http://100.93.97.65:8000/search?q=mortgage+payment,247,0,145,s-59aed3e7-26eb-47c0-bf44-3ca2dbf11772,,mortgage payment
+1791506830635,222,GET /search,200,OK,Agent search 2-205,text,true,,1703,226,1,1,http://100.93.97.65:8000/search?q=student+loan,222,0,127,s-e46c6e8a-02d4-498e-ba73-004e1a7c7ed5,,student loan
+1791506837801,233,GET /search,200,OK,Agent search 2-206,text,true,,222,222,1,1,http://100.93.97.65:8000/search?q=car+loan,233,0,131,s-b8b6dca8-7930-4bb8-9bbb-b8647a0635bb,,car loan
+1791506840324,275,GET /search,200,OK,Agent search 2-207,text,true,,226,226,1,1,http://100.93.97.65:8000/search?q=credit+limit,275,0,169,s-1305aa68-dd56-43a9-acd6-77c0aab08898,,credit limit
+1791506842147,187,GET /search,200,OK,Agent search 2-208,text,true,,4478,226,1,1,http://100.93.97.65:8000/search?q=unauthorized,187,0,85,s-5735b603-c478-4126-8ebf-86440398f3d8,,unauthorized
+1791506847756,312,GET /search,200,OK,Agent search 2-209,text,true,,224,224,1,1,http://100.93.97.65:8000/search?q=harassment,312,0,107,s-3a4b59c7-7708-4812-b927-5bbf2a21a6c9,,harassment
+1791506849898,218,GET /search,200,OK,Agent search 2-211,text,true,,416,223,2,2,http://100.93.97.65:8000/search?q=overdraft,218,0,117,s-a085e997-5f0c-4a1d-ab60-a0473986f9ea,,overdraft
+1791506849888,228,GET /search,200,OK,Agent search 2-210,text,true,,1136,224,2,2,http://100.93.97.65:8000/search?q=bankruptcy,228,0,127,s-f03f7968-5a24-4be7-b689-86506aa4cb3a,,bankruptcy
+1791506850242,183,GET /search,200,OK,Agent search 2-212,text,true,,1936,222,1,1,http://100.93.97.65:8000/search?q=late+fee,183,0,80,s-71ab8161-dc6c-44bd-a9ea-bcc73f2bb351,,late fee
+1791506865278,200,GET /search,200,OK,Agent search 2-213,text,true,,8183,221,1,1,http://100.93.97.65:8000/search?q=dispute,199,0,96,s-91416e45-55ba-4fcd-b7c6-2089979f8f36,,dispute
+1791506876604,342,GET /search,200,OK,Agent search 2-214,text,true,,1271,225,1,2,http://100.93.97.65:8000/search?q=foreclosure,342,0,137,s-057db615-4dec-41c9-ab59-3c0f1a275373,,foreclosure
+1791506877455,160,GET /search,200,OK,Agent search 2-215,text,true,,1266,220,1,2,http://100.93.97.65:8000/search?q=escrow,159,0,105,s-a1072f1d-4fa4-4610-96d2-b083e2757559,,escrow
+1791506883476,228,GET /search,200,OK,Agent search 2-216,text,true,,3849,223,1,2,http://100.93.97.65:8000/search?q=collector,228,0,125,s-b6fa63f1-6061-4a7b-9e3e-0c78637258cb,,collector
+1791506873524,15007,POST /tickets,200,OK,Ticket intake 1-44,text,true,,217,2180,1,1,http://100.93.97.65:8000/tickets,15006,0,106,t-3cdde78f-30a4-428a-a042-c7531559ff3b,5043,
+1791506889953,203,GET /search,200,OK,Agent search 2-217,text,true,,3608,228,1,1,http://100.93.97.65:8000/search?q=identity+theft,203,0,101,s-9b8e8c3b-321e-4ad6-8766-f410cb5260f0,,identity theft
+1791506892913,315,GET /search,200,OK,Agent search 2-218,text,true,,14698,227,1,1,http://100.93.97.65:8000/search?q=credit+report,212,0,110,s-27bc8da7-f046-4b24-8b35-464a14122d51,,credit report
+1791506897798,140,GET /search,200,OK,Agent search 2-219,text,true,,227,227,1,1,http://100.93.97.65:8000/search?q=wire+transfer,140,0,40,s-6175ebaf-224f-49a6-8dc6-d17423433910,,wire transfer
+1791506898510,248,GET /search,200,OK,Agent search 2-220,text,true,,219,219,1,1,http://100.93.97.65:8000/search?q=Zelle,248,0,145,s-8d8c6444-ba82-49f1-9465-b3ff9a0c3850,,Zelle
+1791506900126,372,GET /search,200,OK,Agent search 2-221,text,true,,8678,220,1,1,http://100.93.97.65:8000/search?q=refund,372,0,168,s-4fca807b-6e85-4a29-b0ea-dccebff16564,,refund
+1791506901516,123,GET /search,200,OK,Agent search 2-222,text,true,,227,227,1,1,http://100.93.97.65:8000/search?q=interest+rate,123,0,81,s-b4bb80be-09bb-4230-88c4-ee32ba9370a9,,interest rate
+1791506905549,132,GET /search,200,OK,Agent search 2-223,text,true,,1316,231,2,3,http://100.93.97.65:8000/search?q=closed+my+account,132,0,63,s-20dc5ab0-f930-4c19-8516-49a868b29c38,,closed my account
+1791506905674,275,GET /search,200,OK,Agent search 2-224,text,true,,8736,219,1,2,http://100.93.97.65:8000/search?q=fraud,275,0,148,s-fef6151f-5a75-4406-a56d-d2843fd5a2e0,,fraud
+1791506905477,7412,POST /tickets,200,OK,Ticket intake 1-45,text,true,,218,577,1,1,http://100.93.97.65:8000/tickets,7412,0,79,t-dd7715f6-0773-4296-9030-9a7abfdb58df,5044,
+1791506919356,191,GET /search,200,OK,Agent search 2-225,text,true,,1215,231,1,1,http://100.93.97.65:8000/search?q=loan+modification,191,0,87,s-6beb4b1d-04ec-4786-aa1e-d187234133da,,loan modification
+1791506927107,133,GET /search,200,OK,Agent search 2-226,text,true,,652,224,1,2,http://100.93.97.65:8000/search?q=charge+off,133,0,59,s-1fd8a1af-1605-4c0c-a27b-3ceb765548e7,,charge off
+1791506928262,192,GET /search,200,OK,Agent search 2-227,text,true,,229,229,1,2,http://100.93.97.65:8000/search?q=minimum+payment,192,0,89,s-5ba628ef-3269-40bf-a18e-bd0bb1b1d5a9,,minimum payment
+1791506919854,10546,POST /tickets,200,OK,Ticket intake 1-46,text,true,,227,1131,1,1,http://100.93.97.65:8000/tickets,10546,0,203,t-e782aa23-f129-4015-bdbd-eb9bc9555aee,5045,
+1791506932392,158,GET /search,200,OK,Agent search 2-228,text,true,,221,221,1,1,http://100.93.97.65:8000/search?q=inquiry,158,0,56,s-0fa7b806-993b-4244-b119-b30c0707be8d,,inquiry
+1791506933731,251,GET /search,200,OK,Agent search 2-229,text,true,,224,224,1,1,http://100.93.97.65:8000/search?q=debit+card,251,0,149,s-dd899a93-368a-4069-9fd8-bf18efecf325,,debit card
+1791506942745,248,GET /search,200,OK,Agent search 2-230,text,true,,220,220,1,4,http://100.93.97.65:8000/search?q=PayPal,248,0,146,s-fa3470d3-1fc2-4aea-92b7-6ba3aa54b6e4,,PayPal
+1791506943169,234,GET /search,200,OK,Agent search 2-231,text,true,,3577,221,1,4,http://100.93.97.65:8000/search?q=Equifax,234,0,133,s-e0ab1f7a-dc0f-4e39-aa01-087c895696e9,,Equifax
+1791506943929,191,GET /search,200,OK,Agent search 2-232,text,true,,1671,222,1,4,http://100.93.97.65:8000/search?q=Experian,191,0,90,s-0dc3bde4-f1c7-4b2c-a3bc-e44855b064d9,,Experian
+1791506944525,164,GET /search,200,OK,Agent search 2-233,text,true,,4329,224,1,4,http://100.93.97.65:8000/search?q=TransUnion,160,0,107,s-326066e6-9cb6-4b3f-bb47-e793a07044e7,,TransUnion
+1791506945327,125,GET /search,200,OK,Agent search 2-234,text,true,,230,230,1,4,http://100.93.97.65:8000/search?q=mortgage+payment,125,0,34,s-ec66edaf-1e86-4f22-98cf-841f0b57ff6c,,mortgage payment
+1791506947766,181,GET /search,200,OK,Agent search 2-235,text,true,,1703,226,1,4,http://100.93.97.65:8000/search?q=student+loan,181,0,116,s-4f083d47-8a50-404a-b135-d0d89e563b66,,student loan
+1791506938244,13558,POST /tickets,200,OK,Ticket intake 1-47,text,true,,218,2176,3,3,http://100.93.97.65:8000/tickets,13558,0,142,t-d9e4b94e-cea1-4640-aa72-5667727fc048,5046,
+1791506952698,229,GET /search,200,OK,Agent search 2-236,text,true,,222,222,1,3,http://100.93.97.65:8000/search?q=car+loan,229,0,126,s-1579fb47-73be-4039-b4ea-ae51ef8071a3,,car loan
+1791506955273,215,GET /search,200,OK,Agent search 2-237,text,true,,226,226,1,3,http://100.93.97.65:8000/search?q=credit+limit,215,0,112,s-f2906cf0-773c-436b-87fa-81eae71eb1e8,,credit limit
+1791506940362,18402,POST /tickets,200,OK,Ticket intake 1-48,text,true,,225,527,2,2,http://100.93.97.65:8000/tickets,18402,0,74,t-6dfddbe3-5ccc-44e6-a5e8-62df7b91d821,5047,
+1791506959456,230,GET /search,200,OK,Agent search 2-238,text,true,,4478,226,1,2,http://100.93.97.65:8000/search?q=unauthorized,230,0,127,s-9b86c1ed-ae46-4b2d-b685-f4fb4c8ecd82,,unauthorized
+1791506966122,220,GET /search,200,OK,Agent search 2-239,text,true,,224,224,1,2,http://100.93.97.65:8000/search?q=harassment,219,0,116,s-85b73e37-14ac-4a3c-a269-87fb7b856aa6,,harassment
+1791506941888,24761,POST /tickets,200,OK,Ticket intake 1-49,text,true,,225,626,1,1,http://100.93.97.65:8000/tickets,24761,0,82,t-d57819fd-c86c-4a1f-81bd-1bb8f1f497c6,5048,
+1791506966720,236,GET /search,200,OK,Agent search 2-240,text,true,,1136,224,1,1,http://100.93.97.65:8000/search?q=bankruptcy,236,0,135,s-c903a73f-33dd-4b1c-91f2-44acc61a1911,,bankruptcy
+1791506972602,191,GET /search,200,OK,Agent search 2-241,text,true,,416,223,1,1,http://100.93.97.65:8000/search?q=overdraft,191,0,89,s-09b174d6-44a7-4bac-9005-8aa223803207,,overdraft
+1791506974616,225,GET /search,200,OK,Agent search 2-242,text,true,,1936,222,1,2,http://100.93.97.65:8000/search?q=late+fee,225,0,126,s-066fba86-4701-42f5-890c-5e9481c7ad96,,late fee
+1791506974128,7881,POST /tickets,200,OK,Ticket intake 1-50,text,true,,218,695,1,1,http://100.93.97.65:8000/tickets,7881,0,99,t-973fc663-e5e0-4c88-8a6a-b8ee4ab42280,5049,
+1791506988439,328,GET /search,200,OK,Agent search 2-243,text,true,,10211,221,1,3,http://100.93.97.65:8000/search?q=dispute,328,0,122,s-5bbcf769-c00a-460c-b530-035028991093,,dispute
+1791506990018,288,GET /search,200,OK,Agent search 2-244,text,true,,1271,225,1,3,http://100.93.97.65:8000/search?q=foreclosure,288,0,80,s-f7c11aa1-0ac7-46e2-ad9d-90bde9877e7e,,foreclosure
+1791506994651,258,GET /search,200,OK,Agent search 2-245,text,true,,1266,220,1,3,http://100.93.97.65:8000/search?q=escrow,258,0,157,s-c240214e-ae7a-4468-a40e-9bfdd903db6b,,escrow
+1791506983284,12243,POST /tickets,200,OK,Ticket intake 1-51,text,true,,218,1317,2,2,http://100.93.97.65:8000/tickets,12243,0,160,t-6c5f0a8d-6cb4-404a-8360-6f1c7cfffe80,5050,
+1791507000918,138,GET /search,200,OK,Agent search 2-246,text,true,,3849,223,1,2,http://100.93.97.65:8000/search?q=collector,138,0,36,s-07fe36b3-2766-4a9e-b92d-ca50a304e193,,collector
+1791506983857,21601,POST /tickets,200,OK,Ticket intake 1-52,text,true,,210,990,1,1,http://100.93.97.65:8000/tickets,21601,0,97,t-c88a266c-347a-41ff-829d-9057fd91c2e3,5051,
+1791507005970,206,GET /search,200,OK,Agent search 2-247,text,true,,4584,228,1,1,http://100.93.97.65:8000/search?q=identity+theft,205,0,103,s-3f8099dd-d4a7-401b-bce7-e7baf5bc62e0,,identity theft
+1791507008572,164,GET /search,200,OK,Agent search 2-248,text,true,,18869,227,1,1,http://100.93.97.65:8000/search?q=credit+report,76,0,34,s-a9690640-10ae-44d3-ad67-aecc385cb92a,,credit report
+1791507010801,95,GET /search,200,OK,Agent search 2-249,text,true,,227,227,1,1,http://100.93.97.65:8000/search?q=wire+transfer,95,0,46,s-2c944730-cd44-4a7b-85c1-4eb5ef5dc331,,wire transfer
+1791507016584,240,GET /search,200,OK,Agent search 2-250,text,true,,219,219,1,1,http://100.93.97.65:8000/search?q=Zelle,240,0,138,s-33b0ae86-dabe-4541-8f35-27db22ab1aac,,Zelle
+1791507021992,260,GET /search,200,OK,Agent search 2-251,text,true,,8678,220,1,1,http://100.93.97.65:8000/search?q=refund,259,0,158,s-b13aa0fc-4d7e-4e4c-9f01-0744a5ce4fa8,,refund
+1791507023779,317,GET /search,200,OK,Agent search 2-252,text,true,,227,227,1,1,http://100.93.97.65:8000/search?q=interest+rate,317,0,215,s-c2ef216c-c352-4ca5-b8ee-46ab3e5c6b61,,interest rate
+1791507030341,307,GET /search,200,OK,Agent search 2-253,text,true,,1316,231,1,1,http://100.93.97.65:8000/search?q=closed+my+account,307,0,211,s-7da957f5-81b3-4fbc-ae4e-d4ea9f5e47e4,,closed my account
+1791507036944,157,GET /search,200,OK,Agent search 2-254,text,true,,9712,219,1,1,http://100.93.97.65:8000/search?q=fraud,156,0,36,s-bbb3ddb6-1054-4f97-9bd8-0fc968a25805,,fraud
+1791507047172,239,GET /search,200,OK,Agent search 2-255,text,true,,1215,231,1,1,http://100.93.97.65:8000/search?q=loan+modification,239,0,168,s-58e2a355-6db1-44e8-af5f-5e8c1f8fc1be,,loan modification
+1791507048402,167,GET /search,200,OK,Agent search 2-256,text,true,,652,224,1,1,http://100.93.97.65:8000/search?q=charge+off,167,0,65,s-3e02184b-aa8a-47fc-b410-b91a0aa2d6a5,,charge off
+1791507051694,356,GET /search,200,OK,Agent search 2-257,text,true,,229,229,1,1,http://100.93.97.65:8000/search?q=minimum+payment,356,0,254,s-f1836bbb-7e63-4d12-bd71-66e7027cf3e4,,minimum payment
+1791507053795,202,GET /search,200,OK,Agent search 2-258,text,true,,221,221,1,1,http://100.93.97.65:8000/search?q=inquiry,202,0,99,s-59516d2b-b09c-452d-831a-e18e4638370e,,inquiry
+1791507058816,198,GET /search,200,OK,Agent search 2-259,text,true,,224,224,1,1,http://100.93.97.65:8000/search?q=debit+card,198,0,92,s-15819eb6-cee3-4c2f-b145-2e4e22902e35,,debit card
+1791507059782,111,GET /search,200,OK,Agent search 2-260,text,true,,220,220,1,1,http://100.93.97.65:8000/search?q=PayPal,111,0,47,s-e8eded84-3465-458a-9eb8-824d22d582ff,,PayPal
+1791507062363,80,GET /search,200,OK,Agent search 2-261,text,true,,3577,221,1,1,http://100.93.97.65:8000/search?q=Equifax,77,0,34,s-99b18297-df91-4c4d-9383-e53dfe02bb53,,Equifax
+1791507067935,167,GET /search,200,OK,Agent search 2-262,text,true,,1671,222,2,2,http://100.93.97.65:8000/search?q=Experian,162,0,93,s-f8e8ccee-50c7-4276-b15d-0d0269b59daa,,Experian
+1791507068084,92,GET /search,200,OK,Agent search 2-263,text,true,,6356,224,1,1,http://100.93.97.65:8000/search?q=TransUnion,83,0,39,s-ddfd3996-6e04-4e4e-a7a2-48ce6c5b791f,,TransUnion
+1791507072765,71,GET /search,200,OK,Agent search 2-264,text,true,,230,230,1,2,http://100.93.97.65:8000/search?q=mortgage+payment,71,0,25,s-262b6a37-903a-4885-b64e-82712c273459,,mortgage payment
+1791507073445,212,GET /search,200,OK,Agent search 2-265,text,true,,1703,226,1,2,http://100.93.97.65:8000/search?q=student+loan,212,0,108,s-df69f659-49a2-4faf-b944-b4d20ed8df3e,,student loan
+1791507075181,81,GET /search,200,OK,Agent search 2-266,text,true,,222,222,1,2,http://100.93.97.65:8000/search?q=car+loan,81,0,36,s-c02d7a38-1f33-420b-ae92-9d78ef450851,,car loan
+1791507076246,175,GET /search,200,OK,Agent search 2-267,text,true,,226,226,1,2,http://100.93.97.65:8000/search?q=credit+limit,175,0,81,s-66230ec5-5a44-42fc-8239-a8eb421adf72,,credit limit
+1791507076765,271,GET /search,200,OK,Agent search 2-268,text,true,,4478,226,2,3,http://100.93.97.65:8000/search?q=unauthorized,271,0,148,s-2abf5003-4f37-460b-a236-3a6b143d8ddb,,unauthorized
+1791507076772,264,GET /search,200,OK,Agent search 2-269,text,true,,224,224,2,3,http://100.93.97.65:8000/search?q=harassment,264,0,141,s-60f9b42b-3364-417d-b8e4-b65a65aa87d7,,harassment
+1791507077439,213,GET /search,200,OK,Agent search 2-270,text,true,,1136,224,1,2,http://100.93.97.65:8000/search?q=bankruptcy,212,0,154,s-50e93fe5-0157-4c89-a4d6-a783222a4bde,,bankruptcy
+1791507071760,7835,POST /tickets,200,OK,Ticket intake 1-53,text,true,,217,694,1,1,http://100.93.97.65:8000/tickets,7835,0,156,t-c246e160-aeed-48ca-9d40-7c8210de3870,5052,
+1791507079734,169,GET /search,200,OK,Agent search 2-271,text,true,,416,223,1,1,http://100.93.97.65:8000/search?q=overdraft,169,0,76,s-78a11869-b177-439a-b854-25d0f10a0ee4,,overdraft
+1791507080668,246,GET /search,200,OK,Agent search 2-272,text,true,,1936,222,1,2,http://100.93.97.65:8000/search?q=late+fee,237,0,157,s-d4cf644e-81e5-4100-80ee-92b1ce6a85f4,,late fee
+1791507085882,282,GET /search,200,OK,Agent search 2-273,text,true,,10211,221,1,2,http://100.93.97.65:8000/search?q=dispute,271,0,165,s-32f55357-8d85-464b-bd2c-e6db1ec4362b,,dispute
+1791507088199,204,GET /search,200,OK,Agent search 2-274,text,true,,1271,225,1,2,http://100.93.97.65:8000/search?q=foreclosure,204,0,102,s-c531d9ca-7448-4b1c-bed5-eb6263717f99,,foreclosure
+1791507080892,12702,POST /tickets,200,OK,Ticket intake 1-54,text,true,,218,1774,1,1,http://100.93.97.65:8000/tickets,12702,0,48,t-f8c2ad48-f132-4c57-bfec-cdf4fcaebb87,5053,
+1791507095418,266,GET /search,200,OK,Agent search 2-275,text,true,,2100,220,2,2,http://100.93.97.65:8000/search?q=escrow,266,0,153,s-5972a24c-e729-48d4-98db-571c846e9098,,escrow
+1791507095664,213,GET /search,200,OK,Agent search 2-276,text,true,,3849,223,2,2,http://100.93.97.65:8000/search?q=collector,213,0,82,s-3dda6c03-e376-46ab-86e6-34c5ed9e245f,,collector
+1791507095713,165,GET /search,200,OK,Agent search 2-277,text,true,,4584,228,1,1,http://100.93.97.65:8000/search?q=identity+theft,164,0,43,s-0ec6779a-badb-4085-941c-3cbca997601e,,identity theft
+1791507102895,355,GET /search,200,OK,Agent search 2-278,text,true,,18869,227,1,3,http://100.93.97.65:8000/search?q=credit+report,254,0,152,s-f8763ba6-4ad9-4244-93e7-2c184a993b8f,,credit report
+1791507105640,171,GET /search,200,OK,Agent search 2-279,text,true,,227,227,1,3,http://100.93.97.65:8000/search?q=wire+transfer,171,0,70,s-52c0bcd5-70d6-4832-8fae-60071b4dad1a,,wire transfer
+1791507097660,8459,POST /tickets,200,OK,Ticket intake 1-55,text,true,,213,712,2,2,http://100.93.97.65:8000/tickets,8459,0,114,t-cfb468ac-0b24-4fae-a1b3-d8819dcff2c4,5054,
+1791507110540,288,GET /search,200,OK,Agent search 2-280,text,true,,219,219,1,3,http://100.93.97.65:8000/search?q=Zelle,288,0,185,s-e102c910-5bcf-4399-a2d1-e35072a3d381,,Zelle
+1791507097766,18814,POST /tickets,200,OK,Ticket intake 1-56,text,true,,227,1523,2,3,http://100.93.97.65:8000/tickets,18814,0,59,t-5da56a06-c63a-4f21-a925-c0d2b95fa33f,5055,
+1791507116416,249,GET /search,200,OK,Agent search 2-281,text,true,,9237,220,1,2,http://100.93.97.65:8000/search?q=refund,249,0,147,s-38619a2e-49da-4e67-939e-f53dbf4dfa20,,refund
+1791507118036,166,GET /search,200,OK,Agent search 2-282,text,true,,227,227,1,2,http://100.93.97.65:8000/search?q=interest+rate,166,0,63,s-e01b1e49-75ae-4a93-9c46-803ee3dbce60,,interest rate
+1791507121125,250,GET /search,200,OK,Agent search 2-283,text,true,,1316,231,1,2,http://100.93.97.65:8000/search?q=closed+my+account,250,0,148,s-a92f30e2-d28b-4d09-baae-139fd719be98,,closed my account
+1791507123906,234,GET /search,200,OK,Agent search 2-284,text,true,,11656,219,1,3,http://100.93.97.65:8000/search?q=fraud,234,0,131,s-dfb4fc12-6651-429e-9bd2-8bd116394cf5,,fraud
+1791507106859,18327,POST /tickets,200,OK,Ticket intake 1-57,text,true,,225,815,2,2,http://100.93.97.65:8000/tickets,18327,0,61,t-435e48a2-8257-4251-9593-6dd6fb719922,5056,
+1791507125675,205,GET /search,200,OK,Agent search 2-285,text,true,,1215,231,1,2,http://100.93.97.65:8000/search?q=loan+modification,205,0,104,s-6811e312-060a-4a81-bb62-b882022415f3,,loan modification
+1791507125882,203,GET /search,200,OK,Agent search 2-286,text,true,,652,224,1,2,http://100.93.97.65:8000/search?q=charge+off,203,0,101,s-c1d49870-fec8-4919-b107-b8d90159a8a2,,charge off
+1791507121734,10394,POST /tickets,200,OK,Ticket intake 1-58,text,true,,210,487,1,1,http://100.93.97.65:8000/tickets,10394,0,35,t-b681e8dc-4c00-47b8-a8d3-61a534cd134b,5057,
+1791507135884,237,GET /search,200,OK,Agent search 2-287,text,true,,229,229,1,2,http://100.93.97.65:8000/search?q=minimum+payment,237,0,145,s-f3f3850a-3a6c-44a5-a5a5-a457992e208a,,minimum payment
+1791507140921,217,GET /search,200,OK,Agent search 2-288,text,true,,221,221,1,2,http://100.93.97.65:8000/search?q=inquiry,217,0,116,s-94d70172-b826-49bf-adff-53b2940508ec,,inquiry
+1791507132665,13088,POST /tickets,200,OK,Ticket intake 1-59,text,true,,210,1897,2,2,http://100.93.97.65:8000/tickets,13088,0,84,t-68afc0b6-fedf-4011-bbb9-f0556c9ce9b9,5058,
+1791507145942,213,GET /search,200,OK,Agent search 2-289,text,true,,224,224,1,2,http://100.93.97.65:8000/search?q=debit+card,213,0,111,s-bd0a5308-711a-41da-982d-1cba914a6059,,debit card
+1791507150300,260,GET /search,200,OK,Agent search 2-290,text,true,,220,220,1,3,http://100.93.97.65:8000/search?q=PayPal,260,0,159,s-26c1c514-c73d-417b-b8f4-189932ae688e,,PayPal
+1791507152646,269,GET /search,200,OK,Agent search 2-291,text,true,,3577,221,1,4,http://100.93.97.65:8000/search?q=Equifax,269,0,168,s-8756e052-b10f-479b-969a-6725a973c3e0,,Equifax
+1791507153526,111,GET /search,200,OK,Agent search 2-292,text,true,,1671,222,1,4,http://100.93.97.65:8000/search?q=Experian,111,0,72,s-b466abcf-3e55-4f9d-9749-a565cd95a002,,Experian
+1791507145422,10462,POST /tickets,200,OK,Ticket intake 1-60,text,true,,218,1166,3,3,http://100.93.97.65:8000/tickets,10462,0,119,t-69f655b8-c28a-43d9-8acb-796902cfb7ae,5059,
+1791507157176,243,GET /search,200,OK,Agent search 2-293,text,true,,6356,224,1,3,http://100.93.97.65:8000/search?q=TransUnion,243,0,142,s-eb4cad55-e6ec-4e75-845c-7919879ed56e,,TransUnion
+1791507162898,257,GET /search,200,OK,Agent search 2-294,text,true,,230,230,1,4,http://100.93.97.65:8000/search?q=mortgage+payment,257,0,155,s-d6efe68b-1cd4-4fe0-8426-0678da62b085,,mortgage payment
+1791507148377,15392,POST /tickets,200,OK,Ticket intake 1-61,text,true,,210,703,3,3,http://100.93.97.65:8000/tickets,15392,0,136,t-98fb61fa-20a7-45a7-8df8-38d10bf9f068,5060,
+1791507168072,206,GET /search,200,OK,Agent search 2-295,text,true,,1703,226,1,5,http://100.93.97.65:8000/search?q=student+loan,206,0,76,s-a0a51197-cd29-4b9f-a67c-8fd1c0bc9809,,student loan
+1791507151576,24584,POST /tickets,200,OK,Ticket intake 1-62,text,true,,227,1580,6,7,http://100.93.97.65:8000/tickets,24584,0,110,t-56ed929f-2523-4679-b9bb-fe93f242fb9a,5061,
+1791507176003,258,GET /search,200,OK,Agent search 2-296,text,true,,222,222,1,6,http://100.93.97.65:8000/search?q=car+loan,258,0,156,s-346a64a1-5617-4c7f-8a79-dc96e1325848,,car loan
+1791507177043,243,GET /search,200,OK,Agent search 2-297,text,true,,226,226,1,6,http://100.93.97.65:8000/search?q=credit+limit,243,0,142,s-a31b63b7-1601-4af5-83dd-c09674a8bb6f,,credit limit
+1791507177462,234,GET /search,200,OK,Agent search 2-298,text,true,,4478,226,1,6,http://100.93.97.65:8000/search?q=unauthorized,234,0,131,s-be74c3ad-2a8f-428d-8a92-abf94da92ddc,,unauthorized
+1791507180211,249,GET /search,200,OK,Agent search 2-299,text,true,,224,224,1,6,http://100.93.97.65:8000/search?q=harassment,249,0,54,s-aa170ad7-254d-49b9-a2ce-6eb27b4a0266,,harassment
+1791507159289,24961,POST /tickets,200,OK,Ticket intake 1-63,text,true,,217,592,5,5,http://100.93.97.65:8000/tickets,24961,0,180,t-03171377-3ef6-47ee-9b78-2888298b5599,5062,
+1791507188575,180,GET /search,200,OK,Agent search 2-300,text,true,,1136,224,1,5,http://100.93.97.65:8000/search?q=bankruptcy,180,0,78,s-54aca0a5-2782-48e3-a92d-9c6445d680d8,,bankruptcy
+1791507190896,220,GET /search,200,OK,Agent search 2-301,text,true,,416,223,1,5,http://100.93.97.65:8000/search?q=overdraft,220,0,112,s-f4948382-9513-459e-869b-56b4d76c2a55,,overdraft
+1791507164765,27165,POST /tickets,200,OK,Ticket intake 1-64,text,true,,227,603,4,4,http://100.93.97.65:8000/tickets,27165,0,142,t-3e1763b8-6560-43e6-bd51-3a79e2452bac,5063,
+1791507166650,36852,POST /tickets,200,OK,Ticket intake 1-65,text,true,,217,1404,4,4,http://100.93.97.65:8000/tickets,36852,0,90,t-726fec6c-6d11-43d5-a10e-10e5d03843f2,5064,
+1791507203713,198,GET /search,200,OK,Agent search 2-302,text,true,,1936,222,1,4,http://100.93.97.65:8000/search?q=late+fee,197,0,95,s-3c82fd1c-cb34-472a-8a63-5a15fd44277d,,late fee
+1791507204636,311,GET /search,200,OK,Agent search 2-303,text,true,,17418,221,1,4,http://100.93.97.65:8000/search?q=dispute,202,0,95,s-9c0a52b8-02c3-4432-8ca2-cd3c625e16ff,,dispute
+1791507211056,227,GET /search,200,OK,Agent search 2-304,text,true,,3011,225,1,4,http://100.93.97.65:8000/search?q=foreclosure,227,0,125,s-0e14c2e7-2a37-44db-9678-ccc0fdcc9b9f,,foreclosure
+1791507170177,41824,POST /tickets,200,OK,Ticket intake 1-66,text,true,,227,962,3,3,http://100.93.97.65:8000/tickets,41824,0,146,t-1809a301-a21e-4d66-bdcf-bc1360a986c2,5065,
+1791507215737,256,GET /search,200,OK,Agent search 2-305,text,true,,2100,220,1,4,http://100.93.97.65:8000/search?q=escrow,256,0,164,s-fb5edaf0-eb5d-4431-ae5f-7a5d6f890fb4,,escrow
+1791507216179,225,GET /search,200,OK,Agent search 2-306,text,true,,5589,223,1,4,http://100.93.97.65:8000/search?q=collector,225,0,122,s-fb87355f-92da-481e-bb6f-3a7f322e7d8f,,collector
+1791507218279,173,GET /search,200,OK,Agent search 2-307,text,true,,4584,228,1,4,http://100.93.97.65:8000/search?q=identity+theft,173,0,71,s-00b750b0-1926-4720-951b-93809fa6dd5d,,identity theft
+1791507173900,46292,POST /tickets,200,OK,Ticket intake 1-67,text,true,,218,661,3,3,http://100.93.97.65:8000/tickets,46292,0,111,t-e81ee698-ba8e-4f8b-8a5a-0d2b96ff2f7a,5066,
+1791507226082,309,GET /search,200,OK,Agent search 2-308,text,true,,21141,227,1,3,http://100.93.97.65:8000/search?q=credit+report,255,0,152,s-b0523b73-5018-460b-9784-4ef6fe720eb0,,credit report
+1791507203290,25606,POST /tickets,200,OK,Ticket intake 1-68,text,true,,225,930,2,2,http://100.93.97.65:8000/tickets,25606,0,110,t-0c934ded-e43f-47be-af0d-0c0528df6a5e,5067,
+1791507214026,22449,POST /tickets,200,OK,Ticket intake 1-69,text,true,,218,663,2,2,http://100.93.97.65:8000/tickets,22449,0,126,t-5d1f88ff-5882-4e28-b337-bc26e648fb16,5068,
+1791507237800,209,GET /search,200,OK,Agent search 2-309,text,true,,227,227,1,2,http://100.93.97.65:8000/search?q=wire+transfer,209,0,107,s-9d10935d-9ed9-4d8e-9dda-6cc21e16d443,,wire transfer
+1791507238231,188,GET /search,200,OK,Agent search 2-310,text,true,,1042,219,1,2,http://100.93.97.65:8000/search?q=Zelle,188,0,87,s-dbde3191-7291-46f5-b89b-4c91f72990ac,,Zelle
+1791507238600,229,GET /search,200,OK,Agent search 2-311,text,true,,11121,220,1,2,http://100.93.97.65:8000/search?q=refund,229,0,127,s-d33e5f41-89d5-4058-8cfa-d56c564642ce,,refund
+1791507243329,211,GET /search,200,OK,Agent search 2-312,text,true,,227,227,1,2,http://100.93.97.65:8000/search?q=interest+rate,211,0,108,s-a9d91c2a-8f28-4fb0-9ef5-f816d8c6f3bd,,interest rate
+1791507248027,224,GET /search,200,OK,Agent search 2-313,text,true,,1990,231,1,2,http://100.93.97.65:8000/search?q=closed+my+account,224,0,121,s-61d4c424-9fd9-4c2e-9dde-0b4624b1a9c7,,closed my account
+1791507229655,19721,POST /tickets,200,OK,Ticket intake 1-70,text,true,,213,1495,1,1,http://100.93.97.65:8000/tickets,19721,0,163,t-61f2caea-a807-4e2d-8318-89f8f1115082,5069,
+1791507249749,243,GET /search,200,OK,Agent search 2-314,text,true,,11656,219,1,1,http://100.93.97.65:8000/search?q=fraud,242,0,140,s-670ffc76-07fb-4983-91f5-c522e82b815a,,fraud
+1791507257809,169,GET /search,200,OK,Agent search 2-315,text,true,,1215,231,1,2,http://100.93.97.65:8000/search?q=loan+modification,169,0,67,s-45e870fc-ea93-487b-bd73-cffa312f4ffb,,loan modification
+1791507251827,11580,POST /tickets,200,OK,Ticket intake 1-71,text,true,,217,1208,2,2,http://100.93.97.65:8000/tickets,11580,0,110,t-2de9a39c-68e2-43a7-ac04-632615c15451,5070,
+1791507267899,216,GET /search,200,OK,Agent search 2-316,text,true,,652,224,1,2,http://100.93.97.65:8000/search?q=charge+off,216,0,115,s-795b592c-4782-41fe-bc9e-8dcbd5c8219a,,charge off
+1791507259513,11045,POST /tickets,200,OK,Ticket intake 1-72,text,true,,218,524,1,2,http://100.93.97.65:8000/tickets,11045,0,63,t-b6484fd8-509d-4708-a8c6-08573ff49946,5071,
+1791507270551,124,GET /search,200,OK,Agent search 2-317,text,true,,229,229,1,1,http://100.93.97.65:8000/search?q=minimum+payment,124,0,28,s-50e1e391-2f1d-4869-bed8-f41df44b03e7,,minimum payment
+1791507275140,218,GET /search,200,OK,Agent search 2-318,text,true,,221,221,1,1,http://100.93.97.65:8000/search?q=inquiry,218,0,143,s-16e283e0-9a92-4ea6-b916-546d0c0fc51b,,inquiry
+1791507275624,275,GET /search,200,OK,Agent search 2-319,text,true,,224,224,1,1,http://100.93.97.65:8000/search?q=debit+card,275,0,172,s-8c3ea9ad-913f-4495-b952-4f5120244c9c,,debit card
+1791507283683,203,GET /search,200,OK,Agent search 2-320,text,true,,220,220,1,1,http://100.93.97.65:8000/search?q=PayPal,203,0,100,s-f650e618-3078-44e3-836a-5a03a0de6126,,PayPal
+1791507289060,253,GET /search,200,OK,Agent search 2-321,text,true,,3577,221,1,1,http://100.93.97.65:8000/search?q=Equifax,253,0,150,s-3ba8cb3c-370f-43a2-9b94-93fb08fc8e83,,Equifax
+1791507292312,278,GET /search,200,OK,Agent search 2-322,text,true,,2047,222,1,1,http://100.93.97.65:8000/search?q=Experian,278,0,177,s-a5400335-0087-4e9e-bb80-35f123bc14b7,,Experian
+1791507294550,195,GET /search,200,OK,Agent search 2-323,text,true,,6356,224,1,1,http://100.93.97.65:8000/search?q=TransUnion,195,0,89,s-336b535b-4e13-4322-9c88-1f4f31215bd9,,TransUnion
+1791507295203,255,GET /search,200,OK,Agent search 2-324,text,true,,230,230,1,1,http://100.93.97.65:8000/search?q=mortgage+payment,255,0,152,s-55f7294d-6211-4902-abeb-773672782b24,,mortgage payment
+1791507298646,8204,POST /tickets,200,OK,Ticket intake 1-73,text,true,,218,641,2,2,http://100.93.97.65:8000/tickets,8203,0,89,t-23b2a7a9-9b8e-4400-b501-0823327b0848,5072,
+1791507309583,209,GET /search,200,OK,Agent search 2-325,text,true,,1703,226,1,2,http://100.93.97.65:8000/search?q=student+loan,209,0,106,s-c296f7fa-d47b-4f04-ad44-95f1db517034,,student loan
+1791507309998,205,GET /search,200,OK,Agent search 2-326,text,true,,222,222,1,2,http://100.93.97.65:8000/search?q=car+loan,205,0,101,s-4895f529-9bc9-41d2-8ccf-67597ecb130f,,car loan
+1791507304070,12685,POST /tickets,200,OK,Ticket intake 1-74,text,true,,215,1237,1,1,http://100.93.97.65:8000/tickets,12685,0,90,t-ad865055-29f1-4108-ab9a-42c898b937ee,5073,
+1791507318563,208,GET /search,200,OK,Agent search 2-327,text,true,,226,226,1,1,http://100.93.97.65:8000/search?q=credit+limit,208,0,138,s-73c1aa5e-86f0-4040-a31c-ad77101d148c,,credit limit
+1791507331900,125,GET /search,200,OK,Agent search 2-328,text,true,,4478,226,1,1,http://100.93.97.65:8000/search?q=unauthorized,115,0,69,s-22c9c449-8638-4236-b0d8-e07616e9bc47,,unauthorized
+1791507333341,209,GET /search,200,OK,Agent search 2-329,text,true,,224,224,1,1,http://100.93.97.65:8000/search?q=harassment,209,0,108,s-e0fb36ec-50b1-4e3e-a1ce-89f7f1a6961e,,harassment
+1791507337904,106,GET /search,200,OK,Agent search 2-330,text,true,,1513,224,1,1,http://100.93.97.65:8000/search?q=bankruptcy,106,0,45,s-3a95331e-9f68-46f7-ae86-8f2394dbcc71,,bankruptcy
+1791507338170,192,GET /search,200,OK,Agent search 2-331,text,true,,416,223,1,1,http://100.93.97.65:8000/search?q=overdraft,192,0,89,s-34c88144-0b06-4273-8d4e-2cc0bf37df58,,overdraft
+1791507344597,216,GET /search,200,OK,Agent search 2-332,text,true,,1936,222,1,1,http://100.93.97.65:8000/search?q=late+fee,216,0,114,s-25930db0-93d2-417c-b6a5-f76b0f35dd68,,late fee
+1791507348728,284,GET /search,200,OK,Agent search 2-333,text,true,,19326,221,1,1,http://100.93.97.65:8000/search?q=dispute,181,0,80,s-87800041-b082-4b6a-b528-bdd5b9200db9,,dispute
+1791507349516,214,GET /search,200,OK,Agent search 2-334,text,true,,3011,225,1,1,http://100.93.97.65:8000/search?q=foreclosure,214,0,110,s-7b91443e-6af0-47cc-95b9-1c8a890b6505,,foreclosure
+1791507352428,168,GET /search,200,OK,Agent search 2-335,text,true,,2100,220,1,2,http://100.93.97.65:8000/search?q=escrow,168,0,35,s-4a845f4b-4db9-4329-92fa-8e362d373633,,escrow
+1791507354965,191,GET /search,200,OK,Agent search 2-336,text,true,,5589,223,1,2,http://100.93.97.65:8000/search?q=collector,191,0,87,s-243acff5-d599-496d-8bb8-51c36e216eaa,,collector
+1791507358876,171,GET /search,200,OK,Agent search 2-337,text,true,,5097,228,1,2,http://100.93.97.65:8000/search?q=identity+theft,171,0,98,s-059cc38f-9b29-448a-8563-50cc085c8288,,identity theft
+1791507359146,312,GET /search,200,OK,Agent search 2-338,text,true,,23584,227,1,2,http://100.93.97.65:8000/search?q=credit+report,209,0,106,s-2b0fd981-0ebf-4010-b056-fe0a056740b9,,credit report
+1791507352236,10088,POST /tickets,200,OK,Ticket intake 1-75,text,true,,225,1082,1,1,http://100.93.97.65:8000/tickets,10088,0,156,t-f96ec9ec-1895-4e2f-89dd-376af2d28b72,5074,
+1791507364219,255,GET /search,200,OK,Agent search 2-339,text,true,,227,227,1,1,http://100.93.97.65:8000/search?q=wire+transfer,255,0,119,s-b557be4c-e360-4a3a-bc9f-c6be29ca773b,,wire transfer
+1791507365951,83,GET /search,200,OK,Agent search 2-340,text,true,,1042,219,1,1,http://100.93.97.65:8000/search?q=Zelle,83,0,39,s-b5d514e5-f1d8-470f-9521-677e3e5c4245,,Zelle
+1791507366910,268,GET /search,200,OK,Agent search 2-341,text,true,,12462,220,1,1,http://100.93.97.65:8000/search?q=refund,227,0,126,s-dfafb5fc-9eb2-4159-97f3-d14771486656,,refund
+1791507369241,114,GET /search,200,OK,Agent search 2-342,text,true,,227,227,1,1,http://100.93.97.65:8000/search?q=interest+rate,114,0,46,s-05b5e5b6-c289-4ebc-bb83-89efd143d766,,interest rate
+1791507371345,195,GET /search,200,OK,Agent search 2-343,text,true,,1990,231,1,2,http://100.93.97.65:8000/search?q=closed+my+account,195,0,93,s-b8f0ea26-d333-43af-86cc-e76e8f1ba248,,closed my account
+1791507375772,171,GET /search,200,OK,Agent search 2-344,text,true,,12149,219,1,3,http://100.93.97.65:8000/search?q=fraud,171,0,40,s-be71a3b1-5071-4629-8905-02b9ec84a0fc,,fraud
+1791507371233,7884,POST /tickets,200,OK,Ticket intake 1-76,text,true,,218,585,3,3,http://100.93.97.65:8000/tickets,7884,0,104,t-82962509-d51e-472d-b835-1de00b309c46,5075,
+1791507379132,189,GET /search,200,OK,Agent search 2-345,text,true,,1215,231,1,3,http://100.93.97.65:8000/search?q=loan+modification,189,0,87,s-a26baf31-b794-4bc8-8550-a98aab1e6e03,,loan modification
+1791507379373,153,GET /search,200,OK,Agent search 2-346,text,true,,652,224,1,3,http://100.93.97.65:8000/search?q=charge+off,153,0,51,s-d0f558ff-7e6e-49e1-88b5-48959f1eec76,,charge off
+1791507385455,219,GET /search,200,OK,Agent search 2-347,text,true,,229,229,1,3,http://100.93.97.65:8000/search?q=minimum+payment,219,0,104,s-1fce5e95-0de4-4e7b-aae5-5250d60613cb,,minimum payment
+1791507375271,12755,POST /tickets,200,OK,Ticket intake 1-77,text,true,,210,902,2,2,http://100.93.97.65:8000/tickets,12755,0,159,t-28d9cbec-5bfd-4d46-9935-d85136486a35,5076,
+1791507392902,107,GET /search,200,OK,Agent search 2-348,text,true,,221,221,1,2,http://100.93.97.65:8000/search?q=inquiry,106,0,62,s-7d334b72-409d-41d2-b718-364d8e92ac52,,inquiry
+1791507396079,154,GET /search,200,OK,Agent search 2-349,text,true,,224,224,1,2,http://100.93.97.65:8000/search?q=debit+card,154,0,78,s-a940195a-0972-44be-97e0-784f1778fa8d,,debit card
+1791507396343,138,GET /search,200,OK,Agent search 2-350,text,true,,220,220,1,2,http://100.93.97.65:8000/search?q=PayPal,138,0,48,s-dff003cf-d4d4-483f-82e3-e99945fbb1aa,,PayPal
+1791507399931,114,GET /search,200,OK,Agent search 2-351,text,true,,3577,221,1,3,http://100.93.97.65:8000/search?q=Equifax,111,0,57,s-debec95e-4206-4ec0-9bf9-6524d13cc013,,Equifax
+1791507378734,22026,POST /tickets,200,OK,Ticket intake 1-78,text,true,,227,1539,2,2,http://100.93.97.65:8000/tickets,22026,0,76,t-b8f7edc0-186f-4861-acfe-8c1fb7c50eb5,5077,
+1791507412737,127,GET /search,200,OK,Agent search 2-352,text,true,,2047,222,1,4,http://100.93.97.65:8000/search?q=Experian,127,0,73,s-4ef8a9cf-06d7-41d2-8306-2aa8be36e474,,Experian
+1791507397924,15004,POST /tickets,200,OK,Ticket intake 1-79,text,true,,210,1480,3,3,http://100.93.97.65:8000/tickets,15004,0,37,t-e63c2b14-ff04-4597-9cee-09ecc9468dde,5078,
+1791507419517,115,GET /search,200,OK,Agent search 2-353,text,true,,6356,224,1,3,http://100.93.97.65:8000/search?q=TransUnion,112,0,66,s-2d8edf93-1b6c-4902-bc8f-02b269e8710b,,TransUnion
+1791507406379,15213,POST /tickets,200,OK,Ticket intake 1-80,text,true,,215,813,2,2,http://100.93.97.65:8000/tickets,15213,0,91,t-ee986d6b-921a-4f8d-a220-5b16f711ba97,5079,
+1791507409229,22523,POST /tickets,200,OK,Ticket intake 1-81,text,true,,225,1123,1,1,http://100.93.97.65:8000/tickets,22523,0,64,t-a1762bec-911b-4473-aff0-108cbc1f9a93,5080,
+1791507434466,118,GET /search,200,OK,Agent search 2-354,text,true,,976,230,1,1,http://100.93.97.65:8000/search?q=mortgage+payment,118,0,64,s-dc7157fb-ada8-42aa-803f-d8f4ed184d4d,,mortgage payment
+1791507439787,120,GET /search,200,OK,Agent search 2-355,text,true,,1703,226,1,1,http://100.93.97.65:8000/search?q=student+loan,120,0,72,s-8aa6c0f4-a8d4-4dd5-8462-25c573555050,,student loan
+1791507446670,121,GET /search,200,OK,Agent search 2-356,text,true,,222,222,1,1,http://100.93.97.65:8000/search?q=car+loan,121,0,64,s-b7688615-fad3-4023-b5cb-22d14066318d,,car loan
+1791507449532,117,GET /search,200,OK,Agent search 2-357,text,true,,226,226,1,1,http://100.93.97.65:8000/search?q=credit+limit,117,0,64,s-4e9b2cc9-f2c0-416b-aeb9-c2c31333d84c,,credit limit
+1791507452687,103,GET /search,200,OK,Agent search 2-358,text,true,,4478,226,1,2,http://100.93.97.65:8000/search?q=unauthorized,103,0,54,s-4242e5dd-0f2c-4401-9646-877ae257db39,,unauthorized
+1791507451530,11024,POST /tickets,200,OK,Ticket intake 1-82,text,true,,227,1470,1,1,http://100.93.97.65:8000/tickets,11024,0,41,t-9ad51113-bb8c-42de-96bb-d880ee9021e8,5081,
+1791507463527,168,GET /search,200,OK,Agent search 2-359,text,true,,224,224,2,2,http://100.93.97.65:8000/search?q=harassment,168,0,65,s-f3108628-de12-4aa0-ac9f-ff0c480e57d3,,harassment
+1791507463620,116,GET /search,200,OK,Agent search 2-360,text,true,,1513,224,1,1,http://100.93.97.65:8000/search?q=bankruptcy,116,0,75,s-41e3f3b5-b9dd-4663-9b44-d864bf5398d9,,bankruptcy
+1791507465299,120,GET /search,200,OK,Agent search 2-361,text,true,,2757,223,1,1,http://100.93.97.65:8000/search?q=overdraft,120,0,65,s-3840d7c4-1f8e-469b-b658-2ff33b5db113,,overdraft
+1791507469811,91,GET /search,200,OK,Agent search 2-362,text,true,,1936,222,1,1,http://100.93.97.65:8000/search?q=late+fee,91,0,44,s-68c1e077-be34-4b60-a2ea-5c08884b077f,,late fee
+1791507472303,166,GET /search,200,OK,Agent search 2-363,text,true,,19326,221,1,1,http://100.93.97.65:8000/search?q=dispute,120,0,28,s-9433059c-2014-4ce4-be18-5bc3c1acd4b0,,dispute
+1791507476667,132,GET /search,200,OK,Agent search 2-364,text,true,,4334,225,1,1,http://100.93.97.65:8000/search?q=foreclosure,126,0,93,s-bcdd24d2-65af-48ba-aa0c-8964e0f9c900,,foreclosure
+1791507477335,81,GET /search,200,OK,Agent search 2-365,text,true,,2100,220,1,1,http://100.93.97.65:8000/search?q=escrow,77,0,44,s-0baadf63-5bea-47df-be53-1965bc20f67e,,escrow
+1791507477532,129,GET /search,200,OK,Agent search 2-366,text,true,,5589,223,1,1,http://100.93.97.65:8000/search?q=collector,128,0,78,s-d70d91e6-0c06-4ea0-9288-bc6a77f97248,,collector
+1791507481252,129,GET /search,200,OK,Agent search 2-367,text,true,,5097,228,1,1,http://100.93.97.65:8000/search?q=identity+theft,99,0,41,s-4d73be53-61e2-4817-b375-9edf881f17dd,,identity theft
+1791507482153,155,GET /search,200,OK,Agent search 2-368,text,true,,24683,227,1,1,http://100.93.97.65:8000/search?q=credit+report,104,0,31,s-c4838617-dc2a-489a-a58b-f665b48f310e,,credit report
+1791507482670,107,GET /search,200,OK,Agent search 2-369,text,true,,1558,227,1,1,http://100.93.97.65:8000/search?q=wire+transfer,103,0,64,s-19ebe9c0-ee0b-4841-b44f-834426786e14,,wire transfer
+1791507489106,117,GET /search,200,OK,Agent search 2-370,text,true,,1042,219,1,2,http://100.93.97.65:8000/search?q=Zelle,117,0,65,s-1d1d88e0-c593-427c-9d0c-d6167617f54a,,Zelle
+1791507490984,232,GET /search,200,OK,Agent search 2-371,text,true,,12462,220,1,2,http://100.93.97.65:8000/search?q=refund,199,0,145,s-ba347dd5-5de0-4d83-a95d-e840d3a9ab96,,refund
+1791507484729,8945,POST /tickets,200,OK,Ticket intake 1-83,text,true,,227,978,1,1,http://100.93.97.65:8000/tickets,8945,0,52,t-7df9cd40-f28e-4cc8-ab46-30019348c976,5082,
+1791507494706,9845,POST /tickets,200,OK,Ticket intake 1-84,text,true,,225,708,1,1,http://100.93.97.65:8000/tickets,9845,0,65,t-7310441e-d601-4e1d-bd06-98ce748088fd,5083,
+1791507508808,165,GET /search,200,OK,Agent search 2-372,text,true,,227,227,1,1,http://100.93.97.65:8000/search?q=interest+rate,165,0,82,s-3001513f-9a24-4d83-8871-23f431852b09,,interest rate
+1791507509084,87,GET /search,200,OK,Agent search 2-373,text,true,,1990,231,1,1,http://100.93.97.65:8000/search?q=closed+my+account,87,0,41,s-90389d9d-0ea2-440c-b72e-d407863a272e,,closed my account
+1791507516885,473,GET /search,200,OK,Agent search 2-374,text,true,,13479,219,1,1,http://100.93.97.65:8000/search?q=fraud,371,0,166,s-babf7efd-96f7-404a-a76b-23d593f43ce5,,fraud
+1791507523866,251,GET /search,200,OK,Agent search 2-375,text,true,,2538,231,1,1,http://100.93.97.65:8000/search?q=loan+modification,251,0,144,s-932034a9-1b64-4975-bff2-e6b5754f3aba,,loan modification
+1791507526088,149,GET /search,200,OK,Agent search 2-376,text,true,,652,224,1,1,http://100.93.97.65:8000/search?q=charge+off,149,0,78,s-9d045d41-b19c-41bc-b773-62b6554c5577,,charge off
+1791507527313,183,GET /search,200,OK,Agent search 2-377,text,true,,229,229,1,3,http://100.93.97.65:8000/search?q=minimum+payment,183,0,81,s-c3b3bf9a-1398-4e1f-9e37-ae527813e91c,,minimum payment
+1791507527016,8366,POST /tickets,200,OK,Ticket intake 1-85,text,true,,215,732,3,3,http://100.93.97.65:8000/tickets,8366,0,120,t-7735c6b0-ca5c-4571-97c6-09a222eef3cd,5084,
+1791507542403,146,GET /search,200,OK,Agent search 2-378,text,true,,221,221,1,3,http://100.93.97.65:8000/search?q=inquiry,146,0,31,s-9be83b66-c7fb-48bc-9aff-64155e2f9bd2,,inquiry
+1791507527129,21359,POST /tickets,200,OK,Ticket intake 1-86,text,true,,217,1794,2,2,http://100.93.97.65:8000/tickets,21359,0,191,t-274bf173-b219-46ef-ac10-537d2678bf5a,5085,
+1791507555557,203,GET /search,200,OK,Agent search 2-379,text,true,,1207,224,1,2,http://100.93.97.65:8000/search?q=debit+card,203,0,80,s-0433fc2b-a0e0-418e-bfef-15d74c516d78,,debit card
+1791507528355,28530,POST /tickets,200,OK,Ticket intake 1-87,text,true,,225,839,1,1,http://100.93.97.65:8000/tickets,28530,0,166,t-3444552a-145e-4dab-a390-0c89239a17a6,5086,
+1791507557278,223,GET /search,200,OK,Agent search 2-380,text,true,,220,220,1,1,http://100.93.97.65:8000/search?q=PayPal,223,0,120,s-28948618-1e4d-4f00-ba26-bdee9b0dcfc9,,PayPal
+1791507567779,166,GET /search,200,OK,Agent search 2-381,text,true,,3577,221,1,1,http://100.93.97.65:8000/search?q=Equifax,166,0,74,s-d8da8c52-ba16-42bf-8fba-d146ce56be22,,Equifax
+1791507571763,9257,POST /tickets,200,OK,Ticket intake 1-88,text,true,,210,845,1,1,http://100.93.97.65:8000/tickets,9257,0,176,t-ce3716d9-ee96-40ba-9dde-6eab2d01a9aa,5087,
+1791507585194,262,GET /search,200,OK,Agent search 2-382,text,true,,2047,222,1,1,http://100.93.97.65:8000/search?q=Experian,262,0,161,s-1c70ee2f-d87f-40b2-aa34-794b87f31fe5,,Experian
+1791507586530,258,GET /search,200,OK,Agent search 2-383,text,true,,6356,224,1,1,http://100.93.97.65:8000/search?q=TransUnion,258,0,155,s-4d76d97e-c3e1-4efb-80a1-302a6dede4d6,,TransUnion
+1791507587300,204,GET /search,200,OK,Agent search 2-384,text,true,,1666,230,1,1,http://100.93.97.65:8000/search?q=mortgage+payment,204,0,101,s-ffd565b5-8fd3-4657-98d1-1fc2aeb6b543,,mortgage payment
+1791507588762,174,GET /search,200,OK,Agent search 2-385,text,true,,1703,226,1,1,http://100.93.97.65:8000/search?q=student+loan,174,0,52,s-ec6b49af-0905-4fc8-a164-9d66b207a1aa,,student loan
+1791507593932,228,GET /search,200,OK,Agent search 2-386,text,true,,222,222,1,1,http://100.93.97.65:8000/search?q=car+loan,228,0,125,s-8a4656e0-6f9a-48b9-92cf-829c62416616,,car loan
+1791507597064,270,GET /search,200,OK,Agent search 2-387,text,true,,226,226,1,1,http://100.93.97.65:8000/search?q=credit+limit,270,0,167,s-8f9b40cc-43b4-422d-85a9-e03008c91828,,credit limit
+1791507600859,160,GET /search,200,OK,Agent search 2-388,text,true,,4478,226,1,1,http://100.93.97.65:8000/search?q=unauthorized,160,0,58,s-0b27fd0d-07ec-4908-9e1d-bb7ad1f17809,,unauthorized
+1791507605346,283,GET /search,200,OK,Agent search 2-389,text,true,,224,224,1,1,http://100.93.97.65:8000/search?q=harassment,283,0,181,s-034bf7ec-029a-448b-8b8c-4862718501ec,,harassment
+1791507609385,203,GET /search,200,OK,Agent search 2-390,text,true,,1513,224,1,1,http://100.93.97.65:8000/search?q=bankruptcy,203,0,135,s-1bee367e-0889-4434-878a-400d50ecb9c6,,bankruptcy
+1791507611159,205,GET /search,200,OK,Agent search 2-391,text,true,,2757,223,1,1,http://100.93.97.65:8000/search?q=overdraft,205,0,102,s-bdff63fd-87cd-4d4a-b618-671403276fe0,,overdraft
+1791507632076,177,GET /search,200,OK,Agent search 2-392,text,true,,1936,222,1,1,http://100.93.97.65:8000/search?q=late+fee,177,0,74,s-ec834c2b-d3b3-4218-bc3f-18d43d0534a9,,late fee
+1791507669695,285,GET /search,200,OK,Agent search 2-393,text,true,,20165,221,1,1,http://100.93.97.65:8000/search?q=dispute,242,0,139,s-c9c8b351-7b0c-405a-b49b-fcd564ffea5f,,dispute
+1791507672547,106,GET /search,200,OK,Agent search 2-394,text,true,,4334,225,1,1,http://100.93.97.65:8000/search?q=foreclosure,97,0,60,s-17c6c593-7a51-4eaa-a0cc-0f896b598737,,foreclosure
+1791507673022,191,GET /search,200,OK,Agent search 2-395,text,true,,2789,220,1,1,http://100.93.97.65:8000/search?q=escrow,191,0,88,s-f6535583-0643-42bf-a638-15efadaf1d60,,escrow
+1791507674200,140,GET /search,200,OK,Agent search 2-396,text,true,,5589,223,1,1,http://100.93.97.65:8000/search?q=collector,140,0,71,s-3e2c120d-fc52-499c-bea2-16078ae45404,,collector
+1791507675098,266,GET /search,200,OK,Agent search 2-397,text,true,,5097,228,1,1,http://100.93.97.65:8000/search?q=identity+theft,266,0,164,s-78073bec-6135-48de-b6b7-a902d9fd407e,,identity theft
+1791507682243,288,GET /search,200,OK,Agent search 2-398,text,true,,26327,227,1,1,http://100.93.97.65:8000/search?q=credit+report,185,0,83,s-bf4a0d32-2a0c-4005-a259-075f366bdd05,,credit report
+1791507684134,119,GET /search,200,OK,Agent search 2-399,text,true,,1558,227,1,1,http://100.93.97.65:8000/search?q=wire+transfer,119,0,59,s-b262eedd-31ff-49e7-b03a-c36267a315dd,,wire transfer
+1791507694227,182,GET /search,200,OK,Agent search 2-400,text,true,,1882,219,1,2,http://100.93.97.65:8000/search?q=Zelle,182,0,79,s-60f44f2a-60dd-4e72-9015-c76da09ef3fc,,Zelle
+1791507694676,348,GET /search,200,OK,Agent search 2-401,text,true,,12462,220,1,2,http://100.93.97.65:8000/search?q=refund,245,0,143,s-dc0e5451-a5c4-47e3-8282-5276d0a3c62c,,refund
+1791507701372,210,GET /search,200,OK,Agent search 2-402,text,true,,808,227,1,2,http://100.93.97.65:8000/search?q=interest+rate,210,0,104,s-be8b83f3-3574-458c-a83e-c7dbf7298181,,interest rate
+1791507702064,231,GET /search,200,OK,Agent search 2-403,text,true,,1990,231,1,2,http://100.93.97.65:8000/search?q=closed+my+account,231,0,130,s-a89f4c49-3666-4075-9876-23554f2212b5,,closed my account
+1791507693952,8342,POST /tickets,200,OK,Ticket intake 1-89,text,true,,210,651,1,2,http://100.93.97.65:8000/tickets,8342,0,150,t-a924e3ce-0f3c-43e1-866f-56e1df78c515,5088,
+1791507703175,349,GET /search,200,OK,Agent search 2-404,text,true,,13479,219,1,1,http://100.93.97.65:8000/search?q=fraud,247,0,144,s-0797cd80-a1fb-465e-b9a7-7dc22eedba4c,,fraud
+1791507703809,174,GET /search,200,OK,Agent search 2-405,text,true,,2538,231,1,1,http://100.93.97.65:8000/search?q=loan+modification,174,0,124,s-45b434c3-e531-4b51-a939-5b7fb515ec0a,,loan modification
+1791507705717,265,GET /search,200,OK,Agent search 2-406,text,true,,652,224,1,1,http://100.93.97.65:8000/search?q=charge+off,265,0,162,s-46f36f04-a388-44bd-8f19-2342babd60cf,,charge off
+1791507707620,205,GET /search,200,OK,Agent search 2-407,text,true,,229,229,1,1,http://100.93.97.65:8000/search?q=minimum+payment,205,0,103,s-45078f82-eab3-4d6e-bdc5-0577c4e1fa69,,minimum payment
+1791507714041,132,GET /search,200,OK,Agent search 2-408,text,true,,221,221,1,2,http://100.93.97.65:8000/search?q=inquiry,132,0,37,s-896195c2-feaf-44af-998a-d7b3f223b24c,,inquiry
+1791507719893,219,GET /search,200,OK,Agent search 2-409,text,true,,1207,224,1,2,http://100.93.97.65:8000/search?q=debit+card,219,0,117,s-3d43a2da-6b8d-4a2a-97c7-7662ca35f1b0,,debit card
+1791507720174,246,GET /search,200,OK,Agent search 2-410,text,true,,220,220,1,2,http://100.93.97.65:8000/search?q=PayPal,246,0,144,s-a789aa8c-62ed-4b96-a96f-fbb107858bb3,,PayPal
+1791507721003,133,GET /search,200,OK,Agent search 2-411,text,true,,3577,221,1,2,http://100.93.97.65:8000/search?q=Equifax,133,0,31,s-456da0fa-23f6-4de6-8f9a-ca6cf9160bbc,,Equifax
+1791507713828,9152,POST /tickets,200,OK,Ticket intake 1-90,text,true,,210,871,1,1,http://100.93.97.65:8000/tickets,9152,0,141,t-ccce0404-2753-4ccc-9f22-cc3a660ed393,5089,
+1791507725421,183,GET /search,200,OK,Agent search 2-412,text,true,,2047,222,1,1,http://100.93.97.65:8000/search?q=Experian,178,0,121,s-0c272070-0ce8-4bf5-9a22-419b8db00073,,Experian
+1791507729733,211,GET /search,200,OK,Agent search 2-413,text,true,,6356,224,1,1,http://100.93.97.65:8000/search?q=TransUnion,210,0,108,s-5a0f1dae-9988-49f3-b2d6-4d557cbccac8,,TransUnion
+1791507730923,352,GET /search,200,OK,Agent search 2-414,text,true,,1666,230,1,1,http://100.93.97.65:8000/search?q=mortgage+payment,352,0,135,s-03ef4d75-2de2-4aae-adf9-6275db95fd52,,mortgage payment
+1791507731850,244,GET /search,200,OK,Agent search 2-415,text,true,,1703,226,1,1,http://100.93.97.65:8000/search?q=student+loan,244,0,142,s-24ba2fef-e5b7-4a14-aac2-b980bc322c85,,student loan
+1791507736465,238,GET /search,200,OK,Agent search 2-416,text,true,,222,222,1,2,http://100.93.97.65:8000/search?q=car+loan,238,0,134,s-a0d09af0-c310-412e-9c72-34c929a45512,,car loan
+1791507738242,200,GET /search,200,OK,Agent search 2-417,text,true,,226,226,1,2,http://100.93.97.65:8000/search?q=credit+limit,200,0,98,s-f7988381-06b5-465b-8f17-b51f3cd48c8f,,credit limit
+1791507742213,223,GET /search,200,OK,Agent search 2-418,text,true,,4478,226,1,2,http://100.93.97.65:8000/search?q=unauthorized,223,0,120,s-7fe34698-f8a0-4fb3-bd67-ba3340ea35b6,,unauthorized
+1791507742925,229,GET /search,200,OK,Agent search 2-419,text,true,,224,224,1,2,http://100.93.97.65:8000/search?q=harassment,229,0,125,s-207287c8-bd81-4d88-8229-ddc95099abb5,,harassment
+1791507733170,11314,POST /tickets,200,OK,Ticket intake 1-91,text,true,,227,1476,1,1,http://100.93.97.65:8000/tickets,11314,0,154,t-257933fa-f985-4a15-b0cf-9a246e04637f,5090,
+1791507746106,221,GET /search,200,OK,Agent search 2-420,text,true,,1513,224,1,1,http://100.93.97.65:8000/search?q=bankruptcy,221,0,119,s-830a59c7-41f3-429c-9402-83713d0582f0,,bankruptcy
+1791507746792,149,GET /search,200,OK,Agent search 2-421,text,true,,2757,223,1,1,http://100.93.97.65:8000/search?q=overdraft,149,0,68,s-857836ed-c74a-47a2-9507-e4353449ced5,,overdraft
+1791507747765,201,GET /search,200,OK,Agent search 2-422,text,true,,1936,222,1,1,http://100.93.97.65:8000/search?q=late+fee,201,0,98,s-a24e02b0-d840-4985-994b-8d810d8a4917,,late fee
+1791507750901,343,GET /search,200,OK,Agent search 2-423,text,true,,20165,221,2,2,http://100.93.97.65:8000/search?q=dispute,242,0,137,s-590646c3-6ebc-4b10-abd6-7e2f83a0376a,,dispute
+1791507751055,189,GET /search,200,OK,Agent search 2-424,text,true,,4334,225,2,2,http://100.93.97.65:8000/search?q=foreclosure,189,0,86,s-f4fc6249-c5a9-46e4-9fb9-84806f1f60ad,,foreclosure
+1791507752367,131,GET /search,200,OK,Agent search 2-425,text,true,,3284,220,1,1,http://100.93.97.65:8000/search?q=escrow,131,0,55,s-c4d23b60-624e-491c-a310-dc572107d0ac,,escrow
+1791507757605,191,GET /search,200,OK,Agent search 2-426,text,true,,5589,223,1,3,http://100.93.97.65:8000/search?q=collector,191,0,89,s-933c4f15-bef2-49d2-b27e-d1f4af93f79b,,collector
+1791507758570,250,GET /search,200,OK,Agent search 2-427,text,true,,5097,228,1,3,http://100.93.97.65:8000/search?q=identity+theft,249,0,147,s-1108a0a2-bb33-46bb-a409-ff88f013680e,,identity theft
+1791507759545,402,GET /search,200,OK,Agent search 2-428,text,true,,26327,227,1,3,http://100.93.97.65:8000/search?q=credit+report,299,0,197,s-b7dbd673-e55b-418c-930a-8cde162f8773,,credit report
+1791507755019,7536,POST /tickets,200,OK,Ticket intake 1-92,text,true,,227,633,2,2,http://100.93.97.65:8000/tickets,7536,0,115,t-d8d3ea21-b5e8-4b16-8a1d-796af4c42d85,5091,
+1791507755397,16121,POST /tickets,200,OK,Ticket intake 1-93,text,true,,218,836,2,2,http://100.93.97.65:8000/tickets,16121,0,147,t-fb1d69cb-0afe-40be-855d-625addbed4a0,5092,
+1791507772647,100,GET /search,200,OK,Agent search 2-429,text,true,,1558,227,1,2,http://100.93.97.65:8000/search?q=wire+transfer,100,0,32,s-138f80d9-7786-4a14-83aa-ad7934a17059,,wire transfer
+1791507775047,260,GET /search,200,OK,Agent search 2-430,text,true,,1882,219,1,2,http://100.93.97.65:8000/search?q=Zelle,260,0,158,s-5eea8556-3d1e-4173-abbc-b2b2cf53a85a,,Zelle
+1791507763522,18553,POST /tickets,200,OK,Ticket intake 1-94,text,true,,225,1084,1,1,http://100.93.97.65:8000/tickets,18553,0,111,t-ec3f3362-018b-4ed1-b00d-a64a1b034586,5093,
+1791507785941,9129,POST /tickets,200,OK,Ticket intake 1-95,text,true,,213,832,1,1,http://100.93.97.65:8000/tickets,9129,0,119,t-3144610e-f1ba-4867-a16f-ea1e9f15884c,5094,
+1791507796905,213,GET /search,200,OK,Agent search 2-431,text,true,,13142,220,1,1,http://100.93.97.65:8000/search?q=refund,164,0,110,s-3adda2e3-281a-441b-b46e-137ad6cb0ac5,,refund
+1791507814165,258,GET /search,200,OK,Agent search 2-432,text,true,,808,227,1,2,http://100.93.97.65:8000/search?q=interest+rate,258,0,156,s-732e82eb-b655-42ad-9170-e0141f40f4b0,,interest rate
+1791507814550,126,GET /search,200,OK,Agent search 2-433,text,true,,1990,231,1,2,http://100.93.97.65:8000/search?q=closed+my+account,126,0,78,s-a1a9acff-6394-4dc3-9eb1-7b9943ce1a3e,,closed my account
+1791507820107,359,GET /search,200,OK,Agent search 2-434,text,true,,14167,219,1,3,http://100.93.97.65:8000/search?q=fraud,257,0,153,s-690033ff-3042-499c-a493-ad6c2ece104c,,fraud
+1791507811445,9992,POST /tickets,200,OK,Ticket intake 1-96,text,true,,215,1016,2,4,http://100.93.97.65:8000/tickets,9992,0,110,t-5bea010f-83b9-4f72-9558-6f8dfd168c80,5095,
+1791507821413,177,GET /search,200,OK,Agent search 2-436,text,true,,652,224,2,3,http://100.93.97.65:8000/search?q=charge+off,177,0,42,s-467a4718-022e-48ff-b86d-1454c12bc1e4,,charge off
+1791507821387,203,GET /search,200,OK,Agent search 2-435,text,true,,2538,231,2,3,http://100.93.97.65:8000/search?q=loan+modification,203,0,67,s-94eb4752-54a6-4624-9eae-e0bd20a8b484,,loan modification
+1791507822029,382,GET /search,200,OK,Agent search 2-437,text,true,,229,229,1,2,http://100.93.97.65:8000/search?q=minimum+payment,382,0,177,s-ca3b06ea-1387-4d41-93e2-cf3047c52413,,minimum payment
+1791507829997,86,GET /search,200,OK,Agent search 2-438,text,true,,221,221,1,2,http://100.93.97.65:8000/search?q=inquiry,86,0,38,s-2f343b76-5b29-473b-ae3f-ae0f07ed5ad4,,inquiry
+1791507831409,218,GET /search,200,OK,Agent search 2-439,text,true,,1207,224,1,2,http://100.93.97.65:8000/search?q=debit+card,218,0,117,s-6104640d-d913-4c84-8a09-8589ab31192b,,debit card
+1791507817146,19601,POST /tickets,200,OK,Ticket intake 1-97,text,true,,213,2190,1,1,http://100.93.97.65:8000/tickets,19601,0,145,t-4d798539-2574-4191-b035-e22d131b951a,5096,
+1791507844342,146,GET /search,200,OK,Agent search 2-440,text,true,,220,220,1,1,http://100.93.97.65:8000/search?q=PayPal,146,0,85,s-730d6076-42ac-41fb-9b84-deaa87c0ce68,,PayPal
+1791507850730,251,GET /search,200,OK,Agent search 2-441,text,true,,3577,221,1,4,http://100.93.97.65:8000/search?q=Equifax,251,0,149,s-0286a0fd-9de1-4619-b1e1-f8e6dbbbc537,,Equifax
+1791507851330,256,GET /search,200,OK,Agent search 2-442,text,true,,2047,222,1,5,http://100.93.97.65:8000/search?q=Experian,255,0,164,s-9a413a34-7ce1-4d1e-8760-8cb9d5c56e8c,,Experian
+1791507844653,10116,POST /tickets,200,OK,Ticket intake 1-98,text,true,,218,1083,4,4,http://100.93.97.65:8000/tickets,10116,0,92,t-fc9c37a4-ce8e-4fd8-b7ed-058822017f49,5097,
+1791507847695,18238,POST /tickets,200,OK,Ticket intake 1-99,text,true,,226,1367,3,3,http://100.93.97.65:8000/tickets,18238,0,111,t-74234482-644d-4a39-b14c-0904a71ec738,5098,
+1791507872873,228,GET /search,200,OK,Agent search 2-443,text,true,,6356,224,1,3,http://100.93.97.65:8000/search?q=TransUnion,228,0,123,s-4d4f8ce4-954c-4538-93f7-a2839b1d8bf6,,TransUnion
+1791507875010,137,GET /search,200,OK,Agent search 2-444,text,true,,1666,230,1,3,http://100.93.97.65:8000/search?q=mortgage+payment,137,0,78,s-6037076e-9ccc-427a-b163-1bd09848387d,,mortgage payment
+1791507848489,27683,POST /tickets,200,OK,Ticket intake 1-100,text,true,,211,1151,3,3,http://100.93.97.65:8000/tickets,27683,0,137,t-316db20b-d5a6-4cf4-935e-f58e32639ba6,5099,
+1791507877412,177,GET /search,200,OK,Agent search 2-445,text,true,,1703,226,1,3,http://100.93.97.65:8000/search?q=student+loan,177,0,92,s-f5479391-271f-43b0-80a5-f546e1df945f,,student loan
+1791507851481,34317,POST /tickets,200,OK,Ticket intake 1-101,text,true,,219,948,2,2,http://100.93.97.65:8000/tickets,34317,0,104,t-648303c0-1dc5-49bb-ae4b-89fff641fb97,5100,
+1791507890870,251,GET /search,200,OK,Agent search 2-446,text,true,,222,222,1,3,http://100.93.97.65:8000/search?q=car+loan,251,0,150,s-175a3e33-92d1-4859-865e-c8bcde386305,,car loan
+1791507893408,172,GET /search,200,OK,Agent search 2-447,text,true,,226,226,1,3,http://100.93.97.65:8000/search?q=credit+limit,171,0,70,s-f5c4108b-ea14-41f2-8002-7dcef733fb7a,,credit limit
+1791507875414,19804,POST /tickets,200,OK,Ticket intake 1-102,text,true,,228,963,2,2,http://100.93.97.65:8000/tickets,19804,0,143,t-9d26f934-173b-45df-96a3-35b164c7287a,5101,
+1791507899280,239,GET /search,200,OK,Agent search 2-448,text,true,,4478,226,1,2,http://100.93.97.65:8000/search?q=unauthorized,239,0,137,s-a8706d9d-832d-40cb-9a78-1c90f567b643,,unauthorized
+1791507899636,293,GET /search,200,OK,Agent search 2-449,text,true,,224,224,1,2,http://100.93.97.65:8000/search?q=harassment,293,0,190,s-9371946d-7811-47fb-85a6-2cf2b589f0b9,,harassment
+1791507885976,19788,POST /tickets,200,OK,Ticket intake 1-103,text,true,,218,1206,3,3,http://100.93.97.65:8000/tickets,19788,0,128,t-54d6fbb8-64d8-435b-9c1b-a1360048ed5b,5102,
+1791507910125,251,GET /search,200,OK,Agent search 2-450,text,true,,1513,224,1,3,http://100.93.97.65:8000/search?q=bankruptcy,251,0,145,s-3e64c630-79f5-43a2-9a2e-edf796966dfa,,bankruptcy
+1791507911618,188,GET /search,200,OK,Agent search 2-451,text,true,,2757,223,1,3,http://100.93.97.65:8000/search?q=overdraft,188,0,87,s-721e6836-dc7a-4403-ae01-00ea8174eee2,,overdraft
+1791507900164,13820,POST /tickets,200,OK,Ticket intake 1-104,text,true,,219,876,2,2,http://100.93.97.65:8000/tickets,13820,0,73,t-07fb192a-1ad2-4033-b7be-b8244124c3ba,5103,
+1791507914545,210,GET /search,200,OK,Agent search 2-452,text,true,,3972,222,1,2,http://100.93.97.65:8000/search?q=late+fee,204,0,128,s-c1d5cb28-acd4-410c-90a8-745fc0f21df1,,late fee
+1791507921259,378,GET /search,200,OK,Agent search 2-453,text,true,,21223,221,1,2,http://100.93.97.65:8000/search?q=dispute,276,0,173,s-499f5cd6-56af-4ea7-88ef-7eb740a3d8a9,,dispute
+1791507922338,220,GET /search,200,OK,Agent search 2-454,text,true,,4334,225,1,2,http://100.93.97.65:8000/search?q=foreclosure,220,0,118,s-66d07405-56ba-41e1-8c50-3f692b784568,,foreclosure
+1791507904303,18768,POST /tickets,200,OK,Ticket intake 1-105,text,true,,211,883,1,1,http://100.93.97.65:8000/tickets,18768,0,130,t-4fcac5d6-efbd-4936-91ea-a71a5c105591,5104,
+1791507924020,178,GET /search,200,OK,Agent search 2-455,text,true,,4012,220,1,1,http://100.93.97.65:8000/search?q=escrow,178,0,69,s-1e20083d-9260-4106-8a13-c9b818386b09,,escrow
+1791507939702,189,GET /search,200,OK,Agent search 2-456,text,true,,5589,223,1,4,http://100.93.97.65:8000/search?q=collector,188,0,51,s-151013c5-8ece-4417-9459-d279cdb7fa49,,collector
+1791507944290,183,GET /search,200,OK,Agent search 2-457,text,true,,5097,228,1,4,http://100.93.97.65:8000/search?q=identity+theft,183,0,81,s-5b1b9a1c-edb1-4b71-9a88-9a8ad6ee8784,,identity theft
+1791507931941,12729,POST /tickets,200,OK,Ticket intake 1-106,text,true,,214,1639,3,4,http://100.93.97.65:8000/tickets,12729,0,141,t-6d9a4f9a-119c-459d-bfe4-2256e33d83bc,5105,
+1791507944662,221,GET /search,200,OK,Agent search 2-458,text,true,,28545,227,1,3,http://100.93.97.65:8000/search?q=credit+report,119,0,38,s-4e380a1a-3096-4638-aa53-01fdefce953a,,credit report
+1791507932595,20481,POST /tickets,200,OK,Ticket intake 1-107,text,true,,219,797,2,2,http://100.93.97.65:8000/tickets,20481,0,102,t-55201a99-005a-478b-8c47-73a86d478d62,5106,
+1791507953383,715,GET /search,200,OK,Agent search 2-459,text,true,,1558,227,2,3,http://100.93.97.65:8000/search?q=wire+transfer,715,0,100,s-6dec0e9f-4ca1-4c1f-9cef-aa9d64c7aabe,,wire transfer
+1791507953740,460,GET /search,200,OK,Agent search 2-460,text,true,,1882,219,1,2,http://100.93.97.65:8000/search?q=Zelle,460,0,358,s-24b8a5b2-938f-4018-a63e-72fee5013b3d,,Zelle
+1791507955113,316,GET /search,200,OK,Agent search 2-461,text,true,,18217,220,1,2,http://100.93.97.65:8000/search?q=refund,214,0,112,s-dd091758-d4b6-41c0-b07c-faf56d69afa6,,refund
+1791507934479,26685,POST /tickets,200,OK,Ticket intake 1-108,text,true,,218,716,1,1,http://100.93.97.65:8000/tickets,26685,0,163,t-78e075a0-2b7b-4f26-ba4a-78a1fdf0d4fe,5107,
+1791507963806,225,GET /search,200,OK,Agent search 2-462,text,true,,808,227,1,1,http://100.93.97.65:8000/search?q=interest+rate,225,0,126,s-5d32b584-ea7e-49c5-ac50-feebd96eadfd,,interest rate
+1791507964715,237,GET /search,200,OK,Agent search 2-463,text,true,,1990,231,1,1,http://100.93.97.65:8000/search?q=closed+my+account,237,0,135,s-33a835c7-101b-48c4-a14e-a728cc1aeb69,,closed my account
+1791507971440,374,GET /search,200,OK,Agent search 2-464,text,true,,14167,219,1,1,http://100.93.97.65:8000/search?q=fraud,272,0,144,s-20c12f6d-b09e-43f2-9d56-f7065025ad8b,,fraud
+1791507975913,89,GET /search,200,OK,Agent search 2-465,text,true,,2538,231,1,1,http://100.93.97.65:8000/search?q=loan+modification,86,0,43,s-e82192b0-ef55-46e4-8e7c-6ab8ec627be5,,loan modification
+1791507977173,66,GET /search,200,OK,Agent search 2-466,text,true,,652,224,1,1,http://100.93.97.65:8000/search?q=charge+off,66,0,25,s-d2550d20-8015-4bd8-ba1a-cb39c5c951e0,,charge off
+1791507980492,230,GET /search,200,OK,Agent search 2-467,text,true,,229,229,1,1,http://100.93.97.65:8000/search?q=minimum+payment,230,0,127,s-9c3f0a79-e7df-43f8-84eb-47d5d283f9a8,,minimum payment
+1791507981996,210,GET /search,200,OK,Agent search 2-468,text,true,,221,221,1,1,http://100.93.97.65:8000/search?q=inquiry,210,0,160,s-48d25934-59ea-4ecd-99b4-c43ece2f485d,,inquiry
+1791507983794,205,GET /search,200,OK,Agent search 2-469,text,true,,1207,224,1,1,http://100.93.97.65:8000/search?q=debit+card,205,0,103,s-2a5edb4c-91e8-4c84-b357-d0ba9f3035c4,,debit card
+1791507987261,221,GET /search,200,OK,Agent search 2-470,text,true,,220,220,1,1,http://100.93.97.65:8000/search?q=PayPal,221,0,117,s-33649507-e137-4f50-9ff8-6fd75c288847,,PayPal
+1791507987552,134,GET /search,200,OK,Agent search 2-471,text,true,,3577,221,1,1,http://100.93.97.65:8000/search?q=Equifax,134,0,36,s-2739758d-1861-435a-877c-9a4d54162527,,Equifax
+1791507988081,219,GET /search,200,OK,Agent search 2-472,text,true,,2047,222,1,1,http://100.93.97.65:8000/search?q=Experian,219,0,117,s-a40e6800-4e35-4421-90a7-a4aa7fa60528,,Experian
+1791507988350,155,GET /search,200,OK,Agent search 2-473,text,true,,6356,224,1,1,http://100.93.97.65:8000/search?q=TransUnion,155,0,53,s-fbb90d4f-a28e-4493-bc1a-0cd544e73832,,TransUnion
+1791507996854,252,GET /search,200,OK,Agent search 2-474,text,true,,1666,230,1,1,http://100.93.97.65:8000/search?q=mortgage+payment,252,0,46,s-c0e3aad2-0f2f-4af3-8650-46c3d33bed70,,mortgage payment
+1791507997537,286,GET /search,200,OK,Agent search 2-475,text,true,,1703,226,1,1,http://100.93.97.65:8000/search?q=student+loan,285,0,184,s-b6417999-3a53-442b-9f81-f943a37a8b92,,student loan
+1791508011248,196,GET /search,200,OK,Agent search 2-476,text,true,,222,222,1,1,http://100.93.97.65:8000/search?q=car+loan,196,0,93,s-b7124cff-56e0-452e-a42e-8644d34a7062,,car loan
+1791508011511,136,GET /search,200,OK,Agent search 2-477,text,true,,226,226,1,1,http://100.93.97.65:8000/search?q=credit+limit,136,0,35,s-d2da6873-cbd5-455b-8544-da3d5e022e3d,,credit limit
+1791508014030,130,GET /search,200,OK,Agent search 2-478,text,true,,4478,226,1,1,http://100.93.97.65:8000/search?q=unauthorized,128,0,75,s-7cb0b82d-3e93-4320-bc37-c55710838558,,unauthorized
+1791508015514,127,GET /search,200,OK,Agent search 2-479,text,true,,224,224,1,1,http://100.93.97.65:8000/search?q=harassment,127,0,78,s-40f42111-6aaf-4d04-b977-b5a9281d200b,,harassment
+1791508018926,188,GET /search,200,OK,Agent search 2-480,text,true,,1513,224,1,2,http://100.93.97.65:8000/search?q=bankruptcy,188,0,96,s-287ecc43-643f-4fd7-bbf6-ccbd8f55c806,,bankruptcy
+1791508019691,252,GET /search,200,OK,Agent search 2-481,text,true,,2757,223,1,2,http://100.93.97.65:8000/search?q=overdraft,252,0,149,s-959ff8bc-dcfa-4fa4-9b52-d6a95853a2bf,,overdraft
+1791508016801,10002,POST /tickets,200,OK,Ticket intake 1-109,text,true,,228,1093,1,1,http://100.93.97.65:8000/tickets,10002,0,173,t-ae3555ec-a319-436f-ac72-8cc66df3e265,5108,
+1791508028324,118,GET /search,200,OK,Agent search 2-482,text,true,,3972,222,1,1,http://100.93.97.65:8000/search?q=late+fee,118,0,34,s-845c3450-7ac1-4afc-ab3d-2ca20c2cf730,,late fee
+1791508036841,277,GET /search,200,OK,Agent search 2-483,text,true,,21223,221,2,2,http://100.93.97.65:8000/search?q=dispute,205,0,102,s-139f9a79-68c2-479c-a05c-6e5bec98daab,,dispute
+1791508037031,217,GET /search,200,OK,Agent search 2-484,text,true,,4334,225,1,1,http://100.93.97.65:8000/search?q=foreclosure,217,0,86,s-b5d4bbd6-f62b-46d8-9966-3c4c3ec9f125,,foreclosure
+1791508050534,230,GET /search,200,OK,Agent search 2-485,text,true,,4012,220,1,4,http://100.93.97.65:8000/search?q=escrow,230,0,128,s-54c88bbc-4bbf-493d-9b57-27433b54e7fc,,escrow
+1791508038981,16123,POST /tickets,200,OK,Ticket intake 1-110,text,true,,228,2262,3,4,http://100.93.97.65:8000/tickets,16123,0,47,t-887f5890-04ff-454c-8bfe-55d964404afb,5109,
+1791508055096,175,GET /search,200,OK,Agent search 2-486,text,true,,5589,223,1,3,http://100.93.97.65:8000/search?q=collector,175,0,47,s-3cd23f7b-d8a4-4943-b156-777b935cd62a,,collector
+1791508059028,237,GET /search,200,OK,Agent search 2-487,text,true,,5747,228,1,4,http://100.93.97.65:8000/search?q=identity+theft,237,0,134,s-76052cf2-54e9-4d8b-bdbf-54b2868ebc01,,identity theft
+1791508060030,213,GET /search,200,OK,Agent search 2-488,text,true,,29763,227,1,4,http://100.93.97.65:8000/search?q=credit+report,157,0,54,s-cec2ed96-f65d-474a-b1db-83db59e12374,,credit report
+1791508042471,22732,POST /tickets,200,OK,Ticket intake 1-111,text,true,,214,1069,5,5,http://100.93.97.65:8000/tickets,22732,0,102,t-7bd04ef6-559d-4f7a-b632-b81117c58feb,5110,
+1791508068710,188,GET /search,200,OK,Agent search 2-489,text,true,,3681,227,2,6,http://100.93.97.65:8000/search?q=wire+transfer,188,0,137,s-eb71cd72-515d-4e74-b0e3-87ed475d2b31,,wire transfer
+1791508068839,89,GET /search,200,OK,Agent search 2-490,text,true,,1882,219,1,5,http://100.93.97.65:8000/search?q=Zelle,89,0,42,s-1f57b18e-f38d-4dcd-8805-9545fbdb9d75,,Zelle
+1791508072559,426,GET /search,200,OK,Agent search 2-491,text,true,,18217,220,1,5,http://100.93.97.65:8000/search?q=refund,222,0,120,s-07d48a52-ac38-4959-82b3-c68401d3f490,,refund
+1791508044143,30071,POST /tickets,200,OK,Ticket intake 1-112,text,true,,219,699,4,4,http://100.93.97.65:8000/tickets,30071,0,171,t-a613928a-0550-4aab-ac54-10df18b3ad07,5111,
+1791508056417,31008,POST /tickets,200,OK,Ticket intake 1-113,text,true,,228,2091,3,3,http://100.93.97.65:8000/tickets,31008,0,82,t-29c057a6-1592-437d-a95c-ee4f992648c7,5112,
+1791508091892,91,GET /search,200,OK,Agent search 2-492,text,true,,808,227,1,3,http://100.93.97.65:8000/search?q=interest+rate,91,0,47,s-44d7e3bb-caa8-43e1-a255-cab783b7b125,,interest rate
+1791508093671,204,GET /search,200,OK,Agent search 2-493,text,true,,1990,231,1,3,http://100.93.97.65:8000/search?q=closed+my+account,204,0,103,s-ac25e299-2601-4bca-be58-3b28dab4d511,,closed my account
+1791508062617,38734,POST /tickets,200,OK,Ticket intake 1-114,text,true,,211,2151,2,2,http://100.93.97.65:8000/tickets,38734,0,41,t-e11c68d9-cc88-4d7f-b891-e087af55b000,5113,
+1791508105395,358,GET /search,200,OK,Agent search 2-494,text,true,,16039,219,1,2,http://100.93.97.65:8000/search?q=fraud,257,0,155,s-3af05152-debe-4436-8a56-632fe5dfef5e,,fraud
+1791508064733,44912,POST /tickets,200,OK,Ticket intake 1-115,text,true,,218,717,1,1,http://100.93.97.65:8000/tickets,44912,0,163,t-d602f632-cb96-4036-8fa1-67517d8c92d0,5114,
+1791508113425,159,GET /search,200,OK,Agent search 2-495,text,true,,2538,231,1,1,http://100.93.97.65:8000/search?q=loan+modification,159,0,112,s-40579c15-4f8c-437d-bfd6-57de240c0c12,,loan modification
+1791508118053,195,GET /search,200,OK,Agent search 2-496,text,true,,652,224,1,1,http://100.93.97.65:8000/search?q=charge+off,195,0,84,s-fbe63eb9-aa9e-4225-b34b-99f2ee9243c6,,charge off
+1791508118320,6994,POST /tickets,200,OK,Ticket intake 1-116,text,true,,219,490,1,1,http://100.93.97.65:8000/tickets,6994,0,133,t-a138d36b-1c4b-48e6-9f9d-8a547705cc78,5115,
+1791508130033,195,GET /search,200,OK,Agent search 2-497,text,true,,229,229,1,1,http://100.93.97.65:8000/search?q=minimum+payment,195,0,93,s-571bd91f-96fb-4201-965a-537033fc03e0,,minimum payment
+1791508134122,203,GET /search,200,OK,Agent search 2-498,text,true,,221,221,1,1,http://100.93.97.65:8000/search?q=inquiry,203,0,101,s-93406967-1e62-4a40-9db5-e46e657547e8,,inquiry
+1791508135316,237,GET /search,200,OK,Agent search 2-499,text,true,,1207,224,1,1,http://100.93.97.65:8000/search?q=debit+card,237,0,135,s-9d390657-1699-4fab-8b66-881087112fb0,,debit card
+1791508135628,130,GET /search,200,OK,Agent search 2-500,text,true,,1175,220,1,1,http://100.93.97.65:8000/search?q=PayPal,129,0,31,s-a59ca9c7-8e49-47cb-a7a1-3922a61c1320,,PayPal
+1791508136692,191,GET /search,200,OK,Agent search 2-501,text,true,,3577,221,1,1,http://100.93.97.65:8000/search?q=Equifax,191,0,90,s-4def82a4-ec91-4597-98d7-b528aba42526,,Equifax
+1791508139843,215,GET /search,200,OK,Agent search 2-502,text,true,,2047,222,1,1,http://100.93.97.65:8000/search?q=Experian,215,0,112,s-3d90678d-bedb-44ef-b62e-36ca61a1e00d,,Experian
+1791508142645,179,GET /search,200,OK,Agent search 2-503,text,true,,6356,224,1,2,http://100.93.97.65:8000/search?q=TransUnion,179,0,76,s-17556c7e-9b19-464e-ad19-f65bfc5a4524,,TransUnion
+1791508144404,263,GET /search,200,OK,Agent search 2-504,text,true,,3661,230,1,2,http://100.93.97.65:8000/search?q=mortgage+payment,263,0,161,s-6e31e391-1023-4487-b0ac-d070bb3df82f,,mortgage payment
+1791508140253,9115,POST /tickets,200,OK,Ticket intake 1-117,text,true,,226,902,1,1,http://100.93.97.65:8000/tickets,9115,0,116,t-0b97da8b-7dc6-4e27-8cbf-6fc7e391d9b6,5116,
+1791508150867,251,GET /search,200,OK,Agent search 2-505,text,true,,1703,226,1,1,http://100.93.97.65:8000/search?q=student+loan,251,0,148,s-1e7f5d29-1f53-4527-8611-6c1148512cfd,,student loan
+1791508151606,127,GET /search,200,OK,Agent search 2-506,text,true,,222,222,1,1,http://100.93.97.65:8000/search?q=car+loan,127,0,27,s-086b2548-0eb7-4197-879b-e7528deefa5b,,car loan
+1791508160551,130,GET /search,200,OK,Agent search 2-507,text,true,,226,226,2,2,http://100.93.97.65:8000/search?q=credit+limit,130,0,91,s-944edd96-1bd2-4ba0-a46b-66a32f7089b7,,credit limit
+1791508160662,87,GET /search,200,OK,Agent search 2-508,text,true,,5395,226,1,1,http://100.93.97.65:8000/search?q=unauthorized,78,0,32,s-18446b7e-d3fe-41f8-aebd-d21f725ab4c3,,unauthorized
+1791508177652,193,GET /search,200,OK,Agent search 2-509,text,true,,224,224,1,2,http://100.93.97.65:8000/search?q=harassment,193,0,91,s-29494ad0-a3ca-471a-9e87-0039db257a79,,harassment
+1791508178806,164,GET /search,200,OK,Agent search 2-511,text,true,,2757,223,2,3,http://100.93.97.65:8000/search?q=overdraft,164,0,98,s-f914c157-5547-4307-ac24-cb4ea73604ee,,overdraft
+1791508178795,175,GET /search,200,OK,Agent search 2-510,text,true,,1513,224,2,3,http://100.93.97.65:8000/search?q=bankruptcy,175,0,109,s-bd84f548-41fa-4227-828d-5a2981073275,,bankruptcy
+1791508179994,205,GET /search,200,OK,Agent search 2-512,text,true,,3972,222,1,2,http://100.93.97.65:8000/search?q=late+fee,205,0,104,s-88da3796-2d83-44ab-a16f-2d85f3e8c96e,,late fee
+1791508184169,321,GET /search,200,OK,Agent search 2-513,text,true,,21792,221,1,2,http://100.93.97.65:8000/search?q=dispute,229,0,128,s-47075ccc-8a46-4dec-bf26-8575851ceac1,,dispute
+1791508186994,271,GET /search,200,OK,Agent search 2-514,text,true,,4334,225,1,2,http://100.93.97.65:8000/search?q=foreclosure,271,0,157,s-c9c0f2d8-6d51-4ced-9280-93fc29c3ef1b,,foreclosure
+1791508176896,15284,POST /tickets,200,OK,Ticket intake 1-118,text,true,,219,1791,1,1,http://100.93.97.65:8000/tickets,15284,0,131,t-84a57486-1dae-45b1-b51a-136839bef999,5117,
+1791508193418,195,GET /search,200,OK,Agent search 2-515,text,true,,6007,220,1,1,http://100.93.97.65:8000/search?q=escrow,195,0,94,s-18d48e88-b971-4555-a761-084ca3d24f4b,,escrow
+1791508196732,261,GET /search,200,OK,Agent search 2-516,text,true,,5589,223,2,2,http://100.93.97.65:8000/search?q=collector,261,0,158,s-4cf75f17-29c8-4e05-aafa-bcbc6eeda2b7,,collector
+1791508196991,74,GET /search,200,OK,Agent search 2-517,text,true,,6664,228,1,1,http://100.93.97.65:8000/search?q=identity+theft,70,0,29,s-73d21277-b4fc-4732-9076-d136504769bb,,identity theft
+1791508202817,312,GET /search,200,OK,Agent search 2-518,text,true,,31958,227,1,2,http://100.93.97.65:8000/search?q=credit+report,218,0,66,s-dbc1988b-ab03-4f74-af04-84dd213f349f,,credit report
+1791508206291,225,GET /search,200,OK,Agent search 2-519,text,true,,5633,227,1,2,http://100.93.97.65:8000/search?q=wire+transfer,225,0,123,s-7ca235ac-ff00-4972-b80f-87eee9f46932,,wire transfer
+1791508207439,204,GET /search,200,OK,Agent search 2-520,text,true,,1882,219,1,2,http://100.93.97.65:8000/search?q=Zelle,204,0,102,s-ad7e326a-1807-49b0-ad9e-76b7ea510cb8,,Zelle
+1791508207754,196,GET /search,200,OK,Agent search 2-521,text,true,,20212,220,1,2,http://100.93.97.65:8000/search?q=refund,93,0,26,s-efd1caf3-f54c-41ff-b008-10fdedee055e,,refund
+1791508201096,10642,POST /tickets,200,OK,Ticket intake 1-119,text,true,,226,1275,1,1,http://100.93.97.65:8000/tickets,10642,0,96,t-7a91cf7a-0f68-429e-aeaf-954fd0e56751,5118,
+1791508214264,137,GET /search,200,OK,Agent search 2-522,text,true,,808,227,1,1,http://100.93.97.65:8000/search?q=interest+rate,137,0,35,s-73a00934-b10d-4133-bbb9-245f00c545c3,,interest rate
+1791508222471,225,GET /search,200,OK,Agent search 2-523,text,true,,1990,231,1,4,http://100.93.97.65:8000/search?q=closed+my+account,225,0,123,s-1a7cc99a-3214-4a24-b2d8-22069f7869f0,,closed my account
+1791508223884,347,GET /search,200,OK,Agent search 2-524,text,true,,16039,219,1,4,http://100.93.97.65:8000/search?q=fraud,245,0,143,s-482ba8a3-605c-406c-8903-4b4323205554,,fraud
+1791508226058,221,GET /search,200,OK,Agent search 2-525,text,true,,2538,231,1,4,http://100.93.97.65:8000/search?q=loan+modification,221,0,122,s-7005e9b1-0dcc-4cc6-8c9f-2d524c8ef5d1,,loan modification
+1791508226784,212,GET /search,200,OK,Agent search 2-526,text,true,,652,224,1,4,http://100.93.97.65:8000/search?q=charge+off,212,0,111,s-b508db03-86a7-40fd-a6ac-2f04abf976e5,,charge off
+1791508217579,9521,POST /tickets,200,OK,Ticket intake 1-120,text,true,,218,983,3,3,http://100.93.97.65:8000/tickets,9521,0,100,t-47fd79a1-3c42-409c-8369-c613b87b76d3,5119,
+1791508231570,239,GET /search,200,OK,Agent search 2-527,text,true,,229,229,1,3,http://100.93.97.65:8000/search?q=minimum+payment,239,0,136,s-71086dd6-7c0e-4a64-bb03-b718067879c2,,minimum payment
+1791508234979,181,GET /search,200,OK,Agent search 2-528,text,true,,221,221,1,3,http://100.93.97.65:8000/search?q=inquiry,180,0,108,s-51eb5027-ede4-4910-82ea-b42d7f39124e,,inquiry
+1791508217796,17905,POST /tickets,200,OK,Ticket intake 1-121,text,true,,216,771,2,2,http://100.93.97.65:8000/tickets,17905,0,88,t-3cb92206-3168-496d-9ae6-6e95dc45b358,5120,
+1791508240984,247,GET /search,200,OK,Agent search 2-529,text,true,,1207,224,1,3,http://100.93.97.65:8000/search?q=debit+card,247,0,145,s-f24a93d0-871c-4f34-80ac-7451cf6ce9f5,,debit card
+1791508244180,124,GET /search,200,OK,Agent search 2-530,text,true,,1175,220,1,4,http://100.93.97.65:8000/search?q=PayPal,124,0,40,s-3394c72d-3b9c-4169-983b-395208bbd83c,,PayPal
+1791508249715,220,GET /search,200,OK,Agent search 2-531,text,true,,3577,221,1,4,http://100.93.97.65:8000/search?q=Equifax,220,0,66,s-0dca1e55-095f-40ff-a5c9-3ccbabbad44d,,Equifax
+1791508218744,32011,POST /tickets,200,OK,Ticket intake 1-122,text,true,,214,2128,3,3,http://100.93.97.65:8000/tickets,32011,0,164,t-1f974b7d-751c-461e-bfdc-8613f24cce5c,5121,
+1791508259158,147,GET /search,200,OK,Agent search 2-532,text,true,,3690,222,2,4,http://100.93.97.65:8000/search?q=Experian,147,0,96,s-3aa43d34-c6dd-4e6b-8459-f5ae336b2b1e,,Experian
+1791508259295,163,GET /search,200,OK,Agent search 2-533,text,true,,7999,224,1,3,http://100.93.97.65:8000/search?q=TransUnion,163,0,34,s-b5bedec4-e693-4b9b-b838-50e039665b03,,TransUnion
+1791508236215,25701,POST /tickets,200,OK,Ticket intake 1-123,text,true,,228,1167,2,2,http://100.93.97.65:8000/tickets,25701,0,101,t-c95dbd5d-13a5-4ea4-95bb-0b32a460a9cf,5122,
+1791508243150,25960,POST /tickets,200,OK,Ticket intake 1-124,text,true,,219,529,2,2,http://100.93.97.65:8000/tickets,25960,0,129,t-f347d9a6-5367-4127-a2fb-0a925828b424,5123,
+1791508264050,11893,POST /tickets,200,OK,Ticket intake 1-125,text,true,,226,467,2,2,http://100.93.97.65:8000/tickets,11893,0,117,t-1cfa09ea-31fa-40df-a176-9c597c6b0b28,5124,
+1791508281557,225,GET /search,200,OK,Agent search 2-534,text,true,,3661,230,1,2,http://100.93.97.65:8000/search?q=mortgage+payment,224,0,123,s-dc3841c5-6416-453d-9e04-46f88851c051,,mortgage payment
+1791508282456,246,GET /search,200,OK,Agent search 2-535,text,true,,1703,226,1,2,http://100.93.97.65:8000/search?q=student+loan,246,0,144,s-dffd3c10-df7b-4020-8399-79749db75a28,,student loan
+1791508271430,13218,POST /tickets,200,OK,Ticket intake 1-126,text,true,,211,881,1,1,http://100.93.97.65:8000/tickets,13218,0,111,t-e89351b7-5443-4eaa-8055-dc468349e4fc,5125,
+1791508285984,185,GET /search,200,OK,Agent search 2-536,text,true,,222,222,1,1,http://100.93.97.65:8000/search?q=car+loan,185,0,64,s-a2c7c332-2e3b-4bc4-aeb7-8f542edb7224,,car loan
+1791508293190,163,GET /search,200,OK,Agent search 2-537,text,true,,226,226,1,1,http://100.93.97.65:8000/search?q=credit+limit,163,0,61,s-2da2afdc-5a75-47d1-8b55-8b17c7426cbf,,credit limit
+1791508297461,166,GET /search,200,OK,Agent search 2-538,text,true,,7370,226,1,1,http://100.93.97.65:8000/search?q=unauthorized,166,0,91,s-fd24ec6c-b0d5-4af6-9d78-aa47fc942a42,,unauthorized
+1791508307718,175,GET /search,200,OK,Agent search 2-539,text,true,,224,224,1,1,http://100.93.97.65:8000/search?q=harassment,175,0,88,s-1456c565-143a-447b-b200-25a996621464,,harassment
+1791508309125,204,GET /search,200,OK,Agent search 2-540,text,true,,1513,224,1,1,http://100.93.97.65:8000/search?q=bankruptcy,204,0,100,s-a8bee76b-af33-4465-8729-ebfc66f8865c,,bankruptcy
+1791508314384,269,GET /search,200,OK,Agent search 2-541,text,true,,2757,223,1,1,http://100.93.97.65:8000/search?q=overdraft,269,0,166,s-a6119171-60aa-44f8-8733-2e9c723ff9e7,,overdraft
+1791508319526,247,GET /search,200,OK,Agent search 2-542,text,true,,3972,222,1,1,http://100.93.97.65:8000/search?q=late+fee,246,0,144,s-d0a3f9f9-b330-4392-8ea1-f5e8e9f7cb37,,late fee
+1791508328004,370,GET /search,200,OK,Agent search 2-543,text,true,,25410,221,1,2,http://100.93.97.65:8000/search?q=dispute,267,0,166,s-b7bb1559-b9a4-44f2-a980-3dc25499632b,,dispute
+1791508328890,201,GET /search,200,OK,Agent search 2-544,text,true,,4334,225,1,2,http://100.93.97.65:8000/search?q=foreclosure,201,0,99,s-830c5441-009d-4da1-81f2-c14717b0f4ed,,foreclosure
+1791508322829,12099,POST /tickets,200,OK,Ticket intake 1-127,text,true,,214,1448,2,2,http://100.93.97.65:8000/tickets,12099,0,117,t-007428b5-1bfd-42bd-baa4-b5cc2715380b,5126,
+1791508337493,200,GET /search,200,OK,Agent search 2-545,text,true,,6007,220,1,3,http://100.93.97.65:8000/search?q=escrow,199,0,96,s-d737a08f-d30c-4256-929b-57b3fbdb77d5,,escrow
+1791508340200,154,GET /search,200,OK,Agent search 2-546,text,true,,5589,223,1,3,http://100.93.97.65:8000/search?q=collector,154,0,42,s-2b452eac-2149-4ef2-a63a-80c46cbdaa2f,,collector
+1791508341708,183,GET /search,200,OK,Agent search 2-547,text,true,,6664,228,1,3,http://100.93.97.65:8000/search?q=identity+theft,183,0,81,s-06f9e965-05a6-40e8-b790-aa99656d5e79,,identity theft
+1791508334245,9080,POST /tickets,200,OK,Ticket intake 1-128,text,true,,218,753,2,2,http://100.93.97.65:8000/tickets,9080,0,37,t-d017e172-d51f-42a5-8840-40cc7977214a,5127,
+1791508343385,209,GET /search,200,OK,Agent search 2-548,text,true,,31958,227,1,2,http://100.93.97.65:8000/search?q=credit+report,144,0,36,s-76f0e76c-ac3e-4e59-bb9c-de1346e2c193,,credit report
+1791508344371,109,GET /search,200,OK,Agent search 2-549,text,true,,5633,227,1,2,http://100.93.97.65:8000/search?q=wire+transfer,106,0,58,s-59e6aaa4-6a90-46db-be9d-fecc57bf6d83,,wire transfer
+1791508346235,161,GET /search,200,OK,Agent search 2-550,text,true,,1882,219,1,2,http://100.93.97.65:8000/search?q=Zelle,161,0,57,s-a99b8ddf-3e72-4d3e-90aa-50c2df28aa07,,Zelle
+1791508346678,332,GET /search,200,OK,Agent search 2-551,text,true,,20212,220,1,2,http://100.93.97.65:8000/search?q=refund,229,0,127,s-6b3acc7f-5586-43b5-98bc-f4a1471b32c0,,refund
+1791508347427,198,GET /search,200,OK,Agent search 2-552,text,true,,808,227,1,2,http://100.93.97.65:8000/search?q=interest+rate,198,0,96,s-13cbe3de-043d-4949-af99-a67663c5cdb5,,interest rate
+1791508347861,120,GET /search,200,OK,Agent search 2-553,text,true,,1990,231,1,2,http://100.93.97.65:8000/search?q=closed+my+account,120,0,72,s-10519272-cdf3-4161-90eb-066e5f889610,,closed my account
+1791508351570,313,GET /search,200,OK,Agent search 2-554,text,true,,16874,219,2,3,http://100.93.97.65:8000/search?q=fraud,253,0,151,s-05d14963-b24f-4ce5-a6a6-49f5edecdfd1,,fraud
+1791508351725,158,GET /search,200,OK,Agent search 2-555,text,true,,2538,231,2,3,http://100.93.97.65:8000/search?q=loan+modification,158,0,98,s-de45969f-39cd-4ac2-b7e2-11292e439b14,,loan modification
+1791508337248,16623,POST /tickets,200,OK,Ticket intake 1-129,text,true,,214,1161,1,1,http://100.93.97.65:8000/tickets,16623,0,137,t-686d9173-322b-416a-b9a4-0dda6ae52aa3,5128,
+1791508354745,150,GET /search,200,OK,Agent search 2-556,text,true,,652,224,1,1,http://100.93.97.65:8000/search?q=charge+off,150,0,58,s-3d1fffee-57a5-4616-8827-cd9911a2f384,,charge off
+1791508356326,208,GET /search,200,OK,Agent search 2-557,text,true,,229,229,1,1,http://100.93.97.65:8000/search?q=minimum+payment,208,0,104,s-e8540645-4545-4fa7-bee7-87c522869ecc,,minimum payment
+1791508366129,235,GET /search,200,OK,Agent search 2-558,text,true,,221,221,1,1,http://100.93.97.65:8000/search?q=inquiry,235,0,133,s-a27d75b1-4d0f-4a00-a379-800666c8aedf,,inquiry
+1791508374205,352,GET /search,200,OK,Agent search 2-559,text,true,,1207,224,1,1,http://100.93.97.65:8000/search?q=debit+card,352,0,250,s-1531b328-4470-4b9e-b118-c09e616a0674,,debit card
+1791508376405,170,GET /search,200,OK,Agent search 2-560,text,true,,1175,220,1,1,http://100.93.97.65:8000/search?q=PayPal,169,0,97,s-36e49193-dc2f-47d0-b68b-b9374e981d5d,,PayPal
+1791508389999,122,GET /search,200,OK,Agent search 2-561,text,true,,3577,221,1,3,http://100.93.97.65:8000/search?q=Equifax,122,0,34,s-37385373-4266-4c71-ac28-9777d5ec1cd7,,Equifax
+1791508390801,244,GET /search,200,OK,Agent search 2-562,text,true,,3690,222,1,3,http://100.93.97.65:8000/search?q=Experian,244,0,140,s-490aa108-524f-45f6-be6a-9ca1cf2e0901,,Experian
+1791508379609,11461,POST /tickets,200,OK,Ticket intake 1-130,text,true,,211,1479,2,2,http://100.93.97.65:8000/tickets,11461,0,24,t-f78cbe5b-a0a0-484e-b2b7-1775eb52186c,5129,
+1791508386716,13953,POST /tickets,200,OK,Ticket intake 1-131,text,true,,219,872,1,1,http://100.93.97.65:8000/tickets,13952,0,129,t-add5ec38-f0ff-423b-b35c-8cca379c6266,5130,
+1791508406268,134,GET /search,200,OK,Agent search 2-563,text,true,,8724,224,1,1,http://100.93.97.65:8000/search?q=TransUnion,134,0,36,s-1028750c-1c12-44c2-a0c3-1e49439c9285,,TransUnion
+1791508407124,200,GET /search,200,OK,Agent search 2-564,text,true,,3661,230,1,1,http://100.93.97.65:8000/search?q=mortgage+payment,200,0,98,s-3150155c-a1a2-4ebe-93fc-3db2dfa49855,,mortgage payment
+1791508411511,130,GET /search,200,OK,Agent search 2-565,text,true,,1703,226,1,1,http://100.93.97.65:8000/search?q=student+loan,125,0,83,s-7c7340ec-de70-4d9a-9402-6ad2a3a54d06,,student loan
+1791508417284,382,GET /search,200,OK,Agent search 2-566,text,true,,222,222,1,2,http://100.93.97.65:8000/search?q=car+loan,382,0,179,s-7209383e-10af-4d1a-93b4-255b9756c7ba,,car loan
+1791508419616,201,GET /search,200,OK,Agent search 2-567,text,true,,226,226,1,2,http://100.93.97.65:8000/search?q=credit+limit,201,0,98,s-3e6d37b8-cccd-4d7c-8aa0-dbf4a6d49784,,credit limit
+1791508413819,9890,POST /tickets,200,OK,Ticket intake 1-132,text,true,,211,1047,1,1,http://100.93.97.65:8000/tickets,9890,0,162,t-160f3278-52b1-4c9f-bfb8-126376cea07e,5131,
+1791508427297,201,GET /search,200,OK,Agent search 2-568,text,true,,7370,226,1,1,http://100.93.97.65:8000/search?q=unauthorized,201,0,99,s-236059fe-b8cc-40a5-9381-f06e09756d24,,unauthorized
+1791508435256,231,GET /search,200,OK,Agent search 2-569,text,true,,224,224,1,1,http://100.93.97.65:8000/search?q=harassment,231,0,128,s-d93df193-dc35-4283-a66f-d7be6d61ae5f,,harassment
+1791508446240,213,GET /search,200,OK,Agent search 2-570,text,true,,1513,224,1,3,http://100.93.97.65:8000/search?q=bankruptcy,213,0,100,s-ff9fc135-4663-468e-a7a0-1b236b565b9e,,bankruptcy
+1791508449757,255,GET /search,200,OK,Agent search 2-571,text,true,,2757,223,1,3,http://100.93.97.65:8000/search?q=overdraft,251,0,167,s-6e9d1c2e-310d-4993-b158-caf4fbfbb1d6,,overdraft
+1791508453066,236,GET /search,200,OK,Agent search 2-572,text,true,,3972,222,1,4,http://100.93.97.65:8000/search?q=late+fee,236,0,134,s-8062382f-2da7-4aeb-a4d6-51d9101b3295,,late fee
+1791508442869,14122,POST /tickets,200,OK,Ticket intake 1-133,text,true,,226,2146,3,3,http://100.93.97.65:8000/tickets,14122,0,92,t-2be27a8b-22c1-4293-bc12-7e4e6ddbc19b,5132,
+1791508458786,531,GET /search,200,OK,Agent search 2-573,text,true,,25410,221,1,3,http://100.93.97.65:8000/search?q=dispute,455,0,251,s-6629e79b-a189-4a64-946e-07b2af8b99e8,,dispute
+1791508459459,142,GET /search,200,OK,Agent search 2-574,text,true,,4334,225,1,3,http://100.93.97.65:8000/search?q=foreclosure,141,0,90,s-adce1ac1-7c29-465e-bd66-e31a9b4a9cd9,,foreclosure
+1791508462167,101,GET /search,200,OK,Agent search 2-575,text,true,,6007,220,1,3,http://100.93.97.65:8000/search?q=escrow,98,0,56,s-7b7f86b3-4989-4941-957a-02d3bb2c6aaa,,escrow
+1791508463966,191,GET /search,200,OK,Agent search 2-576,text,true,,5589,223,1,3,http://100.93.97.65:8000/search?q=collector,191,0,90,s-1d1bcddd-51d6-4a03-9f07-9e001d0e4e02,,collector
+1791508467536,205,GET /search,200,OK,Agent search 2-577,text,true,,6664,228,1,3,http://100.93.97.65:8000/search?q=identity+theft,205,0,22,s-16ffa9a4-cee8-4fa7-bbe4-8852a5e949f3,,identity theft
+1791508446078,21971,POST /tickets,200,OK,Ticket intake 1-134,text,true,,214,1231,2,2,http://100.93.97.65:8000/tickets,21971,0,161,t-ae41f02a-d7bc-45c3-ad92-28302cebf429,5133,
+1791508472098,231,GET /search,200,OK,Agent search 2-578,text,true,,32683,227,1,2,http://100.93.97.65:8000/search?q=credit+report,176,0,111,s-8aa8af14-3f0a-4386-8ffb-a32fca0ba2fb,,credit report
+1791508473774,91,GET /search,200,OK,Agent search 2-579,text,true,,5633,227,1,3,http://100.93.97.65:8000/search?q=wire+transfer,91,0,43,s-d2da640b-ec19-4316-97f2-c75c20ed0cbe,,wire transfer
+1791508452171,23558,POST /tickets,200,OK,Ticket intake 1-135,text,true,,211,679,3,3,http://100.93.97.65:8000/tickets,23558,0,212,t-ea5b1205-1e34-40ed-a1e4-83f82cf83d36,5134,
+1791508481880,149,GET /search,200,OK,Agent search 2-580,text,true,,1882,219,1,5,http://100.93.97.65:8000/search?q=Zelle,149,0,96,s-f1bc66f0-1bc1-4715-b450-7582d98901ec,,Zelle
+1791508484321,168,GET /search,200,OK,Agent search 2-581,text,true,,20212,220,1,5,http://100.93.97.65:8000/search?q=refund,106,0,68,s-41e5ee95-3807-4cc7-878b-17f9e084976a,,refund
+1791508472692,11821,POST /tickets,200,OK,Ticket intake 1-136,text,true,,214,762,4,4,http://100.93.97.65:8000/tickets,11821,0,51,t-0433a98a-513c-4940-851d-eaa6a7d94470,5135,
+1791508474600,17885,POST /tickets,200,OK,Ticket intake 1-137,text,true,,218,654,3,3,http://100.93.97.65:8000/tickets,17885,0,38,t-d427942c-1cb3-4af8-99a5-65c7f421fc86,5136,
+1791508493556,101,GET /search,200,OK,Agent search 2-582,text,true,,808,227,1,3,http://100.93.97.65:8000/search?q=interest+rate,100,0,58,s-d833dacd-d7ca-40a4-a684-cb9a3862c843,,interest rate
+1791508477326,22006,POST /tickets,200,OK,Ticket intake 1-138,text,true,,218,536,2,2,http://100.93.97.65:8000/tickets,22006,0,143,t-37d77813-db64-4d2f-bb37-9a70ec47d436,5137,
+1791508499718,119,GET /search,200,OK,Agent search 2-583,text,true,,1990,231,1,2,http://100.93.97.65:8000/search?q=closed+my+account,119,0,67,s-2636ece4-32c8-4343-986a-c8d4d94d692b,,closed my account
+1791508502857,315,GET /search,200,OK,Agent search 2-584,text,true,,18879,219,1,2,http://100.93.97.65:8000/search?q=fraud,212,0,111,s-1eb0a66c-46e8-49c9-acd1-434e333281ba,,fraud
+1791508503955,241,GET /search,200,OK,Agent search 2-585,text,true,,2538,231,1,2,http://100.93.97.65:8000/search?q=loan+modification,241,0,139,s-3ceeb8ef-15d2-4dc5-84a3-c6cfa91df83d,,loan modification
+1791508477466,29544,POST /tickets,200,OK,Ticket intake 1-139,text,true,,219,590,1,2,http://100.93.97.65:8000/tickets,29544,0,106,t-9f5e5acf-2b2d-44d0-8a5c-43e8ecccc852,5138,
+1791508506865,154,GET /search,200,OK,Agent search 2-586,text,true,,652,224,1,1,http://100.93.97.65:8000/search?q=charge+off,154,0,97,s-385be9ed-77b9-4fae-877f-2bf50abb6400,,charge off
+1791508515241,219,GET /search,200,OK,Agent search 2-587,text,true,,229,229,1,2,http://100.93.97.65:8000/search?q=minimum+payment,219,0,118,s-de1e028c-b811-43b5-b970-6242d0d0c92f,,minimum payment
+1791508518334,198,GET /search,200,OK,Agent search 2-588,text,true,,2227,221,1,2,http://100.93.97.65:8000/search?q=inquiry,198,0,96,s-00537ca9-f091-4559-9ee0-00fcf0a09224,,inquiry
+1791508511938,9564,POST /tickets,200,OK,Ticket intake 1-140,text,true,,218,941,1,1,http://100.93.97.65:8000/tickets,9564,0,143,t-773fb3fb-4541-45fe-a7a9-0d57fdc3b434,5139,
+1791508521993,226,GET /search,200,OK,Agent search 2-589,text,true,,3212,224,1,1,http://100.93.97.65:8000/search?q=debit+card,226,0,124,s-8d7c0834-af6b-4d18-b488-67d8d78a2efd,,debit card
+1791508533235,146,GET /search,200,OK,Agent search 2-590,text,true,,1175,220,1,1,http://100.93.97.65:8000/search?q=PayPal,146,0,72,s-b98be132-4ab4-40e3-a475-9c4da5ab7339,,PayPal
+1791508535717,224,GET /search,200,OK,Agent search 2-591,text,true,,3577,221,1,1,http://100.93.97.65:8000/search?q=Equifax,223,0,122,s-3adcb951-5d63-4c7a-a821-ed151217a8bf,,Equifax
+1791508537424,257,GET /search,200,OK,Agent search 2-592,text,true,,4415,222,1,1,http://100.93.97.65:8000/search?q=Experian,257,0,155,s-3bb257fc-fbc5-4f3b-9782-2bc75fe28043,,Experian
+1791508546723,173,GET /search,200,OK,Agent search 2-593,text,true,,8724,224,1,1,http://100.93.97.65:8000/search?q=TransUnion,173,0,71,s-87bb158a-0f6e-4817-bd3c-b60b65971e84,,TransUnion
+1791508549667,200,GET /search,200,OK,Agent search 2-594,text,true,,3661,230,1,1,http://100.93.97.65:8000/search?q=mortgage+payment,200,0,98,s-4a5f67e4-01df-4e0b-9a7a-de3329d760d2,,mortgage payment
+1791508565921,214,GET /search,200,OK,Agent search 2-595,text,true,,1703,226,1,2,http://100.93.97.65:8000/search?q=student+loan,214,0,124,s-9907fac9-d5c0-4577-9d0d-d31a28529341,,student loan
+1791508572127,166,GET /search,200,OK,Agent search 2-596,text,true,,222,222,1,2,http://100.93.97.65:8000/search?q=car+loan,166,0,65,s-a4beeba5-6c61-44f2-ae45-e207b4cbb017,,car loan
+1791508562548,13635,POST /tickets,200,OK,Ticket intake 1-141,text,true,,218,1959,1,1,http://100.93.97.65:8000/tickets,13635,0,120,t-04e0b470-02bf-49f3-a0c0-b0573f6ea3b5,5140,
+1791508576560,240,GET /search,200,OK,Agent search 2-597,text,true,,226,226,1,1,http://100.93.97.65:8000/search?q=credit+limit,240,0,137,s-abf2b11c-419c-49d0-bcdc-6dd269b7d35a,,credit limit
+1791508582769,277,GET /search,200,OK,Agent search 2-598,text,true,,7370,226,1,1,http://100.93.97.65:8000/search?q=unauthorized,276,0,175,s-e7734017-ae5a-45a0-b5df-9340ca6af480,,unauthorized
+1791508585909,311,GET /search,200,OK,Agent search 2-599,text,true,,224,224,1,1,http://100.93.97.65:8000/search?q=harassment,311,0,209,s-460ebcf3-da0b-4826-a5e5-12bdf0186956,,harassment
+1791508597594,299,GET /search,200,OK,Agent search 2-600,text,true,,1513,224,1,1,http://100.93.97.65:8000/search?q=bankruptcy,299,0,196,s-2ec5b2f4-ac11-42e0-8cce-f0319d1947a5,,bankruptcy
+1791508600131,179,GET /search,200,OK,Agent search 2-601,text,true,,2757,223,1,1,http://100.93.97.65:8000/search?q=overdraft,179,0,117,s-b1a0be7e-3d0b-4cd8-ad72-8ac1c418bfa2,,overdraft
+1791508601073,218,GET /search,200,OK,Agent search 2-602,text,true,,3972,222,1,1,http://100.93.97.65:8000/search?q=late+fee,218,0,167,s-49769910-c740-4a3e-8efc-67d35fc49817,,late fee
+1791508603436,294,GET /search,200,OK,Agent search 2-603,text,true,,25410,221,1,1,http://100.93.97.65:8000/search?q=dispute,192,0,90,s-87baa959-699d-4d75-b8e5-f85f3b432128,,dispute
+1791508610468,226,GET /search,200,OK,Agent search 2-604,text,true,,4334,225,1,2,http://100.93.97.65:8000/search?q=foreclosure,226,0,124,s-50e0b3fb-c7cd-4efc-b1ee-401015e7a4d3,,foreclosure
+1791508613049,102,GET /search,200,OK,Agent search 2-605,text,true,,6007,220,1,2,http://100.93.97.65:8000/search?q=escrow,102,0,36,s-93e3f07c-212c-4247-8881-38ef59c442bb,,escrow
+1791508614841,256,GET /search,200,OK,Agent search 2-606,text,true,,5977,223,1,2,http://100.93.97.65:8000/search?q=collector,256,0,153,s-7e95f957-9977-4f4d-8b88-ec856a63eb9e,,collector
+1791508605235,12729,POST /tickets,200,OK,Ticket intake 1-142,text,true,,218,1774,1,1,http://100.93.97.65:8000/tickets,12729,0,46,t-e1e38580-ea88-4797-b6a9-4bed87d17e1f,5141,
+1791508645431,182,GET /search,200,OK,Agent search 2-607,text,true,,6664,228,1,2,http://100.93.97.65:8000/search?q=identity+theft,182,0,79,s-c6b0d265-0781-45f5-8684-0f2bf08a96ec,,identity theft
+1791508648160,343,GET /search,200,OK,Agent search 2-608,text,true,,32683,227,1,3,http://100.93.97.65:8000/search?q=credit+report,218,0,77,s-3e4ed49e-b152-49ba-81aa-aa57cf9c0a7e,,credit report
+1791508644792,6964,POST /tickets,200,OK,Ticket intake 1-143,text,true,,216,531,2,2,http://100.93.97.65:8000/tickets,6964,0,33,t-edd2d045-2844-40dc-9b15-0179a3ae754c,5142,
+1791508654147,170,GET /search,200,OK,Agent search 2-609,text,true,,5633,227,1,3,http://100.93.97.65:8000/search?q=wire+transfer,170,0,67,s-2b098f14-4b00-4925-81a5-364806352984,,wire transfer
+1791508654403,220,GET /search,200,OK,Agent search 2-610,text,true,,1882,219,1,3,http://100.93.97.65:8000/search?q=Zelle,220,0,118,s-7cc533ac-8883-4495-830d-525cac99ede3,,Zelle
+1791508647891,12058,POST /tickets,200,OK,Ticket intake 1-144,text,true,,228,916,5,5,http://100.93.97.65:8000/tickets,12058,0,35,t-cd1420d8-074f-4b43-8919-8fb7aa22549f,5143,
+1791508663495,277,GET /search,200,OK,Agent search 2-611,text,true,,21005,220,1,6,http://100.93.97.65:8000/search?q=refund,242,0,140,s-28e87dbc-d591-4bc8-94d0-dae57a691f68,,refund
+1791508667554,280,GET /search,200,OK,Agent search 2-612,text,true,,808,227,1,6,http://100.93.97.65:8000/search?q=interest+rate,280,0,177,s-8288946e-ab1c-4795-9ead-c8806d8460c0,,interest rate
+1791508653958,13877,POST /tickets,200,OK,Ticket intake 1-145,text,true,,216,712,5,5,http://100.93.97.65:8000/tickets,13877,0,154,t-30ae1df1-2905-43bf-a6a2-b03949923d23,5144,
+1791508656231,18026,POST /tickets,200,OK,Ticket intake 1-146,text,true,,226,452,4,5,http://100.93.97.65:8000/tickets,18026,0,134,t-c3cd11e5-4e77-4947-92ca-f325c0f254cb,5145,
+1791508673425,1230,GET /search,200,OK,Agent search 2-613,text,true,,1990,231,1,4,http://100.93.97.65:8000/search?q=closed+my+account,1230,0,1168,s-a878ace4-5594-4562-8edc-8d1932ac3576,,closed my account
+1791508674852,201,GET /search,200,OK,Agent search 2-614,text,true,,19657,219,1,4,http://100.93.97.65:8000/search?q=fraud,150,0,35,s-b50fa47f-b11c-43fa-bf75-ada943126612,,fraud
+1791508679497,318,GET /search,200,OK,Agent search 2-615,text,true,,2538,231,1,4,http://100.93.97.65:8000/search?q=loan+modification,318,0,113,s-8a9b3cc5-c01c-41fe-baa6-c4167425bafd,,loan modification
+1791508658687,25531,POST /tickets,200,OK,Ticket intake 1-147,text,true,,219,1049,3,3,http://100.93.97.65:8000/tickets,25531,0,135,t-4d227a26-4710-44c9-92ca-f7779aef2e11,5146,
+1791508659051,32848,POST /tickets,200,OK,Ticket intake 1-148,text,true,,219,674,2,2,http://100.93.97.65:8000/tickets,32848,0,78,t-f8a8d1ee-f3f3-4c97-8e23-41c53251f5e4,5147,
+1791508661631,39073,POST /tickets,200,OK,Ticket intake 1-149,text,true,,216,752,2,2,http://100.93.97.65:8000/tickets,39073,0,469,t-8e2fb91d-b972-4be0-9dac-8f38ff5f5a1b,5148,
+1791508701116,203,GET /search,200,OK,Agent search 2-616,text,true,,652,224,1,3,http://100.93.97.65:8000/search?q=charge+off,203,0,101,s-3a2e4783-659e-4d48-aa41-e0952217301f,,charge off
+1791508711974,201,GET /search,200,OK,Agent search 2-617,text,true,,229,229,1,3,http://100.93.97.65:8000/search?q=minimum+payment,201,0,97,s-d0c0a84c-fe22-4cec-b3a7-260a5b6da573,,minimum payment
+1791508713545,368,GET /search,200,OK,Agent search 2-618,text,true,,2227,221,1,3,http://100.93.97.65:8000/search?q=inquiry,368,0,164,s-cb6fc042-49be-4590-8eef-747ee7650e0c,,inquiry
+1791508714361,269,GET /search,200,OK,Agent search 2-619,text,true,,3212,224,1,3,http://100.93.97.65:8000/search?q=debit+card,269,0,166,s-782df85b-323a-41d8-a2e3-3c49f44a3ac8,,debit card
+1791508696130,19729,POST /tickets,200,OK,Ticket intake 1-150,text,true,,211,2027,2,2,http://100.93.97.65:8000/tickets,19729,0,29,t-53d9157d-6390-4da0-8bdc-db0d5064a214,5149,
+1791508700758,27697,POST /tickets,200,OK,Ticket intake 1-151,text,true,,211,1727,3,3,http://100.93.97.65:8000/tickets,27697,0,28,t-e747333d-f4a6-453e-8f06-54c46429b582,5150,
+1791508718348,17070,POST /tickets,200,OK,Ticket intake 1-152,text,true,,228,520,3,3,http://100.93.97.65:8000/tickets,17070,0,3049,t-19105650-ff7c-4a78-8dda-49d410f6efd9,5151,
+1791508727063,16752,POST /tickets,200,OK,Ticket intake 1-153,text,true,,228,897,2,2,http://100.93.97.65:8000/tickets,16752,0,163,t-dac8a740-2de2-4e37-9ed7-90bd0b051e47,5152,
+1791508745499,158,GET /search,200,OK,Agent search 2-620,text,true,,1175,220,1,2,http://100.93.97.65:8000/search?q=PayPal,158,0,56,s-29d4e2d0-d28f-484b-98fb-dffa5634250a,,PayPal
+1791508734775,19793,POST /tickets,200,OK,Ticket intake 1-154,text,true,,214,1217,2,2,http://100.93.97.65:8000/tickets,19793,0,131,t-7891fa1a-9d80-4a86-9f9a-a91fa09331ea,5153,
+1791508755682,216,GET /search,200,OK,Agent search 2-621,text,true,,3577,221,1,2,http://100.93.97.65:8000/search?q=Equifax,216,0,115,s-ff6d3129-ca79-4b2c-911f-96a5e4d44618,,Equifax
+1791508758401,162,GET /search,200,OK,Agent search 2-622,text,true,,4415,222,1,2,http://100.93.97.65:8000/search?q=Experian,162,0,59,s-9e8692de-fb6a-4022-a58c-f27286c220dd,,Experian
+1791508759336,246,GET /search,200,OK,Agent search 2-623,text,true,,8724,224,1,2,http://100.93.97.65:8000/search?q=TransUnion,246,0,148,s-01a4b510-8525-43c6-b1d4-4e8265ff5f1c,,TransUnion
+1791508763434,155,GET /search,200,OK,Agent search 2-624,text,true,,3661,230,2,3,http://100.93.97.65:8000/search?q=mortgage+payment,155,0,64,s-83da2745-377f-48ac-881c-7c45688b21f9,,mortgage payment
+1791508763491,191,GET /search,200,OK,Agent search 2-625,text,true,,1703,226,1,2,http://100.93.97.65:8000/search?q=student+loan,191,0,98,s-aca0f2de-432c-4519-9c7c-da12e188ee68,,student loan
+1791508767133,234,GET /search,200,OK,Agent search 2-626,text,true,,222,222,1,3,http://100.93.97.65:8000/search?q=car+loan,234,0,132,s-553fb377-ce26-4ede-9858-6d92157fc92f,,car loan
+1791508754242,13228,POST /tickets,200,OK,Ticket intake 1-155,text,true,,219,1645,2,2,http://100.93.97.65:8000/tickets,13228,0,222,t-e8c16c58-fb92-4928-9aef-70d5b1844318,5154,
+1791508774527,212,GET /search,200,OK,Agent search 2-627,text,true,,226,226,1,2,http://100.93.97.65:8000/search?q=credit+limit,212,0,93,s-0b277fb0-39ec-40e2-b2b1-cffa73b2e875,,credit limit
+1791508777532,384,GET /search,200,OK,Agent search 2-628,text,true,,7370,226,1,2,http://100.93.97.65:8000/search?q=unauthorized,383,0,180,s-9bd60498-03d4-4536-94cb-5a85738bdf63,,unauthorized
+1791508778545,189,GET /search,200,OK,Agent search 2-629,text,true,,224,224,1,2,http://100.93.97.65:8000/search?q=harassment,189,0,78,s-29baf081-6f1d-4d19-9676-43357ac7d43e,,harassment
+1791508779317,238,GET /search,200,OK,Agent search 2-630,text,true,,3138,224,1,2,http://100.93.97.65:8000/search?q=bankruptcy,238,0,135,s-c6006640-1544-4d0e-a8fd-40c6cec7c465,,bankruptcy
+1791508766773,14624,POST /tickets,200,OK,Ticket intake 1-156,text,true,,214,1788,1,1,http://100.93.97.65:8000/tickets,14624,0,186,t-7eaa7639-cd4f-4924-95d5-78b0bd010676,5155,
+1791508797297,176,GET /search,200,OK,Agent search 2-631,text,true,,2757,223,1,1,http://100.93.97.65:8000/search?q=overdraft,176,0,73,s-4c9e4bc4-e4a8-4ea4-b4e5-d76ca5924e97,,overdraft
+1791508798117,175,GET /search,200,OK,Agent search 2-632,text,true,,4874,222,1,1,http://100.93.97.65:8000/search?q=late+fee,175,0,73,s-194841f1-9254-4583-b4b2-b12ba40bbaf2,,late fee
+1791508803696,391,GET /search,200,OK,Agent search 2-633,text,true,,26947,221,1,1,http://100.93.97.65:8000/search?q=dispute,330,0,125,s-8617ef84-2627-4e49-94b6-bea583830b8d,,dispute
+1791508822693,176,GET /search,200,OK,Agent search 2-634,text,true,,4334,225,1,1,http://100.93.97.65:8000/search?q=foreclosure,176,0,73,s-49779065-2a87-4f4d-8431-5b50d1cb946a,,foreclosure
+1791508832965,246,GET /search,200,OK,Agent search 2-635,text,true,,7578,220,1,2,http://100.93.97.65:8000/search?q=escrow,246,0,143,s-ea078e87-127f-4119-889b-2ea1fcb0497d,,escrow
+1791508838028,202,GET /search,200,OK,Agent search 2-636,text,true,,5977,223,1,2,http://100.93.97.65:8000/search?q=collector,202,0,99,s-e49f1df8-5d1e-413b-85e1-fb5fa978f398,,collector
+1791508832396,11056,POST /tickets,200,OK,Ticket intake 1-157,text,true,,211,1117,1,1,http://100.93.97.65:8000/tickets,11056,0,98,t-b94f4909-2602-461a-b328-1a74883769fa,5156,
+1791508846295,228,GET /search,200,OK,Agent search 2-637,text,true,,6664,228,2,2,http://100.93.97.65:8000/search?q=identity+theft,227,0,125,s-d1ac8df1-99c9-44cf-9c93-bcb5d260b549,,identity theft
+1791508846445,285,GET /search,200,OK,Agent search 2-638,text,true,,35177,227,1,1,http://100.93.97.65:8000/search?q=credit+report,180,0,77,s-0d1281f9-cdb2-4415-99aa-28e45973f2ef,,credit report
+1791508852295,133,GET /search,200,OK,Agent search 2-639,text,true,,5633,227,2,2,http://100.93.97.65:8000/search?q=wire+transfer,128,0,89,s-966aa897-65ec-4c8e-98bb-7a403bba3442,,wire transfer
+1791508852376,74,GET /search,200,OK,Agent search 2-640,text,true,,1882,219,1,1,http://100.93.97.65:8000/search?q=Zelle,74,0,34,s-0c04a016-2dd7-4e99-9ca5-7577ee909941,,Zelle
+1791508855628,316,GET /search,200,OK,Agent search 2-641,text,true,,21005,220,1,1,http://100.93.97.65:8000/search?q=refund,213,0,112,s-931bfc88-75b0-4916-8f6a-3aa8a9dad1bd,,refund
+1791508859839,170,GET /search,200,OK,Agent search 2-642,text,true,,2306,227,1,1,http://100.93.97.65:8000/search?q=interest+rate,170,0,99,s-4fc11e81-42a8-42a6-a4f9-016fd0f6f95b,,interest rate
+1791508869009,257,GET /search,200,OK,Agent search 2-643,text,true,,1990,231,1,2,http://100.93.97.65:8000/search?q=closed+my+account,257,0,145,s-da4c5acb-f654-45e0-a673-812bd26e602f,,closed my account
+1791508871440,239,GET /search,200,OK,Agent search 2-644,text,true,,21913,219,1,2,http://100.93.97.65:8000/search?q=fraud,172,0,70,s-aac49955-f96a-43a3-a51f-515191e7922f,,fraud
+1791508869249,9019,POST /tickets,200,OK,Ticket intake 1-158,text,true,,218,787,1,1,http://100.93.97.65:8000/tickets,9019,0,109,t-c7c59a2d-e494-4207-a2b4-152fba50850b,5157,
+1791508878818,269,GET /search,200,OK,Agent search 2-645,text,true,,2538,231,1,1,http://100.93.97.65:8000/search?q=loan+modification,269,0,166,s-f82922e2-229a-4024-b33b-df235d728405,,loan modification
+1791508879135,157,GET /search,200,OK,Agent search 2-646,text,true,,652,224,1,1,http://100.93.97.65:8000/search?q=charge+off,157,0,53,s-34b2275f-65c9-4c6f-8f08-fb21ca99f9e3,,charge off
+1791508882469,202,GET /search,200,OK,Agent search 2-647,text,true,,229,229,1,1,http://100.93.97.65:8000/search?q=minimum+payment,202,0,98,s-2705036d-9529-4287-930f-c97b635fb13b,,minimum payment
+1791508891936,7630,POST /tickets,200,OK,Ticket intake 1-159,text,true,,211,658,2,2,http://100.93.97.65:8000/tickets,7630,0,156,t-5a9dac28-a8b3-4638-8c26-2dabb21c3f76,5158,
+1791508892399,13727,POST /tickets,200,OK,Ticket intake 1-160,text,true,,219,483,2,2,http://100.93.97.65:8000/tickets,13727,0,104,t-addd33d8-6250-4f9b-87c7-2593df65ddad,5159,
+1791508911852,208,GET /search,200,OK,Agent search 2-648,text,true,,2227,221,1,2,http://100.93.97.65:8000/search?q=inquiry,208,0,105,s-ffd96621-e6ee-46ed-9cee-21680c405082,,inquiry
+1791508903538,11696,POST /tickets,200,OK,Ticket intake 1-161,text,true,,211,834,1,1,http://100.93.97.65:8000/tickets,11696,0,41,t-ded476b3-8ad2-4715-bbff-bd1329d4621e,5160,
+1791508916606,266,GET /search,200,OK,Agent search 2-649,text,true,,3212,224,1,1,http://100.93.97.65:8000/search?q=debit+card,266,0,165,s-476d932f-0f50-4ba7-8852-402a40600ad2,,debit card
+1791508921938,260,GET /search,200,OK,Agent search 2-650,text,true,,1175,220,1,1,http://100.93.97.65:8000/search?q=PayPal,260,0,160,s-a934371b-c723-4c03-be28-76f972b02eef,,PayPal
+1791508924006,239,GET /search,200,OK,Agent search 2-651,text,true,,3577,221,1,1,http://100.93.97.65:8000/search?q=Equifax,239,0,137,s-7a9047f0-05cb-4dad-8a03-e61df965dadb,,Equifax
+1791508925442,237,GET /search,200,OK,Agent search 2-652,text,true,,4751,222,1,1,http://100.93.97.65:8000/search?q=Experian,237,0,146,s-49e6f16a-fd0f-4b30-b3cc-a642f279285d,,Experian
+1791508927302,223,GET /search,200,OK,Agent search 2-653,text,true,,8724,224,1,1,http://100.93.97.65:8000/search?q=TransUnion,223,0,120,s-347fb4b9-082f-4285-a06f-a09c1c33679c,,TransUnion
+1791508929237,130,GET /search,200,OK,Agent search 2-654,text,true,,4164,230,1,1,http://100.93.97.65:8000/search?q=mortgage+payment,130,0,36,s-1bb6eeac-7210-4944-b1d1-3fe1498048ab,,mortgage payment
+1791508929677,99,GET /search,200,OK,Agent search 2-655,text,true,,1703,226,1,1,http://100.93.97.65:8000/search?q=student+loan,99,0,35,s-bc9e09fd-e806-4503-acc6-c7faf78f1cc3,,student loan
+1791508934221,122,GET /search,200,OK,Agent search 2-656,text,true,,222,222,1,3,http://100.93.97.65:8000/search?q=car+loan,122,0,60,s-f262e2bd-5c12-460c-bc02-8f95af4e5a85,,car loan
+1791508930331,8047,POST /tickets,200,OK,Ticket intake 1-162,text,true,,214,693,2,2,http://100.93.97.65:8000/tickets,8047,0,32,t-e8f05719-6be7-419a-85af-a0a4ea990456,5161,
+1791508940763,174,GET /search,200,OK,Agent search 2-657,text,true,,226,226,1,2,http://100.93.97.65:8000/search?q=credit+limit,174,0,71,s-f3c5a59a-fe91-49b0-a394-351dfc9ef477,,credit limit
+1791508944561,268,GET /search,200,OK,Agent search 2-658,text,true,,7370,226,1,2,http://100.93.97.65:8000/search?q=unauthorized,268,0,166,s-bfe17483-772b-4e98-a974-fc40462b8f44,,unauthorized
+1791508934336,14384,POST /tickets,200,OK,Ticket intake 1-163,text,true,,219,1335,1,1,http://100.93.97.65:8000/tickets,14384,0,37,t-af3a9249-239c-45cb-af0f-4331808732fd,5162,
+1791508951210,173,GET /search,200,OK,Agent search 2-659,text,true,,224,224,1,1,http://100.93.97.65:8000/search?q=harassment,173,0,71,s-47aacf58-1838-46f9-ab0c-2c47bac08f1b,,harassment
+1791508956393,212,GET /search,200,OK,Agent search 2-660,text,true,,3679,224,1,1,http://100.93.97.65:8000/search?q=bankruptcy,212,0,110,s-d24ba426-6bea-48ae-ab8c-dc454df8980a,,bankruptcy
+1791508959114,256,GET /search,200,OK,Agent search 2-661,text,true,,2757,223,1,2,http://100.93.97.65:8000/search?q=overdraft,256,0,153,s-2bb95aac-5d07-49fd-847d-8fd8c411f800,,overdraft
+1791508960231,163,GET /search,200,OK,Agent search 2-662,text,true,,4874,222,1,3,http://100.93.97.65:8000/search?q=late+fee,163,0,60,s-595bfb1a-138d-4fb5-bd62-abe47193ad1b,,late fee
+1791508957553,6860,POST /tickets,200,OK,Ticket intake 1-164,text,true,,211,484,2,2,http://100.93.97.65:8000/tickets,6860,0,178,t-f89f74ff-88b5-4f8f-8f38-5c6911254646,5163,
+1791508959685,11973,POST /tickets,200,OK,Ticket intake 1-165,text,true,,219,578,1,1,http://100.93.97.65:8000/tickets,11973,0,95,t-a6d3c1a3-b1e1-4f02-9424-89f1183450a6,5164,
+1791508984857,274,GET /search,200,OK,Agent search 2-663,text,true,,28134,221,1,3,http://100.93.97.65:8000/search?q=dispute,216,0,114,s-5c1eda54-55b1-4363-b31a-c6709842bae4,,dispute
+1791508986621,193,GET /search,200,OK,Agent search 2-664,text,true,,4334,225,1,3,http://100.93.97.65:8000/search?q=foreclosure,193,0,90,s-7cb73f48-98dd-4fdb-848b-d6637b1c58ad,,foreclosure
+1791508976471,14028,POST /tickets,200,OK,Ticket intake 1-166,text,true,,219,1799,2,2,http://100.93.97.65:8000/tickets,14028,0,102,t-bdf4214c-3be4-4152-9cac-63976f72f3c8,5165,
+1791508990557,148,GET /search,200,OK,Agent search 2-665,text,true,,9219,220,1,2,http://100.93.97.65:8000/search?q=escrow,147,0,34,s-5e6a3ed6-b405-4242-b5e5-b46f16e7854c,,escrow
+1791508992428,222,GET /search,200,OK,Agent search 2-666,text,true,,5977,223,1,3,http://100.93.97.65:8000/search?q=collector,222,0,121,s-de57fe84-48bc-4f4e-9407-9bca8d8e69e3,,collector
+1791508982839,16161,POST /tickets,200,OK,Ticket intake 1-167,text,true,,228,817,2,2,http://100.93.97.65:8000/tickets,16161,0,82,t-cfa8e8ec-5862-4a59-b9db-47d625f1997a,5166,
+1791509006147,224,GET /search,200,OK,Agent search 2-667,text,true,,6664,228,1,2,http://100.93.97.65:8000/search?q=identity+theft,224,0,122,s-9c49bdf5-ae3b-4b4b-815c-06a42bbe7d8e,,identity theft
+1791509009131,287,GET /search,200,OK,Agent search 2-668,text,true,,36828,227,1,2,http://100.93.97.65:8000/search?q=credit+report,190,0,109,s-5140fce1-1136-421a-99a0-3fbc0cbdfb77,,credit report
+1791508991621,19559,POST /tickets,200,OK,Ticket intake 1-168,text,true,,219,1571,1,1,http://100.93.97.65:8000/tickets,19559,0,107,t-a3c777ad-1cd9-4124-9450-2895296291d8,5167,
+1791509016531,184,GET /search,200,OK,Agent search 2-669,text,true,,5633,227,1,1,http://100.93.97.65:8000/search?q=wire+transfer,184,0,82,s-85648ad7-bd12-4bfc-9a98-61f2f2106627,,wire transfer
+1791509026902,257,GET /search,200,OK,Agent search 2-670,text,true,,1882,219,1,2,http://100.93.97.65:8000/search?q=Zelle,257,0,117,s-78e0c4a1-b32e-40b3-8471-7d088388a3a8,,Zelle
+1791509018330,11287,POST /tickets,200,OK,Ticket intake 1-169,text,true,,211,1108,1,1,http://100.93.97.65:8000/tickets,11287,0,37,t-0c113d7c-13e9-4243-9da8-4625cf7fd56c,5168,
+1791509031432,334,GET /search,200,OK,Agent search 2-671,text,true,,22733,220,1,1,http://100.93.97.65:8000/search?q=refund,232,0,130,s-2e09a1a0-775c-4f50-b92e-68acaba3e4ea,,refund
+1791509032848,250,GET /search,200,OK,Agent search 2-672,text,true,,2306,227,1,1,http://100.93.97.65:8000/search?q=interest+rate,250,0,148,s-66e04d1d-72f4-4afb-90e5-3966dbdc2897,,interest rate
+1791509034085,116,GET /search,200,OK,Agent search 2-673,text,true,,1990,231,1,1,http://100.93.97.65:8000/search?q=closed+my+account,112,0,49,s-774544da-3ac1-407d-83bb-bfb1e04ce299,,closed my account
+1791509034332,161,GET /search,200,OK,Agent search 2-674,text,true,,21913,219,1,1,http://100.93.97.65:8000/search?q=fraud,124,0,50,s-8227c218-c41d-4e90-b019-9bd81e178361,,fraud
+1791509036359,91,GET /search,200,OK,Agent search 2-675,text,true,,3041,231,1,1,http://100.93.97.65:8000/search?q=loan+modification,87,0,29,s-85c1f172-e89c-40cb-9a80-276ef6815424,,loan modification
+1791509046115,194,GET /search,200,OK,Agent search 2-676,text,true,,652,224,1,1,http://100.93.97.65:8000/search?q=charge+off,194,0,90,s-02b06fa6-9e15-4b63-b37c-d4f911957b61,,charge off
+1791509048357,160,GET /search,200,OK,Agent search 2-677,text,true,,229,229,1,1,http://100.93.97.65:8000/search?q=minimum+payment,160,0,100,s-d90df890-68df-47f1-a5fa-4c9d27eaa23b,,minimum payment
+1791509050162,156,GET /search,200,OK,Agent search 2-678,text,true,,2227,221,2,2,http://100.93.97.65:8000/search?q=inquiry,152,0,97,s-3075f25c-bf26-4a62-b981-1210b5ad3747,,inquiry
+1791509050252,151,GET /search,200,OK,Agent search 2-679,text,true,,3212,224,1,1,http://100.93.97.65:8000/search?q=debit+card,151,0,40,s-4a853378-abd2-4243-8a48-da9331aae19a,,debit card
+1791509053683,202,GET /search,200,OK,Agent search 2-680,text,true,,1855,220,1,2,http://100.93.97.65:8000/search?q=PayPal,202,0,101,s-34ce39bb-901c-46fa-a650-16bdad383d32,,PayPal
+1791509058062,431,GET /search,200,OK,Agent search 2-681,text,true,,3577,221,1,3,http://100.93.97.65:8000/search?q=Equifax,431,0,227,s-5af956b0-9f03-4b49-bbed-4039427a54d8,,Equifax
+1791509060368,174,GET /search,200,OK,Agent search 2-682,text,true,,4751,222,1,3,http://100.93.97.65:8000/search?q=Experian,174,0,67,s-4c571fd3-7acd-4932-b3ff-8c1678ad1353,,Experian
+1791509051729,11271,POST /tickets,200,OK,Ticket intake 1-170,text,true,,226,1307,2,2,http://100.93.97.65:8000/tickets,11271,0,108,t-55ea446b-c39e-46c2-ba5c-e97ac5e70f2e,5169,
+1791509065863,208,GET /search,200,OK,Agent search 2-683,text,true,,8724,224,1,2,http://100.93.97.65:8000/search?q=TransUnion,208,0,105,s-e630682c-4441-4da7-a39a-916ec7952f68,,TransUnion
+1791509072521,206,GET /search,200,OK,Agent search 2-684,text,true,,4164,230,1,2,http://100.93.97.65:8000/search?q=mortgage+payment,206,0,105,s-80d73c7d-e3b4-4978-b96a-99a2ef92a11f,,mortgage payment
+1791509056890,18090,POST /tickets,200,OK,Ticket intake 1-171,text,true,,219,1513,1,2,http://100.93.97.65:8000/tickets,18090,0,170,t-4f0d3ca6-dd96-4bf0-befb-5fdc4ba72e88,5170,
+1791509074740,240,GET /search,200,OK,Agent search 2-685,text,true,,1703,226,1,2,http://100.93.97.65:8000/search?q=student+loan,240,0,139,s-aaae55a3-f150-4637-8a47-8b0c0c014ae9,,student loan
+1791509077420,175,GET /search,200,OK,Agent search 2-686,text,true,,222,222,1,1,http://100.93.97.65:8000/search?q=car+loan,175,0,120,s-06150fc1-5c85-4df9-acda-20c98a3eefd6,,car loan
+1791509079966,237,GET /search,200,OK,Agent search 2-687,text,true,,226,226,1,1,http://100.93.97.65:8000/search?q=credit+limit,237,0,135,s-9b7d483d-1391-4259-bc92-3e29a92c971e,,credit limit
+1791509081512,227,GET /search,200,OK,Agent search 2-688,text,true,,11375,226,1,1,http://100.93.97.65:8000/search?q=unauthorized,226,0,62,s-5f9bcd17-f7c8-4e36-99e9-91b38cd16b17,,unauthorized
+1791509082680,185,GET /search,200,OK,Agent search 2-689,text,true,,224,224,1,1,http://100.93.97.65:8000/search?q=harassment,185,0,83,s-bfd497c3-ef22-47ee-9881-82d61eaa73d8,,harassment
+1791509082978,92,GET /search,200,OK,Agent search 2-690,text,true,,3679,224,1,1,http://100.93.97.65:8000/search?q=bankruptcy,92,0,25,s-6ffaca1e-6b33-4358-a076-e49442538326,,bankruptcy
+1791509088571,233,GET /search,200,OK,Agent search 2-691,text,true,,2757,223,1,1,http://100.93.97.65:8000/search?q=overdraft,233,0,131,s-a3fc304f-4840-4784-a570-f49c11bb5b62,,overdraft
+1791509090286,157,GET /search,200,OK,Agent search 2-692,text,true,,4874,222,1,1,http://100.93.97.65:8000/search?q=late+fee,157,0,68,s-930f9593-3483-4f2c-ad00-e745ad3cbc43,,late fee
+1791509101558,252,GET /search,200,OK,Agent search 2-693,text,true,,28134,221,1,2,http://100.93.97.65:8000/search?q=dispute,149,0,34,s-9f8abb1f-9708-4e36-8495-610abbce234d,,dispute
+1791509105021,126,GET /search,200,OK,Agent search 2-694,text,true,,4334,225,1,2,http://100.93.97.65:8000/search?q=foreclosure,122,0,68,s-36022efb-0210-415a-8cd6-93570a54ace0,,foreclosure
+1791509100433,10798,POST /tickets,200,OK,Ticket intake 1-172,text,true,,226,1057,1,1,http://100.93.97.65:8000/tickets,10798,0,147,t-95444ca2-1c90-4586-a876-d2eea3df1147,5171,
+1791509113468,220,GET /search,200,OK,Agent search 2-695,text,true,,9219,220,1,1,http://100.93.97.65:8000/search?q=escrow,220,0,112,s-f3a31c97-6c69-4a6b-afd8-f83218b7070e,,escrow
+1791509115730,211,GET /search,200,OK,Agent search 2-696,text,true,,5977,223,1,1,http://100.93.97.65:8000/search?q=collector,211,0,108,s-a3352ebb-d40d-4494-ab6c-4e831863475c,,collector
+1791509117550,234,GET /search,200,OK,Agent search 2-697,text,true,,6664,228,1,1,http://100.93.97.65:8000/search?q=identity+theft,234,0,131,s-e288b71e-d112-4893-b218-cb7debe4124a,,identity theft
+1791509118925,246,GET /search,200,OK,Agent search 2-698,text,true,,38251,227,1,1,http://100.93.97.65:8000/search?q=credit+report,190,0,88,s-f6027bfb-eb60-46df-aa9a-0c1e67a693ed,,credit report
+1791509124543,203,GET /search,200,OK,Agent search 2-699,text,true,,5633,227,1,1,http://100.93.97.65:8000/search?q=wire+transfer,203,0,100,s-b6a7f5b8-d530-4607-80ff-46c910058da3,,wire transfer
+1791509130288,296,GET /search,200,OK,Agent search 2-700,text,true,,1882,219,1,1,http://100.93.97.65:8000/search?q=Zelle,296,0,91,s-4282ac37-7463-4b0d-b1cc-e1372371f04f,,Zelle
+1791509135168,239,GET /search,200,OK,Agent search 2-701,text,true,,22733,220,2,3,http://100.93.97.65:8000/search?q=refund,193,0,128,s-c1153069-22b3-40d5-b1b5-fd26e153a401,,refund
+1791509135371,128,GET /search,200,OK,Agent search 2-702,text,true,,3223,227,1,2,http://100.93.97.65:8000/search?q=interest+rate,128,0,36,s-5b0cb558-f86c-4a4e-bb2a-863b41a945b3,,interest rate
+1791509135878,125,GET /search,200,OK,Agent search 2-703,text,true,,1990,231,1,2,http://100.93.97.65:8000/search?q=closed+my+account,125,0,77,s-f4d8ffa7-d198-4dc5-8e83-ea78238eb2f9,,closed my account
+1791509131474,8531,POST /tickets,200,OK,Ticket intake 1-173,text,true,,218,792,1,1,http://100.93.97.65:8000/tickets,8531,0,134,t-7584f168-85b3-465f-8cae-36bcf2c706ea,5172,
+1791509142235,329,GET /search,200,OK,Agent search 2-704,text,true,,23079,219,1,1,http://100.93.97.65:8000/search?q=fraud,205,0,124,s-eb401a52-1acf-46ee-9667-f1e891bb2d95,,fraud
+1791509150368,184,GET /search,200,OK,Agent search 2-705,text,true,,3041,231,1,1,http://100.93.97.65:8000/search?q=loan+modification,184,0,82,s-be1c0613-cc9c-4eac-a9a0-7117a12b5f6f,,loan modification
+1791509151608,173,GET /search,200,OK,Agent search 2-706,text,true,,652,224,1,1,http://100.93.97.65:8000/search?q=charge+off,172,0,70,s-49149000-2e18-4d5e-9177-ecbbb91a8b54,,charge off
+1791509155298,271,GET /search,200,OK,Agent search 2-707,text,true,,229,229,1,1,http://100.93.97.65:8000/search?q=minimum+payment,271,0,169,s-caeed9e2-f6ec-4ff4-bdae-060c597b324f,,minimum payment
+1791509163948,223,GET /search,200,OK,Agent search 2-708,text,true,,2227,221,1,1,http://100.93.97.65:8000/search?q=inquiry,223,0,122,s-a81604f6-5ad2-4b86-8ead-21f62f072ae3,,inquiry
+1791509164185,89,GET /search,200,OK,Agent search 2-709,text,true,,4378,224,1,1,http://100.93.97.65:8000/search?q=debit+card,89,0,39,s-167e4c15-bc55-45fa-9a86-ead20ffaea83,,debit card
+1791509166834,204,GET /search,200,OK,Agent search 2-710,text,true,,1855,220,1,1,http://100.93.97.65:8000/search?q=PayPal,204,0,102,s-f200452c-2617-4b86-9283-902b8c7e01ac,,PayPal
+1791509175525,217,GET /search,200,OK,Agent search 2-711,text,true,,3577,221,1,1,http://100.93.97.65:8000/search?q=Equifax,217,0,115,s-b742f96d-0300-4e2f-9379-7842df58c65a,,Equifax
+1791509177083,195,GET /search,200,OK,Agent search 2-712,text,true,,4751,222,1,1,http://100.93.97.65:8000/search?q=Experian,195,0,93,s-86d4d6cf-94db-4c24-8f75-3260401c32ed,,Experian
+1791509177604,187,GET /search,200,OK,Agent search 2-713,text,true,,8724,224,1,1,http://100.93.97.65:8000/search?q=TransUnion,186,0,41,s-0410ff9b-0fbc-441e-9bc3-de3c5cb4c8c8,,TransUnion
+1791509180419,240,GET /search,200,OK,Agent search 2-714,text,true,,4164,230,1,2,http://100.93.97.65:8000/search?q=mortgage+payment,240,0,137,s-739754d5-5cf7-4759-a1a5-7bd352818801,,mortgage payment
+1791509178417,6546,POST /tickets,200,OK,Ticket intake 1-174,text,true,,226,488,1,2,http://100.93.97.65:8000/tickets,6546,0,37,t-0dbfad46-383a-4e06-8566-da740adea004,5173,
+1791509184883,179,GET /search,200,OK,Agent search 2-715,text,true,,1703,226,1,1,http://100.93.97.65:8000/search?q=student+loan,179,0,76,s-44b4de13-b62d-46eb-8da6-97c4e269eb9a,,student loan
+1791509186955,257,GET /search,200,OK,Agent search 2-716,text,true,,222,222,1,1,http://100.93.97.65:8000/search?q=car+loan,257,0,154,s-748aa312-766d-4410-ac10-8dc923b17540,,car loan
+1791509201019,325,GET /search,200,OK,Agent search 2-717,text,true,,226,226,1,1,http://100.93.97.65:8000/search?q=credit+limit,325,0,119,s-4d59470e-0624-49aa-8ec9-c1e66f72b9e0,,credit limit
+1791509203823,164,GET /search,200,OK,Agent search 2-718,text,true,,11375,226,1,2,http://100.93.97.65:8000/search?q=unauthorized,141,0,80,s-5557bb75-4b0d-4cf8-804d-24c3b8318906,,unauthorized
+1791509203200,7973,POST /tickets,200,OK,Ticket intake 1-175,text,true,,218,679,1,1,http://100.93.97.65:8000/tickets,7973,0,76,t-9d931b74-c815-4b6b-baad-8bd86a7dd61c,5174,
+1791509215004,267,GET /search,200,OK,Agent search 2-719,text,true,,224,224,1,1,http://100.93.97.65:8000/search?q=harassment,267,0,164,s-7dbe0576-2c56-4ad1-8c04-466dc3889749,,harassment
+1791509225353,157,GET /search,200,OK,Agent search 2-720,text,true,,4210,224,1,2,http://100.93.97.65:8000/search?q=bankruptcy,157,0,54,s-f558f304-bede-439e-ad30-fbdd9a79d71a,,bankruptcy
+1791509227416,142,GET /search,200,OK,Agent search 2-721,text,true,,2757,223,1,3,http://100.93.97.65:8000/search?q=overdraft,142,0,39,s-1de7d2ce-22d5-4b30-a390-a433202fa8f9,,overdraft
+1791509228316,112,GET /search,200,OK,Agent search 2-722,text,true,,5222,222,1,3,http://100.93.97.65:8000/search?q=late+fee,107,0,59,s-8664efdf-df6e-4426-b26a-6caa157c89d6,,late fee
+1791509230012,414,GET /search,200,OK,Agent search 2-723,text,true,,28134,221,1,4,http://100.93.97.65:8000/search?q=dispute,311,0,107,s-deb8aa6b-ede5-448c-a887-7644b903cf96,,dispute
+1791509232974,127,GET /search,200,OK,Agent search 2-724,text,true,,4334,225,1,5,http://100.93.97.65:8000/search?q=foreclosure,127,0,74,s-96158820-8ca1-4c2d-a341-78b6a78b2226,,foreclosure
+1791509233536,116,GET /search,200,OK,Agent search 2-725,text,true,,9219,220,1,5,http://100.93.97.65:8000/search?q=escrow,112,0,61,s-2472dc4c-0ac2-41fa-ae6a-67ac7405a554,,escrow
+1791509224631,11324,POST /tickets,200,OK,Ticket intake 1-176,text,true,,228,1180,4,4,http://100.93.97.65:8000/tickets,11324,0,162,t-f652649f-7657-4370-a331-0732ef06a32c,5175,
+1791509240423,138,GET /search,200,OK,Agent search 2-726,text,true,,6621,223,2,6,http://100.93.97.65:8000/search?q=collector,134,0,82,s-e20f368c-565b-4caf-8c2b-47a4caeb29ec,,collector
+1791509240498,83,GET /search,200,OK,Agent search 2-727,text,true,,6664,228,1,5,http://100.93.97.65:8000/search?q=identity+theft,83,0,38,s-cd0a6349-fc96-4534-8ba2-a8ecc29fcfc3,,identity theft
+1791509227360,16889,POST /tickets,200,OK,Ticket intake 1-177,text,true,,228,925,4,4,http://100.93.97.65:8000/tickets,16889,0,64,t-86dea866-c61c-4b9a-ac6a-9f6dd9c84db9,5176,
+1791509229968,21089,POST /tickets,200,OK,Ticket intake 1-178,text,true,,216,537,3,4,http://100.93.97.65:8000/tickets,21089,0,51,t-780357b6-5783-40ac-887d-117f014a6209,5177,
+1791509251031,269,GET /search,200,OK,Agent search 2-728,text,true,,38251,227,1,3,http://100.93.97.65:8000/search?q=credit+report,181,0,79,s-815d9caf-a932-4e15-991f-35def0e6ad4b,,credit report
+1791509232371,27857,POST /tickets,200,OK,Ticket intake 1-179,text,true,,218,981,2,2,http://100.93.97.65:8000/tickets,27857,0,67,t-d16c638d-8587-4834-a3ef-5c409b48a6cb,5178,
+1791509261598,264,GET /search,200,OK,Agent search 2-729,text,true,,5633,227,1,2,http://100.93.97.65:8000/search?q=wire+transfer,264,0,161,s-ef2a0ef4-a61f-4bfb-973a-6eea0ada6e4e,,wire transfer
+1791509264258,368,GET /search,200,OK,Agent search 2-730,text,true,,1882,219,1,2,http://100.93.97.65:8000/search?q=Zelle,368,0,117,s-d09fbadb-c9bd-464e-ab15-80bcc2666d7b,,Zelle
+1791509266861,263,GET /search,200,OK,Agent search 2-731,text,true,,23775,220,1,2,http://100.93.97.65:8000/search?q=refund,223,0,120,s-7c6c336c-490e-45b7-88d4-017ddf36d52e,,refund
+1791509269354,108,GET /search,200,OK,Agent search 2-732,text,true,,3223,227,2,4,http://100.93.97.65:8000/search?q=interest+rate,105,0,62,s-956e5b27-8154-4817-a84f-384be69c6e0d,,interest rate
+1791509269365,152,GET /search,200,OK,Agent search 2-733,text,true,,1990,231,1,3,http://100.93.97.65:8000/search?q=closed+my+account,152,0,71,s-ad037292-cddb-4a17-aaa2-c28b8f55729b,,closed my account
+1791509237352,32610,POST /tickets,200,OK,Ticket intake 1-180,text,true,,219,1153,2,3,http://100.93.97.65:8000/tickets,32610,0,138,t-0ea00c45-0f1c-4a85-967a-8c9029710660,5179,
+1791509269886,197,GET /search,200,OK,Agent search 2-734,text,true,,24908,219,1,2,http://100.93.97.65:8000/search?q=fraud,122,0,76,s-698225b0-bcf8-4390-b7cb-2b5fb9781047,,fraud
+1791509271900,101,GET /search,200,OK,Agent search 2-735,text,true,,3041,231,1,2,http://100.93.97.65:8000/search?q=loan+modification,96,0,47,s-cf3117f3-f37a-4879-8e85-61b540033976,,loan modification
+1791509272253,121,GET /search,200,OK,Agent search 2-736,text,true,,652,224,1,2,http://100.93.97.65:8000/search?q=charge+off,121,0,66,s-c5366a5e-7008-442a-9b13-033b07f037a5,,charge off
+1791509268297,9438,POST /tickets,200,OK,Ticket intake 1-181,text,true,,218,691,3,3,http://100.93.97.65:8000/tickets,9438,0,119,t-f8c0e802-c56e-44cf-b0c9-e7d24bfe7090,5180,
+1791509281358,239,GET /search,200,OK,Agent search 2-737,text,true,,229,229,2,4,http://100.93.97.65:8000/search?q=minimum+payment,239,0,165,s-73ba77c4-4721-467e-80f5-8b3bd12d8ac2,,minimum payment
+1791509281590,239,GET /search,200,OK,Agent search 2-738,text,true,,2227,221,1,3,http://100.93.97.65:8000/search?q=inquiry,239,0,33,s-4bfd01cb-752b-4ffa-bf5b-6862b10312da,,inquiry
+1791509284577,222,GET /search,200,OK,Agent search 2-739,text,true,,4378,224,1,3,http://100.93.97.65:8000/search?q=debit+card,221,0,121,s-d10fd7e9-b5cc-4119-9fbe-d23fca0514f0,,debit card
+1791509273565,14989,POST /tickets,200,OK,Ticket intake 1-182,text,true,,214,1295,2,2,http://100.93.97.65:8000/tickets,14989,0,75,t-c6ada714-4835-4c16-8e6c-1febc067607e,5181,
+1791509289829,90,GET /search,200,OK,Agent search 2-741,text,true,,3577,221,2,3,http://100.93.97.65:8000/search?q=Equifax,90,0,30,s-a60e8e77-edb8-44e7-b9c5-0ed88167ddcf,,Equifax
+1791509289816,103,GET /search,200,OK,Agent search 2-740,text,true,,1855,220,2,3,http://100.93.97.65:8000/search?q=PayPal,103,0,43,s-ee42ffcf-c202-44d9-8e6b-93ea416e3230,,PayPal
+1791509276396,20590,POST /tickets,200,OK,Ticket intake 1-183,text,true,,218,812,2,2,http://100.93.97.65:8000/tickets,20590,0,109,t-73d0d71d-ef90-49e6-a56d-01061804d6ba,5182,
+1791509293468,10891,POST /tickets,200,OK,Ticket intake 1-184,text,true,,218,533,2,2,http://100.93.97.65:8000/tickets,10891,0,107,t-b801e67b-079c-465a-a18b-e285ff6df4b5,5183,
+1791509312283,120,GET /search,200,OK,Agent search 2-742,text,true,,4751,222,1,3,http://100.93.97.65:8000/search?q=Experian,120,0,64,s-ecb36225-69e7-401f-86f0-a29fd3850c55,,Experian
+1791509312948,217,GET /search,200,OK,Agent search 2-743,text,true,,8724,224,1,3,http://100.93.97.65:8000/search?q=TransUnion,217,0,115,s-fd946e5a-a9ee-4eda-ac5e-f4636c4a6618,,TransUnion
+1791509297291,16317,POST /tickets,200,OK,Ticket intake 1-185,text,true,,219,777,2,2,http://100.93.97.65:8000/tickets,16317,0,91,t-c5d212f2-f32d-4507-bf5e-504851f2cd4b,5184,
+1791509314469,232,GET /search,200,OK,Agent search 2-744,text,true,,4164,230,1,2,http://100.93.97.65:8000/search?q=mortgage+payment,232,0,129,s-d76e3e94-3175-47b4-bb7e-a386a306598f,,mortgage payment
+1791509314921,292,GET /search,200,OK,Agent search 2-745,text,true,,1703,226,1,2,http://100.93.97.65:8000/search?q=student+loan,292,0,190,s-931aed89-f191-49ad-81ee-63adca498add,,student loan
+1791509317227,135,GET /search,200,OK,Agent search 2-746,text,true,,222,222,1,3,http://100.93.97.65:8000/search?q=car+loan,135,0,31,s-d25b468c-4b1b-4068-aea1-1071a8bafa75,,car loan
+1791509317493,177,GET /search,200,OK,Agent search 2-747,text,true,,226,226,1,3,http://100.93.97.65:8000/search?q=credit+limit,177,0,75,s-8f8718f5-b7b4-408d-989c-111d4a42cc87,,credit limit
+1791509318709,290,GET /search,200,OK,Agent search 2-748,text,true,,11375,226,1,3,http://100.93.97.65:8000/search?q=unauthorized,290,0,28,s-c6b6e247-8de2-473d-8aca-6cd69784bdcb,,unauthorized
+1791509321288,112,GET /search,200,OK,Agent search 2-749,text,true,,224,224,1,3,http://100.93.97.65:8000/search?q=harassment,112,0,70,s-a3b7e6c9-5fc5-4e08-a028-3996fc106d2d,,harassment
+1791509310416,11453,POST /tickets,200,OK,Ticket intake 1-186,text,true,,218,703,2,2,http://100.93.97.65:8000/tickets,11453,0,87,t-1d7ce263-86b2-4ecd-bf21-472e3577b6ca,5185,
+1791509322243,240,GET /search,200,OK,Agent search 2-750,text,true,,4210,224,1,2,http://100.93.97.65:8000/search?q=bankruptcy,240,0,138,s-332eef36-3e7b-455f-abb4-7745cb545582,,bankruptcy
+1791509323345,163,GET /search,200,OK,Agent search 2-751,text,true,,2757,223,1,2,http://100.93.97.65:8000/search?q=overdraft,163,0,60,s-bed1947f-ae4d-4a84-bd28-74eae50eb74b,,overdraft
+1791509326712,187,GET /search,200,OK,Agent search 2-752,text,true,,5222,222,1,2,http://100.93.97.65:8000/search?q=late+fee,186,0,73,s-0629b41f-c501-4851-bd18-fb4f3507b693,,late fee
+1791509315918,16703,POST /tickets,200,OK,Ticket intake 1-187,text,true,,214,1426,1,1,http://100.93.97.65:8000/tickets,16703,0,114,t-94ae2f26-2c23-4696-b98c-f99e4bb00393,5186,
+1791509333703,297,GET /search,200,OK,Agent search 2-753,text,true,,31830,221,1,1,http://100.93.97.65:8000/search?q=dispute,249,0,148,s-6b3188b8-8191-4c4c-b17f-d4904ef53f1f,,dispute
+1791509340189,214,GET /search,200,OK,Agent search 2-754,text,true,,4334,225,1,1,http://100.93.97.65:8000/search?q=foreclosure,214,0,112,s-0cc29796-0482-471f-a6c2-1820263a2abb,,foreclosure
+1791509342651,211,GET /search,200,OK,Agent search 2-755,text,true,,9219,220,1,1,http://100.93.97.65:8000/search?q=escrow,211,0,108,s-d3ddc218-023b-4e99-b8b9-fe5609c1a440,,escrow
+1791509346018,222,GET /search,200,OK,Agent search 2-756,text,true,,6621,223,1,1,http://100.93.97.65:8000/search?q=collector,222,0,120,s-1003abb0-5bce-4853-9b0d-f59bb3d85443,,collector
+1791509348467,231,GET /search,200,OK,Agent search 2-757,text,true,,7294,228,1,1,http://100.93.97.65:8000/search?q=identity+theft,231,0,130,s-81e79969-173c-4f18-9312-f50835b4120a,,identity theft
+1791509352483,346,GET /search,200,OK,Agent search 2-758,text,true,,39257,227,1,1,http://100.93.97.65:8000/search?q=credit+report,208,0,106,s-6e3f9e5b-a3fe-4112-a006-ea9ae63554da,,credit report
+1791509364178,188,GET /search,200,OK,Agent search 2-759,text,true,,5633,227,1,1,http://100.93.97.65:8000/search?q=wire+transfer,187,0,85,s-a7b8ca67-044d-43dd-9f4e-d9b5f9d1fc14,,wire transfer
+1791509371506,232,GET /search,200,OK,Agent search 2-760,text,true,,1882,219,1,2,http://100.93.97.65:8000/search?q=Zelle,232,0,131,s-9b11df08-7bf0-4e32-af28-b34f474a8fe0,,Zelle
+1791509365980,8728,POST /tickets,200,OK,Ticket intake 1-188,text,true,,219,807,1,1,http://100.93.97.65:8000/tickets,8728,0,128,t-7dccc076-671f-4d0a-aff9-7dac890f480f,5187,
+1791509385578,233,GET /search,200,OK,Agent search 2-761,text,true,,25048,220,1,1,http://100.93.97.65:8000/search?q=refund,189,0,86,s-4e818052-096e-4ea9-a207-0f1164228a16,,refund
+1791509394138,231,GET /search,200,OK,Agent search 2-762,text,true,,3223,227,1,2,http://100.93.97.65:8000/search?q=interest+rate,231,0,130,s-5e434223-ddc0-479a-888b-849c32d7ff1b,,interest rate
+1791509389505,8109,POST /tickets,200,OK,Ticket intake 1-189,text,true,,214,765,1,1,http://100.93.97.65:8000/tickets,8109,0,68,t-79ec3696-0b47-4942-b19a-258a1b14133a,5188,
+1791509400826,204,GET /search,200,OK,Agent search 2-763,text,true,,1990,231,1,1,http://100.93.97.65:8000/search?q=closed+my+account,204,0,97,s-e7c56aa3-d156-4a46-9d3d-75f1b58f56fe,,closed my account
+1791509410964,301,GET /search,200,OK,Agent search 2-764,text,true,,27065,219,1,1,http://100.93.97.65:8000/search?q=fraud,151,0,95,s-158a054d-580b-439c-8831-6133452e75e0,,fraud
+1791509412948,159,GET /search,200,OK,Agent search 2-765,text,true,,3041,231,1,1,http://100.93.97.65:8000/search?q=loan+modification,159,0,77,s-fa727099-2700-4618-8f54-1d99430d6fc5,,loan modification
+1791509414480,164,GET /search,200,OK,Agent search 2-766,text,true,,652,224,1,1,http://100.93.97.65:8000/search?q=charge+off,164,0,38,s-52594b93-1d99-48a0-b262-72648046cfe0,,charge off
+1791509416589,205,GET /search,200,OK,Agent search 2-767,text,true,,229,229,1,1,http://100.93.97.65:8000/search?q=minimum+payment,205,0,103,s-14b08e50-6622-48cf-8992-57b8532b3405,,minimum payment
+1791509419156,199,GET /search,200,OK,Agent search 2-768,text,true,,2887,221,1,1,http://100.93.97.65:8000/search?q=inquiry,199,0,99,s-16434460-4c99-48f3-ae05-58c587a38642,,inquiry
+1791509423935,234,GET /search,200,OK,Agent search 2-769,text,true,,4378,224,1,1,http://100.93.97.65:8000/search?q=debit+card,234,0,132,s-9bf6030f-e5ec-4555-b6cb-364bd52f392d,,debit card
+1791509424546,237,GET /search,200,OK,Agent search 2-770,text,true,,1855,220,1,1,http://100.93.97.65:8000/search?q=PayPal,237,0,136,s-e417a46e-fc9c-4c09-a51b-670a14c6c024,,PayPal
+1791509424903,134,GET /search,200,OK,Agent search 2-771,text,true,,4207,221,1,2,http://100.93.97.65:8000/search?q=Equifax,134,0,25,s-9fb5ff6e-67ef-4bc7-9adb-198f1eb43090,,Equifax
+1791509425480,226,GET /search,200,OK,Agent search 2-772,text,true,,4751,222,1,2,http://100.93.97.65:8000/search?q=Experian,226,0,123,s-4dff6442-c814-417a-a165-c4de8dbe196b,,Experian
+1791509430941,190,GET /search,200,OK,Agent search 2-773,text,true,,8724,224,1,2,http://100.93.97.65:8000/search?q=TransUnion,190,0,89,s-f14cfafb-682d-4fb1-99cf-6664d93f019e,,TransUnion
+1791509432355,133,GET /search,200,OK,Agent search 2-774,text,true,,4164,230,1,2,http://100.93.97.65:8000/search?q=mortgage+payment,132,0,85,s-ae8f60d5-a8c0-4578-baf6-b557548cc61a,,mortgage payment
+1791509425030,8543,POST /tickets,200,OK,Ticket intake 1-190,text,true,,226,818,1,1,http://100.93.97.65:8000/tickets,8543,0,39,t-1344a6c8-db19-4dce-bff2-0ab5f481846c,5189,
+1791509440041,204,GET /search,200,OK,Agent search 2-775,text,true,,1703,226,1,2,http://100.93.97.65:8000/search?q=student+loan,204,0,55,s-dd10ca1d-d165-4144-8670-4202cb5b2e71,,student loan
+1791509439902,7410,POST /tickets,200,OK,Ticket intake 1-191,text,true,,228,528,1,1,http://100.93.97.65:8000/tickets,7410,0,140,t-910ec087-8b78-4f19-a988-ebd1231bee20,5190,
+1791509447818,314,GET /search,200,OK,Agent search 2-776,text,true,,222,222,1,1,http://100.93.97.65:8000/search?q=car+loan,314,0,109,s-f37051ec-3a5d-446d-9687-e9419395752e,,car loan
+1791509448904,251,GET /search,200,OK,Agent search 2-777,text,true,,226,226,1,1,http://100.93.97.65:8000/search?q=credit+limit,251,0,150,s-fb5e07be-99a3-48d8-8e15-24f0757b710c,,credit limit
+1791509460446,179,GET /search,200,OK,Agent search 2-778,text,true,,11375,226,1,1,http://100.93.97.65:8000/search?q=unauthorized,178,0,76,s-9eeff78d-fa64-498d-8331-708c4bf9c6b1,,unauthorized
+1791509461708,147,GET /search,200,OK,Agent search 2-779,text,true,,224,224,1,2,http://100.93.97.65:8000/search?q=harassment,147,0,30,s-d71176b7-97db-44b3-b921-508a149b403a,,harassment
+1791509461027,7394,POST /tickets,200,OK,Ticket intake 1-192,text,true,,218,520,1,1,http://100.93.97.65:8000/tickets,7394,0,110,t-3707339a-2cfc-4eb5-81e7-e0c3dbe1b5d9,5191,
+1791509476615,393,GET /search,200,OK,Agent search 2-780,text,true,,4210,224,1,3,http://100.93.97.65:8000/search?q=bankruptcy,393,0,85,s-53811326-18c1-43fd-bc01-d34a02a02733,,bankruptcy
+1791509479349,217,GET /search,200,OK,Agent search 2-781,text,true,,2757,223,1,3,http://100.93.97.65:8000/search?q=overdraft,217,0,118,s-3d95f2da-a8d8-4c55-aeaf-e0968818dfee,,overdraft
+1791509481086,487,GET /search,200,OK,Agent search 2-782,text,true,,5222,222,1,3,http://100.93.97.65:8000/search?q=late+fee,487,0,342,s-88da8eac-a33f-47a9-bf60-ca28f3a90bcf,,late fee
+1791509484480,460,GET /search,200,OK,Agent search 2-783,text,true,,32443,221,1,3,http://100.93.97.65:8000/search?q=dispute,412,0,276,s-11c4ec8f-7d8f-4c17-9d28-e6ecc938de5f,,dispute
+1791509471004,15008,POST /tickets,200,OK,Ticket intake 1-193,text,true,,214,2197,2,2,http://100.93.97.65:8000/tickets,15008,0,67,t-41aa0ae1-c791-4a1e-a011-eb13b1f292d0,5192,
+1791509491240,103,GET /search,200,OK,Agent search 2-784,text,true,,4334,225,1,3,http://100.93.97.65:8000/search?q=foreclosure,103,0,30,s-1f6e61bc-bf40-4483-b0b2-358ae6425ae7,,foreclosure
+1791509495612,237,GET /search,200,OK,Agent search 2-785,text,true,,9219,220,1,3,http://100.93.97.65:8000/search?q=escrow,237,0,136,s-c238846a-c044-453a-8a45-b23d9377dd37,,escrow
+1791509472791,26437,POST /tickets,200,OK,Ticket intake 1-194,text,true,,226,1844,2,2,http://100.93.97.65:8000/tickets,26437,0,40,t-1857e173-b29e-4d39-a15c-457ce3194960,5193,
+1791509502960,262,GET /search,200,OK,Agent search 2-786,text,true,,6621,223,1,2,http://100.93.97.65:8000/search?q=collector,262,0,160,s-519e575c-0a79-47d0-acac-d7acd9884db1,,collector
+1791509489667,20313,POST /tickets,200,OK,Ticket intake 1-195,text,true,,219,1375,3,3,http://100.93.97.65:8000/tickets,20313,0,140,t-1d881782-19d2-4f95-b801-21800aa2c0cd,5194,
+1791509511777,210,GET /search,200,OK,Agent search 2-787,text,true,,7294,228,1,3,http://100.93.97.65:8000/search?q=identity+theft,209,0,148,s-5d30334f-e331-405a-a3da-06b665175395,,identity theft
+1791509513673,311,GET /search,200,OK,Agent search 2-788,text,true,,40484,227,2,4,http://100.93.97.65:8000/search?q=credit+report,200,0,41,s-d5186185-9d53-4d64-b175-2a8820ca4698,,credit report
+1791509513928,77,GET /search,200,OK,Agent search 2-789,text,true,,5633,227,1,3,http://100.93.97.65:8000/search?q=wire+transfer,73,0,31,s-61707177-1168-46f7-ae6f-43b7d48910fa,,wire transfer
+1791509519222,179,GET /search,200,OK,Agent search 2-790,text,true,,1882,219,1,3,http://100.93.97.65:8000/search?q=Zelle,179,0,77,s-760e0e12-57e2-4b08-a2ee-0ca4f3da23fc,,Zelle
+1791509520188,340,GET /search,200,OK,Agent search 2-791,text,true,,26051,220,1,3,http://100.93.97.65:8000/search?q=refund,237,0,136,s-0db4c2f9-90dc-4c6d-b533-bacc00fdf3dc,,refund
+1791509520846,91,GET /search,200,OK,Agent search 2-792,text,true,,3223,227,1,3,http://100.93.97.65:8000/search?q=interest+rate,91,0,34,s-41a6327d-1cde-431c-9402-3e8ca0dbaf6e,,interest rate
+1791509507505,15295,POST /tickets,200,OK,Ticket intake 1-196,text,true,,216,1968,2,2,http://100.93.97.65:8000/tickets,15295,0,70,t-5bd7d32f-da3f-45b8-90a4-d10e3b574708,5195,
+1791509523403,112,GET /search,200,OK,Agent search 2-793,text,true,,1990,231,1,2,http://100.93.97.65:8000/search?q=closed+my+account,112,0,61,s-dfad5d8a-546c-4dce-9f60-67b4e0932167,,closed my account
+1791509526623,357,GET /search,200,OK,Agent search 2-794,text,true,,27065,219,1,2,http://100.93.97.65:8000/search?q=fraud,254,0,151,s-88a3fce1-c789-43cd-a475-749ee9bf97e6,,fraud
+1791509529967,186,GET /search,200,OK,Agent search 2-795,text,true,,3041,231,1,2,http://100.93.97.65:8000/search?q=loan+modification,186,0,84,s-c136f04a-3358-4aea-a77d-c5898ac1a303,,loan modification
+1791509531012,268,GET /search,200,OK,Agent search 2-796,text,true,,1024,224,1,3,http://100.93.97.65:8000/search?q=charge+off,268,0,166,s-ee67d1f7-7db4-44cb-8fe6-9f22f15ca41e,,charge off
+1791509533000,229,GET /search,200,OK,Agent search 2-797,text,true,,2274,229,1,3,http://100.93.97.65:8000/search?q=minimum+payment,226,0,123,s-ed2214c3-2c17-476b-ad29-79de27459a24,,minimum payment
+1791509507523,27854,POST /tickets,200,OK,Ticket intake 1-197,text,true,,219,1640,2,2,http://100.93.97.65:8000/tickets,27854,0,52,t-35c50a54-e835-41ce-b38b-be26b150d045,5196,
+1791509537616,117,GET /search,200,OK,Agent search 2-798,text,true,,2887,221,1,2,http://100.93.97.65:8000/search?q=inquiry,117,0,32,s-8af53560-4cd7-4dca-a4fd-21af55f80075,,inquiry
+1791509538451,201,GET /search,200,OK,Agent search 2-799,text,true,,6081,224,1,2,http://100.93.97.65:8000/search?q=debit+card,201,0,99,s-d4b49a34-1b81-49ee-b394-52d9d57ee7da,,debit card
+1791509530629,11325,POST /tickets,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Ticket intake 1-198,text,false,,3243,0,1,2,http://100.93.97.65:8000/tickets,0,0,140,t-6e90c51e-e952-431d-8159-d07e739b59cd,5197,
+1791509541932,22,GET /search,Non HTTP response code: java.net.SocketException,Non HTTP response message: Socket closed,Agent search 2-800,text,false,,2696,0,1,2,http://100.93.97.65:8000/search?q=PayPal,0,0,22,s-66950fab-601d-48ef-97fb-849ef91d8279,,PayPal
