@@ -1,0 +1,13 @@
+﻿{
+    "model":  "clef-flash:9b",
+    "ollama_api":  "systemone",
+    "test":  "a2-accuracy",
+    "run":  1,
+    "service_started":  "2026-11-18T08:31:31.0456361Z",
+    "sut_ready":  "2026-11-18T08:31:47.3302275Z",
+    "sut_hostname":  "DESKTOP-PGFAHG3",
+    "git_commit":  "4b94c4e103f2e13f965f2ec50eeb2d07e2f4c8ab",
+    "git_dirty":  false,
+    "ollama_version":  "ollama version is 0.40.16",
+    "cpu_sampler_pid":  5724
+}

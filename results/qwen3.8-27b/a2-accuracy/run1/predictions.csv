@@ -1,0 +1,76 @@
+row,golden,predicted,http_status,latency_ms,choice_confidence,escalated,final_model,model_output,correct
+5023,Credit reporting,Credit reporting,200,68275.31,,,qwen3.8:27b,Credit reporting,True
+5030,Credit reporting,Credit reporting,200,35388.494,,,qwen3.8:27b,Credit reporting,True
+5044,Credit reporting,Credit reporting,200,24220.233,,,qwen3.8:27b,Credit reporting,True
+5055,Bank account or service,Money transfer or service,200,51087.499,,,qwen3.8:27b,Money transfer or service,False
+5063,Bank account or service,Money transfer or service,200,58373.97,,,qwen3.8:27b,Money transfer or service,False
+5067,Bank account or service,Bank account or service,200,39309.177,,,qwen3.8:27b,Bank account or service,True
+5072,Credit reporting,Credit reporting,200,66642.242,,,qwen3.8:27b,Credit reporting,True
+5086,Credit card,Credit card,200,29026.15,,,qwen3.8:27b,Credit card,True
+5096,Credit card,Credit card,200,34655.094,,,qwen3.8:27b,Credit card,True
+5107,Credit reporting,Debt collection,200,43532.409,,,qwen3.8:27b,Debt collection,False
+5136,Mortgage,Mortgage,200,26975.425,,,qwen3.8:27b,Mortgage,True
+5168,Mortgage,Mortgage,200,36292.714,,,qwen3.8:27b,Mortgage,True
+5184,Credit reporting,Credit reporting,200,24202.688,,,qwen3.8:27b,Credit reporting,True
+5209,Bank account or service,Bank account or service,200,29362.128,,,qwen3.8:27b,Bank account or service,True
+5215,Credit card,Credit card,200,38712.217,,,qwen3.8:27b,Credit card,True
+5221,Money transfer or service,Money transfer or service,200,73298.587,,,qwen3.8:27b,Money transfer or service,True
+5237,Credit card,Credit card,200,25034.306,,,qwen3.8:27b,Credit card,True
+5247,Credit card,Credit card,200,85653.713,,,qwen3.8:27b,Credit card,True
+5260,Bank account or service,Bank account or service,200,18335.327,,,qwen3.8:27b,Bank account or service,True
+5265,Bank account or service,Money transfer or service,200,56028.5,,,qwen3.8:27b,Money transfer or service,False
+5277,Bank account or service,Bank account or service,200,44887.46,,,qwen3.8:27b,Bank account or service,True
+5281,Credit reporting,Credit reporting,200,48574.518,,,qwen3.8:27b,Credit reporting,True
+5292,Mortgage,Mortgage,200,39547.967,,,qwen3.8:27b,Mortgage,True
+5296,Credit card,Bank account or service,200,45601.4,,,qwen3.8:27b,Bank account or service,False
+5307,Debt collection,Debt collection,200,35912.06,,,qwen3.8:27b,Debt collection,True
+5318,Bank account or service,Bank account or service,200,56624.823,,,qwen3.8:27b,Bank account or service,True
+5321,Credit reporting,Credit reporting,200,24253.095,,,qwen3.8:27b,Credit reporting,True
+5328,Money transfer or service,Money transfer or service,200,36249.327,,,qwen3.8:27b,Money transfer or service,True
+5351,Mortgage,Mortgage,200,21009.145,,,qwen3.8:27b,Mortgage,True
+5371,Money transfer or service,Money transfer or service,200,44767.066,,,qwen3.8:27b,Money transfer or service,True
+5411,Money transfer or service,Money transfer or service,200,60037.011,,,qwen3.8:27b,Money transfer or service,True
+5432,Credit reporting,Credit reporting,200,27983.864,,,qwen3.8:27b,Credit reporting,True
+5439,Bank account or service,Bank account or service,200,35300.484,,,qwen3.8:27b,Bank account or service,True
+5451,Money transfer or service,Bank account or service,200,93465.571,,,qwen3.8:27b,Bank account or service,False
+5499,Consumer loan,Consumer loan,200,61926.584,,,qwen3.8:27b,Consumer loan,True
+5521,Debt collection,Debt collection,200,65333.276,,,qwen3.8:27b,Debt collection,True
+5527,Bank account or service,Money transfer or service,200,58011.79,,,qwen3.8:27b,Money transfer or service,False
+5529,Bank account or service,Bank account or service,200,20480.413,,,qwen3.8:27b,Bank account or service,True
+5542,Credit card,Credit card,200,69131.384,,,qwen3.8:27b,Credit card,True
+5548,Mortgage,Mortgage,200,33929.958,,,qwen3.8:27b,Mortgage,True
+5554,Credit reporting,Credit reporting,200,49056.304,,,qwen3.8:27b,Credit reporting,True
+5570,Credit reporting,Credit reporting,200,25691.742,,,qwen3.8:27b,Credit reporting,True
+5583,Bank account or service,Money transfer or service,200,66691.356,,,qwen3.8:27b,Money transfer or service,False
+5589,Bank account or service,Money transfer or service,200,46384.181,,,qwen3.8:27b,Money transfer or service,False
+5599,Consumer loan,Consumer loan,200,49865.614,,,qwen3.8:27b,Consumer loan,True
+5604,Consumer loan,Consumer loan,200,37278.631,,,qwen3.8:27b,Consumer loan,True
+5621,Credit reporting,Credit reporting,200,23631.381,,,qwen3.8:27b,Credit reporting,True
+5635,Credit reporting,Credit reporting,200,28222.853,,,qwen3.8:27b,Credit reporting,True
+5644,Money transfer or service,Bank account or service,200,77744.787,,,qwen3.8:27b,Bank account or service,False
+5660,Bank account or service,Bank account or service,200,87151.406,,,qwen3.8:27b,Bank account or service,True
+5678,Mortgage,Mortgage,200,25518.557,,,qwen3.8:27b,Mortgage,True
+5687,Bank account or service,Bank account or service,200,22807.696,,,qwen3.8:27b,Bank account or service,True
+5713,Credit reporting,Credit reporting,200,28372.585,,,qwen3.8:27b,Credit reporting,True
+5716,Credit reporting,Credit reporting,200,34012.059,,,qwen3.8:27b,Credit reporting,True
+5737,Bank account or service,Bank account or service,200,59849.646,,,qwen3.8:27b,Bank account or service,True
+5741,Credit reporting,Credit reporting,200,80287.9,,,qwen3.8:27b,Credit reporting,True
+5761,Bank account or service,Money transfer or service,200,58442.038,,,qwen3.8:27b,Money transfer or service,False
+5787,Mortgage,Mortgage,200,21306.678,,,qwen3.8:27b,Mortgage,True
+5810,Money transfer or service,Money transfer or service,200,29037.934,,,qwen3.8:27b,Money transfer or service,True
+5816,Credit card,Bank account or service,200,60419.684,,,qwen3.8:27b,Bank account or service,False
+5822,Debt collection,Debt collection,200,57342.577,,,qwen3.8:27b,Debt collection,True
+5826,Bank account or service,Bank account or service,200,38517.029,,,qwen3.8:27b,Bank account or service,True
+5849,Bank account or service,Bank account or service,200,64819.107,,,qwen3.8:27b,Bank account or service,True
+5866,Credit reporting,Credit reporting,200,15952.232,,,qwen3.8:27b,Credit reporting,True
+5879,Mortgage,Mortgage,200,47268.419,,,qwen3.8:27b,Mortgage,True
+5892,Bank account or service,Bank account or service,200,48531.204,,,qwen3.8:27b,Bank account or service,True
+5899,Money transfer or service,Money transfer or service,200,25525.144,,,qwen3.8:27b,Money transfer or service,True
+5902,Debt collection,Debt collection,200,96695.83,,,qwen3.8:27b,Debt collection,True
+5917,Credit card,Credit card,200,49482.135,,,qwen3.8:27b,Credit card,True
+5936,Credit card,Credit card,200,38138.564,,,qwen3.8:27b,Credit card,True
+5947,Consumer loan,Consumer loan,200,49864.08,,,qwen3.8:27b,Consumer loan,True
+5973,Credit reporting,Mortgage,200,37495.855,,,qwen3.8:27b,Mortgage,False
+5978,Mortgage,Mortgage,200,29703.367,,,qwen3.8:27b,Mortgage,True
+5986,Bank account or service,Money transfer or service,200,54980.412,,,qwen3.8:27b,Money transfer or service,False
+5998,Credit reporting,Credit reporting,200,27851.516,,,qwen3.8:27b,Credit reporting,True
