@@ -4,8 +4,11 @@
 
 .DESCRIPTION
   1. docker compose down -v, then up with MODEL / OLLAMA_API (empty database).
-  2. Waits until the service answers and sends one warm-up ticket (request id
-     "warmup", excluded from analysis) so model loading is not measured.
+  2. Waits until the service answers and sends three fixed warm-up tickets
+     (request ids "warmup-1", "warmup-2", "warmup-3", excluded from analysis)
+     so model loading is not measured. For the cascade, the three narratives
+     span categories the primary and escalation model are likely to disagree
+     on, so both models load before the measured run starts.
   3. Records `ollama ps` and starts sampling CPU utilisation every 5 s
      (total, Ollama processes, Docker's WSL VM) into cpu.csv.
   4. Writes sut_start.json into results/<model>/<test>/run<N>/.
@@ -62,14 +65,28 @@ while ($true) {
     }
 }
 
-Write-Host "== Warm-up request"
-try {
-    $body = '{"narrative": "Warm-up request. My bank charged me an overdraft fee twice for the same transaction."}'
-    $w = Invoke-RestMethod -Method Post -Uri "$BaseUrl/tickets" -ContentType 'application/json' `
-        -Body $body -Headers @{ 'X-Request-ID' = 'warmup' } -TimeoutSec 900
-    Write-Host "   warm-up category: $($w.category)"
-} catch {
-    Write-Warning "Warm-up failed: $($_.Exception.Message). Continuing so the failure is recorded in the run."
+Write-Host "== Warm-up: 3 fixed tickets"
+# Three fixed narratives, one from each of the three categories the cascade
+# is most likely to disagree on (overdraft/bank, credit report/debt,
+# mortgage). Sent one at a time with request ids warmup-1..3 so they are
+# easy to exclude from analysis. If the service is a cascade, these are
+# enough to load both the primary and the escalation model into ollama ps
+# before the measured run starts.
+$warmups = @(
+    'My bank charged me an overdraft fee twice for the same transaction.',
+    'A collector keeps calling me about a debt I already paid off two years ago.',
+    'My mortgage servicer put my escrow into shortage and raised my monthly payment without notice.'
+)
+for ($i = 0; $i -lt $warmups.Count; $i++) {
+    $rid = "warmup-$($i + 1)"
+    $body = (@{ narrative = $warmups[$i] } | ConvertTo-Json -Compress)
+    try {
+        $w = Invoke-RestMethod -Method Post -Uri "$BaseUrl/tickets" -ContentType 'application/json' `
+            -Body $body -Headers @{ 'X-Request-ID' = $rid } -TimeoutSec 900
+        Write-Host "   $rid category: $($w.category)"
+    } catch {
+        Write-Warning "$rid failed: $($_.Exception.Message). Continuing so the failure is recorded in the run."
+    }
 }
 try { ollama ps | Out-File -Encoding utf8 (Join-Path $outDir 'ollama_ps.txt') } catch { }
 
