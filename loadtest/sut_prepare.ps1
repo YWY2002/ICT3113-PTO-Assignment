@@ -18,10 +18,18 @@
 
 .EXAMPLE
   .\loadtest\sut_prepare.ps1 -Model tev1:4b -Api systemone -Test mixed -Run 1
+
+.EXAMPLE
+  # Cascade (Setting A: risky = Money transfer, Debt collection)
+  .\loadtest\sut_prepare.ps1 -Model cascade-A -Api cascade -Test a2-accuracy -Run 1
+
+.EXAMPLE
+  # Cascade (Setting B: risky = Money transfer, Debt collection, Credit reporting)
+  .\loadtest\sut_prepare.ps1 -Model cascade-B -Api cascade -Test a2-accuracy -Run 1
 #>
 param(
     [Parameter(Mandatory = $true)][string]$Model,
-    [Parameter(Mandatory = $true)][ValidateSet('chat', 'systemone')][string]$Api,
+    [Parameter(Mandatory = $true)][ValidateSet('chat', 'systemone', 'cascade')][string]$Api,
     [Parameter(Mandatory = $true)][string]$Test,
     [Parameter(Mandatory = $true)][int]$Run,
     [string]$BaseUrl = 'http://localhost:8000',
@@ -32,6 +40,30 @@ $ErrorActionPreference = 'Stop'
 $root = Split-Path $PSScriptRoot -Parent
 $modelDir = $Model -replace '[^A-Za-z0-9._-]', '-'
 $outDir = Join-Path $root "results\$modelDir\$Test\run$Run"
+
+# Cascade settings. Looked up from -Model when -Api is cascade. The small and
+# large models are Assignment 1 candidates; the risky-set choice comes from
+# tev1's confusion matrix on the odd (tuning) golden rows.
+$cascadeConfigs = @{
+    'cascade-A' = @{
+        Small   = 'tev1:4b'
+        SmallApi = 'systemone'
+        Large   = 'clef-flash:9b'
+        LargeApi = 'systemone'
+        Risky   = 'Money transfer or service,Debt collection'
+    }
+    'cascade-B' = @{
+        Small   = 'tev1:4b'
+        SmallApi = 'systemone'
+        Large   = 'clef-flash:9b'
+        LargeApi = 'systemone'
+        Risky   = 'Money transfer or service,Debt collection,Credit reporting'
+    }
+}
+
+if ($Api -eq 'cascade' -and -not $cascadeConfigs.ContainsKey($Model)) {
+    throw "Unknown cascade model '$Model'. Known: $($cascadeConfigs.Keys -join ', ')"
+}
 
 if (Test-Path $outDir) {
     throw "$outDir already exists. Use another -Run number, or delete it if that run was invalid."
@@ -45,8 +77,28 @@ try {
     docker compose down -v
     $env:MODEL = $Model
     $env:OLLAMA_API = $Api
+    if ($Api -eq 'cascade') {
+        $cfg = $cascadeConfigs[$Model]
+        $env:CASCADE_SMALL = $cfg.Small
+        $env:CASCADE_SMALL_API = $cfg.SmallApi
+        $env:CASCADE_LARGE = $cfg.Large
+        $env:CASCADE_LARGE_API = $cfg.LargeApi
+        $env:CASCADE_RISKY = $cfg.Risky
+        Write-Host "   CASCADE_SMALL=$($cfg.Small) ($($cfg.SmallApi))"
+        Write-Host "   CASCADE_LARGE=$($cfg.Large) ($($cfg.LargeApi))"
+        Write-Host "   CASCADE_RISKY=$($cfg.Risky)"
+    } else {
+        Remove-Item Env:\CASCADE_SMALL -ErrorAction SilentlyContinue
+        Remove-Item Env:\CASCADE_SMALL_API -ErrorAction SilentlyContinue
+        Remove-Item Env:\CASCADE_LARGE -ErrorAction SilentlyContinue
+        Remove-Item Env:\CASCADE_LARGE_API -ErrorAction SilentlyContinue
+        Remove-Item Env:\CASCADE_RISKY -ErrorAction SilentlyContinue
+    }
     docker compose up -d --build
-    if ($LASTEXITCODE -ne 0) { throw "docker compose up failed" }
+    if ($LASTEXITCODE -ne 0) {
+        Remove-Item -Recurse -Force $outDir -ErrorAction SilentlyContinue
+        throw "docker compose up failed"
+    }
 } finally {
     Pop-Location
 }
@@ -88,7 +140,22 @@ for ($i = 0; $i -lt $warmups.Count; $i++) {
         Write-Warning "$rid failed: $($_.Exception.Message). Continuing so the failure is recorded in the run."
     }
 }
-try { ollama ps | Out-File -Encoding utf8 (Join-Path $outDir 'ollama_ps.txt') } catch { }
+try {
+    $psOut = ollama ps
+    $psOut | Out-File -Encoding utf8 (Join-Path $outDir 'ollama_ps.txt')
+    if ($Api -eq 'cascade') {
+        # Brief: "run ollama ps in the container and confirm both models are
+        # listed. Do not start the run until they are."
+        $joined = ($psOut -join "`n")
+        $cfg = $cascadeConfigs[$Model]
+        if ($joined -notmatch [regex]::Escape($cfg.Small)) {
+            Write-Warning "Small model '$($cfg.Small)' not in ollama ps. The small-model warm-up may not have triggered."
+        }
+        if ($joined -notmatch [regex]::Escape($cfg.Large)) {
+            Write-Warning "Large model '$($cfg.Large)' not in ollama ps. No warm-up escalated, so the large model is not pre-loaded. Pick a warm-up narrative your rule will escalate, or re-run."
+        }
+    }
+} catch { }
 
 # 3. CPU sampling until sut_collect.ps1 stops it
 $cpuCsv = Join-Path $outDir 'cpu.csv'

@@ -39,12 +39,21 @@
 .EXAMPLE
   # Stress test: step the arrival rate up every 15 min
   .\loadgen_run.ps1 -SutUrl http://100.101.102.103:8000 -Model tev1:4b -Test stress -Run 1 -PostSchedule "rate(334/hour) random_arrivals(15 min) rate(334/hour) rate(400/hour) random_arrivals(15 min) rate(400/hour) rate(450/hour) random_arrivals(15 min) rate(450/hour) rate(500/hour) random_arrivals(15 min) rate(500/hour)"
+
+.EXAMPLE
+  # A2 speed test. Pass -S from measure_s.py; the script derives everything:
+  #   rate = 3600 / (2*S) tickets/h, run length = max(5, S) min,
+  #   HTTP timeout = max(10*S, 300) s, OMTG pause = timeout + 60 s.
+  .\loadgen_run.ps1 -SutUrl http://100.101.102.103:8000 -Model clef-flash:9b -Test a2-speed -Run 1 -S 9
 #>
 param(
     [Parameter(Mandatory = $true)][string]$SutUrl,
     [Parameter(Mandatory = $true)][string]$Model,
     [Parameter(Mandatory = $true)][string]$Test,
     [Parameter(Mandatory = $true)][int]$Run,
+    # A2: pass -S (seconds, from measure_s.py). Overrides PostPerHour, DurationMin,
+    # and the JMeter HTTP response timeout, per brief Step 4.
+    [double]$S = 0,
     [double]$PostPerHour = 198,
     [double]$SearchPerHour = 0,
     [int]$DurationMin = 60,
@@ -126,8 +135,26 @@ try {
     Write-Host "   ICMP ping not available (often blocked across the internet); using HTTP RTT only."
 }
 
-# Schedules
-if ($PostSchedule -eq '') {
+# Schedules. If -S is given, derive rate / run length / timeout / pause per A2 brief.
+$a2 = $S -gt 0
+$responseTimeoutMs = 650000
+if ($a2) {
+    if ($PostSchedule -ne '') {
+        throw "-S and -PostSchedule are mutually exclusive. The A2 schedule is derived from -S."
+    }
+    $rateA2 = 3600.0 / (2.0 * $S)             # one ticket every 2S seconds
+    $runMin = [int][math]::Max(5, [math]::Ceiling($S))
+    $timeoutS = [int][math]::Max(300, [math]::Ceiling(10 * $S))
+    $pauseMin = [int][math]::Ceiling($timeoutS / 60.0) + 1
+    $responseTimeoutMs = $timeoutS * 1000
+    $rateStr = $rateA2.ToString('F4', $inv)
+    $PostSchedule = "rate($rateStr/hour) random_arrivals($runMin min) pause($pauseMin min)"
+    Write-Host "== A2 mode: S=$S s"
+    Write-Host "   rate         = $([math]::Round($rateA2, 1)) tickets/h (one every $([math]::Round(2.0 * $S, 1)) s)"
+    Write-Host "   run length   = $runMin min"
+    Write-Host "   HTTP timeout = $timeoutS s"
+    Write-Host "   OMTG pause   = $pauseMin min (brief: timeout + >=1 min)"
+} elseif ($PostSchedule -eq '') {
     $r = $PostPerHour.ToString($inv)
     $PostSchedule = "rate($r/hour) random_arrivals($DurationMin min) rate($r/hour)"
 }
@@ -145,6 +172,7 @@ $props = Join-Path $outDir 'run.properties'
     "port=$($uri.Port)"
     "post_schedule=$PostSchedule"
     "search_schedule=$searchSchedule"
+    "response_timeout_ms=$responseTimeoutMs"
     "sample_variables=req_id,row,term"
     "jmeter.save.saveservice.output_format=csv"
     "jmeter.save.saveservice.print_field_names=true"
@@ -152,6 +180,16 @@ $props = Join-Path $outDir 'run.properties'
     # and at a few samples per minute the file can look empty for many minutes.
     "jmeter.save.saveservice.autoflush=true"
 ) | Set-Content -Encoding ASCII $props
+
+# A2 brief Step 4 "Each run": GET /stats before (and after) the JMeter run.
+# The increase is the number of requests the service completed and stored.
+$statsBefore = $null
+try {
+    $statsBefore = Invoke-RestMethod -Uri "$base/stats" -TimeoutSec 15
+    Write-Host "== GET /stats before run: total = $($statsBefore.total)"
+} catch {
+    Write-Warning "GET /stats before run failed: $($_.Exception.Message)"
+}
 
 $jtl = Join-Path $outDir 'results.jtl'
 $testStart = Get-Date
@@ -162,24 +200,47 @@ Write-Host "   search:  $searchSchedule"
 $jmeterExit = $LASTEXITCODE
 $testEnd = Get-Date
 
+$statsAfter = $null
+try {
+    $statsAfter = Invoke-RestMethod -Uri "$base/stats" -TimeoutSec 15
+    Write-Host "== GET /stats after run: total = $($statsAfter.total)"
+    if ($statsBefore) {
+        $delta = $statsAfter.total - $statsBefore.total
+        Write-Host "   requests completed and stored during this run: $delta"
+    }
+} catch {
+    Write-Warning "GET /stats after run failed: $($_.Exception.Message)"
+}
+
 $cpu = Get-CimInstance Win32_Processor | Select-Object -First 1
-[ordered]@{
+$json = [ordered]@{
     model            = $Model
     test             = $Test
     run              = $Run
     sut_url          = $base
     post_schedule    = $PostSchedule
     search_schedule  = $searchSchedule
+    response_timeout_ms = $responseTimeoutMs
     test_started     = $testStart.ToUniversalTime().ToString('o')
     test_ended       = $testEnd.ToUniversalTime().ToString('o')
     jmeter_exit_code = $jmeterExit
+    stats_before     = $statsBefore
+    stats_after      = $statsAfter
     loadgen_hostname = $env:COMPUTERNAME
     loadgen_cpu      = $cpu.Name
     loadgen_cores    = $cpu.NumberOfCores
     loadgen_ram_gb   = [math]::Round((Get-CimInstance Win32_ComputerSystem).TotalPhysicalMemory / 1GB, 1)
     network_http_rtt = $httpRtt
     network_icmp_rtt = $icmpRtt
-} | ConvertTo-Json -Depth 3 | Set-Content -Encoding UTF8 (Join-Path $outDir 'loadgen.json')
+}
+if ($a2) {
+    $json['a2_S_seconds']           = $S
+    $json['a2_rate_tickets_per_h']  = [math]::Round(3600.0 / (2.0 * $S), 2)
+    $json['a2_run_length_minutes']  = [int][math]::Max(5, [math]::Ceiling($S))
+    $json['a2_http_timeout_s']      = [int][math]::Max(300, [math]::Ceiling(10 * $S))
+    $json['a2_omtg_pause_minutes']  = [int][math]::Ceiling($json['a2_http_timeout_s'] / 60.0) + 1
+}
+$json | ConvertTo-Json -Depth 4 | Set-Content -Encoding UTF8 (Join-Path $outDir 'loadgen.json')
 
 Write-Host "== Done: $outDir"
 Write-Host "   Send this folder to the system-under-test machine for sut_collect.ps1 -LoadgenDir."

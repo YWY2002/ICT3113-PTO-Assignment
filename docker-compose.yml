@@ -6,9 +6,18 @@ services:
       - "8000:8000"
     environment:
       MODEL: ${MODEL:-qwen2.5:0.5b}
-      # chat for /api/chat (e.g. qwen3.8:27b), systemone for /v1/systemone
-      # (tev1:4b, clef-flash:9b).
+      # chat for /api/chat (qwen3.8:27b), systemone for /v1/systemone
+      # (tev1:4b, clef-flash:9b), cascade for the A2 small-then-large path.
       OLLAMA_API: ${OLLAMA_API:-chat}
+      # A2 cascade settings. Required when OLLAMA_API=cascade, ignored otherwise.
+      CASCADE_SMALL: ${CASCADE_SMALL:-}
+      CASCADE_SMALL_API: ${CASCADE_SMALL_API:-systemone}
+      CASCADE_LARGE: ${CASCADE_LARGE:-}
+      CASCADE_LARGE_API: ${CASCADE_LARGE_API:-systemone}
+      # Comma-separated category names the small model gets wrong most often
+      # on the tuning set. A ticket the small model puts in this set (or
+      # fails to classify) is escalated to the large model.
+      CASCADE_RISKY: ${CASCADE_RISKY:-}
       # Ollama runs natively on the Windows host, not in a container.
       OLLAMA_URL: http://host.docker.internal:11434
     extra_hosts:
