@@ -22,6 +22,10 @@ Selection:
 
 Writes:
   assignment2/speedtest/speedtest_rows.csv  (row, narrative_chars, bucket)
+  loadtest/speedtest_tickets.tsv            row <TAB> narrative, in the same
+                                            order, JSON-escaped like tickets.tsv;
+                                            the JMeter input for the speed runs
+                                            (loadgen_run.ps1 -S uses it)
 
 The first three rows of the typical bucket in sorted order are the "quick S"
 tickets used for the S measurement itself.
@@ -30,6 +34,7 @@ Regenerate with:  python assignment2/speedtest/make_speedtest.py
 """
 
 import csv
+import json
 import os
 import sys
 
@@ -37,6 +42,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 SOURCE = os.path.join(ROOT, "data", "ict3113_tickets.csv")
 SPLIT_DIR = os.path.join(ROOT, "assignment2", "split")
 OUT_DIR = os.path.join(ROOT, "assignment2", "speedtest")
+JMETER_TSV = os.path.join(ROOT, "loadtest", "speedtest_tickets.tsv")
 
 FIRST_ROW, LAST_ROW = 5000, 5999
 TYPICAL_LEN, TYPICAL_N = 800, 30
@@ -64,6 +70,11 @@ def load_candidates(golden):
                 continue
             out.append((row, len(r["narrative"])))
     return out
+
+
+def load_narratives(rows):
+    with open(SOURCE, newline="", encoding="utf-8") as f:
+        return {int(r["row"]): r["narrative"] for r in csv.DictReader(f) if int(r["row"]) in rows}
 
 
 def pick(candidates, target, n, taken):
@@ -97,7 +108,13 @@ def main():
         w.writerow(["row", "narrative_chars", "bucket"])
         w.writerows(picks)
 
+    narratives = load_narratives({row for row, _, _ in picks})
+    with open(JMETER_TSV, "w", encoding="utf-8", newline="\n") as f:
+        for row, _, _ in picks:
+            f.write(f"{row}\t{json.dumps(narratives[row])[1:-1]}\n")
+
     print(f"wrote {len(picks)} rows to {out_csv}")
+    print(f"wrote {len(picks)} tickets to {JMETER_TSV}")
     typical_rows = sorted(typical)
     print(f"  typical bucket ({len(typical_rows)} rows) target={TYPICAL_LEN} chars")
     print(f"  long bucket    ({len(long_)} rows) target={LONG_LEN} chars")

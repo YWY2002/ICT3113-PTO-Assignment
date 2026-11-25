@@ -52,7 +52,7 @@
       </OpenModelThreadGroup>
       <hashTree>
         <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Tickets (rows 5000-5999)">
-          <stringProp name="filename">tickets.tsv</stringProp>
+          <stringProp name="filename">${__P(tickets_file,tickets.tsv)}</stringProp>
           <stringProp name="fileEncoding">UTF-8</stringProp>
           <stringProp name="variableNames">row,narrative</stringProp>
           <boolProp name="ignoreFirstLine">false</boolProp>

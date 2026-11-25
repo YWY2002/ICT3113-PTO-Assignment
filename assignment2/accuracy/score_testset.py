@@ -161,7 +161,7 @@ def score_run(run_dir, golden):
     cm.index.name, cm.columns.name = "golden", "predicted"
 
     # Cascade only: escalation, from the service log
-    is_cascade = bool(pred.escalated.notna().any())
+    is_cascade = startup.get("ollama_api") == "cascade"
     escalated = pred[pred.escalated.eq(True)]
     accepted = pred[pred.escalated.eq(False)]
 

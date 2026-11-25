@@ -5,7 +5,8 @@
   network.
 
 .DESCRIPTION
-  Needs only this loadtest folder (triage.jmx, tickets.tsv, search_terms.txt)
+  Needs only this loadtest folder (triage.jmx, tickets.tsv, search_terms.txt;
+  with -S, speedtest_tickets.tsv from assignment2/speedtest/make_speedtest.py)
   and the JMeter binary release; no Docker or Ollama.
 
   -SutUrl is how this machine reaches the service, for example
@@ -74,8 +75,10 @@ if ($uri.Scheme -notin @('http', 'https') -or $uri.AbsolutePath -ne '/') {
 }
 $base = "$($uri.Scheme)://$($uri.Authority)"
 
-if (-not (Test-Path (Join-Path $PSScriptRoot 'tickets.tsv'))) {
-    throw "tickets.tsv not found next to this script. Run prepare_data.py on the system-under-test machine and copy it here."
+# A2 speed runs (-S) send the fixed speed-test list, the same tickets in the same order every run.
+$ticketsFile = if ($S -gt 0) { 'speedtest_tickets.tsv' } else { 'tickets.tsv' }
+if (-not (Test-Path (Join-Path $PSScriptRoot $ticketsFile))) {
+    throw "$ticketsFile not found next to this script. Build it on the system-under-test machine (tickets.tsv: prepare_data.py; speedtest_tickets.tsv: assignment2/speedtest/make_speedtest.py) and copy it here."
 }
 if (Test-Path $outDir) {
     throw "$outDir already exists. Use another -Run number, or delete it if that run was invalid."
@@ -173,6 +176,7 @@ $props = Join-Path $outDir 'run.properties'
     "post_schedule=$PostSchedule"
     "search_schedule=$searchSchedule"
     "response_timeout_ms=$responseTimeoutMs"
+    "tickets_file=$ticketsFile"
     "sample_variables=req_id,row,term"
     "jmeter.save.saveservice.output_format=csv"
     "jmeter.save.saveservice.print_field_names=true"
@@ -221,6 +225,7 @@ $json = [ordered]@{
     post_schedule    = $PostSchedule
     search_schedule  = $searchSchedule
     response_timeout_ms = $responseTimeoutMs
+    tickets_file     = $ticketsFile
     test_started     = $testStart.ToUniversalTime().ToString('o')
     test_ended       = $testEnd.ToUniversalTime().ToString('o')
     jmeter_exit_code = $jmeterExit
