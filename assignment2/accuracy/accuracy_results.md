@@ -25,9 +25,18 @@ Each category shows correct / n; `(below)` marks a category more than 15 points 
 
 | Configuration | Overall | Credit reporting | Debt collection | Mortgage | Credit card | Bank account or service | Consumer loan | Money transfer or service | Overall limit | Category limits | Passes |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---|---|---|
+| cascade-A | 60/75 = 80.0% | 18/19 | 2/4 | 9/9 | 9/10 | 12/21 | 3/4 | 7/8 | pass | pass | **yes** |
+| cascade-B | 59/75 = 78.7% | 17/19 | 2/4 | 9/9 | 9/10 | 12/21 | 3/4 | 7/8 | pass | pass | **yes** |
 | clef-flash-9b | 59/75 = 78.7% | 18/19 | 2/4 | 8/9 | 9/10 | 12/21 | 3/4 | 7/8 | pass | pass | **yes** |
 | qwen3.8-27b | 61/75 = 81.3% | 17/19 | 4/4 | 9/9 | 8/10 | 13/21 | 4/4 | 6/8 | pass | pass | **yes** |
 | tev1-4b | 60/75 = 80.0% | 18/19 | 2/4 | 9/9 | 9/10 | 12/21 | 3/4 | 7/8 | pass | pass | **yes** |
+
+## Escalation
+
+| Configuration | Escalated |
+|---|---:|
+| cascade-A | 17/75 = 22.7% |
+| cascade-B | 36/75 = 48.0% |
 
 ## Comparison with Assignment 1
 
