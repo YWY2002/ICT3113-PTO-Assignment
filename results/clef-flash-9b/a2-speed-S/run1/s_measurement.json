@@ -1,0 +1,23 @@
+{
+  "model": "clef-flash:9b",
+  "run": 1,
+  "rows": [
+    5009,
+    5026,
+    5093
+  ],
+  "timings_s_sent_order": [
+    8.82,
+    8.89,
+    9.91
+  ],
+  "timings_s_sorted": [
+    8.82,
+    8.89,
+    9.91
+  ],
+  "S_seconds": 8.89,
+  "rate_tickets_per_hour": 202.5,
+  "interarrival_seconds": 17.78,
+  "run_length_minutes": 8.89
+}

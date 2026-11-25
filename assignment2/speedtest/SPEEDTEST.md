@@ -19,7 +19,9 @@ comparable across models and runs.
 - Ties broken by row number (lowest first), so the selection is deterministic.
 - Final list sorted by row ascending in `speedtest_rows.csv`.
 
-Regenerate with `python assignment2/speedtest/make_speedtest.py`.
+Regenerate with `python assignment2/speedtest/make_speedtest.py`. It also writes
+`loadtest/speedtest_tickets.tsv`, the same rows in the same order as JMeter input.
+`loadtest/loadgen_run.ps1 -S` sends that file.
 
 ## Quick-S measurement
 

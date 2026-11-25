@@ -1,0 +1,4 @@
+row,request_id,http_status,category,client_latency_ms
+5009,speed-s-5009,200,Mortgage,8818.1
+5026,speed-s-5026,200,Bank account or service,8889.1
+5093,speed-s-5093,200,Bank account or service,9905.3

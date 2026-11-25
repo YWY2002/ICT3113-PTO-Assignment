@@ -1,0 +1,2 @@
+﻿NAME             ID              SIZE     PROCESSOR    CONTEXT    RUNNER      UNTIL   
+clef-flash:9b    73e026ff389b    14 GB    100% CPU     16384      llamacpp    Forever    
