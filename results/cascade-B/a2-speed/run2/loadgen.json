@@ -1,0 +1,55 @@
+﻿{
+    "model":  "cascade-B",
+    "test":  "a2-speed",
+    "run":  2,
+    "sut_url":  "http://100.74.60.80:8000",
+    "post_schedule":  "rate(202.4747/hour) random_arrivals(9 min) pause(6 min)",
+    "search_schedule":  "rate(0/hour) random_arrivals(1 min)",
+    "response_timeout_ms":  300000,
+    "tickets_file":  "speedtest_tickets.tsv",
+    "test_started":  "2026-11-25T13:41:34.1216443Z",
+    "test_ended":  "2026-11-25T13:57:35.2613771Z",
+    "jmeter_exit_code":  0,
+    "stats_before":  {
+                         "total":  3,
+                         "by_category":  {
+                                             "Credit reporting":  0,
+                                             "Debt collection":  1,
+                                             "Mortgage":  1,
+                                             "Credit card":  0,
+                                             "Bank account or service":  1,
+                                             "Consumer loan":  0,
+                                             "Money transfer or service":  0
+                                         }
+                     },
+    "stats_after":  {
+                        "total":  33,
+                        "by_category":  {
+                                            "Credit reporting":  8,
+                                            "Debt collection":  4,
+                                            "Mortgage":  6,
+                                            "Credit card":  1,
+                                            "Bank account or service":  10,
+                                            "Consumer loan":  3,
+                                            "Money transfer or service":  1
+                                        }
+                    },
+    "loadgen_hostname":  "LAPTOP-JVTGMMI4",
+    "loadgen_cpu":  "AMD Ryzen AI 7 350 w/ Radeon 860M",
+    "loadgen_cores":  8,
+    "loadgen_ram_gb":  31.3,
+    "network_http_rtt":  {
+                             "count":  20,
+                             "min_ms":  21.5,
+                             "p50_ms":  34.9,
+                             "p95_ms":  76.4,
+                             "max_ms":  113.7,
+                             "mean_ms":  44.6
+                         },
+    "network_icmp_rtt":  null,
+    "a2_S_seconds":  8.89,
+    "a2_rate_tickets_per_h":  202.47,
+    "a2_run_length_minutes":  9,
+    "a2_http_timeout_s":  300,
+    "a2_omtg_pause_minutes":  6
+}

@@ -1,0 +1,17 @@
+﻿{
+    "model":  "cascade-B",
+    "model_digest":  null,
+    "ollama_api":  "cascade",
+    "test":  "a2-speed",
+    "run":  3,
+    "service_started":  "2026-11-25T13:58:04.7229850Z",
+    "sut_ready":  "2026-11-25T13:58:35.2902738Z",
+    "collected":  "2026-11-25T14:14:55.9196146Z",
+    "sut_hostname":  "DESKTOP-PGFAHG3",
+    "git_commit":  "e77c594164f7f09630830ff3041b55f5fb4dd71e",
+    "git_dirty":  false,
+    "ollama_version":  "ollama version is 0.40.16",
+    "service_log":  "20261125T135810Z_cascade-B.jsonl",
+    "service_log_requests":  57,
+    "jtl_samples":  30
+}

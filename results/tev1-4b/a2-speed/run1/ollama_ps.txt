@@ -1,0 +1,2 @@
+﻿NAME       ID              SIZE      PROCESSOR    CONTEXT    RUNNER      UNTIL   
+tev1:4b    7954dce22bc6    5.7 GB    100% CPU     8192       llamacpp    Forever    
